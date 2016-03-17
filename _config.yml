@@ -1,0 +1,11 @@
+# Site settings
+title: Luis Sevillano
+email: luissevillanopires@gmail.com
+description: "My site"
+baseurl: ""
+url: "http://www.luissevillano.github.io"
+twitter_username: sepirdata
+github_username:  luissevillano
+
+# Build settings
+markdown: kramdown
