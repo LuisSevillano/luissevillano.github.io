@@ -166,7 +166,8 @@ a:visited {
   font-size: 42px;
   letter-spacing: -1.75px;
   line-height: 1;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #606060; }
 
 .post-header .meta {
   font-size: 15px;
