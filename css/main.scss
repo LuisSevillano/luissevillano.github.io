@@ -5,7 +5,10 @@
 @import
 "colors",
 "variables",
-"header"
+"header",
+"front-gallery",
+"footer",
+"work"
 ;
 
 * {
@@ -20,7 +23,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #F7FCFD;
   background-color: #202020 ;
   background-image: url('/img/bg.jpg') ;
   background-repeat: no-repeat;
@@ -32,7 +34,7 @@ body {
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a         { color: #F46D43; text-decoration: none; }
-a:hover   { color: #000; text-decoration: none; }
+a:hover   { color: $gray-dark; text-decoration: none; }
 a:visited { color: #F46D43; }
 
 /* Utility */

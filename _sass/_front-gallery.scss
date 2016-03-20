@@ -1,0 +1,24 @@
+@import "colors";
+@import "variables";
+
+.gallery-item {
+      margin: 0;
+      margin-bottom: 1rem;
+      width: 100%;
+      display: inline-block;
+      text-align: left;
+      float: left;
+      vertical-align: top;
+}
+.gallery-img {
+  height: 180px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.gallery-date {
+  color: $gray-dark;
+  font-size: 0.9em;
+}

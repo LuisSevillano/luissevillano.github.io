@@ -3,14 +3,15 @@ layout: default
 ---
 
 <div class="home">
-
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+  <ul class="gallery">
+    {% for work in site.data.works %}
+    <li class="gallery-item">
+      <a class="galleryLink" href="{{work.link}}">
+        <span class="gallery-img" style="background-image: url('{{work.img}}')"></span>
+        <p class="galleryHeadline balance-text">{{work.title}}</p>
+        <span class="gallery-date">{{work.date}}</span>
+      </a>
+    </li>
     {% endfor %}
   </ul>
 
