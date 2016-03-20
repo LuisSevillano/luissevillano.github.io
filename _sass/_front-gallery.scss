@@ -4,14 +4,18 @@
 .gallery {
 
 }
+.gallery-article-title {
+  max-width: 200px;
+  margin: 0;
+}
 .gallery-article-title:hover {
   color: #F46D5A;
 }
 .gallery-item {
   margin: 0;
   margin-bottom: 1em;
-  width: 100%;
-  display: inline;
+  width: 250px;
+  display: inline-block;
   text-align: left;
   float: left;
   vertical-align: top;
