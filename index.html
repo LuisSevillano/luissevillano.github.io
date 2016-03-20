@@ -6,9 +6,9 @@ layout: default
   <ul class="gallery">
     {% for work in site.data.works %}
     <li class="gallery-item">
-      <a class="galleryLink" href="{{work.link}}">
+      <a class="gallery-link" href="{{work.link}}">
         <span class="gallery-img" style="background-image: url('{{work.img}}')"></span>
-        <p class="galleryHeadline balance-text">{{work.title}}</p>
+        <p class="gallery-article-title">{{work.title}}</p>
         <span class="gallery-date">{{work.date}}</span>
       </a>
     </li>

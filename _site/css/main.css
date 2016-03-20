@@ -17,11 +17,14 @@
   color: #727272;
   letter-spacing: -.5px; }
 
+.gallery-article-title:hover {
+  color: #F46D5A; }
+
 .gallery-item {
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   width: 100%;
-  display: inline-block;
+  display: inline;
   text-align: left;
   float: left;
   vertical-align: top; }
@@ -33,6 +36,9 @@
   background-position: center;
   display: inline-block;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); }
+
+.gallery-img:hover {
+  outline: 1px solid rgba(244, 109, 67, 0.2); }
 
 .gallery-date {
   color: #606060;
