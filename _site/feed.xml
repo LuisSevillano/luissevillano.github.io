@@ -5,8 +5,8 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://www.luissevillano.github.io/</link>
     <atom:link href="http://www.luissevillano.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Mar 2016 17:21:40 +0100</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2016 17:21:40 +0100</lastBuildDate>
+    <pubDate>Sun, 20 Mar 2016 17:32:32 +0100</pubDate>
+    <lastBuildDate>Sun, 20 Mar 2016 17:32:32 +0100</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -19,25 +19,25 @@
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;ul&gt;
-    &lt;li class=&quot;gallery-item three columns &quot;&gt;
+    &lt;li class=&quot;gallery-item four columns &quot;&gt;
       &lt;a class=&quot;gallery-link&quot; target=&quot;_blank&quot; href=&quot;http://www.elespanol.com/enfoques/20151006/69493080_0.html&quot;&gt;
         &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/lesvos.jpg&#39;)&quot;&gt;
         &lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
-    &lt;li class=&quot;gallery-item three columns &quot;&gt;
+    &lt;li class=&quot;gallery-item four columns &quot;&gt;
       &lt;a class=&quot;gallery-link&quot; target=&quot;_blank&quot; href=&quot;http://www.elespanol.com/ciencia/20160304/106989569_0.html&quot;&gt;
         &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/manhattan-project.jpg&#39;)&quot;&gt;
         &lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
-    &lt;li class=&quot;gallery-item three columns &quot;&gt;
+    &lt;li class=&quot;gallery-item four columns &quot;&gt;
       &lt;a class=&quot;gallery-link&quot; target=&quot;_blank&quot; href=&quot;http://www.elespanol.com/reportajes/20151225/89491075_0.html&quot;&gt;
         &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/panama.jpg&#39;)&quot;&gt;
         &lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
-    &lt;li class=&quot;gallery-item three columns &quot;&gt;
+    &lt;li class=&quot;gallery-item four columns &quot;&gt;
       &lt;a class=&quot;gallery-link&quot; target=&quot;_blank&quot; href=&quot;http://www.elespanol.com/reportajes/20160304/106989558_0.html&quot;&gt;
         &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/tibet.jpg&#39;)&quot;&gt;
         &lt;/div&gt;  

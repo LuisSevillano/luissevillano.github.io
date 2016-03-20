@@ -786,23 +786,8 @@ a:hover {
 a:visited {
   color: #F46D43; }
 
-/* Utility */
-.container::before {
-  margin-top: 1em; }
-
-.container:before,
-.container:after {
-  content: "";
-  display: table; }
-
-.container:after {
-  clear: both; }
-
-.container {
-  max-width: 800px;
-  padding: 0 30px;
-  margin: 0 auto;
-  zoom: 1; }
+.site-header .container {
+  margin-top: 2em; }
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
