@@ -23,11 +23,11 @@ permalink: static-maps
       </a>
     </li>
     <li class="gallery-item four columns ">
-      <a class="gallery-link" target="_blank" href="http://www.elespanol.com/ciencia/20160304/106989569_0.html">
-        <div class="gallery-img" style="background-image: url('/img/manhattan-project.jpg')">
-        </div>
-        <p class="gallery-article-title">The Conqueor (1956)</p>
-        <span class="gallery-date">March 2016</span>
+      <a class="gallery-link" target="_blank" href="http://www.elespanol.com/mundo/20151030/75492477_0.html">
+        <div class="gallery-img" style="background-image: url('/img/sula.jpg')">
+        </div>  
+        <p class="gallery-article-title">San Pedro Sula</p>
+        <span class="gallery-date">November 2015</span>
       </a>
     </li>
     <li class="gallery-item four columns ">
@@ -44,6 +44,14 @@ permalink: static-maps
         </div>  
         <p class="gallery-article-title">The Tibet</p>
         <span class="gallery-date">February 2016</span>
+      </a>
+    </li>    
+    <li class="gallery-item four columns ">
+      <a class="gallery-link" target="_blank" href="http://www.elespanol.com/ciencia/20160304/106989569_0.html">
+        <div class="gallery-img" style="background-image: url('/img/manhattan-project.jpg')">
+        </div>
+        <p class="gallery-article-title">The Conqueor (1956)</p>
+        <span class="gallery-date">March 2016</span>
       </a>
     </li>
   </ul>
