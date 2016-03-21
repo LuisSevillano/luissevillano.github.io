@@ -7,7 +7,7 @@ permalink: catalan-election-analisis
 
 <div class="row">
   <div class="six columns">
-    <p>This was one of my first projects I worked on few weeks since I arrived at El Español. We looked for a politic analysis the day after Catalan Election with several political scientists, maps and graphs. <a href="http://datos.elespanol.com/elecciones-catalanas/">Here</a> is the result.
+    <p>This was one of my first projects I worked on few weeks since I arrived at El Español. We looked for a politic analysis the day after Catalan Election with several political scientists, maps and graphs. <a target="_blank" href="http://datos.elespanol.com/elecciones-catalanas/">Here</a> is the result.
     </p>
   </div>
   <div class="six columns">

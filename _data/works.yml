@@ -1,14 +1,19 @@
-- title: Line chart d3.js mouseover event
-  img: /img/line-chart.png
-  date: Feb 2016
-  link: /line-chart
-
 - title: Catalan Election Analisis
   img: /img/catalan-election-analisis.png
   date: Sep 2015
   link: /catalan-election-analisis
 
-- title: Statics maps
+- title: Static maps
   img: /img/panama.jpg
   date: Dec 2015
   link: /static-maps
+
+- title: Spain General Election Analysis
+  img: /img/map-analisis.png
+  date: Dec 2015
+  link: /political-analysis-20D
+
+- title: Line chart d3.js mouseover event
+  img: /img/line-chart.png
+  date: Feb 2016
+  link: /line-chart

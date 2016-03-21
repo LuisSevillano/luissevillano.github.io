@@ -5,16 +5,16 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://www.luissevillano.github.io/</link>
     <atom:link href="http://www.luissevillano.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Mar 2016 18:02:45 +0100</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2016 18:02:45 +0100</lastBuildDate>
+    <pubDate>Mon, 21 Mar 2016 00:59:40 +0100</pubDate>
+    <lastBuildDate>Mon, 21 Mar 2016 00:59:40 +0100</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
-        <title>Statics maps</title>
+        <title>Static maps</title>
         <description>&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;twelve columns&quot;&gt;
     &lt;p&gt;
-    Each day at El Español&#39;s newsroom I have to &lt;a class=&quot;username link-no-icon&quot; href=&quot;https://youtu.be/BoeStB36dic&quot;&gt;deal with&lt;/a&gt; new oportunities to learn and improve my skills. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then i use Illustrator to style and personalize it. Some examples:
+    Each day at El Español&#39;s newsroom I have to &lt;a class=&quot;username link-no-icon&quot; href=&quot;https://youtu.be/BoeStB36dic&quot;&gt;deal with&lt;/a&gt; new oportunities to learn and improve my skills. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
     &lt;/p&gt;
   &lt;/div&gt;  
 &lt;/div&gt;
@@ -66,7 +66,7 @@
         <title>Catalan Election Analisis</title>
         <description>&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;six columns&quot;&gt;
-    &lt;p&gt;This was one of my first projects I worked on few weeks since I arrived at El Español. We looked for a politic analysis the day after Catalan Election with several political scientists, maps and graphs. &lt;a href=&quot;http://datos.elespanol.com/elecciones-catalanas/&quot;&gt;Here&lt;/a&gt; is the result.
+    &lt;p&gt;This was one of my first projects I worked on few weeks since I arrived at El Español. We looked for a politic analysis the day after Catalan Election with several political scientists, maps and graphs. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/elecciones-catalanas/&quot;&gt;Here&lt;/a&gt; is the result.
     &lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;six columns&quot;&gt;
@@ -85,7 +85,7 @@
         <title>Having fun on bl.ocks.org!</title>
         <description>&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;six columns&quot;&gt;
-    &lt;p&gt;I wrote this example of step linear chart using &lt;code&gt;d3.js&lt;/code&gt;, a JavaScript library for manipulating documents based on data created by &lt;a href=&quot;https://twitter.com/mbostock&quot;&gt;Mike Bostock&lt;/a&gt;. Below is its code, but you can see it by your self &lt;a href=&quot;http://bl.ocks.org/LuisSevillano/7646cfbf60cb32b864c9&quot;&gt;here&lt;/a&gt;.
+    &lt;p&gt;I wrote &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano/7646cfbf60cb32b864c9&quot;&gt;this&lt;/a&gt; example of step linear chart using &lt;code&gt;d3.js&lt;/code&gt;, a JavaScript library for manipulating documents based on data created by &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/mbostock&quot;&gt;Mike Bostock&lt;/a&gt;. Bl.ocks is a simple viewer for sharing code examples hosted on GitHub Gist. &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano&quot;&gt;Here&#39;s mine&lt;/a&gt;.
     &lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;six columns&quot;&gt;
@@ -96,6 +96,28 @@
         <pubDate>Wed, 16 Mar 2016 03:11:14 +0100</pubDate>
         <link>http://www.luissevillano.github.io/line-chart</link>
         <guid isPermaLink="true">http://www.luissevillano.github.io/line-chart</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Spain General Election Analysis</title>
+        <description>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;twelve columns&quot;&gt;
+    &lt;p&gt;Last December the 20th Spain voted in its most critical appointment. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/elecciones-generales/resultados/analisis/&quot;&gt;this&lt;/a&gt; is a special page we ran the day after the elections.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;twelve columns&quot;&gt;
+  &lt;img src=&quot;/img/portada.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;twelve columns&quot;&gt;
+  &lt;img src=&quot;/img/map.gif&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 20 Dec 2015 13:15:11 +0100</pubDate>
+        <link>http://www.luissevillano.github.io/political-analysis-20D</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/political-analysis-20D</guid>
         
         
       </item>

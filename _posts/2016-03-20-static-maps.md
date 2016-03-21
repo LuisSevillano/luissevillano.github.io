@@ -1,6 +1,6 @@
 ---
 layout: work
-title:  "Statics maps"
+title:  "Static maps"
 date:   2016-03-20 16:3:31
 permalink: static-maps
 ---
@@ -8,7 +8,7 @@ permalink: static-maps
 <div class="row">
   <div class="twelve columns">
     <p>
-    Each day at El Español's newsroom I have to <a class="username link-no-icon" href="https://youtu.be/BoeStB36dic">deal with</a> new oportunities to learn and improve my skills. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then i use Illustrator to style and personalize it. Some examples:
+    Each day at El Español's newsroom I have to <a class="username link-no-icon" href="https://youtu.be/BoeStB36dic">deal with</a> new oportunities to learn and improve my skills. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
     </p>
   </div>  
 </div>
