@@ -8,7 +8,7 @@ permalink: static-maps
 <div class="row">
   <div class="twelve columns">
     <p>
-    Each day at El Español's newsroom I have to <a class="username link-no-icon" href="https://youtu.be/BoeStB36dic">deal with</a> new oportunities to learn and improve my skills. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
+    Each day at the newsroom I have to <a class="username link-no-icon" href="https://youtu.be/BoeStB36dic">deal with</a> new opportunities to learn and improve bit by bit. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
     </p>
   </div>  
 </div>
@@ -46,6 +46,14 @@ permalink: static-maps
         <span class="gallery-date">February 2016</span>
       </a>
     </li>    
+    <li class="gallery-item four columns ">
+      <a class="gallery-link" target="_blank" href="http://www.elespanol.com/mundo/20160307/107739538_0.html">
+        <div class="gallery-img" style="background-image: url('/img/refugees.jpg')">
+        </div>
+        <p class="gallery-article-title">Idomeni refugee camp location</p>
+        <span class="gallery-date">March 2016</span>
+      </a>
+    </li>
     <li class="gallery-item four columns ">
       <a class="gallery-link" target="_blank" href="http://www.elespanol.com/ciencia/20160304/106989569_0.html">
         <div class="gallery-img" style="background-image: url('/img/manhattan-project.jpg')">
