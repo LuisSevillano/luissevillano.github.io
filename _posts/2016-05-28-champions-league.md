@@ -13,6 +13,6 @@ permalink: champions-league
   <a href="http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/"><img src="/img/football.jpg" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
   </div>
   <div class="twelve columns">
-  <a href="http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/"><img src="/img/bar-chart.png" class="img-responsive img" alt="maps" style="width: 100%;"/></a>
+  <a href="http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/"><img src="/img/barchart.png" class="img-responsive img" alt="maps" style="width: 100%;"/></a>
   </div>
 </div>
