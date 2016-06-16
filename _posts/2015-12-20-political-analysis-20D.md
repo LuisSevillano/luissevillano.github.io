@@ -9,6 +9,7 @@ permalink: political-analysis-20D
   <div class="twelve columns">
     <p>Last December the 20th Spain voted in its most critical appointment. <a target="_blank" href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/">this</a> is a special page we ran the day after the elections.
     </p>
+    <p><span class="tool pill">HTML</span> <span class="tool pill">SASS</span> <span class="tool pill">js</span> <span class="tool pill">d3.js</span> <span class="tool pill">topojson</span></p>
   </div>
   <div class="twelve columns">
   <img src="/img/portada.png" class="img-responsive img" alt="front-page" style="width: 100%;"/>

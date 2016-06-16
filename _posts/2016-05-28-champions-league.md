@@ -7,7 +7,8 @@ permalink: champions-league
 
 <div class="row">
   <div class="twelve columns">
-    <p>In the final of Champions League context we analyzed the last 12 times faced Atletico de Madrid and Real Madrid. We wanted to made something nice and was first time in sports. <a target="_blank" href="http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/">Here</a> is the feature.</p>
+    <p>In the final of Champions League context we analyzed the last 12 times faced Atletico de Madrid and Real Madrid. <a href="https://twitter.com/NicolasPerezi">Nicolás Pérez</a> and I wanted to made something nice and was first time in sports. <a target="_blank" href="http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/">Here</a> is the feature.</p>
+    <p><span class="tool pill">HTML</span> <span class="tool pill">SASS</span> <span class="tool pill">js</span> <span class="tool pill">d3.js</span> <span class="tool pill">PYTHON</span> <span class="tool pill">pandas</span></p>
   </div>
   <div class="twelve columns">
   <a href="http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/"><img src="/img/football.jpg" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
