@@ -19,5 +19,5 @@ author:
 markdown: kramdown
 highlighter: rouge
 
-# gems:
- # - jekyll-seo-tag
+gems:
+ - jekyll-seo-tag
