@@ -105,6 +105,10 @@ header {
     margin: 0;
     background-color: rgba(197, 197, 197, 0.3);
     min-height: 55px; } }
+@media (min-width: 768px) {
+  .gallery-img {
+    height: 250px;
+    width: 100%; } }
 .link-no-icon {
   color: #505050; }
 
