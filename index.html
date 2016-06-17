@@ -2,17 +2,16 @@
 layout: default
 ---
 
-<div class="home">
-  <ul class="gallery">
     {% for work in site.data.works %}
-    <li class="gallery-item">
-      <a class="gallery-link" href="{{work.link}}">
-        <span class="gallery-img" style="background-image: url('{{work.img}}')"></span>
-        <p class="gallery-article-title">{{work.title}}</p>
-        <span class="gallery-date">{{work.date}}</span>
-      </a>
-    </li>
+    <div class="col-md-3">
+    <div class="item">
+      <div class="content">
+        <a href="{{work.link}}">
+          <span class="gallery-date">{{work.date}}</span>
+          <span class="gallery-img" style="background-image: url('{{work.img}}')"></span>
+          <p class="gallery-article-title">{{work.title}}</p>
+        </a>
+      </div>
+    </div>
+    </div>
     {% endfor %}
-  </ul>
-
-</div>

@@ -1,0 +1,26 @@
+@import "variables";
+@import "colors";
+
+
+
+/* Small devices, tablets */
+@media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices, desktop normal screens */
+@media (min-width: $screen-md-min) {  
+
+  .container{
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container:before, .container:after, .container:before {
+    display: table;
+    content: " ";
+  }
+  .col-3 {
+      width: 33%;
+  }
+}
