@@ -5,8 +5,8 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://www.luissevillano.github.io/</link>
     <atom:link href="http://www.luissevillano.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Jun 2016 03:14:10 +0200</pubDate>
-    <lastBuildDate>Fri, 17 Jun 2016 03:14:10 +0200</lastBuildDate>
+    <pubDate>Fri, 17 Jun 2016 03:31:30 +0200</pubDate>
+    <lastBuildDate>Fri, 17 Jun 2016 03:31:30 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -15,7 +15,14 @@
 &lt;/p&gt;
 
 &lt;p&gt;
-&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3-ring-note&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;spam.js&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;d3-ring-note&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;spam.js&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;&lt;img src=&quot;/img/psoe.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
 &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;&lt;img src=&quot;/img/evolucion-escanos.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -29,18 +36,20 @@
     
       <item>
         <title>Data explains superiority of Atlético de Madrid team vs Real Madrid</title>
-        <description>&lt;div class=&quot;row&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;In the final of Champions League context we analyzed the last 12 times faced Atletico de Madrid and Real Madrid. &lt;a href=&quot;https://twitter.com/NicolasPerezi&quot;&gt;Nicolás Pérez&lt;/a&gt; and I wanted to made something nice and was first time in sports. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;Here&lt;/a&gt; is the feature.&lt;/p&gt;
-    &lt;p&gt;&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;PYTHON&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;pandas&lt;/span&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-  &lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/football.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-  &lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/barchart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+        <description>&lt;p&gt;In the final of Champions League context we analyzed the last 12 times faced Atletico de Madrid and Real Madrid. &lt;a href=&quot;https://twitter.com/NicolasPerezi&quot;&gt;Nicolás Pérez&lt;/a&gt; and I wanted to made something nice and was first time in sports. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;Here&lt;/a&gt; is the feature.&lt;/p&gt;
+&lt;p&gt;
+&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;PYTHON&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;pandas&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/football.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/barchart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 May 2016 12:10:10 +0200</pubDate>
         <link>http://www.luissevillano.github.io/champions-league</link>
@@ -51,65 +60,81 @@
     
       <item>
         <title>Static maps</title>
-        <description>&lt;div class=&quot;row&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;
-    Each day at the newsroom I have to &lt;a class=&quot;username link-no-icon&quot; href=&quot;https://youtu.be/BoeStB36dic&quot;&gt;deal with&lt;/a&gt; new opportunities to learn and improve bit by bit. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
-    &lt;/p&gt;
-    &lt;p&gt;&lt;span class=&quot;tool pill&quot;&gt;QGIS&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;Illustrator&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;Photoshop&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;Landsat&lt;/span&gt;&lt;/p&gt;
-  &lt;/div&gt;  
+        <description>&lt;p&gt;
+Each day at the newsroom I have to &lt;a class=&quot;username link-no-icon&quot; href=&quot;https://youtu.be/BoeStB36dic&quot;&gt;deal with&lt;/a&gt; new opportunities to learn and improve bit by bit. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span class=&quot;tool pill&quot;&gt;QGIS&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;Illustrator&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;Photoshop&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;Landsat&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;col-md-3&quot;&gt;
+&lt;div class=&quot;item&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/enfoques/20151006/69493080_0.html&quot;&gt;
+&lt;span class=&quot;gallery-date&quot;&gt;October 2015&lt;/span&gt;
+&lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/lesvos.jpg&#39;)&quot;&gt;&lt;/div&gt;
+&lt;p class=&quot;gallery-article-title&quot;&gt;A map of Lesvos&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-  &lt;ul&gt;
-    &lt;li class=&quot;gallery-item four columns &quot;&gt;
-      &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/enfoques/20151006/69493080_0.html&quot;&gt;
-        &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/lesvos.jpg&#39;)&quot;&gt;
-        &lt;/div&gt;
-        &lt;p class=&quot;gallery-article-title&quot;&gt;A map of Lesvos&lt;/p&gt;
-        &lt;span class=&quot;gallery-date&quot;&gt;October 2015&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&quot;gallery-item four columns &quot;&gt;
-      &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20151030/75492477_0.html&quot;&gt;
-        &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/sula.jpg&#39;)&quot;&gt;
-        &lt;/div&gt;  
-        &lt;p class=&quot;gallery-article-title&quot;&gt;San Pedro Sula&lt;/p&gt;
-        &lt;span class=&quot;gallery-date&quot;&gt;November 2015&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&quot;gallery-item four columns &quot;&gt;
-      &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20151225/89491075_0.html&quot;&gt;
-        &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/panama.jpg&#39;)&quot;&gt;
-        &lt;/div&gt;
-        &lt;p class=&quot;gallery-article-title&quot;&gt;The Panama Canal&lt;/p&gt;
-        &lt;span class=&quot;gallery-date&quot;&gt;December 2015&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&quot;gallery-item four columns &quot;&gt;
-      &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20160304/106989558_0.html&quot;&gt;
-        &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/tibet.jpg&#39;)&quot;&gt;
-        &lt;/div&gt;  
-        &lt;p class=&quot;gallery-article-title&quot;&gt;The Tibet&lt;/p&gt;
-        &lt;span class=&quot;gallery-date&quot;&gt;February 2016&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;    
-    &lt;li class=&quot;gallery-item four columns &quot;&gt;
-      &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20160307/107739538_0.html&quot;&gt;
-        &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/refugees.jpg&#39;)&quot;&gt;
-        &lt;/div&gt;
-        &lt;p class=&quot;gallery-article-title&quot;&gt;Idomeni refugee camp location&lt;/p&gt;
-        &lt;span class=&quot;gallery-date&quot;&gt;March 2016&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&quot;gallery-item four columns &quot;&gt;
-      &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/ciencia/20160304/106989569_0.html&quot;&gt;
-        &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/manhattan-project.jpg&#39;)&quot;&gt;
-        &lt;/div&gt;
-        &lt;p class=&quot;gallery-article-title&quot;&gt;The Conqueor (1956)&lt;/p&gt;
-        &lt;span class=&quot;gallery-date&quot;&gt;March 2016&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3&quot;&gt;
+&lt;div class=&quot;item&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20151030/75492477_0.html&quot;&gt;
+&lt;span class=&quot;gallery-date&quot;&gt;November 2015&lt;/span&gt;
+&lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/sula.jpg&#39;)&quot;&gt;&lt;/div&gt;  
+&lt;p class=&quot;gallery-article-title&quot;&gt;San Pedro Sula&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3&quot;&gt;
+&lt;div class=&quot;item&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20151225/89491075_0.html&quot;&gt;
+&lt;span class=&quot;gallery-date&quot;&gt;December 2015&lt;/span&gt;
+&lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/panama.jpg&#39;)&quot;&gt;&lt;/div&gt;
+&lt;p class=&quot;gallery-article-title&quot;&gt;The Panama Canal&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3&quot;&gt;
+&lt;div class=&quot;item&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20160304/106989558_0.html&quot;&gt;
+&lt;span class=&quot;gallery-date&quot;&gt;February 2016&lt;/span&gt;
+&lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/tibet.jpg&#39;)&quot;&gt;&lt;/div&gt;  
+&lt;p class=&quot;gallery-article-title&quot;&gt;The Tibet&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3&quot;&gt;
+&lt;div class=&quot;item&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20160307/107739538_0.html&quot;&gt;
+&lt;span class=&quot;gallery-date&quot;&gt;March 2016&lt;/span&gt;
+&lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/refugees.jpg&#39;)&quot;&gt;&lt;/div&gt;
+&lt;p class=&quot;gallery-article-title&quot;&gt;Idomeni refugee camp location&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3&quot;&gt;
+&lt;div class=&quot;item&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/ciencia/20160304/106989569_0.html&quot;&gt;
+&lt;span class=&quot;gallery-date&quot;&gt;March 2016&lt;/span&gt;
+&lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/manhattan-project.jpg&#39;)&quot;&gt;&lt;/div&gt;
+&lt;p class=&quot;gallery-article-title&quot;&gt;The Conqueor (1956)&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 16:03:31 +0100</pubDate>
@@ -141,16 +166,10 @@
     
       <item>
         <title>Having fun on bl.ocks.org!</title>
-        <description>&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;six columns&quot;&gt;
-    &lt;p&gt;I wrote &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano/7646cfbf60cb32b864c9&quot;&gt;this&lt;/a&gt; example of step linear chart using d3.js, a JavaScript library for manipulating documents based on data created by &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/mbostock&quot;&gt;Mike Bostock&lt;/a&gt;. Bl.ocks is a simple viewer for sharing code examples hosted on GitHub Gist. &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano&quot;&gt;Here&#39;s mine&lt;/a&gt;.
-    &lt;/p&gt;
-      &lt;p&gt;&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3-js&lt;/span&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;six columns&quot;&gt;
-  &lt;img src=&quot;/img/line-chart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+        <description>&lt;p&gt;I wrote &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano/7646cfbf60cb32b864c9&quot;&gt;this&lt;/a&gt; example of step linear chart using d3.js, a JavaScript library for manipulating documents based on data created by &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/mbostock&quot;&gt;Mike Bostock&lt;/a&gt;. Bl.ocks is a simple viewer for sharing code examples hosted on GitHub Gist. &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano&quot;&gt;Here&#39;s mine&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3-js&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/line-chart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Mar 2016 03:11:14 +0100</pubDate>
         <link>http://www.luissevillano.github.io/line-chart</link>
