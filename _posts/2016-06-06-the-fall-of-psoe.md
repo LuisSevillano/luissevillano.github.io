@@ -8,7 +8,7 @@ permalink: the-fall-of-spanish-socialis-party
 <p>PSOE known as Spanish Socialist Worker's Party is one of main political parties in Spain. In fact, with PP (Popular Party) both belong to the bipartidism order have had the control of govern of the country during almost last fourty years. That scenario has been changed. Since 2008 PSOE have lost votes in the 97,25% of municipios (small administrative unit). In <a href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/">this </a> feature we analyzed this scenario and their causes.
 </p>
 
-<p>
+<p class="pills">
 <span class="tool pill">HTML</span>
 <span class="tool pill">SASS</span>
 <span class="tool pill">js</span>

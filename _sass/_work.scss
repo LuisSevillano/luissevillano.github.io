@@ -45,6 +45,9 @@ article p {
   font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
   padding: 0 0.5em;
 }
+.pills {
+  margin-bottom: 0;
+}
 .img-container {
   width: 100%;
   margin: 0 auto;
@@ -77,5 +80,8 @@ code {
   .img-container {
     width: 95%;
     margin: 0 auto;
+  }
+  .pills {
+    margin-bottom: 2em;
   }
 }

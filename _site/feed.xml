@@ -5,8 +5,8 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://www.luissevillano.github.io/</link>
     <atom:link href="http://www.luissevillano.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 18 Jun 2016 13:13:28 +0200</pubDate>
-    <lastBuildDate>Sat, 18 Jun 2016 13:13:28 +0200</lastBuildDate>
+    <pubDate>Sat, 18 Jun 2016 13:21:26 +0200</pubDate>
+    <lastBuildDate>Sat, 18 Jun 2016 13:21:26 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -14,7 +14,7 @@
         <description>&lt;p&gt;PSOE known as Spanish Socialist Worker&#39;s Party is one of main political parties in Spain. In fact, with PP (Popular Party) both belong to the bipartidism order have had the control of govern of the country during almost last fourty years. That scenario has been changed. Since 2008 PSOE have lost votes in the 97,25% of municipios (small administrative unit). In &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;this &lt;/a&gt; feature we analyzed this scenario and their causes.
 &lt;/p&gt;
 
-&lt;p&gt;
+&lt;p class=&quot;pills&quot;&gt;
 &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
 &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
 &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
@@ -39,7 +39,7 @@
       <item>
         <title>Data explains superiority of Atlético de Madrid team vs Real Madrid</title>
         <description>&lt;p&gt;In the final of Champions League context we analyzed the last 12 times faced Atletico de Madrid and Real Madrid. &lt;a href=&quot;https://twitter.com/NicolasPerezi&quot;&gt;Nicolás Pérez&lt;/a&gt; and I wanted to made something nice and was first time in sports. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;Here&lt;/a&gt; is the feature.&lt;/p&gt;
-&lt;p&gt;
+&lt;p class=&quot;pills&quot;&gt;
 &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
 &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
 &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
@@ -48,10 +48,11 @@
 &lt;span class=&quot;tool pill&quot;&gt;pandas&lt;/span&gt;
 &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
 &lt;/p&gt;
+&lt;p class=&quot;img-container&quot;&gt;
+&lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/football.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/football.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/barchart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/barchart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 May 2016 12:10:10 +0200</pubDate>
         <link>http://www.luissevillano.github.io/champions-league</link>
@@ -65,7 +66,7 @@
         <description>&lt;p&gt;
 Each day at the newsroom I have to &lt;a class=&quot;username link-no-icon&quot; href=&quot;https://youtu.be/BoeStB36dic&quot;&gt;deal with&lt;/a&gt; new opportunities to learn and improve bit by bit. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
 &lt;/p&gt;
-&lt;p&gt;
+&lt;p class=&quot;pills&quot;&gt;
 &lt;span class=&quot;tool pill&quot;&gt;QGIS&lt;/span&gt;
 &lt;span class=&quot;tool pill&quot;&gt;Illustrator&lt;/span&gt;
 &lt;span class=&quot;tool pill&quot;&gt;Photoshop&lt;/span&gt;
@@ -149,14 +150,15 @@ Each day at the newsroom I have to &lt;a class=&quot;username link-no-icon&quot;
       <item>
         <title>Catalan Election Analisis</title>
         <description>&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6&quot;&gt;
-    &lt;p&gt;This was one of my first projects I worked on few weeks since I arrived at El Español. We looked for a politic analysis the day after Catalan Election with several political scientists, maps and graphs. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/elecciones-catalanas/&quot;&gt;Here&lt;/a&gt; is the result.
-    &lt;/p&gt;
-      &lt;p&gt;&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6&quot;&gt;
-  &lt;img src=&quot;/img/catalan-election-analisis.png&quot; class=&quot;img-responsive img no-margin&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;p&gt;This was one of my first projects I worked on few weeks since I arrived at El Español. We looked for a politic analysis the day after Catalan Election with several political scientists, maps and graphs. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/elecciones-catalanas/&quot;&gt;Here&lt;/a&gt; is the result.
+&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/catalan-election-analisis.png&quot; class=&quot;img-responsive img no-margin&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 13:15:11 +0100</pubDate>
@@ -170,7 +172,10 @@ Each day at the newsroom I have to &lt;a class=&quot;username link-no-icon&quot;
         <title>Having fun on bl.ocks.org!</title>
         <description>&lt;p&gt;I wrote &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano/7646cfbf60cb32b864c9&quot;&gt;this&lt;/a&gt; example of step linear chart using d3.js, a JavaScript library for manipulating documents based on data created by &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/mbostock&quot;&gt;Mike Bostock&lt;/a&gt;. Bl.ocks is a simple viewer for sharing code examples hosted on GitHub Gist. &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano&quot;&gt;Here&#39;s mine&lt;/a&gt;.
 &lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3-js&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;d3-js&lt;/span&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/line-chart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Mar 2016 03:11:14 +0100</pubDate>
@@ -184,7 +189,13 @@ Each day at the newsroom I have to &lt;a class=&quot;username link-no-icon&quot;
         <title>Spain General Election Analysis</title>
         <description>&lt;p&gt;Last December the 20th Spain voted in its most critical appointment. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/elecciones-generales/resultados/analisis/&quot;&gt;this&lt;/a&gt; is a special page we ran the day after the elections.
 &lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt; &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+&lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+&lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/portada.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;
   &lt;img src=&quot;/img/map.gif&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
 </description>

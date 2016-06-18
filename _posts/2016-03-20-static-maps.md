@@ -8,7 +8,7 @@ permalink: static-maps
 <p>
 Each day at the newsroom I have to <a class="username link-no-icon" href="https://youtu.be/BoeStB36dic">deal with</a> new opportunities to learn and improve bit by bit. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
 </p>
-<p>
+<p class="pills">
 <span class="tool pill">QGIS</span>
 <span class="tool pill">Illustrator</span>
 <span class="tool pill">Photoshop</span>
