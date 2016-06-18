@@ -18,5 +18,5 @@ permalink: the-fall-of-spanish-socialis-party
 <span class="tool pill">spam.js</span>
 <span class="tool pill">ai2html</span>
 </p>
-<a href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/"><img src="/img/psoe.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
-<a href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/"><img src="/img/evolucion-escanos.jpg" class="img-responsive img" alt="maps" style="width: 100%;"/></a>
+<a class="img-link" href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/"><img src="/img/psoe.png" class="img-responsive img" alt="front-page"/></a>
+<a class="img-link" href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/"><img src="/img/evolucion-escanos.jpg" class="img-responsive img" alt="maps"/></a>
