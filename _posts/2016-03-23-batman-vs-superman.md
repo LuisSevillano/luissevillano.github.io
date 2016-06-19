@@ -14,7 +14,7 @@ permalink: batman-vs-superman
 <span class="tool pill">scrollstory</span>
 <span class="tool pill">illustration</span>
 </p>
-<p class="img-container">
+<div class="img-container">
 <div class="col-md-12">
 <a href="http://datos.elespanol.com/proyectos/batman-vs-superman-la-nueva-pelicula-de-ben-affleck-y-henry-cavill/"><img src="/img/batman.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
@@ -25,4 +25,4 @@ permalink: batman-vs-superman
 <div class="col-md-6">
 <a href="http://datos.elespanol.com/proyectos/batman-vs-superman-la-nueva-pelicula-de-ben-affleck-y-henry-cavill/"><img src="/img/batman3.png" class="img-responsive img" alt="maps" style="width: 100%;"/></a>
 </div>
-</p>
+</div>

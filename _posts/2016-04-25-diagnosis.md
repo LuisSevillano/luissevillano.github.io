@@ -14,14 +14,14 @@ permalink: diagnosis
 <span class="tool pill">HTML</span>
 <span class="tool pill">SASS</span>
 </p>
-<p class="img-container">
-<div class="col-md-12">
-<a href="http://reportajes.elespanol.com/diagnosis/zika-punto-negro-diagnosticos/"><img src="/img/globe.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+<div class="img-container">
+  <div class="col-md-12">
+    <a href="http://reportajes.elespanol.com/diagnosis/zika-punto-negro-diagnosticos/"><img src="/img/globe.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+  </div>
+  <div class="col-md-12">
+    <a href="http://reportajes.elespanol.com/diagnosis/morir-malaria-miedo-ebola/"><img src="/img/africa.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+  </div>
+  <div class="col-md-12">
+    <a href="http://reportajes.elespanol.com/diagnosis/zika-punto-negro-diagnosticos/"><img src="/img/brazil.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+  </div>
 </div>
-<div class="col-md-12">
-<a href="http://reportajes.elespanol.com/diagnosis/morir-malaria-miedo-ebola/"><img src="/img/africa.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
-</div>
-<div class="col-md-12">
-<a href="http://reportajes.elespanol.com/diagnosis/zika-punto-negro-diagnosticos/"><img src="/img/brazil.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
-</div>
-</p>
