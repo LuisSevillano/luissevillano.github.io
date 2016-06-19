@@ -13,6 +13,11 @@
   date: DEC 2015
   link: /political-analysis-20D
 
+- title: Batman vs Superman
+  img: /img/batman.png
+  date: MAR 2016
+  link: /batman-vs-superman
+
 - title: Line chart d3.js mouseover event
   img: /img/line-chart.png
   date: FEB 2016

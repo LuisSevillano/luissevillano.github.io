@@ -15,8 +15,7 @@
 
 header {
   padding-top: 1em;
-  padding-bottom: 1em;
-  margin-bottom: 1em; }
+  padding-bottom: 1em; }
 
 .site-nav {
   float: right;
@@ -108,7 +107,10 @@ header {
 @media (min-width: 768px) {
   .gallery-img {
     height: 250px;
-    width: 100%; } }
+    width: 100%; }
+
+  .item {
+    min-height: 375px; } }
 .link-no-icon {
   color: #505050; }
 
