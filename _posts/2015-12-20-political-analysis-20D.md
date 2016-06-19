@@ -14,5 +14,7 @@ permalink: political-analysis-20D
 <span class="tool pill">d3.js</span>
 <span class="tool pill">topojson</span>
 </p>
+<p class="img-container">
 <img src="/img/portada.png" class="img-responsive img" alt="front-page" style="width: 100%;"/>
-  <img src="/img/map.gif" class="img-responsive img" alt="maps" style="width: 100%;"/>
+<img src="/img/map.gif" class="img-responsive img" alt="maps" style="width: 100%;"/>
+</p>

@@ -5,8 +5,8 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://www.luissevillano.github.io/</link>
     <atom:link href="http://www.luissevillano.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 18 Jun 2016 13:21:26 +0200</pubDate>
-    <lastBuildDate>Sat, 18 Jun 2016 13:21:26 +0200</lastBuildDate>
+    <pubDate>Sun, 19 Jun 2016 12:38:06 +0200</pubDate>
+    <lastBuildDate>Sun, 19 Jun 2016 12:38:06 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -196,8 +196,10 @@ Each day at the newsroom I have to &lt;a class=&quot;username link-no-icon&quot;
 &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
 &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/portada.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;
-  &lt;img src=&quot;/img/map.gif&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;img-container&quot;&gt;
+&lt;img src=&quot;/img/portada.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;img src=&quot;/img/map.gif&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Dec 2015 13:15:11 +0100</pubDate>
         <link>http://www.luissevillano.github.io/political-analysis-20D</link>
