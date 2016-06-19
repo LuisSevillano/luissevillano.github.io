@@ -113,8 +113,9 @@ header {
   color: #505050; }
 
 .site-footer {
-  padding: 1em 0;
-  background-color: #F8F8F8; }
+  padding: 2em 0;
+  background-color: #F8F8F8;
+  margin-top: 2em; }
 
 .footer-heading {
   font-size: 18px;
@@ -122,9 +123,11 @@ header {
   letter-spacing: -.5px;
   margin-bottom: 15px; }
 
+.site-footer ul {
+  margin: 0; }
+
 .site-footer .column {
-  float: left;
-  margin-bottom: 15px; }
+  float: left; }
 
 .footer-col-1 {
   width: 270px;
