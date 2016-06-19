@@ -217,7 +217,8 @@ article p {
   padding: 0 0.5em; }
 
 .pills {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  cursor: none; }
 
 .img-container {
   width: 100%;
