@@ -8,15 +8,20 @@
   date: MAY 2016
   link: /champions-league
 
-- title: Spain General Election Analysis
-  img: /img/map-cs.jpg
-  date: DEC 2015
-  link: /political-analysis-20D
+- title: Diagnosis
+  img: /img/diagnosis-front.png
+  date: APR 2016
+  link: /diagnosis
 
 - title: Batman vs Superman
   img: /img/batman.png
   date: MAR 2016
   link: /batman-vs-superman
+
+- title: Spain General Election Analysis
+  img: /img/map-cs.jpg
+  date: DEC 2015
+  link: /political-analysis-20D
 
 - title: Line chart d3.js mouseover event
   img: /img/line-chart.png
