@@ -27,16 +27,13 @@ body {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
-  background-color: #FBFFFD ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 @media (min-width: 992px) {
-    body {
-        //background-image: url('/img/bg.jpg') !important;
-    }
+
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
