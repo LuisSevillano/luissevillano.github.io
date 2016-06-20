@@ -40,6 +40,17 @@ Each day at the newsroom I have to <a class="username link-no-icon" href="https:
 <div class="col-md-3">
 <div class="item">
 <div class="content">
+<a class="gallery-link" href="http://www.elespanol.com/mundo/20151118/80242022_0.html">
+<span class="gallery-date">November 2015</span>
+<div class="gallery-img" style="background-image: url('/img/daesh.jpg')"></div>  
+<p class="gallery-article-title">Daesh groups</p>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="item">
+<div class="content">
 <a class="gallery-link" href="http://www.elespanol.com/reportajes/20151225/89491075_0.html">
 <span class="gallery-date">December 2015</span>
 <div class="gallery-img" style="background-image: url('/img/panama.jpg')"></div>
