@@ -11,13 +11,15 @@ permalink: catalan-election-analisis
 </p>
 <p class="pills">
 <span class="tool pill">HTML</span>
-<span class="tool pill">SASS</span> 
+<span class="tool pill">SASS</span>
 <span class="tool pill">js</span>
 <span class="tool pill">d3.js</span>
 <span class="tool pill">topojson</span>
 </p>
 </div>
 <div class="col-md-6">
+<a href="http://datos.elespanol.com/elecciones-catalanas/">
 <img src="/img/catalan-election-analisis.png" class="img-responsive img no-margin" alt="Drawing" style="width: 100%;"/>
+</a>
 </div>
 </div>
