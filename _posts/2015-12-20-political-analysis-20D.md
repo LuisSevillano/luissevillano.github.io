@@ -18,4 +18,5 @@ permalink: political-analysis-20D
 
 <a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img src="/img/portada.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 <a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img src="/img/map.gif" class="img-responsive img" alt="maps" style="width: 100%;"/></a>
+<a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img src="/img/bipartidismo.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
