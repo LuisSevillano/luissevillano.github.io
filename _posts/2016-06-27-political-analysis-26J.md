@@ -22,15 +22,26 @@ permalink: brief-summary-of-how-Spain-voted-the-June-26th-spanish-election
 <div class="col-md-12">
 <a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/provinces-winner.png" class="img-responsive img" alt="maps" style="width: 100%;"/></a>
 </div>
+</div>
+<div class="row">
 <div class="col-md-12">
 <a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/seats-per-party.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p class="separator">This time we used Illos by <a href="https://twitter.com/jmunozfe">Javier Muñoz</a> in the graph of parties alliances.</p>
+</div>
+</div>
+<div class="row">
 <div class="col-md-6">
 <a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/resultado-municipios-2015.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
 <div class="col-md-6">
 <a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/alliances.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
+</div>
+<div class="row">
 <div class="col-md-12">
 <a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/26j.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
