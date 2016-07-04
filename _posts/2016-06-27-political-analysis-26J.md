@@ -18,7 +18,21 @@ permalink: brief-summary-of-how-Spain-voted-the-June-26th-spanish-election
 <span class="tool pill">ai2html</span>
 </p>
 <div class="img-container">
-
-<a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/seats-per-party.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+<div class="row">
+<div class="col-md-12">
 <a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/provinces-winner.png" class="img-responsive img" alt="maps" style="width: 100%;"/></a>
+</div>
+<div class="col-md-12">
+<a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/seats-per-party.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+</div>
+<div class="col-md-6">
+<a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/resultado-municipios-2016.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+</div>
+<div class="col-md-6">
+<a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/alliances.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+</div>
+<div class="col-md-12">
+<a href="http://datos.elespanol.com/elecciones-generales/resultados/resumen/"><img src="/img/26j.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+</div>
+</div>
 </div>
