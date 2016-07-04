@@ -5,7 +5,7 @@ date:   2016-06-27 08:11:01
 permalink: brief-summary-of-how-Spain-voted-the-June-26th-spanish-election
 ---
 
-<p>As the last <a href="http://luissevillano.github.io/political-analysis-20D">time</a> Spain voted for Its future we run is a special page for the  day after the elections. Its a summary of the main results, possible parties alliances or maps of bipartidism 'historic evolution'. Also, Its includes a big interactive table where our audience can find those provinces (~states) where the four main parties had won or lost seats.
+<p>As the last <a href="http://luissevillano.github.io/political-analysis-20D">time</a> Spain voted for Its future we run a special page for the  day after the elections. Its a summary of the main results, possible parties alliances or maps of bipartidism 'historic evolution'. Also, Its includes a big interactive table where our audience can find those provinces (~states) where the four main parties had won or lost seats.
 </p>
 <p class="pills">
 <span class="tool pill">HTML</span>
