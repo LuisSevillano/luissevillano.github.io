@@ -5,7 +5,7 @@ date:   2016-06-28 08:11:01
 permalink: small-multiples-slope-charts
 ---
 
-<p>In the spanish post election context we analyzed and compared the results of last time election (December 20th 2015) and this time (June 26th 2016). </p>
+<p>In the spanish post election context we analyzed and compared the results of last time election (December 20th 2015) and this time (June 26th 2016). The comparision was province by province and we consider the four or five main parties. The result is a nice small multiples slope charts. This kind of graph include a series of similar graphs with the same scale and axis allowing them to be easily compared and popularized by Edward Tufte.</p>
 <p class="pills">
 <span class="tool pill">HTML</span>
 <span class="tool pill">SASS</span>
