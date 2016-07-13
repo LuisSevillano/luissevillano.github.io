@@ -247,7 +247,7 @@ article p {
   margin: 1em 0; }
 
 .img-responsive.img.no-margin {
-  margin: 0; }
+  margin-top: 1em; }
 
 code {
   white-space: pre;
@@ -279,7 +279,10 @@ code {
     padding-top: 2em; }
 
   .img-container .col-md-6 {
-    width: 49%; } }
+    width: 49%; }
+
+  .img-responsive.img.no-margin {
+    margin: 0; } }
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
