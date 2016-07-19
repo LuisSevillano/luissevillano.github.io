@@ -4,20 +4,32 @@
 
 .gallery-article-title {
   margin: 0;
-}
-.gallery-article-title {
+  width: 100%;
   padding: 0.2em 0.2em 0.2em 0.5em;
   margin-top: 0.5em;
   background-color: rgba(197,197,197,0.3);
+  border-radius:0.1em;
+  color: $black;
+
 
 }
 .gallery-article-title:hover {
   color: $navy;
+
   background-color: rgba(197,197,197,0.1);
   -moz-box-shadow: inset 2px 2px 0 rgba(0,0,0,0.6);
   -webkit-box-shadow: inset 2px 2px 0 rgba(0,0,0,0.6);
   box-shadow: inset 2px 2px 0 rgba(0,0,0,0.6);
 }
+.container{
+  a {
+    color: $black;
+    font-weight: bold;
+  }
+}
+  .item a, .site-footer a {
+    font-weight: normal;
+  }
 
 .gallery-link {
   width: 100%;
