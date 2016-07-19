@@ -15,6 +15,7 @@ Each day at the newsroom I have to <a class="username link-no-icon" href="https:
 <span class="tool pill">Landsat</span>
 <span class="tool pill">ai2html</span>
 </p>
+<div class="row">
 <div class="col-md-3">
 <div class="item">
 <div class="content">
@@ -89,6 +90,18 @@ Each day at the newsroom I have to <a class="username link-no-icon" href="https:
 <div class="gallery-img" style="background-image: url('/img/manhattan-project.jpg')"></div>
 <p class="gallery-article-title">The Conqueor (1956)</p>
 </a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="item">
+<div class="content">
+<a class="gallery-link" href="http://www.elespanol.com/reportajes/grandes-historias/20160715/140236919_0.html">
+<span class="gallery-date">July 2016</span>
+<div class="gallery-img" style="background-image: url('/img/ibiza-hamacas.jpg')"></div>
+<p class="gallery-article-title">Ibiza mafia hammocks</p>
+</a>
+</div>
 </div>
 </div>
 </div>
