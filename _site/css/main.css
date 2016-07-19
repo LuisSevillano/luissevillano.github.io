@@ -118,9 +118,18 @@ header {
   position: absolute;
   width: 100%;
   padding: 2em 0;
-  background-color: whitesmoke;
   margin-top: 2em;
   text-align: center; }
+
+.site-footer::before {
+  content: '';
+  position: relative;
+  width: 80%;
+  height: 1px;
+  display: inline-block;
+  background-image: -webkit-linear-gradient(left, #fdfdfd, #c3c3c3, #fdfdfd);
+  background-image: -o-linear-gradient(left, #fdfdfd, #c3c3c3, #fdfdfd);
+  margin: 2em 0; }
 
 .site-footer a {
   padding: 0.3em; }
