@@ -59,12 +59,12 @@
 }
 
 .gallery-date {
-  color: rgba(177, 13, 201, 0.3);
-  font-size: 0.8em;
+  color: $gallery-title;
+  font-size: 0.9em;
   //font-weight: ;
   letter-spacing: 0.8em;
   font-weight: bold;
-  text-shadow: rgba(35, 55, 251,0.2) 0px -4px 3px, rgba(0, 0, 0, 0.1) 0px 0px 1px;
+  //text-shadow: rgba(35, 55, 251,0.2) 0px -4px 3px, rgba(0, 0, 0, 0.1) 0px 0px 1px;
 }
 
 @media (min-width: 992px) {

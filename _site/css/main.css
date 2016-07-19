@@ -89,11 +89,10 @@ header {
   outline: 1px solid rgba(244, 109, 67, 0.1); }
 
 .gallery-date {
-  color: rgba(177, 13, 201, 0.3);
-  font-size: 0.8em;
+  color: rgba(135, 13, 153, 0.5);
+  font-size: 0.9em;
   letter-spacing: 0.8em;
-  font-weight: bold;
-  text-shadow: rgba(35, 55, 251, 0.2) 0px -4px 3px, rgba(0, 0, 0, 0.1) 0px 0px 1px; }
+  font-weight: bold; }
 
 @media (min-width: 992px) {
   .gallery-img {
@@ -120,7 +119,8 @@ header {
   width: 100%;
   padding: 2em 0;
   background-color: whitesmoke;
-  margin-top: 2em; }
+  margin-top: 2em;
+  text-align: center; }
 
 .footer-heading {
   font-size: 18px;
