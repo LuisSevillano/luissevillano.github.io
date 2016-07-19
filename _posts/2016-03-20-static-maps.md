@@ -99,7 +99,7 @@ Each day at the newsroom I have to <a class="username link-no-icon" href="https:
 <a class="gallery-link" href="http://www.elespanol.com/reportajes/grandes-historias/20160715/140236919_0.html">
 <span class="gallery-date">July 2016</span>
 <div class="gallery-img" style="background-image: url('/img/ibiza-hamacas.jpg')"></div>
-<p class="gallery-article-title">Ibiza mafia hammocks</p>
+<p class="gallery-article-title">The Ibiza hammocks' mafia</p>
 </a>
 </div>
 </div>
