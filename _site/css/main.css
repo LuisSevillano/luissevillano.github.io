@@ -5,7 +5,8 @@
   font-weight: bold; }
 
 .subtitle {
-  color: #505050; }
+  color: #505050;
+  line-height: 1.2em; }
 
 .site-header {
   margin: 0 auto; }
@@ -38,7 +39,11 @@ header {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 2em; } }
+    padding-bottom: 2em; }
+
+  .subtitle {
+    line-height: 1em; } }
+/* Small devices, tablets */
 .gallery-article-title {
   margin: 0;
   width: 100%;
@@ -121,7 +126,10 @@ header {
     width: 100%; }
 
   .item {
-    min-height: 375px; } }
+    min-height: 375px; }
+
+  .gallery-date {
+    margin-bottom: 0.5em; } }
 /* Medium devices, desktop normal screens */
 @media (min-width: 468px) and (max-width: 768px) {
   .gallery-img {

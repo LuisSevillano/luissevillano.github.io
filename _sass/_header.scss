@@ -9,6 +9,7 @@
 }
 .subtitle {
   color: $gray-dark;
+  line-height: 1.2em;
 }
 .site-header {
   margin: 0 auto;
@@ -19,7 +20,7 @@
 }
 header {
   padding-top: 1em;
-  padding-bottom: 1em;  
+  padding-bottom: 1em;
 }
 
 .site-nav {
@@ -45,5 +46,11 @@ header {
     padding-right: 15px;
     padding-bottom: 2em;
   }
+  .subtitle {
+    line-height: 1em;
+  }
 
+}
+/* Small devices, tablets */
+@media (min-width: $screen-sm-min) {
 }
