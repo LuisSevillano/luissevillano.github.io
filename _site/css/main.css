@@ -104,9 +104,10 @@ header {
 .gallery-date {
   color: #870d99;
   font-size: 0.9em;
-  letter-spacing: 0.8em;
+  letter-spacing: 0.6em;
   font-weight: bold;
-  padding-bottom: 0.2em; }
+  padding-bottom: 0.2em;
+  text-transform: uppercase; }
 
 /* Medium devices, desktop normal screens */
 @media (min-width: 992px) {
