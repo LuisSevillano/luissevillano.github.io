@@ -30,6 +30,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elespanol.com/reportajes/20160415/117488600_0.html">
+          <span class="gallery-date">Apr 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/chernobil.jpg')"></div>
+          <p class="gallery-article-title">Last places before Chernobil</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elespanol.com/ciencia/20160304/106989569_0.html">
           <span class="gallery-date">Mar 2016</span>
           <div class="gallery-img" style="background-image: url('/img/manhattan-project.jpg')"></div>
