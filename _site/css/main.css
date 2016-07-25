@@ -49,8 +49,6 @@ header {
   width: 100%;
   padding: 0.2em 0.2em 0.2em 0.5em;
   margin-top: 0.5em;
-  background-color: rgba(197, 197, 197, 0.3);
-  border-radius: 0.1em;
   color: #111111; }
 
 .gallery-article-title:hover {
@@ -97,6 +95,9 @@ header {
   display: inline-block;
   box-shadow: 0 2px 10px #dde4e1;
   background-position-y: 0.5px; }
+
+.gallery-img, .gallery-article-title {
+  border-radius: 0.1em; }
 
 .gallery-img:hover {
   outline: 1px solid rgba(244, 109, 67, 0.1); }
