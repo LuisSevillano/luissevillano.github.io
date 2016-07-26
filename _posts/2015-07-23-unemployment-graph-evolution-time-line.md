@@ -1,8 +1,8 @@
 ---
 layout: work
-title:  "Small multiples slope charts"
-date:   2016-06-28 08:11:01
-permalink: small-multiples-slope-charts
+title:  "Spanish unemployment time line graph"
+date:   2015-07-23 08:11:01
+permalink: unemployment-graph-evolution-time-line
 ---
 <div class="row">
 <div class="col-md-5">
