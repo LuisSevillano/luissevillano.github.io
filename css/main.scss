@@ -17,14 +17,10 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%; font-size: 10px;}
 
 body {
-
-
   font-family: 'Lora', Helvetica, sans-serif;
-  //font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
   background-repeat: no-repeat;
@@ -45,7 +41,9 @@ a:visited { color: $links; }
 .site-header .container {
   margin-top: 2em;
 }
-
+p {
+  font-size: 1.8rem;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/

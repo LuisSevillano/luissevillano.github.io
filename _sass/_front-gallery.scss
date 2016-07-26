@@ -8,6 +8,10 @@
   padding: 0.2em 0.2em 0.2em 0.5em;
   margin-top: 0.5em;
   color: $black;
+  font-family: Monaco,"Courier New",Courier,monospace;
+  background-color: rgba(197,197,197,0.3);
+  font-size: 1.5em;
+
 
 
 }
@@ -88,7 +92,7 @@
   .gallery-article-title {
     padding: 0.2em 0.2em 0.2em 0.5em;
     margin: 0;
-    background-color: rgba(197,197,197,0.3);
+
     min-height: 60px;
     vertical-align: middle;
   }
