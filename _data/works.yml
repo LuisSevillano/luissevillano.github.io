@@ -52,3 +52,9 @@
   img: /img/epa.png
   date: JUL 2015
   link: /unemployment-graph-evolution-time-line
+  link: /static-maps
+
+- title: Choropleth map of Andalucía
+  img: /img/andalucia-full.png
+  date: MAR 2015
+  link: /choropleth-map-of-andalucía-spain
