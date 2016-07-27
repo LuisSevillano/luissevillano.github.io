@@ -17,7 +17,7 @@ The graph also shows data as to gender, age, economic sector and the interanual 
 </p>
 </div>
 <div class="col-md-5">
-<a href="http://www.elmundo.es/grafico/economia/2014/10/24/544a3a98268e3ece028b456d.html/"><img src="/img/epa-gif.gif" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
+<a href="http://www.elmundo.es/grafico/economia/2014/10/24/544a3a98268e3ece028b456d.html"><img src="/img/epa-gif.gif" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
 </div>
 </div>
 
@@ -26,7 +26,7 @@ The graph also shows data as to gender, age, economic sector and the interanual 
 </div>
 <div class="row">
 <div class="col-md-12">
-<a href="http://www.elmundo.es/grafico/economia/2014/10/24/544a3a98268e3ece028b456d.html/"><img src="/img/epa-line-chart.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+<a href="http://www.elmundo.es/grafico/economia/2014/10/24/544a3a98268e3ece028b456d.html"><img src="/img/epa-line-chart.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
 </div>
 </div>
