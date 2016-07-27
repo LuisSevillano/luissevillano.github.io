@@ -22,7 +22,7 @@ permalink: static-maps
         <a class="gallery-link" href="http://www.elespanol.com/ciencia/ecologia/20160726/142986612_0.html">
           <span class="gallery-date">Jul 2016</span>
           <div class="gallery-img" style="background-image: url('/img/sueca.jpg')"></div>
-          <p class="gallery-article-title">Water pollution in spain's beaches</p>
+          <p class="gallery-article-title">Water pollution in european beaches</p>
         </a>
       </div>
     </div>
