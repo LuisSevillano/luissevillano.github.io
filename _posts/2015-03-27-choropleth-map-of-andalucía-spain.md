@@ -6,7 +6,7 @@ permalink: choropleth-map-of-andalucía-spain
 ---
 <div class="row">
 <div class="col-md-7">
-<p>Easy news app for the 2015 Andalusian parliamentary election. Graph displays results by municipality, showing color according to the party with the best results. The tooltip shows numbers as to the seven main parties. The user can click and zoom on a specific area and also carry out a search for himself. As well, he can filter depending on each political party by clicking on the legend and watch the distribution of votes within the territory.
+<p>Easy news app for the 2015 Andalusian parliamentary election I made when I was working as freelancer for <a href="www.elmundo.es">elmundo.es</a> newspaper in 2015. Graph displays results by municipality, showing color according to the party with the best results. The tooltip shows numbers as to the seven main parties. The user can click and zoom on a specific area and also carry out a search for himself. As well, he can filter depending on each political party by clicking on the legend and watch the distribution of votes within the territory.
 HTML5 using JSON and d3.js.</p>
 <p class="pills">
 <span class="tool pill">HTML</span>
