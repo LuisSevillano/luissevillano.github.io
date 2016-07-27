@@ -1,5 +1,5 @@
 - title: Small multiples slope charts
-  img: /img/slope.jpg
+  img: /img/thumbnails/slope.jpg
   date: JUN 2016
   link: /small-multiples-slope-charts
 
@@ -9,27 +9,27 @@
   link: /brief-summary-of-how-Spain-voted-the-June-26th-spanish-election
 
 - title: The fall of Spain's Socialist Party
-  img: /img/psoe.png
+  img: /img/thumbnails/psoe.png
   date: JUN 2016
   link: /the-fall-of-spanish-socialis-party
 
 - title: Atlético de Madrid team vs Real Madrid
-  img: /img/football.jpg
+  img: /img/thumbnails/football.jpg
   date: MAY 2016
   link: /champions-league
 
 - title: Diagnosis
-  img: /img/diagnosis-front.png
+  img: /img/thumbnails/diagnosis-front.png
   date: APR 2016
   link: /diagnosis
 
 - title: Batman vs Superman
-  img: /img/batman.png
+  img: /img/thumbnails/batman.jpg
   date: MAR 2016
   link: /batman-vs-superman
 
 - title: Spain General Election Analysis
-  img: /img/bipartidismo.png
+  img: /img/thumbnails/bipartidismo.png
   date: DEC 2015
   link: /political-analysis-20D
 
@@ -39,22 +39,22 @@
   link: /line-chart
 
 - title: Catalan Election Analisis
-  img: /img/catalan-election-analisis.png
+  img: /img/thumbnails/catalan-election-analisis.png
   date: SEP 2015
   link: /catalan-election-analisis
 
 - title: Static maps
-  img: /img/panama.jpg
+  img: /img/thumbnails/panama.jpg
   date: DEC 2015
   link: /static-maps
 
 - title: Spanish unemployment time line graph
-  img: /img/epa.png
+  img: /img/thumbnails/epa.png
   date: JUL 2015
   link: /unemployment-graph-evolution-time-line
   link: /static-maps
 
 - title: Choropleth map of Andalucía
-  img: /img/andalucia-full.png
+  img: /img/thumbnails/andalucia-full.jpg
   date: MAR 2015
   link: /choropleth-map-of-andalucía-spain
