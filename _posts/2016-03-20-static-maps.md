@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elespanol.com/ciencia/ecologia/20160726/142986612_0.html">
+          <span class="gallery-date">Jul 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/sueca.jpg')"></div>
+          <p class="gallery-article-title">Water pollution in spain's beaches</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elespanol.com/reportajes/grandes-historias/20160715/140236919_0.html">
           <span class="gallery-date">Jul 2016</span>
           <div class="gallery-img" style="background-image: url('/img/ibiza-hamacas.jpg')"></div>
