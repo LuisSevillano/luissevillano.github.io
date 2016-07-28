@@ -16,7 +16,7 @@ HTML5 using JSON and d3.js.</p>
 </p>
 </div>
 <div class="col-md-5">
-<a href="http://www.elmundo.es/grafico/economia/2014/10/24/544a3a98268e3ece028b456d.html"><img src="/img/andalucia.gif" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
+<a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/andalucia.gif" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
 </div>
 </div>
 
@@ -25,12 +25,12 @@ HTML5 using JSON and d3.js.</p>
 </div>
 <div class="row">
 <div class="col-md-12">
-<a href="http://www.elmundo.es/grafico/economia/2014/10/24/544a3a98268e3ece028b456d.html"><img src="/img/upyd-andalucia.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+<a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/upyd-andalucia.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
 </div>
 <div class="row">
 <div class="col-md-12">
-<a href="http://www.elmundo.es/grafico/economia/2014/10/24/544a3a98268e3ece028b456d.html"><img src="/img/cs-andalucia.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+<a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/cs-andalucia.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
 </div>
 </div>
