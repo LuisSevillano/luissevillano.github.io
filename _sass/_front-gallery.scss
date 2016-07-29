@@ -94,10 +94,10 @@
 .gallery-date {
   color: $gallery-title;
   font-size: 1.3rem;
+  display: block;
   //font-weight: ;
   letter-spacing: 0.6em;
   font-weight: bold;
-  padding-bottom: 0.2em;
   text-transform: uppercase;
   //text-shadow: rgba(35, 55, 251,0.2) 0px -4px 3px, rgba(0, 0, 0, 0.1) 0px 0px 1px;
 }
@@ -125,7 +125,7 @@
     min-height: 375px;
   }
   .gallery-date {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
   }
 }
 /* Medium devices, desktop normal screens */

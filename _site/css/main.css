@@ -125,9 +125,9 @@ header {
 .gallery-date {
   color: #870d99;
   font-size: 1.3rem;
+  display: block;
   letter-spacing: 0.6em;
   font-weight: bold;
-  padding-bottom: 0.2em;
   text-transform: uppercase; }
 
 /* Medium devices, desktop normal screens */
@@ -150,7 +150,7 @@ header {
     min-height: 375px; }
 
   .gallery-date {
-    margin-bottom: 0.5em; } }
+    margin-bottom: 0.5rem; } }
 /* Medium devices, desktop normal screens */
 @media (min-width: 468px) and (max-width: 768px) {
   .gallery-img {
