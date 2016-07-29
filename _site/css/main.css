@@ -128,6 +128,7 @@ header {
   display: block;
   letter-spacing: 0.6em;
   font-weight: bold;
+  margin-bottom: 0.3rem;
   text-transform: uppercase; }
 
 /* Medium devices, desktop normal screens */
