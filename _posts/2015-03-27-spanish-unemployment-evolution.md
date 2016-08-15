@@ -6,8 +6,7 @@ permalink: spanish-unemployment-evolution
 ---
 <div class="row">
 <div class="col-md-7">
-<p>Easy news app for the 2015 Andalusian parliamentary election I made when I was working as freelancer for <a href="www.elmundo.es">elmundo.es</a> newspaper in 2015. Graph displays results by municipality, showing color according to the party with the best results. The tooltip shows numbers as to the seven main parties. The user can click and zoom on a specific area and also carry out a search for himself. As well, he can filter depending on each political party by clicking on the legend and watch the distribution of votes within the territory.
-HTML5 using JSON and d3.js.</p>
+<p>This chart was one of the first works I did for <a href="www.elmundo.es">elmundo.es</a> newspaper in 2015. Its an easy graph that shows unemployment evolution by months since January 2005, by economic sector and interanual evolution. It uses <em>mouse over</em> events to handle the whole display data. Thanks to d3.js newsroom people can update it just modifying the <em>csv</em> from which the graphic reads data.</p>
 <p class="pills">
 <span class="tool pill">HTML</span>
 <span class="tool pill">CSS</span>
@@ -16,21 +15,17 @@ HTML5 using JSON and d3.js.</p>
 </p>
 </div>
 <div class="col-md-5">
-<a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/andalucia.gif" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
+<a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img src="/img/pie.png" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
 </div>
-</div>
-
-<div class="img-container">
+<div class="">
 <div class="row">
 </div>
 <div class="row">
-<div class="col-md-12">
-<a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/upyd-andalucia.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+<div class="col-md-7">
+<a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img src="/img/unemployment.jpg" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/cs-andalucia.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+<div class="col-md-5">
+<a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img src="/img/bar.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
 </div>
 </div>
 </div>
