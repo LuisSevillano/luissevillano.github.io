@@ -6,7 +6,7 @@ permalink: unemployment-graph-evolution-time-line
 ---
 <div class="row">
 <div class="col-md-7">
-<p>This was one of my first works with d3js when I was working as freelancer for <a href="www.elmundo.es">elmundo.es</a> newspaper in 2015</p>
+<p>This was one of my first works with d3js when I was working as freelancer for <a href="http://www.elmundo.es/">elmundo.es</a> newspaper in 2015</p>
 <p>The graph shows the evolution of unemployment since 2005 in each province (state), national average and the max and min state values.
 The graph also shows data as to gender, age, economic sector and the interanual average.</p>
 <p class="pills">

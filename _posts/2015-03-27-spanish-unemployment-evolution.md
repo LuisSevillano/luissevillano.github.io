@@ -1,8 +1,8 @@
 ---
 layout: work
-title:  "Choropleth map of Andalucía, Spain"
-date:   2015-03-27 08:11:01
-permalink: choropleth-map-of-andalucía-spain
+title:  "Spanish unemployment evolution"
+date:   2015-05-07 08:10:01
+permalink: spanish-unemployment-evolution
 ---
 <div class="row">
 <div class="col-md-7">

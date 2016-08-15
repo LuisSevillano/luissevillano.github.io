@@ -62,3 +62,8 @@
   img: /img/thumbnails/andalucia-full.jpg
   date: MAR 2015
   link: /choropleth-map-of-andalucía-spain
+
+- title: Spanish unemployment evolution
+  img: /img/unemployment.png
+  date: MAY 2015
+  link: /spanish-unemployment-evolution
