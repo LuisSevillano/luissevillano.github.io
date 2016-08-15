@@ -1,12 +1,12 @@
 ---
 layout: work
 title:  "Spanish unemployment evolution"
-date:   2015-05-07 08:10:01
+date:   2014-06-02 08:10:01
 permalink: spanish-unemployment-evolution
 ---
 <div class="row">
 <div class="col-md-7">
-<p>This chart was one of the first works I did for <a href="www.elmundo.es">elmundo.es</a> newspaper in 2015. Its an easy graph that shows unemployment evolution by months since January 2005, by economic sector and interanual evolution. It uses <em>mouse over</em> events to handle the whole display data. Thanks to d3.js newsroom people can update it just modifying the <em>csv</em> from which the graphic reads data.</p>
+<p>This chart was one of the first works I did for <a href="www.elmundo.es">elmundo.es</a> newspaper in 2014. Its an easy graph that shows unemployment evolution by months since January 2005, by economic sector and interanual evolution. It uses <em>mouse over</em> events to handle the whole display data. Thanks to d3.js newsroom people can update it just modifying the <em>csv</em> from which the graphic reads data.</p>
 <p class="pills">
 <span class="tool pill">HTML</span>
 <span class="tool pill">CSS</span>

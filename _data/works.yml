@@ -53,17 +53,17 @@
   date: DEC 2015
   link: /static-maps
 
-- title: Spanish unemployment time line graph
-  img: /img/thumbnails/epa.png
-  date: JUL 2015
-  link: /unemployment-graph-evolution-time-line
-
 - title: Choropleth map of Andalucía
   img: /img/thumbnails/andalucia-full.jpg
   date: MAR 2015
   link: /choropleth-map-of-andalucía-spain
 
+- title: Spanish unemployment time line graph
+  img: /img/thumbnails/epa.png
+  date: JAN 2015
+  link: /unemployment-graph-evolution-time-line
+
 - title: Spanish unemployment evolution
   img: /img/unemployment.png
-  date: MAY 2015
+  date: JUN 2014
   link: /spanish-unemployment-evolution

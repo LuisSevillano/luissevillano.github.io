@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Spanish unemployment time line graph"
-date:   2015-07-23 08:11:01
+date:   2015-01-24 08:11:01
 permalink: unemployment-graph-evolution-time-line
 ---
 <div class="row">
