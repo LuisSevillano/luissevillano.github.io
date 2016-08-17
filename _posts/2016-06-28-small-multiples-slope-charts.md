@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Small multiples slope charts"
-date:   2016-06-28 08:11:01
+date:   2016-06-28
 permalink: small-multiples-slope-charts
 ---
 <div class="row">

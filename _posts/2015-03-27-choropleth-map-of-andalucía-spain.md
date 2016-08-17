@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Choropleth map of Andalucía, Spain"
-date:   2015-03-27 08:11:01
+date:   2015-03-27
 permalink: choropleth-map-of-andalucía-spain
 ---
 <div class="row">

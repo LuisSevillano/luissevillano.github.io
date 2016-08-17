@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Having fun on bl.ocks.org!"
-date:   2016-03-16 02:11:14
+date:   2016-03-16
 permalink: line-chart
 ---
 

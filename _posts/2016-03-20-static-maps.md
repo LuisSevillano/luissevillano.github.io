@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Static maps"
-date:   2016-03-20 16:3:31
+date:   2016-03-20
 permalink: static-maps
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Spain General Election Analysis"
-date:   2015-12-20 12:15:11
+date:   2015-12-20
 permalink: political-analysis-20D
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Diagnosis"
-date:   2016-04-15 09:00:00
+date:   2016-04-15
 permalink: diagnosis
 ---
 

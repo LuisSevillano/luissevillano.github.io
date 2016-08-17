@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Data explains superiority of Atlético de Madrid team vs Real Madrid"
-date:   2016-05-28 10:10:10
+date:   2016-05-28
 permalink: champions-league
 ---
 

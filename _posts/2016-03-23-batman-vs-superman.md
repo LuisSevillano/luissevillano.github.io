@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Batman vs Superman"
-date:   2016-03-23 09:25:01
+date:   2016-03-23
 permalink: batman-vs-superman
 ---
 

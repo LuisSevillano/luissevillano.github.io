@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "The fall of spanish Socialist party"
-date:   2016-06-06 09:10:10
+date:   2016-06-06
 permalink: the-fall-of-spanish-socialis-party
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Spanish unemployment evolution"
-date:   2014-06-02 08:10:01
+date:   2014-06-02
 permalink: spanish-unemployment-evolution
 ---
 <div class="row">

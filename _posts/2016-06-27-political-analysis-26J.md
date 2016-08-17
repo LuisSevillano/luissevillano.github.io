@@ -1,7 +1,7 @@
 ---
 layout: work
 title:  "Brief summary of how Spain voted the June 26th spanish election"
-date:   2016-06-27 08:11:01
+date:   2016-06-27
 permalink: brief-summary-of-how-Spain-voted-the-June-26th-spanish-election
 ---
 
