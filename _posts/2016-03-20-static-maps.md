@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elespanol.com/reportajes/grandes-historias/20160902/152485699_0.html">
+          <span class="gallery-date">Sep 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/desaparicion.jpg')"></div>
+          <p class="gallery-article-title">The disappearance of Diana Quer</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elespanol.com/ciencia/salud/20160811/146986204_0.html">
           <span class="gallery-date">Jul 2016</span>
           <div class="gallery-img" style="background-image: url('/img/madrid-m30.jpg')"></div>
