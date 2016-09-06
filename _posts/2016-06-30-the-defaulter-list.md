@@ -18,6 +18,5 @@ permalink: defaulter-list
 <span class="tool pill">dataTables</span>
 </p>
 <div class="img-container">
-<a href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/"><img src="/img/psoe.png" class="img-responsive img" alt="front-page"/></a>
-<a href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/"><img src="/img/evolucion-escanos.jpg" class="img-responsive img" alt="maps"/></a>
+<a href="http://datos.elespanol.com/proyectos/lista-morosos-hacienda/"><img src="/img/table.png" class="img-responsive img" alt="front-page"/></a>
 </div>
