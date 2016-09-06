@@ -5,7 +5,9 @@ date:   2016-06-20
 permalink: defaulter-list
 ---
 
-<p>PSOE known as Spanish Socialist Worker's Party is one of main political parties in Spain. In fact, with PP (Popular Party) both belong to the bipartidism order have had the control of govern of the country during almost last fourty years. That scenario has been changed. Since 2008 PSOE have lost votes in the 97,25% of municipios (small administrative unit). In <a href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/">this </a> feature we analyzed this scenario and their causes.
+<p>The spanish Tax Agency published for the second time a list of natural or legal persons who had a debt to the Treasury. 336 are individuals with a debt of 700 million. Legal persons are 4.510, with a debt of 15.000 million. Among them, still great presents real estate as Martinsa Fadesa and Aifos, the epicenter of Malaya plot that should 96 million euros. Sacyr adds with a debt of 116 million euros.
+</p>
+<p>That was an update of a previous feature so we can check and show who had paid, reduce or incremented their debt and we decided to presented it with color. The feature uses <a href="https://datatables.net/">datatables</a>, a jQuery plugin allows you to build a searchable and sortable table.
 </p>
 
 <p class="pills">
@@ -13,10 +15,7 @@ permalink: defaulter-list
 <span class="tool pill">SASS</span>
 <span class="tool pill">js</span>
 <span class="tool pill">d3.js</span>
-<span class="tool pill">topojson</span>
-<span class="tool pill">d3-ring-note</span>
-<span class="tool pill">spam.js</span>
-<span class="tool pill">ai2html</span>
+<span class="tool pill">dataTables</span>
 </p>
 <div class="img-container">
 <a href="http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/"><img src="/img/psoe.png" class="img-responsive img" alt="front-page"/></a>
