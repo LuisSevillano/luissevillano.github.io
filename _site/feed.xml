@@ -5,9 +5,9 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://www.luissevillano.github.io/</link>
     <atom:link href="http://www.luissevillano.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Sep 2016 17:48:07 +0200</pubDate>
-    <lastBuildDate>Tue, 06 Sep 2016 17:48:07 +0200</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <pubDate>Tue, 13 Sep 2016 14:01:25 +0200</pubDate>
+    <lastBuildDate>Tue, 13 Sep 2016 14:01:25 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Small multiples slope charts</title>
@@ -46,7 +46,7 @@
     
       <item>
         <title>Brief summary of how Spain voted the June 26th spanish election</title>
-        <description>&lt;p&gt;As the last &lt;a href=&quot;http://luissevillano.github.io/political-analysis-20D&quot;&gt;time&lt;/a&gt; Spain voted for Its future we run a special page for the  day after the elections. Its a summary of the main results, possible parties alliances or maps of bipartidism 'historic evolution'. Also, Its includes a big interactive table where our audience can find those provinces (~states) where the four main parties had won or lost seats.
+        <description>&lt;p&gt;As the last &lt;a href=&quot;http://luissevillano.github.io/political-analysis-20D&quot;&gt;time&lt;/a&gt; Spain voted for Its future we run a special page for the  day after the elections. Its a summary of the main results, possible parties alliances or maps of bipartidism &#39;historic evolution&#39;. Also, Its includes a big interactive table where our audience can find those provinces (~states) where the four main parties had won or lost seats.
 &lt;/p&gt;
 &lt;p class=&quot;pills&quot;&gt;
 &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
@@ -123,7 +123,7 @@
     
       <item>
         <title>The fall of spanish Socialist party</title>
-        <description>&lt;p&gt;PSOE known as Spanish Socialist Worker's Party is one of main political parties in Spain. In fact, with PP (Popular Party) both belong to the bipartidism order have had the control of govern of the country during almost last fourty years. That scenario has been changed. Since 2008 PSOE have lost votes in the 97,25% of municipios (small administrative unit). In &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;this &lt;/a&gt; feature we analyzed this scenario and their causes.
+        <description>&lt;p&gt;PSOE known as Spanish Socialist Worker&#39;s Party is one of main political parties in Spain. In fact, with PP (Popular Party) both belong to the bipartidism order have had the control of govern of the country during almost last fourty years. That scenario has been changed. Since 2008 PSOE have lost votes in the 97,25% of municipios (small administrative unit). In &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;this &lt;/a&gt; feature we analyzed this scenario and their causes.
 &lt;/p&gt;
 
 &lt;p class=&quot;pills&quot;&gt;
@@ -252,7 +252,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/grandes-historias/20160902/152485699_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Sep 2016&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/desaparicion.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/desaparicion.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;The disappearance of Diana Quer&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -263,7 +263,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/ciencia/salud/20160811/146986204_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/madrid-m30.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/madrid-m30.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;About noise pollution in Madrid city&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -274,7 +274,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/ciencia/ecologia/20160726/142986612_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/sueca.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/sueca.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;Water pollution in european beaches&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -285,8 +285,8 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/grandes-historias/20160715/140236919_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/ibiza-hamacas.jpg')&quot;&gt;&lt;/div&gt;
-          &lt;p class=&quot;gallery-article-title&quot;&gt;The Ibiza hammocks' mafia&lt;/p&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/ibiza-hamacas.jpg&#39;)&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;The Ibiza hammocks&#39; mafia&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -296,7 +296,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20160415/117488600_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Apr 2016&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/chernobil.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/chernobil.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;Last places before Chernobil&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -307,7 +307,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/ciencia/20160304/106989569_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Mar 2016&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/manhattan-project.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/manhattan-project.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;The Conqueor (1956)&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -318,7 +318,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20160307/107739538_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Mar 2016&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/refugees.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/refugees.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;Idomeni refugee camp location&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -329,7 +329,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20160304/106989558_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Feb 2016&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/tibet.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/tibet.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;The Tibet&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -340,7 +340,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20151225/89491075_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Dec 2015&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/panama.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/panama.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;The Panama Canal&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -351,7 +351,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20151118/80242022_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Nov 2015&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/daesh.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/daesh.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;Daesh groups&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -362,7 +362,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20151030/75492477_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Nov 2015&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/sula.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/sula.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;San Pedro Sula&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -373,7 +373,7 @@
       &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/enfoques/20151006/69493080_0.html&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Oct 2015&lt;/span&gt;
-          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/lesvos.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url(&#39;/img/lesvos.jpg&#39;)&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;A map of Lesvos&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
@@ -418,7 +418,7 @@
     
       <item>
         <title>Having fun on bl.ocks.org!</title>
-        <description>&lt;p&gt;I wrote &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano/7646cfbf60cb32b864c9&quot;&gt;this&lt;/a&gt; example of step linear chart using d3.js, a JavaScript library for manipulating documents based on data created by &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/mbostock&quot;&gt;Mike Bostock&lt;/a&gt; and the main tool I use each day. Bl.ocks is a simple viewer for sharing code examples hosted on GitHub Gist and a good way to save and keep it to access faster. &lt;a href=&quot;http://bl.ocks.org/LuisSevillano&quot;&gt;Here's mine&lt;/a&gt;.
+        <description>&lt;p&gt;I wrote &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano/7646cfbf60cb32b864c9&quot;&gt;this&lt;/a&gt; example of step linear chart using d3.js, a JavaScript library for manipulating documents based on data created by &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/mbostock&quot;&gt;Mike Bostock&lt;/a&gt; and the main tool I use each day. Bl.ocks is a simple viewer for sharing code examples hosted on GitHub Gist and a good way to save and keep it to access faster. &lt;a href=&quot;http://bl.ocks.org/LuisSevillano&quot;&gt;Here&#39;s mine&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p class=&quot;pills&quot;&gt;
 &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
