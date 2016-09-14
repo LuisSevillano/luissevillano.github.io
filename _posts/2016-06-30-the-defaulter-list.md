@@ -9,14 +9,13 @@ permalink: defaulter-list
 </p>
 <p>That was an update of a previous feature so we can check and show who had paid, reduce or incremented their debt. We decided to presented it with color. The feature uses <a href="https://datatables.net/">datatables</a>, a jQuery plugin allows you to build a searchable and sortable table in an easy way.
 </p>
-
 <p class="pills">
-<span class="tool pill">HTML</span>
-<span class="tool pill">SASS</span>
-<span class="tool pill">js</span>
-<span class="tool pill">d3.js</span>
-<span class="tool pill">dataTables</span>
+  <span class="tool pill">HTML</span>
+  <span class="tool pill">SASS</span>
+  <span class="tool pill">js</span>
+  <span class="tool pill">d3.js</span>
+  <span class="tool pill">dataTables</span>
 </p>
 <div class="img-container">
-<a href="http://datos.elespanol.com/proyectos/lista-morosos-hacienda/"><img src="/img/table.png" class="img-responsive img" alt="front-page"/></a>
+  <a href="http://datos.elespanol.com/proyectos/lista-morosos-hacienda/"><img src="/img/table.png" class="img-responsive img" alt="front-page"/></a>
 </div>

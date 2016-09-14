@@ -8,11 +8,11 @@ permalink: diagnosis
 <p>I worked with my colleague <a href="https://twitter.com/martgnz">Martín González</a> in this <a href="http://reportajes.elespanol.com/diagnosis/">cool project</a> about rapid diagnostic tests funded by a Journalism Grant. Its a series of articles with three international media partners: Quartz, Krautreporter and Efecto Cocuyo. </p>
 <p>Martín made the whole website design and I take care about datavisualization and maps. We decided to elaborate a globe map locator for each story and special big maps for two of the main stories.</p>
 <p class="pills">
-<span class="tool pill">QGIS</span>
-<span class="tool pill">illustrator</span>
-<span class="tool pill">ai2html</span>
-<span class="tool pill">HTML</span>
-<span class="tool pill">SASS</span>
+  <span class="tool pill">QGIS</span>
+  <span class="tool pill">illustrator</span>
+  <span class="tool pill">ai2html</span>
+  <span class="tool pill">HTML</span>
+  <span class="tool pill">SASS</span>
 </p>
 <div class="img-container">
   <div class="col-md-12">
