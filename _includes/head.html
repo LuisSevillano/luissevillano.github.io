@@ -1,13 +1,20 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="viewport" content="width=device-width">
-  <meta name="description" content="{{ site.description }}">
-  <link rel="icon" type="image/png" href="/img/fav.png" sizes="32x32">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <link rel="icon" type="image/png" href="/img/fav.png" sizes="32x32">
+    <meta itemprop="description" content="{{site.description}}">
+    <meta name="twitter:description" content="{{site.description}}">
+    <meta property="og:description" content="{{site.description}}" />
+    <meta property="og:site_name" content="{{site.title}}" />
+    <meta itemprop="image" content="https://luissevillano.github.io/img/share.jpg">
+    <meta property="og:image" content="https://luissevillano.github.io/img/share.jpg">
+    <meta name="twitter:image" content="https://luissevillano.github.io/img/share.jpg">
+    <meta property="og:type" content="website"/>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  {% seo %}
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    {% seo %}
 </head>
