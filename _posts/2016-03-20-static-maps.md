@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elindependiente.com/politica/2016/10/02/refugiados-cifras-verguenza/">
+          <span class="gallery-date">Oct 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/refugees-ciris.jpg')"></div>
+          <p class="gallery-article-title">Refugee crisis</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elespanol.com/reportajes/grandes-historias/20160902/152485699_0.html">
           <span class="gallery-date">Sep 2016</span>
           <div class="gallery-img" style="background-image: url('/img/desaparicion.jpg')"></div>
