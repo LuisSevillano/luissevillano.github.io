@@ -52,6 +52,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elespanol.com/reportajes/grandes-historias/20160729/143736438_0.html">
+          <span class="gallery-date">Jul 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/suicides-triangle.jpg')"></div>
+          <p class="gallery-article-title">The suicides triangle</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elespanol.com/ciencia/ecologia/20160726/142986612_0.html">
           <span class="gallery-date">Jul 2016</span>
           <div class="gallery-img" style="background-image: url('/img/sueca.jpg')"></div>

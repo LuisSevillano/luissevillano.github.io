@@ -3,11 +3,11 @@
   <channel>
     <title>Luis Sevillano</title>
     <description>Some of my data visualization/ infographics work</description>
-    <link>http://www.luissevillano.github.io/</link>
-    <atom:link href="http://www.luissevillano.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Oct 2016 11:19:46 +0200</pubDate>
-    <lastBuildDate>Mon, 03 Oct 2016 11:19:46 +0200</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 07 Oct 2016 11:02:54 +0200</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2016 11:02:54 +0200</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Small multiples slope charts</title>
@@ -38,8 +38,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 28 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://www.luissevillano.github.io/small-multiples-slope-charts</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/small-multiples-slope-charts</guid>
+        <link>http://localhost:4000/small-multiples-slope-charts</link>
+        <guid isPermaLink="true">http://localhost:4000/small-multiples-slope-charts</guid>
         
         
       </item>
@@ -90,8 +90,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 27 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://www.luissevillano.github.io/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
+        <link>http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
+        <guid isPermaLink="true">http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
         
         
       </item>
@@ -114,8 +114,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://www.luissevillano.github.io/defaulter-list</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/defaulter-list</guid>
+        <link>http://localhost:4000/defaulter-list</link>
+        <guid isPermaLink="true">http://localhost:4000/defaulter-list</guid>
         
         
       </item>
@@ -139,8 +139,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://www.luissevillano.github.io/the-fall-of-spanish-socialis-party</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/the-fall-of-spanish-socialis-party</guid>
+        <link>http://localhost:4000/the-fall-of-spanish-socialis-party</link>
+        <guid isPermaLink="true">http://localhost:4000/the-fall-of-spanish-socialis-party</guid>
         
         
       </item>
@@ -164,8 +164,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 28 May 2016 00:00:00 +0200</pubDate>
-        <link>http://www.luissevillano.github.io/champions-league</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/champions-league</guid>
+        <link>http://localhost:4000/champions-league</link>
+        <guid isPermaLink="true">http://localhost:4000/champions-league</guid>
         
         
       </item>
@@ -194,8 +194,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 15 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://www.luissevillano.github.io/diagnosis</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/diagnosis</guid>
+        <link>http://localhost:4000/diagnosis</link>
+        <guid isPermaLink="true">http://localhost:4000/diagnosis</guid>
         
         
       </item>
@@ -225,8 +225,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 23 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.luissevillano.github.io/batman-vs-superman</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/batman-vs-superman</guid>
+        <link>http://localhost:4000/batman-vs-superman</link>
+        <guid isPermaLink="true">http://localhost:4000/batman-vs-superman</guid>
         
         
       </item>
@@ -273,6 +273,17 @@
           &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
           &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/madrid-m30.jpg')&quot;&gt;&lt;/div&gt;
           &lt;p class=&quot;gallery-article-title&quot;&gt;About noise pollution in Madrid city&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/grandes-historias/20160729/143736438_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/suicides-triangle.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;The suicides triangle&lt;/p&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -390,8 +401,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.luissevillano.github.io/static-maps</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/static-maps</guid>
+        <link>http://localhost:4000/static-maps</link>
+        <guid isPermaLink="true">http://localhost:4000/static-maps</guid>
         
         
       </item>
@@ -418,8 +429,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.luissevillano.github.io/catalan-election-analisis</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/catalan-election-analisis</guid>
+        <link>http://localhost:4000/catalan-election-analisis</link>
+        <guid isPermaLink="true">http://localhost:4000/catalan-election-analisis</guid>
         
         
       </item>
@@ -435,8 +446,8 @@
 &lt;p&gt;&lt;img src=&quot;/img/line-chart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://www.luissevillano.github.io/line-chart</link>
-        <guid isPermaLink="true">http://www.luissevillano.github.io/line-chart</guid>
+        <link>http://localhost:4000/line-chart</link>
+        <guid isPermaLink="true">http://localhost:4000/line-chart</guid>
         
         
       </item>
