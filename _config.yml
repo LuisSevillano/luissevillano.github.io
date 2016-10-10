@@ -22,3 +22,6 @@ highlighter: rouge
 
 gems:
  - jekyll-seo-tag
+
+# Google services
+google_analytics: UA-85459764-1
