@@ -15,9 +15,13 @@
 .site-header {
   width: 90%; }
 
+body {
+  overflow: hidden; }
+
 header {
   padding-top: 1.8rem;
-  padding-bottom: 1.8rem; }
+  padding-bottom: 1.8rem;
+  padding-left: 30px; }
 
 .site-nav {
   float: right;
