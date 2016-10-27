@@ -40,11 +40,12 @@ header {
   color: #727272;
   letter-spacing: -.5px;
 }
+
 /* Medium devices, desktop normal screens */
 @media (min-width: $screen-md-min) {
   .site-header {
     margin: 0 auto;
-    width: 1170px;
+      width: 970px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -58,4 +59,10 @@ header {
 }
 /* Small devices, tablets */
 @media (min-width: $screen-sm-min) {
+}
+/* big devices && desktops */
+@media (min-width: $screen-lg-min) {
+  .site-header {
+    width: 1170px;
+  }
 }

@@ -39,7 +39,7 @@ header {
 @media (min-width: 992px) {
   .site-header {
     margin: 0 auto;
-    width: 1170px;
+    width: 970px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -49,6 +49,10 @@ header {
   .subtitle {
     line-height: 1em; } }
 /* Small devices, tablets */
+/* big devices && desktops */
+@media (min-width: 1200px) {
+  .site-header {
+    width: 1170px; } }
 .gallery-article-title {
   margin: 0;
   width: 100%;
