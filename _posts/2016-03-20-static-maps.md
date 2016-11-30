@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elindependiente.com/politica/2016/11/29/avion-llevaba-equipo-futbol-brasileno-sufre-accidente-colombia/">
+          <span class="gallery-date">Nov 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/accidente-avion-colombia.jpg')"></div>
+          <p class="gallery-article-title">Chapecoense plane crash</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/politica/2016/10/02/refugiados-cifras-verguenza/">
           <span class="gallery-date">Oct 2016</span>
           <div class="gallery-img" style="background-image: url('/img/refugees-ciris.jpg')"></div>
