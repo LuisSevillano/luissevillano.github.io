@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luis Sevillano</title>
+    <description>Some of my data visualization/ infographics work</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 30 Nov 2016 10:46:54 +0100</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2016 10:46:54 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Small multiples slope charts</title>
+        <description>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-5&quot;&gt;
+    &lt;p&gt;In the spanish post election context we analyzed and compared the results of last time election (December 20th 2015) and this time (June 26th 2016). The comparision was province by province and we consider the four or five main parties.&lt;/p&gt;
+    &lt;p&gt;The result is a nice small multiples slope charts. This kind of graph include a series of similar graphs with the same scale and axis allowing them to be easily compared and popularized by Edward Tufte.&lt;/p&gt;
+    &lt;p class=&quot;pills&quot;&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-7&quot;&gt;
+    &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/asi-fue-la-remontada-de-rajoy/&quot;&gt;&lt;img src=&quot;/img/slope-two.png&quot; class=&quot;img-responsive img no-margin&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/asi-fue-la-remontada-de-rajoy/&quot;&gt;&lt;img src=&quot;/img/slope.gif&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 28 Jun 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/small-multiples-slope-charts</link>
+        <guid isPermaLink="true">http://localhost:4000/small-multiples-slope-charts</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Brief summary of how Spain voted the June 26th spanish election</title>
+        <description>&lt;p&gt;As the last &lt;a href=&quot;http://luissevillano.github.io/political-analysis-20D&quot;&gt;time&lt;/a&gt; Spain voted for Its future we run a special page for the  day after the elections. Its a summary of the main results, possible parties alliances or maps of bipartidism 'historic evolution'. Also, Its includes a big interactive table where our audience can find those provinces (~states) where the four main parties had won or lost seats.
+&lt;/p&gt;
+&lt;p&gt;
+With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia López&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/NicolasPerezi&quot;&gt;Nicolás Pérez&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;spam&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;illustrator&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/resultados/resumen/&quot;&gt;&lt;img src=&quot;/img/provinces-winner.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/resultados/resumen/&quot;&gt;&lt;img src=&quot;/img/seats-per-party.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;p class=&quot;separator&quot;&gt;This time we used Illos by &lt;a href=&quot;https://twitter.com/jmunozfe&quot;&gt;Javier Muñoz&lt;/a&gt; in the graph of parties alliances.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;
+      &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/resultados/resumen/&quot;&gt;&lt;img src=&quot;/img/resultado-municipios-2015.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-6&quot;&gt;
+      &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/resultados/resumen/&quot;&gt;&lt;img src=&quot;/img/alliances.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/resultados/resumen/&quot;&gt;&lt;img src=&quot;/img/26j.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
+        <guid isPermaLink="true">http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Defaulter List</title>
+        <description>&lt;p&gt;The spanish Tax Agency published for the second time a list of natural or legal persons who had a debt to the Treasury. 336 are individuals with a debt of 700 million. Legal persons are 4.510, with a debt of 15.000 million. Among them, still great presents real estate as Martinsa Fadesa and Aifos, the epicenter of Malaya plot that should 96 million euros. Sacyr adds with a debt of 116 million euros.
+&lt;/p&gt;
+&lt;p&gt;That was an update of a previous feature so we can check and show who had paid, reduce or incremented their debt. We decided to presented it with color. The feature uses &lt;a href=&quot;https://datatables.net/&quot;&gt;datatables&lt;/a&gt;, a jQuery plugin allows you to build a searchable and sortable table in an easy way.
+&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;dataTables&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;a href=&quot;http://datos.elespanol.com/proyectos/lista-morosos-hacienda/&quot;&gt;&lt;img src=&quot;/img/table.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 20 Jun 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/defaulter-list</link>
+        <guid isPermaLink="true">http://localhost:4000/defaulter-list</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The fall of spanish Socialist party</title>
+        <description>&lt;p&gt;PSOE known as Spanish Socialist Worker's Party is one of main political parties in Spain. In fact, with PP (Popular Party) both belong to the bipartidism order have had the control of govern of the country during almost last fourty years. That scenario has been changed. Since 2008 PSOE have lost votes in the 97,25% of municipios (small administrative unit). In &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;this &lt;/a&gt; feature we analyzed this scenario and their causes.&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;d3-ring-note&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;spam.js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;&lt;img src=&quot;/img/psoe.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;&lt;img src=&quot;/img/evolucion-escanos.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 06 Jun 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/the-fall-of-spanish-socialis-party</link>
+        <guid isPermaLink="true">http://localhost:4000/the-fall-of-spanish-socialis-party</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Data explains superiority of Atlético de Madrid team vs Real Madrid</title>
+        <description>&lt;p&gt;In the final of Champions League context we analyzed the last 12 times faced Atletico de Madrid and Real Madrid. &lt;a href=&quot;https://twitter.com/NicolasPerezi&quot;&gt;Nicolás Pérez&lt;/a&gt; and I wanted to made something nice and was first time in sports. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;Here&lt;/a&gt; is the feature.&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;PYTHON&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;pandas&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/football.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+
+  &lt;a href=&quot;http://datos.elespanol.com/proyectos/datos-ultimos-partidos-real-madrid-atletico-de-madrid/&quot;&gt;&lt;img src=&quot;/img/barchart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 28 May 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/champions-league</link>
+        <guid isPermaLink="true">http://localhost:4000/champions-league</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Diagnosis</title>
+        <description>&lt;p&gt;I worked with my colleague &lt;a href=&quot;https://twitter.com/martgnz&quot;&gt;Martín González&lt;/a&gt; in this &lt;a href=&quot;http://reportajes.elespanol.com/diagnosis/&quot;&gt;cool project&lt;/a&gt; about rapid diagnostic tests funded by a Journalism Grant. Its a series of articles with three international media partners: Quartz, Krautreporter and Efecto Cocuyo. &lt;/p&gt;
+&lt;p&gt;Martín made the whole website design and I take care about datavisualization and maps. We decided to elaborate a globe map locator for each story and special big maps for two of the main stories.&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;QGIS&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;illustrator&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;div class=&quot;col-md-12&quot;&gt;
+    &lt;a href=&quot;http://reportajes.elespanol.com/diagnosis/zika-punto-negro-diagnosticos/&quot;&gt;&lt;img src=&quot;/img/globe.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-12&quot;&gt;
+    &lt;a href=&quot;http://reportajes.elespanol.com/diagnosis/morir-malaria-miedo-ebola/&quot;&gt;&lt;img src=&quot;/img/africa.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-12&quot;&gt;
+    &lt;a href=&quot;http://reportajes.elespanol.com/diagnosis/zika-punto-negro-diagnosticos/&quot;&gt;&lt;img src=&quot;/img/brazil.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 15 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/diagnosis</link>
+        <guid isPermaLink="true">http://localhost:4000/diagnosis</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Batman vs Superman</title>
+        <description>&lt;p&gt;For the premiere of the &lt;strong&gt;Batman vs Superman&lt;/strong&gt; film we decided to make a branded content feature. Taking an simple data analysis of every time both superheroes faced any time on comic universe. Draws by &lt;a href=&quot;https://twitter.com/Camarasasaurus&quot;&gt;Andrés Pérez&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;scrollstory&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;illustration&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;div class=&quot;col-md-12&quot;&gt;
+    &lt;a href=&quot;http://datos.elespanol.com/proyectos/batman-vs-superman-la-nueva-pelicula-de-ben-affleck-y-henry-cavill/&quot;&gt;&lt;img src=&quot;/img/batman.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;a href=&quot;http://datos.elespanol.com/proyectos/batman-vs-superman-la-nueva-pelicula-de-ben-affleck-y-henry-cavill/&quot;&gt;&lt;img src=&quot;/img/batman2.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;a href=&quot;http://datos.elespanol.com/proyectos/batman-vs-superman-la-nueva-pelicula-de-ben-affleck-y-henry-cavill/&quot;&gt;&lt;img src=&quot;/img/batman3.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 23 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/batman-vs-superman</link>
+        <guid isPermaLink="true">http://localhost:4000/batman-vs-superman</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Static maps</title>
+        <description>&lt;p&gt;
+  Each day at the newsroom I have to &lt;a class=&quot;username link-no-icon&quot; href=&quot;https://youtu.be/BoeStB36dic&quot;&gt;deal with&lt;/a&gt; new opportunities to learn and improve bit by bit. During the last year I had to make different maps, usually I use QGIS for georeferencial issues, landsat imagery, and the base map. Then I use Illustrator to style and personalize it.
+&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;QGIS&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;Illustrator&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;Photoshop&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;Landsat&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/11/29/avion-llevaba-equipo-futbol-brasileno-sufre-accidente-colombia/&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Nov 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/accidente-avion-colombia.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Chapecoense plane crash&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/10/02/refugiados-cifras-verguenza/&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Oct 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/refugees-ciris.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Refugee crisis&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/grandes-historias/20160902/152485699_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Sep 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/desaparicion.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;The disappearance of Diana Quer&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/ciencia/salud/20160811/146986204_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/madrid-m30.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;About noise pollution in Madrid city&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/grandes-historias/20160729/143736438_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/suicides-triangle.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;The suicides triangle&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/ciencia/ecologia/20160726/142986612_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/sueca.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Water pollution in european beaches&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/grandes-historias/20160715/140236919_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Jul 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/ibiza-hamacas.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;The Ibiza hammocks' mafia&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20160415/117488600_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Apr 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/chernobil.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Last places before Chernobil&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/ciencia/20160304/106989569_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Mar 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/manhattan-project.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;The Conqueor (1956)&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20160307/107739538_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Mar 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/refugees.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Idomeni refugee camp location&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20160304/106989558_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Feb 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/tibet.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;The Tibet&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/reportajes/20151225/89491075_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Dec 2015&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/panama.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;The Panama Canal&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20151118/80242022_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Nov 2015&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/daesh.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Daesh groups&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/mundo/20151030/75492477_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Nov 2015&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/sula.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;San Pedro Sula&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elespanol.com/enfoques/20151006/69493080_0.html&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Oct 2015&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/lesvos.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;A map of Lesvos&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/static-maps</link>
+        <guid isPermaLink="true">http://localhost:4000/static-maps</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Catalan Election Analisis</title>
+        <description>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;p&gt;This was one of my first projects I worked on few weeks since I arrived at El Español. We looked for a politic analysis the day after Catalan Election with several political scientists, maps and graphs. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/elecciones-catalanas/&quot;&gt;Here&lt;/a&gt; is the result.
+    &lt;/p&gt;
+    &lt;p class=&quot;pills&quot;&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;a href=&quot;http://datos.elespanol.com/elecciones-catalanas/&quot;&gt;
+      &lt;img src=&quot;/img/catalan-election-analisis.png&quot; class=&quot;img-responsive img no-margin&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/catalan-election-analisis</link>
+        <guid isPermaLink="true">http://localhost:4000/catalan-election-analisis</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Having fun on bl.ocks.org!</title>
+        <description>&lt;p&gt;I wrote &lt;a target=&quot;_blank&quot; href=&quot;http://bl.ocks.org/LuisSevillano/7646cfbf60cb32b864c9&quot;&gt;this&lt;/a&gt; example of step linear chart using d3.js, a JavaScript library for manipulating documents based on data created by &lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/mbostock&quot;&gt;Mike Bostock&lt;/a&gt; and the main tool I use each day. Bl.ocks is a simple viewer for sharing code examples hosted on GitHub Gist and a good way to save and keep it to access faster. &lt;a href=&quot;http://bl.ocks.org/LuisSevillano&quot;&gt;Here's mine&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p class=&quot;pills&quot;&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
+  &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/line-chart.png&quot; class=&quot;img-responsive img&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/line-chart</link>
+        <guid isPermaLink="true">http://localhost:4000/line-chart</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
