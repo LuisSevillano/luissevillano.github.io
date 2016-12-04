@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elindependiente.com/politica/2016/12/04/italia-y-austria-votan-europa-en-peligro/">
+          <span class="gallery-date">Nov 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/populism.jpg')"></div>
+          <p class="gallery-article-title">Italy and Austria voting, Europe in danger</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/politica/2016/11/29/avion-llevaba-equipo-futbol-brasileno-sufre-accidente-colombia/">
           <span class="gallery-date">Nov 2016</span>
           <div class="gallery-img" style="background-image: url('/img/accidente-avion-colombia.jpg')"></div>
