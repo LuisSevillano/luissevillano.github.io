@@ -26,7 +26,7 @@ permalink: the-context-of-spanish-forces-in-the-mediterranean
       <span class="tool pill">css</span>
     </p>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-3 hidden-xs hidden-sm">
     <a href="http://www.elindependiente.com/politica/2016/12/09/19370/"><img src="/img/turkey-vertical.jpg" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
   </div>
 </div>
