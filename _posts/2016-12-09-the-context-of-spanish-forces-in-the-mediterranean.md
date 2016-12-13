@@ -7,16 +7,16 @@ permalink: the-context-of-spanish-forces-in-the-mediterranean
 <div class="row">
   <div class="col-md-9">
     <p>
-      Old and new conflicts have made the shores of the Mediterranean one of the most insecure places on the planet. The refugee crisis, which has plagued southern Europe for decades, has been aggravated by instability and chaos in Libya and Syria. Branchs of Islamist terrorism in North Africa and the threat of the Islamic State represent a danger to peace in the region, especially the Middle East, where many conflicts of the last century are still open.
+      Old and new conflicts have made the shores of the Mediterranean one of the most insecure places on the planet. The refugee crisis, which has plagued Southern Europe for decades, has been aggravated by instability and chaos in Libya and Syria. Branches of Islamist terrorism in North Africa and the threat of the Islamic State represent a danger to peace in the region, especially the Middle East, where many conflicts of the last century are still open.
     </p>
     <p>
-      Mi colleague <a href="https://twitter.com/gmpiantadosi">Giulio M. Piantadosi</a> had the chance to visit three of the places where spanish forces are present. The Naval Air Station Sigonella in Sicily, UNIFIL Deployment at the <i>blue line</i> in Lebanon and the Incirlik Air Base in Turkey.
+      My colleague <a href="https://twitter.com/gmpiantadosi">Giulio M. Piantadosi</a> had the chance to visit three of the places where Spanish forces are present. The Naval Air Station Sigonella in Sicily, UNIFIL Deployment at the <i>blue line</i> in Lebanon and the Incirlik Air Base in Turkey.
     </p>
     <p>
-      It was a great opportunity to work hard on that maps, to improve and use new technics and tools that will make that maps a little bit better than others I made before. So I made a <i>basemap</i> in QGIS using OSM shapefiles as <i>landuse</i> or <i>roads</i> playing with soft colors and rule-based styles. In two of the three maps I used a <a href="http://www.theearthsrelief.com/">The Earths Relief</a> DEM layer by <a href="http://www.clustergis.org/">Clustergis</a>. then I drew all the labels, arrows, polygons and other vectorial elements in illustrator.
+      It was a great opportunity to work hard on the maps, to improve and use new techniques and tools that make that maps a little bit better than others I made before. So I made a <i>basemap</i> in QGIS using OSM shapefiles as <i>landuse</i> or <i>roads</i> playing with soft colors and rule-based styles. In two of the three maps I used the <a href="http://www.theearthsrelief.com/">The Earth's Relief</a> DEM layer, make by <a href="http://www.clustergis.org/">ClusterGIS</a>. Then I drew all the labels, arrows, polygons and other vectorial elements in Illustrator.
     </p>
     <p>
-      Finally I used the <a href="www.ai2html.org">ai2html</a> plugin for Illustrator to publishing on the web. I created five designs for each map, fifteen artboards in total. I created an easy <a href="https://gist.github.com/LuisSevillano/8405308f6d3ea7423c9f9c13b7e248e3">script</a> to manage downlaod correct pngs. Ai2html uses css's display block/in-line to show correct artboards depending on screen size. If we not use some script like this one or a lazy load plugin our reader will download one png file for each artboard although he is not seeing it.
+      Finally I used the <a href="http://ai2html.org/">ai2html</a> plugin for Illustrator to publish on the web. I created five designs for each map, fifteen Artboards in total. ai2html uses CSS's display block/in-line to show correct artboards depending on screen size. If we don't use a script or a lazy load the reader will have to download the images for all the screen sizes. To fix that I created an easy <a href="https://gist.github.com/LuisSevillano/8405308f6d3ea7423c9f9c13b7e248e3">script</a> to manage download correct pngs. 
     </p>
     <p>
       <a class="no-style-link" href="http://www.elindependiente.com/politica/2016/12/09/19370/">Go to proyect.</a>
