@@ -3,13 +3,14 @@
 
 
 .gallery-article-title {
+  min-height: 50px;
   margin: 0;
   width: 100%;
   padding: 0.2em 0.2em 0.2em 0.5em;
   margin-top: 0.5em;
   color: $black;
   font-family: Monaco,"Courier New",Courier,monospace;
-  background-color: rgba(197,197,197,0.3);
+  background-color: rgb(240,240,240);
   font-size: 1.5em;
   /* Internet Explorer 10 */
   display:-ms-flexbox;

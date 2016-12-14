@@ -51,13 +51,14 @@ header {
   .site-header {
     width: 1170px; } }
 .gallery-article-title {
+  min-height: 50px;
   margin: 0;
   width: 100%;
   padding: 0.2em 0.2em 0.2em 0.5em;
   margin-top: 0.5em;
   color: #111111;
   font-family: Monaco,"Courier New",Courier,monospace;
-  background-color: rgba(197, 197, 197, 0.3);
+  background-color: #f0f0f0;
   font-size: 1.5em;
   /* Internet Explorer 10 */
   display: -ms-flexbox;
@@ -128,7 +129,7 @@ header {
   outline: 1px solid rgba(244, 109, 67, 0.1); }
 
 .gallery-date {
-  color: #870d99;
+  color: #0a0a0a;
   font-size: 1.3rem;
   display: block;
   letter-spacing: 0.6em;
@@ -256,6 +257,11 @@ header {
 
   .site-footer ul {
     margin: 0; } }
+#map {
+  position: fixed;
+  top: 0;
+  left: 0; }
+
 article p {
   text-align: left;
   color: #505050; }

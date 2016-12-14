@@ -3,10 +3,10 @@
   <channel>
     <title>Luis Sevillano</title>
     <description>Some of my data visualization/ infographics work</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Dec 2016 21:00:46 +0100</pubDate>
-    <lastBuildDate>Tue, 13 Dec 2016 21:00:46 +0100</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 14 Dec 2016 12:01:55 +0100</pubDate>
+    <lastBuildDate>Wed, 14 Dec 2016 12:01:55 +0100</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -23,7 +23,7 @@
       It was a great opportunity to work hard on the maps, to improve and use new techniques and tools that make that maps a little bit better than others I made before. So I made a &lt;i&gt;basemap&lt;/i&gt; in QGIS using OSM shapefiles as &lt;i&gt;landuse&lt;/i&gt; or &lt;i&gt;roads&lt;/i&gt; playing with soft colors and rule-based styles. In two of the three maps I used the &lt;a href=&quot;http://www.theearthsrelief.com/&quot;&gt;The Earth's Relief&lt;/a&gt; DEM layer, make by &lt;a href=&quot;http://www.clustergis.org/&quot;&gt;ClusterGIS&lt;/a&gt;. Then I drew all the labels, arrows, polygons and other vectorial elements in Illustrator.
     &lt;/p&gt;
     &lt;p&gt;
-      Finally I used the &lt;a href=&quot;http://ai2html.org/&quot;&gt;ai2html&lt;/a&gt; plugin for Illustrator to publish on the web. I created five designs for each map, fifteen Artboards in total. ai2html uses CSS's display block/in-line to show correct artboards depending on screen size. If we don't use a script or a lazy load the reader will have to download the images for all the screen sizes. To fix that I created an easy &lt;a href=&quot;https://gist.github.com/LuisSevillano/8405308f6d3ea7423c9f9c13b7e248e3&quot;&gt;script&lt;/a&gt; to manage download correct pngs. 
+      Finally I used the &lt;a href=&quot;http://ai2html.org/&quot;&gt;ai2html&lt;/a&gt; plugin for Illustrator to publish on the web. I created five designs for each map, fifteen Artboards in total. ai2html uses CSS's display block/in-line to show correct artboards depending on screen size. If we don't use a script or a lazy load the reader will have to download the images for all the screen sizes. To fix that I created an easy &lt;a href=&quot;https://gist.github.com/LuisSevillano/8405308f6d3ea7423c9f9c13b7e248e3&quot;&gt;script&lt;/a&gt; which downloads only one image for each resolution.
     &lt;/p&gt;
     &lt;p&gt;
       &lt;a class=&quot;no-style-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/12/09/19370/&quot;&gt;Go to proyect.&lt;/a&gt;
@@ -55,8 +55,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 09 Dec 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/the-context-of-spanish-forces-in-the-mediterranean</link>
-        <guid isPermaLink="true">http://localhost:4000/the-context-of-spanish-forces-in-the-mediterranean</guid>
+        <link>http://0.0.0.0:4000/the-context-of-spanish-forces-in-the-mediterranean</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/the-context-of-spanish-forces-in-the-mediterranean</guid>
         
         
       </item>
@@ -90,8 +90,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 28 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/small-multiples-slope-charts</link>
-        <guid isPermaLink="true">http://localhost:4000/small-multiples-slope-charts</guid>
+        <link>http://0.0.0.0:4000/small-multiples-slope-charts</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/small-multiples-slope-charts</guid>
         
         
       </item>
@@ -145,8 +145,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 27 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
-        <guid isPermaLink="true">http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
+        <link>http://0.0.0.0:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
         
         
       </item>
@@ -169,8 +169,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/defaulter-list</link>
-        <guid isPermaLink="true">http://localhost:4000/defaulter-list</guid>
+        <link>http://0.0.0.0:4000/defaulter-list</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/defaulter-list</guid>
         
         
       </item>
@@ -194,8 +194,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/the-fall-of-spanish-socialis-party</link>
-        <guid isPermaLink="true">http://localhost:4000/the-fall-of-spanish-socialis-party</guid>
+        <link>http://0.0.0.0:4000/the-fall-of-spanish-socialis-party</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/the-fall-of-spanish-socialis-party</guid>
         
         
       </item>
@@ -219,8 +219,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 28 May 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/champions-league</link>
-        <guid isPermaLink="true">http://localhost:4000/champions-league</guid>
+        <link>http://0.0.0.0:4000/champions-league</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/champions-league</guid>
         
         
       </item>
@@ -249,8 +249,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 15 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/diagnosis</link>
-        <guid isPermaLink="true">http://localhost:4000/diagnosis</guid>
+        <link>http://0.0.0.0:4000/diagnosis</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/diagnosis</guid>
         
         
       </item>
@@ -280,8 +280,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 23 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/batman-vs-superman</link>
-        <guid isPermaLink="true">http://localhost:4000/batman-vs-superman</guid>
+        <link>http://0.0.0.0:4000/batman-vs-superman</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/batman-vs-superman</guid>
         
         
       </item>
@@ -478,8 +478,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/static-maps</link>
-        <guid isPermaLink="true">http://localhost:4000/static-maps</guid>
+        <link>http://0.0.0.0:4000/static-maps</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/static-maps</guid>
         
         
       </item>
@@ -506,8 +506,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/catalan-election-analisis</link>
-        <guid isPermaLink="true">http://localhost:4000/catalan-election-analisis</guid>
+        <link>http://0.0.0.0:4000/catalan-election-analisis</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/catalan-election-analisis</guid>
         
         
       </item>

@@ -21,8 +21,8 @@
 <meta property="og:title" content="Choropleth map of Andalucía, Spain" />
 <meta name="description" content="      Easy news app for the 2015 Andalusian parliamentary election I made when I was working as freelancer for elmundo.es newspaper in 2015. Graph displays results by municipality, showing color according to the party with the best results. The tooltip shows numbers as to the seven main parties. The user can click and zoom on a specific area and also carry out a search for himself. As well, he can filter depending on each political party by clicking on the legend and watch the distribution of votes within the territory.      HTML5 using JSON and d3.js.              HTML      CSS      js      d3.js              " />
 <meta property="og:description" content="      Easy news app for the 2015 Andalusian parliamentary election I made when I was working as freelancer for elmundo.es newspaper in 2015. Graph displays results by municipality, showing color according to the party with the best results. The tooltip shows numbers as to the seven main parties. The user can click and zoom on a specific area and also carry out a search for himself. As well, he can filter depending on each political party by clicking on the legend and watch the distribution of votes within the territory.      HTML5 using JSON and d3.js.              HTML      CSS      js      d3.js              " />
-<link rel="canonical" href="http://localhost:4000/choropleth-map-of-andalucía-spain" />
-<meta property="og:url" content="http://localhost:4000/choropleth-map-of-andalucía-spain" />
+<link rel="canonical" href="http://0.0.0.0:4000/choropleth-map-of-andalucía-spain" />
+<meta property="og:url" content="http://0.0.0.0:4000/choropleth-map-of-andalucía-spain" />
 <meta property="og:site_name" content="Luis Sevillano" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2015-03-27T00:00:00+01:00" />
@@ -37,14 +37,14 @@
     "datePublished": "2015-03-27T00:00:00+01:00",
     "description": "      Easy news app for the 2015 Andalusian parliamentary election I made when I was working as freelancer for elmundo.es newspaper in 2015. Graph displays results by municipality, showing color according to the party with the best results. The tooltip shows numbers as to the seven main parties. The user can click and zoom on a specific area and also carry out a search for himself. As well, he can filter depending on each political party by clicking on the legend and watch the distribution of votes within the territory.      HTML5 using JSON and d3.js.              HTML      CSS      js      d3.js              ",
     "logo": "https://luissevillano.github.io/img/share.jpg",
-    "url": "http://localhost:4000/choropleth-map-of-andalucía-spain"
+    "url": "http://0.0.0.0:4000/choropleth-map-of-andalucía-spain"
   }
 </script>
 <!-- End Jekyll SEO tag -->
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-    
+        
 </head>
 
 
@@ -59,9 +59,8 @@
 </header>
 
   <div class="container">
-
-
-      <h1 class="article-head-title">Choropleth map of Andalucía, Spain</h1>
+    <canvas id="map" width="1000" height="1000" style="width: 100%; height: 100%"></canvas>
+    <h1 class="article-head-title">Choropleth map of Andalucía, Spain</h1>
 <p class="article-date">Mar 27, 2015 </p>
 <div class="row">
   <div class="col-md-7">
@@ -94,7 +93,6 @@
     </div>
   </div>
 </div>
-
 
 
   </div>
