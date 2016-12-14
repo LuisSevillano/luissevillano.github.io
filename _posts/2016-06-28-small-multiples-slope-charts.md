@@ -20,12 +20,8 @@ permalink: small-multiples-slope-charts
   </div>
 </div>
 
-<div class="img-container">
-  <div class="row">
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <a href="http://datos.elespanol.com/elecciones-generales/asi-fue-la-remontada-de-rajoy/"><img src="/img/slope.gif" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
-    </div>
+<div class="row">
+  <div class="col-md-12">
+    <a href="http://datos.elespanol.com/elecciones-generales/asi-fue-la-remontada-de-rajoy/"><img src="/img/slope.gif" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
   </div>
 </div>

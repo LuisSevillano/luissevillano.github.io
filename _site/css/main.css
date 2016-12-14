@@ -10,7 +10,9 @@
   font-size: 1.7rem; }
 
 .site-header {
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 4em; }
 
 .site-header {
   width: 90%; }
@@ -41,7 +43,8 @@ header {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 2em; }
+    padding-bottom: 4em;
+    text-align: left; }
 
   .subtitle {
     line-height: 1em; } }
@@ -6623,9 +6626,6 @@ p {
     float: none;
     clear: both; } }
 @media screen and (max-width: 600px) {
-  .container {
-    padding: 0 12px; }
-
   .site-nav {
     position: fixed;
     z-index: 10;

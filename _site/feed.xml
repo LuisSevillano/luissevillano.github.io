@@ -5,8 +5,8 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Dec 2016 12:11:06 +0100</pubDate>
-    <lastBuildDate>Wed, 14 Dec 2016 12:11:06 +0100</lastBuildDate>
+    <pubDate>Wed, 14 Dec 2016 13:13:45 +0100</pubDate>
+    <lastBuildDate>Wed, 14 Dec 2016 13:13:45 +0100</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -79,13 +79,9 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;img-container&quot;&gt;
-  &lt;div class=&quot;row&quot;&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;col-md-12&quot;&gt;
-      &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/asi-fue-la-remontada-de-rajoy/&quot;&gt;&lt;img src=&quot;/img/slope.gif&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-12&quot;&gt;
+    &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/asi-fue-la-remontada-de-rajoy/&quot;&gt;&lt;img src=&quot;/img/slope.gif&quot; class=&quot;img-responsive img no-margin&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
