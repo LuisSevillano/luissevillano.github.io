@@ -3,10 +3,10 @@
   <channel>
     <title>Luis Sevillano</title>
     <description>Some of my data visualization/ infographics work</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Dec 2016 13:16:28 +0100</pubDate>
-    <lastBuildDate>Wed, 14 Dec 2016 13:16:28 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 19 Dec 2016 16:23:50 +0100</pubDate>
+    <lastBuildDate>Mon, 19 Dec 2016 16:23:50 +0100</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -55,8 +55,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 09 Dec 2016 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/the-context-of-spanish-forces-in-the-mediterranean</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/the-context-of-spanish-forces-in-the-mediterranean</guid>
+        <link>http://localhost:4000/the-context-of-spanish-forces-in-the-mediterranean</link>
+        <guid isPermaLink="true">http://localhost:4000/the-context-of-spanish-forces-in-the-mediterranean</guid>
         
         
       </item>
@@ -86,8 +86,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 28 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/small-multiples-slope-charts</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/small-multiples-slope-charts</guid>
+        <link>http://localhost:4000/small-multiples-slope-charts</link>
+        <guid isPermaLink="true">http://localhost:4000/small-multiples-slope-charts</guid>
         
         
       </item>
@@ -141,8 +141,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 27 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
+        <link>http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
+        <guid isPermaLink="true">http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
         
         
       </item>
@@ -165,8 +165,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/defaulter-list</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/defaulter-list</guid>
+        <link>http://localhost:4000/defaulter-list</link>
+        <guid isPermaLink="true">http://localhost:4000/defaulter-list</guid>
         
         
       </item>
@@ -185,13 +185,13 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
   &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
 &lt;/p&gt;
 &lt;div class=&quot;img-container&quot;&gt;
-  &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;&lt;img src=&quot;/img/psoe.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;&lt;img src=&quot;/img/psoe.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; /&gt;&lt;/a&gt;
   &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;&lt;img src=&quot;/img/evolucion-escanos.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/the-fall-of-spanish-socialis-party</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/the-fall-of-spanish-socialis-party</guid>
+        <link>http://localhost:4000/the-fall-of-spanish-socialis-party</link>
+        <guid isPermaLink="true">http://localhost:4000/the-fall-of-spanish-socialis-party</guid>
         
         
       </item>
@@ -215,8 +215,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 28 May 2016 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/champions-league</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/champions-league</guid>
+        <link>http://localhost:4000/champions-league</link>
+        <guid isPermaLink="true">http://localhost:4000/champions-league</guid>
         
         
       </item>
@@ -245,8 +245,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 15 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/diagnosis</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/diagnosis</guid>
+        <link>http://localhost:4000/diagnosis</link>
+        <guid isPermaLink="true">http://localhost:4000/diagnosis</guid>
         
         
       </item>
@@ -276,8 +276,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 23 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/batman-vs-superman</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/batman-vs-superman</guid>
+        <link>http://localhost:4000/batman-vs-superman</link>
+        <guid isPermaLink="true">http://localhost:4000/batman-vs-superman</guid>
         
         
       </item>
@@ -295,6 +295,17 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
   &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
 &lt;/p&gt;
 &lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/12/17/alepo-mi-ciudad-martir-es-peor-que-stalingrado/&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Dec 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/alepo-mobile.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Italy and Austria voting, Europe in danger&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
   &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
     &lt;div class=&quot;item&quot;&gt;
       &lt;div class=&quot;content&quot;&gt;
@@ -474,8 +485,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/static-maps</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/static-maps</guid>
+        <link>http://localhost:4000/static-maps</link>
+        <guid isPermaLink="true">http://localhost:4000/static-maps</guid>
         
         
       </item>
@@ -502,8 +513,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/catalan-election-analisis</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/catalan-election-analisis</guid>
+        <link>http://localhost:4000/catalan-election-analisis</link>
+        <guid isPermaLink="true">http://localhost:4000/catalan-election-analisis</guid>
         
         
       </item>
