@@ -19,10 +19,21 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elindependiente.com/politica/2016/12/23/sospechoso-del-atentado-berlin-muere-milan-tiroteo-la-policia/">
+          <span class="gallery-date">Dec 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/terrorist-milan.jpg')"></div>
+          <p class="gallery-article-title">Gunfire on an Italian Plaza</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/politica/2016/12/17/alepo-mi-ciudad-martir-es-peor-que-stalingrado/">
           <span class="gallery-date">Dec 2016</span>
           <div class="gallery-img" style="background-image: url('/img/alepo-mobile.jpg')"></div>
-          <p class="gallery-article-title">Italy and Austria voting, Europe in danger</p>
+          <p class="gallery-article-title">Aleppo siege</p>
         </a>
       </div>
     </div>
