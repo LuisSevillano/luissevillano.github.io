@@ -5,9 +5,57 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Dec 2016 10:58:44 +0100</pubDate>
-    <lastBuildDate>Tue, 27 Dec 2016 10:58:44 +0100</lastBuildDate>
+    <pubDate>Mon, 02 Jan 2017 11:38:02 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Jan 2017 11:38:02 +0100</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Diomede Islands</title>
+        <description>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-9&quot;&gt;
+    &lt;p&gt;
+      Located in the middle of the Bering Strait, that islands are between mainland Alaska and Siberia. They consist of two rocky islands: The Big Diomede (Russia) and Little Diomede (EEUU). They are separated by the international Date Line so Big Diomede is almost a day ahead of Little Diomede. Exactly 21 hours ahead of Little Diomede. Because of this the islands are sometimes called Tomorrow Island (Big Diomede) and Yesterday Isle (Little Diomede).
+    &lt;/p&gt;
+    &lt;p&gt;
+      My colleague &lt;a href=&quot;https://twitter.com/miguel_riano&quot;&gt;Miguel Riaño&lt;/a&gt; wrote this wonderful story about the history and inhabitants of the diomedes islands.
+    &lt;/p&gt;
+    &lt;p&gt;
+      I made a two versions map for desktop and mobile using photoshop mainly. I downloaded several pictures from Landsat 8 satellite from USGS's &lt;a href=&quot;https://earthexplorer.usgs.gov/&quot;&gt;Earth Explorer&lt;/a&gt; and process the color bands with photoshop and labeled them with illustrator.
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;a class=&quot;no-style-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/12/30/islas-diomedes/&quot;&gt;Go to proyect.&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p class=&quot;pills&quot;&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;Landsat&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;Photoshop&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;QGIS&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;Illustrator&lt;/span&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 hidden-xs hidden-sm&quot;&gt;
+    &lt;a href=&quot;http://www.elindependiente.com/politica/2016/12/30/islas-diomedes/&quot;&gt;&lt;img src=&quot;/img/diomedes-mob.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;img-container&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;a href=&quot;http://www.elindependiente.com/politica/2016/12/30/islas-diomedes/&quot;&gt;&lt;img src=&quot;/img/diomedes.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;a href=&quot;http://www.elindependiente.com/politica/2016/12/30/islas-diomedes/&quot;&gt;&lt;img src=&quot;/img/ice_fixed_2016-03-15.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;a href=&quot;http://www.elindependiente.com/politica/2016/12/30/islas-diomedes/&quot;&gt;&lt;img src=&quot;/img/terrain_fixed_2013-07-13.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 31 Dec 2016 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/diomede-islands</link>
+        <guid isPermaLink="true">http://localhost:4000/diomede-islands</guid>
+        
+        
+      </item>
     
       <item>
         <title>The context of Spanish forces in the Mediterranean</title>
@@ -298,6 +346,17 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
   &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
     &lt;div class=&quot;item&quot;&gt;
       &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/12/30/islas-diomedes/&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;Dec 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/diomedes-deskt.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Diomede Islands&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
         &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/12/23/sospechoso-del-atentado-berlin-muere-milan-tiroteo-la-policia/&quot;&gt;
           &lt;span class=&quot;gallery-date&quot;&gt;Dec 2016&lt;/span&gt;
           &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/terrorist-milan.jpg')&quot;&gt;&lt;/div&gt;
@@ -498,34 +557,6 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
         <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/static-maps</link>
         <guid isPermaLink="true">http://localhost:4000/static-maps</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Catalan Election Analisis</title>
-        <description>&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6&quot;&gt;
-    &lt;p&gt;This was one of my first projects I worked on few weeks since I arrived at El Español. We looked for a politic analysis the day after Catalan Election with several political scientists, maps and graphs. &lt;a target=&quot;_blank&quot; href=&quot;http://datos.elespanol.com/elecciones-catalanas/&quot;&gt;Here&lt;/a&gt; is the result.
-    &lt;/p&gt;
-    &lt;p class=&quot;pills&quot;&gt;
-      &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
-      &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
-      &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
-      &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
-      &lt;span class=&quot;tool pill&quot;&gt;topojson&lt;/span&gt;
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6&quot;&gt;
-    &lt;a href=&quot;http://datos.elespanol.com/elecciones-catalanas/&quot;&gt;
-      &lt;img src=&quot;/img/catalan-election-analisis.png&quot; class=&quot;img-responsive img no-margin&quot; alt=&quot;Drawing&quot; style=&quot;width: 100%;&quot; /&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sun, 20 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/catalan-election-analisis</link>
-        <guid isPermaLink="true">http://localhost:4000/catalan-election-analisis</guid>
         
         
       </item>
