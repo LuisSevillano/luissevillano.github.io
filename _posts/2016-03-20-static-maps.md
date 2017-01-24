@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elindependiente.com/tendencias/2017/01/23/la-construccion-de-sidney/">
+          <span class="gallery-date">January 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/australia-desktop-t.jpg')"></div>
+          <p class="gallery-article-title">Upside down map!</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/politica/2016/12/30/islas-diomedes/">
           <span class="gallery-date">Dec 2016</span>
           <div class="gallery-img" style="background-image: url('/img/diomedes-deskt.jpg')"></div>

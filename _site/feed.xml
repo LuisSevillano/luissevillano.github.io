@@ -5,8 +5,8 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Jan 2017 11:55:14 +0100</pubDate>
-    <lastBuildDate>Mon, 02 Jan 2017 11:55:14 +0100</lastBuildDate>
+    <pubDate>Tue, 24 Jan 2017 14:25:58 +0100</pubDate>
+    <lastBuildDate>Tue, 24 Jan 2017 14:25:58 +0100</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -343,6 +343,17 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
   &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
 &lt;/p&gt;
 &lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;a class=&quot;gallery-link&quot; href=&quot;http://www.elindependiente.com/tendencias/2017/01/23/la-construccion-de-sidney/&quot;&gt;
+          &lt;span class=&quot;gallery-date&quot;&gt;January 2016&lt;/span&gt;
+          &lt;div class=&quot;gallery-img&quot; style=&quot;background-image: url('/img/australia-desktop-t.jpg')&quot;&gt;&lt;/div&gt;
+          &lt;p class=&quot;gallery-article-title&quot;&gt;Upside down map!&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
   &lt;div class=&quot;col-md-3 col-sm-4&quot;&gt;
     &lt;div class=&quot;item&quot;&gt;
       &lt;div class=&quot;content&quot;&gt;

@@ -13,6 +13,11 @@
   date: SEP 2016
   link: http://bl.ocks.org/luissevillano/7052852495085304c8a78096efb3cf54
 
+- title: Static maps
+  img: /img/thumbnails/panama.jpg
+  date: DEC 2015 - NOW
+  link: /static-maps
+
 - title: shaded relief with custom projection
   img: /img/shaded-relief.png
   date: JUL 2016
@@ -77,11 +82,6 @@
   img: /img/thumbnails/catalan-election-analisis.jpg
   date: SEP 2015
   link: /catalan-election-analisis
-
-- title: Static maps
-  img: /img/thumbnails/panama.jpg
-  date: DEC 2015 - NOW
-  link: /static-maps
 
 - title: Choropleth map of Andalucía
   img: /img/thumbnails/andalucia-full.jpg
