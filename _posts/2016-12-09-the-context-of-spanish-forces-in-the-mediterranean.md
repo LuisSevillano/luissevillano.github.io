@@ -1,6 +1,6 @@
 ---
 layout: work
-title:  "The context of Spanish forces in the Mediterranean"
+title:  "The Spanish forces in the Mediterranean"
 date:   2016-12-09
 permalink: the-context-of-spanish-forces-in-the-mediterranean
 ---

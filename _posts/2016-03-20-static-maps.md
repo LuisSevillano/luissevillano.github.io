@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elindependiente.com/futuro/2017/03/21/la-transformacion-de-la-antigua-mina-ha-generado-un-espacio-protegido-de-biodiversidad/">
+          <span class="gallery-date">March 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/lago-meirama.jpg')"></div>
+          <p class="gallery-article-title">Meirama: from mina to lake</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/tendencias/2017/03/13/hasta-aqui-hemos-llegado/">
           <span class="gallery-date">March 2016</span>
           <div class="gallery-img" style="background-image: url('/img/everest.jpg')"></div>
