@@ -160,7 +160,8 @@ header {
     min-height: 375px; }
 
   .gallery-date {
-    margin-bottom: 0.5rem; } }
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5rem; } }
 /* Medium devices, desktop normal screens */
 @media (min-width: 468px) and (max-width: 768px) {
   .gallery-img {
