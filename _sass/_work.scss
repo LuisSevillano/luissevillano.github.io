@@ -102,6 +102,10 @@ code {
     width: 95%;
     margin: 0 auto;
   }
+  .img-container.z-margin {
+    width: 100%;
+    margin: 0 auto;
+  }
   .pills {
     margin-bottom: 2em;
   }
@@ -116,5 +120,8 @@ code {
   }
   .img-responsive.img {
     margin-top: 2em;
+  }
+  .img-responsive.img.vertical {
+    margin-top: 0;
   }
 }

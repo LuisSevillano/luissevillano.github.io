@@ -362,6 +362,10 @@ code {
     width: 95%;
     margin: 0 auto; }
 
+  .img-container.z-margin {
+    width: 100%;
+    margin: 0 auto; }
+
   .pills {
     margin-bottom: 2em; }
 
@@ -375,7 +379,10 @@ code {
     margin: 0; }
 
   .img-responsive.img {
-    margin-top: 2em; } }
+    margin-top: 2em; }
+
+  .img-responsive.img.vertical {
+    margin-top: 0; } }
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -6221,8 +6228,12 @@ a:visited {
 .site-header .container {
   margin-top: 2em; }
 
-p {
+p,
+ul {
   font-size: 1.8rem; }
+
+ul {
+  margin-left: 2rem; }
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/

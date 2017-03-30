@@ -41,8 +41,12 @@ a:visited { color: $links; }
 .site-header .container {
   margin-top: 2em;
 }
-p {
+p,
+ul {
   font-size: 1.8rem;
+}
+ul {
+  margin-left: 2rem;
 }
 
 /* Layout Styles */
@@ -276,7 +280,7 @@ p {
 
 }
 
-@media screen and (max-width: 600px) {  
+@media screen and (max-width: 600px) {
 
   .site-nav {
     position: fixed;
