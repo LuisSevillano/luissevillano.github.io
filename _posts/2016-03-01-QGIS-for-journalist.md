@@ -13,7 +13,7 @@ permalink: QGIS-for-journalist
       First day was a four hour workshop about how to make a static choropleth map using <a href="https://www.qgis.org/en/site/forusers/download.html">QGIS</a>. The attendees would be able to make a population density map of Spain. To change coordinates system of a shapefile, merge shapefiles, create new fields on the Attribute Table, make a spatial join, apply a right color ramp, use the print composer, etc.
     </p>
     <p>
-      I toke the decision to make it all <i>open source</i> and share it on github, so <a href="https://github.com/LuisSevillano/QGIS-choropleth-workshow">here is the repo</a> (in spanish).
+      I toke the decision to make it all <i>open source</i> and share it on github, so <a href="https://github.com/LuisSevillano/QGIS-choropleth-workshow">here is the repo</a> (spanish).
     </p>
     <p>
       For the rest of the course I prefered to use Github's gist to share the steps and examples of each workshops. All the gist has its own exercises. Here are the more relevant days:
