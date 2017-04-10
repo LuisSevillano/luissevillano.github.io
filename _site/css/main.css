@@ -315,11 +315,11 @@ article p {
   display: inline-block;
   margin: 3px 0;
   font: 14px/1.8em Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
-  padding: 0 0.5em; }
+  padding: 0 0.5em;
+  cursor: none; }
 
 .pills {
   margin-bottom: 0;
-  cursor: none;
   padding: 0.7em 0; }
 
 .separator {
