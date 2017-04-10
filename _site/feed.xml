@@ -5,8 +5,8 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Mar 2017 10:33:15 +0200</pubDate>
-    <lastBuildDate>Thu, 30 Mar 2017 10:33:15 +0200</lastBuildDate>
+    <pubDate>Mon, 10 Apr 2017 14:03:25 +0200</pubDate>
+    <lastBuildDate>Mon, 10 Apr 2017 14:03:25 +0200</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -356,32 +356,58 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
       </item>
     
       <item>
-        <title>Batman vs Superman</title>
-        <description>&lt;p&gt;For the premiere of the &lt;strong&gt;Batman vs Superman&lt;/strong&gt; film we decided to make a branded content feature. Taking an simple data analysis of every time both superheroes faced any time on comic universe. Draws by &lt;a href=&quot;https://twitter.com/Camarasasaurus&quot;&gt;Andrés Pérez&lt;/a&gt;&lt;/p&gt;
-&lt;p class=&quot;pills&quot;&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;js&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;d3.js&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;scrollstory&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;illustration&lt;/span&gt;
-&lt;/p&gt;
-&lt;div class=&quot;img-container&quot;&gt;
-  &lt;div class=&quot;col-md-12&quot;&gt;
-    &lt;a href=&quot;http://datos.elespanol.com/proyectos/batman-vs-superman-la-nueva-pelicula-de-ben-affleck-y-henry-cavill/&quot;&gt;&lt;img src=&quot;/img/batman.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+        <title>All of ETA victims (Terrorist organization)</title>
+        <description>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-9&quot;&gt;
+    &lt;p&gt;
+      Six years after renouncing violence in its bloody pursuit of a Basque homeland, the militant separatist group Eta announced it will lay down all arms.
+    &lt;/p&gt;
+    &lt;p&gt;
+      There isnt an undestanding about the number of deadly victims. I decided to use the data from the 'Fundación de víctimas del terrorismo' (Foundation of victims of terrorism) to know the target of each victim (student, police, military, etc.) and &lt;i&gt;&lt;a href=&quot;https://www.google.com/maps/d/embed?mid=1MNuI56w5x50_CpyV5yKj3Y7gSo0&quot;&gt;El Mapa del olvido&lt;/a&gt;&lt;/i&gt; another unofficial source to extract the location (approximate) of the attack.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Unfortunately neither source had &lt;i&gt;id's&lt;/i&gt; to match with so I had to use OpenRefine and its cluster and edit tools which were truly useful. I achieved to reduce from more than 250 errors to just 75 where I had to check it manually.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Finally I built the &lt;i&gt;app&lt;/i&gt; with d3js. I used &lt;a href=&quot;https://github.com/rveciana/d3-composite-projections&quot;&gt;d3-composite-projections&lt;/a&gt; to bring the Canary Islands near the Península and twitter's &lt;a href=&quot;https://twitter.github.io/typeahead.js/&quot;&gt;typeahead.js&lt;/a&gt; for the searcher.
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;a href=&quot;http://www.elindependiente.com/politica/2017/04/07/el-desarme-que-hoy-eta-no-hara/&quot;&gt;Go to feature&lt;/a&gt;.
+    &lt;/p&gt;
+    &lt;p class=&quot;pills&quot;&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;QGIS&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;OpenRefine&lt;/span&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;d3js&lt;/span&gt;
+    &lt;/p&gt;
   &lt;/div&gt;
-
-  &lt;div class=&quot;col-md-6&quot;&gt;
-    &lt;a href=&quot;http://datos.elespanol.com/proyectos/batman-vs-superman-la-nueva-pelicula-de-ben-affleck-y-henry-cavill/&quot;&gt;&lt;img src=&quot;/img/batman2.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;col-md-3 hidden-xs hidden-sm&quot;&gt;
+    &lt;a href=&quot;http://www.elindependiente.com/politica/2017/04/07/el-desarme-que-hoy-eta-no-hara/&quot;&gt;&lt;img src=&quot;/img/eta-vertical.jpg&quot; class=&quot;img-responsive img vertical&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;col-md-6&quot;&gt;
-    &lt;a href=&quot;http://datos.elespanol.com/proyectos/batman-vs-superman-la-nueva-pelicula-de-ben-affleck-y-henry-cavill/&quot;&gt;&lt;img src=&quot;/img/batman3.png&quot; class=&quot;img-responsive img&quot; alt=&quot;maps&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;img-container z-margin&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;&gt;
+      &lt;a href=&quot;http://www.elindependiente.com/politica/2017/04/07/el-desarme-que-hoy-eta-no-hara/&quot;&gt;&lt;img src=&quot;/img/eta.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;img-container z-margin&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;a href=&quot;http://www.elindependiente.com/politica/2017/04/07/el-desarme-que-hoy-eta-no-hara/&quot;&gt;&lt;img src=&quot;/img/eta-barcelona.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;a href=&quot;http://www.elindependiente.com/politica/2017/04/07/el-desarme-que-hoy-eta-no-hara/&quot;&gt;&lt;img src=&quot;/img/eta-logrono.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-4&quot;&gt;
+      &lt;a href=&quot;http://www.elindependiente.com/politica/2017/04/07/el-desarme-que-hoy-eta-no-hara/&quot;&gt;&lt;img src=&quot;/img/eta-leon.jpg&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 23 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/batman-vs-superman</link>
-        <guid isPermaLink="true">http://localhost:4000/batman-vs-superman</guid>
+        <pubDate>Fri, 08 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2016-04-08-all-of-ETA-victims</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-04-08-all-of-ETA-victims</guid>
         
         
       </item>

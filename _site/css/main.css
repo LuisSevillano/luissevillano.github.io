@@ -148,6 +148,7 @@ header {
   .gallery-article-title {
     padding: 0.2em 0.2em 0.2em 0.5em;
     margin: 0;
+    font-size: 1.5rem;
     min-height: 50px;
     vertical-align: middle; } }
 /* Small devices, tablets */
@@ -155,6 +156,9 @@ header {
   .gallery-img {
     height: 250px;
     width: 100%; }
+
+  .gallery-article-title {
+    font-size: 1.34rem; }
 
   .item {
     min-height: 375px; }
@@ -164,6 +168,9 @@ header {
     letter-spacing: 0.5rem; } }
 /* Medium devices, desktop normal screens */
 @media (min-width: 468px) and (max-width: 768px) {
+  .gallery-article-title {
+    font-size: 1.5rem; }
+
   .gallery-img {
     height: 250px;
     width: 80%; } }

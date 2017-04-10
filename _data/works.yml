@@ -1,6 +1,11 @@
+- title: The ETA victims
+  img: /img/eta-barcelona.jpg
+  date: APR 2017
+  link: 2016-04-08-all-of-ETA-victims
+
 - title: QGIS for journalist
   img: /img/difference.jpg
-  date: MAR 2016
+  date: MAR 2017
   link: QGIS-for-journalist
 
 - title: Diomede Islands
@@ -18,7 +23,7 @@
   date: DEC 2016
   link: the-context-of-spanish-forces-in-the-mediterranean
 
-- title: mouseover constant stroke effect
+- title: Mouseover constant stroke effect
   img: /img/mouseover-constant-stroke-effect.jpg
   date: SEP 2016
   link: http://bl.ocks.org/luissevillano/7052852495085304c8a78096efb3cf54
@@ -28,8 +33,8 @@
   date: DEC 2015 - NOW
   link: /static-maps
 
-- title: shaded relief with custom projection
-  img: /img/shaded-relief.png
+- title: Shaded relief with custom projection
+  img: /img/shaded-relief.jpg
   date: JUL 2016
   link: http://bl.ocks.org/LuisSevillano/8e5afd517ec5a226be2f849a394118aa
 
@@ -38,7 +43,7 @@
   date: JUN 2016
   link: /small-multiples-slope-charts
 
-- title: suicides attacks since 1970
+- title: Suicides attacks since 1970
   img: /img/suicides.jpg
   date: JUL 2016
   link: http://bl.ocks.org/LuisSevillano/95fedb213cd4f93b852e6c44aa348125
@@ -104,7 +109,7 @@
   link: /unemployment-graph-evolution-time-line
 
 - title: Spanish corruption map
-  img: /img/corruption-list.png
+  img: /img/corruption-list.jpg
   date: DEC 2014
   link: /spanish-corruption-map
 
