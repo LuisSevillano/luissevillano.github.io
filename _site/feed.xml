@@ -3,11 +3,11 @@
   <channel>
     <title>Luis Sevillano</title>
     <description>Some of my data visualization/ infographics work</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Apr 2017 14:10:55 +0200</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2017 14:10:55 +0200</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <link>http://www.luissevillano.github.io/</link>
+    <atom:link href="http://www.luissevillano.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 16 Apr 2017 13:13:28 +0200</pubDate>
+    <lastBuildDate>Sun, 16 Apr 2017 13:13:28 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Diomede Islands</title>
@@ -20,7 +20,7 @@
       My colleague &lt;a href=&quot;https://twitter.com/miguel_riano&quot;&gt;Miguel Riaño&lt;/a&gt; wrote this wonderful story about the history and inhabitants of the diomedes islands.
     &lt;/p&gt;
     &lt;p&gt;
-      I made a two versions map for desktop and mobile using photoshop mainly. I downloaded several pictures from Landsat 8 satellite from USGS's &lt;a href=&quot;https://earthexplorer.usgs.gov/&quot;&gt;Earth Explorer&lt;/a&gt; and process the color bands with photoshop and labeled them with illustrator.
+      I made a two versions map for desktop and mobile using photoshop mainly. I downloaded several pictures from Landsat 8 satellite from USGS&#39;s &lt;a href=&quot;https://earthexplorer.usgs.gov/&quot;&gt;Earth Explorer&lt;/a&gt; and process the color bands with photoshop and labeled them with illustrator.
     &lt;/p&gt;
     &lt;p&gt;
       &lt;a class=&quot;no-style-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/12/30/islas-diomedes/&quot;&gt;Go to proyect.&lt;/a&gt;
@@ -51,8 +51,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 31 Dec 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/diomede-islands</link>
-        <guid isPermaLink="true">http://localhost:4000/diomede-islands</guid>
+        <link>http://www.luissevillano.github.io/diomede-islands</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/diomede-islands</guid>
         
         
       </item>
@@ -68,10 +68,10 @@
       My colleague &lt;a href=&quot;https://twitter.com/gmpiantadosi&quot;&gt;Giulio M. Piantadosi&lt;/a&gt; had the chance to visit three of the places where Spanish forces are present. The Naval Air Station Sigonella in Sicily, UNIFIL Deployment at the &lt;i&gt;blue line&lt;/i&gt; in Lebanon and the Incirlik Air Base in Turkey.
     &lt;/p&gt;
     &lt;p&gt;
-      It was a great opportunity to work hard on the maps, to improve and use new techniques and tools that make that maps a little bit better than others I made before. So I made a &lt;i&gt;basemap&lt;/i&gt; in QGIS using OSM shapefiles as &lt;i&gt;landuse&lt;/i&gt; or &lt;i&gt;roads&lt;/i&gt; playing with soft colors and rule-based styles. In two of the three maps I used the &lt;a href=&quot;http://www.theearthsrelief.com/&quot;&gt;The Earth's Relief&lt;/a&gt; DEM layer, make by &lt;a href=&quot;http://www.clustergis.org/&quot;&gt;ClusterGIS&lt;/a&gt;. Then I drew all the labels, arrows, polygons and other vectorial elements in Illustrator.
+      It was a great opportunity to work hard on the maps, to improve and use new techniques and tools that make that maps a little bit better than others I made before. So I made a &lt;i&gt;basemap&lt;/i&gt; in QGIS using OSM shapefiles as &lt;i&gt;landuse&lt;/i&gt; or &lt;i&gt;roads&lt;/i&gt; playing with soft colors and rule-based styles. In two of the three maps I used the &lt;a href=&quot;http://www.theearthsrelief.com/&quot;&gt;The Earth&#39;s Relief&lt;/a&gt; DEM layer, make by &lt;a href=&quot;http://www.clustergis.org/&quot;&gt;ClusterGIS&lt;/a&gt;. Then I drew all the labels, arrows, polygons and other vectorial elements in Illustrator.
     &lt;/p&gt;
     &lt;p&gt;
-      Finally I used the &lt;a href=&quot;http://ai2html.org/&quot;&gt;ai2html&lt;/a&gt; plugin for Illustrator to publish on the web. I created five designs for each map, fifteen Artboards in total. ai2html uses CSS's display block/in-line to show correct artboards depending on screen size. If we don't use a script or a lazy load the reader will have to download the images for all the screen sizes. To fix that I created an easy &lt;a href=&quot;https://gist.github.com/LuisSevillano/8405308f6d3ea7423c9f9c13b7e248e3&quot;&gt;script&lt;/a&gt; which downloads only one image for each resolution.
+      Finally I used the &lt;a href=&quot;http://ai2html.org/&quot;&gt;ai2html&lt;/a&gt; plugin for Illustrator to publish on the web. I created five designs for each map, fifteen Artboards in total. ai2html uses CSS&#39;s display block/in-line to show correct artboards depending on screen size. If we don&#39;t use a script or a lazy load the reader will have to download the images for all the screen sizes. To fix that I created an easy &lt;a href=&quot;https://gist.github.com/LuisSevillano/8405308f6d3ea7423c9f9c13b7e248e3&quot;&gt;script&lt;/a&gt; which downloads only one image for each resolution.
     &lt;/p&gt;
     &lt;p&gt;
       &lt;a class=&quot;no-style-link&quot; href=&quot;http://www.elindependiente.com/politica/2016/12/09/19370/&quot;&gt;Go to proyect.&lt;/a&gt;
@@ -103,8 +103,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 09 Dec 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/the-context-of-spanish-forces-in-the-mediterranean</link>
-        <guid isPermaLink="true">http://localhost:4000/the-context-of-spanish-forces-in-the-mediterranean</guid>
+        <link>http://www.luissevillano.github.io/the-context-of-spanish-forces-in-the-mediterranean</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/the-context-of-spanish-forces-in-the-mediterranean</guid>
         
         
       </item>
@@ -117,16 +117,16 @@
       This seems to be the post thruth year, a &lt;i&gt;new&lt;/i&gt; word very often in the public eye since Trumps win. All the things related to all those fake news, etc.
     &lt;/p&gt;
     &lt;p&gt;
-      An this is what &lt;a href=&quot;https://twitter.com/miguel_riano&quot;&gt;Miguel Riaño&lt;/a&gt;'s &lt;a href=&quot;http://www.elindependiente.com/politica/elecciones-eeuu/2016/11/12/la-posverdad-y-la-america-de-facebook/&quot;&gt; article &lt;/a&gt;is about. In the context of US Elections I was  around with US maps and It seems a good chance to publish a county level one.
+      An this is what &lt;a href=&quot;https://twitter.com/miguel_riano&quot;&gt;Miguel Riaño&lt;/a&gt;&#39;s &lt;a href=&quot;http://www.elindependiente.com/politica/elecciones-eeuu/2016/11/12/la-posverdad-y-la-america-de-facebook/&quot;&gt; article &lt;/a&gt;is about. In the context of US Elections I was  around with US maps and It seems a good chance to publish a county level one.
     &lt;/p&gt;
     &lt;p&gt;
       Before that I made a states level map showing the las five us elections. It features a &lt;i&gt;stacked bar&lt;/i&gt; with the results with the candidates faces (a little old-fashioned I know) and some buttons to navigate between them.
     &lt;/p&gt;
     &lt;p&gt;
-      Both maps are made in svg with d3js and topojson. Maybe this wasnt a good idea as svg is pretty slow on firefox when you have thousands of svg paths. I think the issue os the &lt;i&gt;hover&lt;/i&gt; effect on each county path. I used a method to clone that node and put it above, but seems its a cost way to do that. The next time I'll use canvas. I promise!
+      Both maps are made in svg with d3js and topojson. Maybe this wasnt a good idea as svg is pretty slow on firefox when you have thousands of svg paths. I think the issue os the &lt;i&gt;hover&lt;/i&gt; effect on each county path. I used a method to clone that node and put it above, but seems its a cost way to do that. The next time I&#39;ll use canvas. I promise!
     &lt;/p&gt;
     &lt;p&gt;
-      The maps are deployed as plain javascript using d3 and implemented in a responsive iFrame using npr's &lt;a href=&quot;http://blog.apps.npr.org/pym.js/&quot;&gt;pymjs&lt;/a&gt;. I shared the county data on &lt;a href=&quot;https://github.com/LuisSevillano/2016-election-county-results&quot;&gt;github&lt;/a&gt;.
+      The maps are deployed as plain javascript using d3 and implemented in a responsive iFrame using npr&#39;s &lt;a href=&quot;http://blog.apps.npr.org/pym.js/&quot;&gt;pymjs&lt;/a&gt;. I shared the county data on &lt;a href=&quot;https://github.com/LuisSevillano/2016-election-county-results&quot;&gt;github&lt;/a&gt;.
     &lt;/p&gt;
     &lt;p&gt;
       &lt;a class=&quot;no-style-link&quot; href=&quot;http://www.elindependiente.com/politica/elecciones-eeuu/2016/11/12/la-posverdad-y-la-america-de-facebook/&quot;&gt;Go to proyect.&lt;/a&gt;
@@ -159,8 +159,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/post-truth-and-the-facebook-americas</link>
-        <guid isPermaLink="true">http://localhost:4000/post-truth-and-the-facebook-americas</guid>
+        <link>http://www.luissevillano.github.io/post-truth-and-the-facebook-americas</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/post-truth-and-the-facebook-americas</guid>
         
         
       </item>
@@ -190,15 +190,15 @@
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 28 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/small-multiples-slope-charts</link>
-        <guid isPermaLink="true">http://localhost:4000/small-multiples-slope-charts</guid>
+        <link>http://www.luissevillano.github.io/small-multiples-slope-charts</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/small-multiples-slope-charts</guid>
         
         
       </item>
     
       <item>
         <title>Brief summary of how Spain voted the June 26th spanish election</title>
-        <description>&lt;p&gt;As the last &lt;a href=&quot;http://luissevillano.github.io/political-analysis-20D&quot;&gt;time&lt;/a&gt; Spain voted for Its future we run a special page for the  day after the elections. Its a summary of the main results, possible parties alliances or maps of bipartidism 'historic evolution'. Also, Its includes a big interactive table where our audience can find those provinces (~states) where the four main parties had won or lost seats.
+        <description>&lt;p&gt;As the last &lt;a href=&quot;http://luissevillano.github.io/political-analysis-20D&quot;&gt;time&lt;/a&gt; Spain voted for Its future we run a special page for the  day after the elections. Its a summary of the main results, possible parties alliances or maps of bipartidism &#39;historic evolution&#39;. Also, Its includes a big interactive table where our audience can find those provinces (~states) where the four main parties had won or lost seats.
 &lt;/p&gt;
 &lt;p&gt;
 With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia López&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/NicolasPerezi&quot;&gt;Nicolás Pérez&lt;/a&gt;.
@@ -245,8 +245,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 27 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
-        <guid isPermaLink="true">http://localhost:4000/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
+        <link>http://www.luissevillano.github.io/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/brief-summary-of-how-Spain-voted-the-June-26th-spanish-election</guid>
         
         
       </item>
@@ -269,15 +269,15 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 20 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/defaulter-list</link>
-        <guid isPermaLink="true">http://localhost:4000/defaulter-list</guid>
+        <link>http://www.luissevillano.github.io/defaulter-list</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/defaulter-list</guid>
         
         
       </item>
     
       <item>
         <title>The fall of spanish Socialist party</title>
-        <description>&lt;p&gt;PSOE known as Spanish Socialist Worker's Party is one of main political parties in Spain. In fact, with PP (Popular Party) both belong to the bipartidism order have had the control of govern of the country during almost last fourty years. That scenario has been changed. Since 2008 PSOE have lost votes in the 97,25% of municipios (small administrative unit). In &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;this &lt;/a&gt; feature we analyzed this scenario and their causes.&lt;/p&gt;
+        <description>&lt;p&gt;PSOE known as Spanish Socialist Worker&#39;s Party is one of main political parties in Spain. In fact, with PP (Popular Party) both belong to the bipartidism order have had the control of govern of the country during almost last fourty years. That scenario has been changed. Since 2008 PSOE have lost votes in the 97,25% of municipios (small administrative unit). In &lt;a href=&quot;http://datos.elespanol.com/elecciones-generales/psoe-pierde-votos-en-97-por-ciento-municipios/&quot;&gt;this &lt;/a&gt; feature we analyzed this scenario and their causes.&lt;/p&gt;
 &lt;p class=&quot;pills&quot;&gt;
   &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
   &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
@@ -294,8 +294,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/the-fall-of-spanish-socialis-party</link>
-        <guid isPermaLink="true">http://localhost:4000/the-fall-of-spanish-socialis-party</guid>
+        <link>http://www.luissevillano.github.io/the-fall-of-spanish-socialis-party</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/the-fall-of-spanish-socialis-party</guid>
         
         
       </item>
@@ -319,8 +319,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 28 May 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/champions-league</link>
-        <guid isPermaLink="true">http://localhost:4000/champions-league</guid>
+        <link>http://www.luissevillano.github.io/champions-league</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/champions-league</guid>
         
         
       </item>
@@ -349,8 +349,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 15 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/diagnosis</link>
-        <guid isPermaLink="true">http://localhost:4000/diagnosis</guid>
+        <link>http://www.luissevillano.github.io/diagnosis</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/diagnosis</guid>
         
         
       </item>
@@ -363,13 +363,13 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
       Six years after renouncing violence in its bloody pursuit of a Basque homeland, the militant separatist group Eta announced it will lay down all arms.
     &lt;/p&gt;
     &lt;p&gt;
-      There isnt an undestanding about the number of deadly victims. I decided to use the data from the 'Fundación de víctimas del terrorismo' (Foundation of victims of terrorism) to know the target of each victim (student, police, military, etc.) and &lt;i&gt;&lt;a href=&quot;https://www.google.com/maps/d/embed?mid=1MNuI56w5x50_CpyV5yKj3Y7gSo0&quot;&gt;El Mapa del olvido&lt;/a&gt;&lt;/i&gt; another unofficial source to extract the location (approximate) of the attack.
+      There isnt an undestanding about the number of deadly victims. I decided to use the data from the &#39;Fundación de víctimas del terrorismo&#39; (Foundation of victims of terrorism) to know the target of each victim (student, police, military, etc.) and &lt;i&gt;&lt;a href=&quot;https://www.google.com/maps/d/embed?mid=1MNuI56w5x50_CpyV5yKj3Y7gSo0&quot;&gt;El Mapa del olvido&lt;/a&gt;&lt;/i&gt; another unofficial source to extract the location (approximate) of the attack.
     &lt;/p&gt;
     &lt;p&gt;
-      Unfortunately neither source had &lt;i&gt;id's&lt;/i&gt; to match with so I had to use OpenRefine and its cluster and edit tools which were truly useful. I achieved to reduce from more than 250 errors to just 75 where I had to check it manually.
+      Unfortunately neither source had &lt;i&gt;id&#39;s&lt;/i&gt; to match with so I had to use OpenRefine and its cluster and edit tools which were truly useful. I achieved to reduce from more than 250 errors to just 75 where I had to check it manually.
     &lt;/p&gt;
     &lt;p&gt;
-      Finally I built the &lt;i&gt;app&lt;/i&gt; with d3js. I used &lt;a href=&quot;https://github.com/rveciana/d3-composite-projections&quot;&gt;d3-composite-projections&lt;/a&gt; to bring the Canary Islands near the Península and twitter's &lt;a href=&quot;https://twitter.github.io/typeahead.js/&quot;&gt;typeahead.js&lt;/a&gt; for the searcher.
+      Finally I built the &lt;i&gt;app&lt;/i&gt; with d3js. I used &lt;a href=&quot;https://github.com/rveciana/d3-composite-projections&quot;&gt;d3-composite-projections&lt;/a&gt; to bring the Canary Islands near the Península and twitter&#39;s &lt;a href=&quot;https://twitter.github.io/typeahead.js/&quot;&gt;typeahead.js&lt;/a&gt; for the searcher.
     &lt;/p&gt;
     &lt;p&gt;
       &lt;a href=&quot;http://www.elindependiente.com/politica/2017/04/07/el-desarme-que-hoy-eta-no-hara/&quot;&gt;Go to feature&lt;/a&gt;.
@@ -406,8 +406,8 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 08 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016-04-08-all-of-ETA-victims</link>
-        <guid isPermaLink="true">http://localhost:4000/2016-04-08-all-of-ETA-victims</guid>
+        <link>http://www.luissevillano.github.io/2016-04-08-all-of-ETA-victims</link>
+        <guid isPermaLink="true">http://www.luissevillano.github.io/2016-04-08-all-of-ETA-victims</guid>
         
         
       </item>
