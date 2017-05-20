@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="http://www.elindependiente.com/politica/2017/05/19/17-55-horas-el-juez-tiene-que-morir/">
+          <span class="gallery-date">May 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/falcone.jpg')"></div>
+          <p class="gallery-article-title">Giovanni Falcone</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/futuro/2017/03/21/la-transformacion-de-la-antigua-mina-ha-generado-un-espacio-protegido-de-biodiversidad/">
           <span class="gallery-date">March 2016</span>
           <div class="gallery-img" style="background-image: url('/img/lago-meirama.jpg')"></div>
