@@ -59,7 +59,7 @@ header {
   padding: 0.2em 0.2em 0.5em 0.2em;
   margin-top: 0.5em;
   color: #111111;
-  font-family: Monaco,"Courier New",Courier,monospace;
+  font-family: "PT Serif", serif;
   background-color: #f0f0f0;
   font-size: 1.5em;
   /* Internet Explorer 10 */
@@ -6210,7 +6210,7 @@ html, body {
   font-size: 10px; }
 
 body {
-  font-family: 'Lora', Helvetica, sans-serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
   font-weight: 500;
   background-repeat: no-repeat;
