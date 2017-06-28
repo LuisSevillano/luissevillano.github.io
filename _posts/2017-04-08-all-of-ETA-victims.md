@@ -2,7 +2,7 @@
 layout: work
 title:  "All of ETA victims (Terrorist organization)"
 date:   2016-04-08
-permalink: 2016-04-08-all-of-ETA-victims
+permalink: 2017-04-08-all-of-ETA-victims
 ---
 <div class="row">
   <div class="col-md-9">
