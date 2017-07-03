@@ -5,9 +5,41 @@
     <description>Some of my data visualization/ infographics work</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Jun 2017 15:18:33 +0200</pubDate>
-    <lastBuildDate>Wed, 28 Jun 2017 15:18:33 +0200</lastBuildDate>
+    <pubDate>Mon, 03 Jul 2017 19:27:21 +0200</pubDate>
+    <lastBuildDate>Mon, 03 Jul 2017 19:27:21 +0200</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Scraping with nodejs</title>
+        <description>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-9&quot;&gt;
+    &lt;p&gt;
+      In the context of summer, a newsroom coworker was seeking advice and information to go abroad with the intention of making news, and which countries were at risk of malaria, yellow fever, etc. She found a &lt;a href=&quot;http://www.msssi.gob.es/profesionales/saludPaises.do&quot;&gt;web application&lt;/a&gt; from the Spanish government where you could not download the information to make an exhaustive analysis.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Spanish Ministry Of Health doesn't have a way to extract the data with the information web app. We asked them for a csv or any other format to obtain the information. However, they won't facilite any document as they told us that the information is already on the website. Then, I made this scrape.
+    &lt;/p&gt;
+    &lt;p&gt;
+      There is a select on the landing page I use to fill and array with all the links for &lt;a href=&quot;http://www.msssi.gob.es/profesionales/saludPaises.do?metodo=verDetallePais&amp;amp;pais=37&quot;&gt;each&lt;/a&gt; country I will scrape later.
+    &lt;/p&gt;
+    &lt;p&gt;
+      To avoid being banned by making multiple requests to the same page until I have the code that would extract the information from each country page I used &lt;a href=&quot;https://developers.google.com/web/tools/chrome-devtools/snippets?hl=en&quot;&gt;Google Chrome snippets&lt;/a&gt; thanks to which you can run small pieces of code on client side.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Take a look to the code at &lt;a href=&quot;https://github.com/LuisSevillano/scrape-vaccines/&quot;&gt;github&lt;/a&gt;.
+    &lt;/p&gt;
+    &lt;p class=&quot;pills&quot;&gt;
+      &lt;span class=&quot;tool pill&quot;&gt;nodejs&lt;/span&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2017-07-01-scraping-with-nodejs</link>
+        <guid isPermaLink="true">http://localhost:4000/2017-07-01-scraping-with-nodejs</guid>
+        
+        
+      </item>
     
       <item>
         <title>UK general election 2017</title>
@@ -361,36 +393,6 @@ With &lt;a href=&quot;https://twitter.com/lopezg_patricia&quot;&gt;Patricia Lóp
         <pubDate>Sat, 28 May 2016 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/champions-league</link>
         <guid isPermaLink="true">http://localhost:4000/champions-league</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Diagnosis</title>
-        <description>&lt;p&gt;I worked with my colleague &lt;a href=&quot;https://twitter.com/martgnz&quot;&gt;Martín González&lt;/a&gt; in this &lt;a href=&quot;http://reportajes.elespanol.com/diagnosis/&quot;&gt;cool project&lt;/a&gt; about rapid diagnostic tests funded by a Journalism Grant. Its a series of articles with three international media partners: Quartz, Krautreporter and Efecto Cocuyo. &lt;/p&gt;
-&lt;p&gt;Martín made the whole website design and I take care about datavisualization and maps. We decided to elaborate a globe map locator for each story and special big maps for two of the main stories.&lt;/p&gt;
-&lt;p class=&quot;pills&quot;&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;QGIS&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;illustrator&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;ai2html&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;HTML&lt;/span&gt;
-  &lt;span class=&quot;tool pill&quot;&gt;SASS&lt;/span&gt;
-&lt;/p&gt;
-&lt;div class=&quot;img-container&quot;&gt;
-  &lt;div class=&quot;col-md-12&quot;&gt;
-    &lt;a href=&quot;http://reportajes.elespanol.com/diagnosis/zika-punto-negro-diagnosticos/&quot;&gt;&lt;img src=&quot;/img/globe.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-12&quot;&gt;
-    &lt;a href=&quot;http://reportajes.elespanol.com/diagnosis/morir-malaria-miedo-ebola/&quot;&gt;&lt;img src=&quot;/img/africa.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-12&quot;&gt;
-    &lt;a href=&quot;http://reportajes.elespanol.com/diagnosis/zika-punto-negro-diagnosticos/&quot;&gt;&lt;img src=&quot;/img/brazil.png&quot; class=&quot;img-responsive img&quot; alt=&quot;front-page&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 15 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/diagnosis</link>
-        <guid isPermaLink="true">http://localhost:4000/diagnosis</guid>
         
         
       </item>
