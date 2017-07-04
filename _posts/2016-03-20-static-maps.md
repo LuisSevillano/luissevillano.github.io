@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="https://www.elindependiente.com/especiales/2017/06/un-viaje-por-la-historia-de-europa/">
+          <span class="gallery-date">Jun 2016</span>
+          <div class="gallery-img" style="background-image: url('/img/upside-down.jpg')"></div>
+          <p class="gallery-article-title">Upside down map</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/politica/2017/05/19/17-55-horas-el-juez-tiene-que-morir/">
           <span class="gallery-date">May 2016</span>
           <div class="gallery-img" style="background-image: url('/img/falcone.jpg')"></div>
