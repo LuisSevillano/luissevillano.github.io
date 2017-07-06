@@ -19,8 +19,19 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="https://www.elindependiente.com/futuro/2017/06/24/incendios-forestales/">
+          <span class="gallery-date">Jun 2017</span>
+          <div class="gallery-img" style="background-image: url('/img/palma.jpg')"></div>
+          <p class="gallery-article-title">NBR in La Palma 2015 fire</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="https://www.elindependiente.com/especiales/2017/06/un-viaje-por-la-historia-de-europa/">
-          <span class="gallery-date">Jun 2016</span>
+          <span class="gallery-date">Jun 2017</span>
           <div class="gallery-img" style="background-image: url('/img/upside-down.jpg')"></div>
           <p class="gallery-article-title">Upside down map</p>
         </a>
@@ -31,7 +42,7 @@ permalink: static-maps
     <div class="item">
       <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/politica/2017/05/19/17-55-horas-el-juez-tiene-que-morir/">
-          <span class="gallery-date">May 2016</span>
+          <span class="gallery-date">May 2017</span>
           <div class="gallery-img" style="background-image: url('/img/falcone.jpg')"></div>
           <p class="gallery-article-title">Giovanni Falcone</p>
         </a>
@@ -42,7 +53,7 @@ permalink: static-maps
     <div class="item">
       <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/futuro/2017/03/21/la-transformacion-de-la-antigua-mina-ha-generado-un-espacio-protegido-de-biodiversidad/">
-          <span class="gallery-date">March 2016</span>
+          <span class="gallery-date">March 2017</span>
           <div class="gallery-img" style="background-image: url('/img/lago-meirama.jpg')"></div>
           <p class="gallery-article-title">Meirama: from mina to lake</p>
         </a>
@@ -53,7 +64,7 @@ permalink: static-maps
     <div class="item">
       <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/tendencias/2017/03/13/hasta-aqui-hemos-llegado/">
-          <span class="gallery-date">March 2016</span>
+          <span class="gallery-date">March 2017</span>
           <div class="gallery-img" style="background-image: url('/img/everest.jpg')"></div>
           <p class="gallery-article-title">Alex Txikon Everest mission</p>
         </a>
@@ -64,7 +75,7 @@ permalink: static-maps
     <div class="item">
       <div class="content">
         <a class="gallery-link" href="http://www.elindependiente.com/tendencias/2017/01/23/la-construccion-de-sidney/">
-          <span class="gallery-date">January 2016</span>
+          <span class="gallery-date">January 2017</span>
           <div class="gallery-img" style="background-image: url('/img/australia-desktop-t.jpg')"></div>
           <p class="gallery-article-title">Upside down map!</p>
         </a>
