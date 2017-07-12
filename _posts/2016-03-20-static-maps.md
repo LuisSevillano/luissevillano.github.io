@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="https://www.elindependiente.com/futuro/2017/07/12/uno-de-los-mayores-icebers-conocidos-se-desprende-de-la-antartida/">
+          <span class="gallery-date">Jul 2017</span>
+          <div class="gallery-img" style="background-image: url('/img/un-iceberg-gigante-se-desprende-de-la-antartida-thumb.jpg')"></div>
+          <p class="gallery-article-title">Giant iceberg splits from Antarctic</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="https://www.elindependiente.com/futuro/2017/06/24/incendios-forestales/">
           <span class="gallery-date">Jun 2017</span>
           <div class="gallery-img" style="background-image: url('/img/palma.jpg')"></div>
