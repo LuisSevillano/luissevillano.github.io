@@ -19,6 +19,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="https://www.elindependiente.com/politica/2017/07/16/la-llegada-de-inmigrantes-en-pateras-se-dispara-un-130-mas/">
+          <span class="gallery-date">Jul 2017</span>
+          <div class="gallery-img" style="background-image: url('/img/mapa-sobre-las-muertes-de-inmigrantes-frente-a-las-costas-espanolas-2017-thumb.jpg')"></div>
+          <p class="gallery-article-title">The arrival of immigrants is 130% in 2017</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="https://www.elindependiente.com/futuro/2017/07/12/uno-de-los-mayores-icebers-conocidos-se-desprende-de-la-antartida/">
           <span class="gallery-date">Jul 2017</span>
           <div class="gallery-img" style="background-image: url('/img/un-iceberg-gigante-se-desprende-de-la-antartida-thumb.jpg')"></div>
