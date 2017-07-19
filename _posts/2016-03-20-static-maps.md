@@ -41,6 +41,17 @@ permalink: static-maps
   <div class="col-md-3 col-sm-4">
     <div class="item">
       <div class="content">
+        <a class="gallery-link" href="https://www.elindependiente.com/politica/2017/06/28/incendio-donana-afecto-8-486-hectareas/">
+          <span class="gallery-date">Jun 2017</span>
+          <div class="gallery-img" style="background-image: url('/img/donana.jpg')"></div>
+          <p class="gallery-article-title">NBR in Donana Natural Park fire</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-4">
+    <div class="item">
+      <div class="content">
         <a class="gallery-link" href="https://www.elindependiente.com/futuro/2017/06/24/incendios-forestales/">
           <span class="gallery-date">Jun 2017</span>
           <div class="gallery-img" style="background-image: url('/img/palma.jpg')"></div>
