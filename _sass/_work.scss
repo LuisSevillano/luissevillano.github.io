@@ -17,6 +17,13 @@ p.caption {
 div.ai2html {
   margin: 2rem 0;
 }
+.col-md-5 .img-responsive.img {
+  margin-top: 0;
+}
+.img-container .col-centered {
+  margin: 0 auto;
+  float: none;
+}
 .article-header-block {
   display: block;
   color: $black-light;
