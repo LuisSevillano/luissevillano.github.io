@@ -9,6 +9,11 @@ article p {
   text-align: left;
   color:$gray-dark;
 }
+p.caption {
+  color: rgb(150,150,150);
+  font-size: 1.5rem;
+  margin-bottom: 3.5rem;
+}
 .article-header-block {
   display: block;
   color: $black-light;

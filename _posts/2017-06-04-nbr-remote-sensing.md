@@ -24,7 +24,7 @@ permalink: 2017-06-04-nbr-remote-sensing
 </div>
 <div class="row">
   <div class="col-md-8">
-    <p>
+    <p class="caption">
       The Landsat 8 sensor allows us to appreciate these consequences on the ground. On the left, a shot taken the 15th of june, on the right the first of july of 2017.
     </p>
     <p>
