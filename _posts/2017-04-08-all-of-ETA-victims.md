@@ -1,6 +1,6 @@
 ---
 layout: work
-title:  "All of ETA victims (Terrorist organization)"
+title:  "All of ETA victims"
 date:   2016-04-08
 permalink: 2017-04-08-all-of-ETA-victims
 ---
