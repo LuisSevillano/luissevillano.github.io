@@ -10,7 +10,13 @@ permalink: 2017-06-08-uk-election
       The United Kingdom general election of 2017 took place on 8 June 2017. Each of the 650 parliamentary constituencies elected one Member of Parliament to the House of Commons, the lower house of Parliament.
     </p>
     <p>
-      The map is build with d3js. This time I decided to create a canvas basemap where I bind the data with each polygon. There's another layer above I use to draw the hover effect, check my <a href="//bl.ocks.org/luissevillano">blocks</a> where I was playing with different ways to do this.
+      My bosses order me to make a interactive map with the results of the elections. It was a good chance to test in production some ideas I were working on.
+    </p>
+    <p>
+      There is a canvas basemap where the data is binded with each polygon. Above that layer there's another I use to draw the hover effect.
+    </p>
+    <p>
+      Check my <a href="//bl.ocks.org/luissevillano">blocks</a> where I was playing with different ways to do this.
     </p>
     <p>
       <a href="https://www.elindependiente.com/politica/2017/06/08/resultados-elecciones-reino-unido/">Go to feature</a>.
@@ -24,7 +30,7 @@ permalink: 2017-06-08-uk-election
     </p>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm">
-    <a href="https://www.elindependiente.com/politica/2017/06/08/resultados-elecciones-reino-unido/"><img src="/img/uk-vertical.png" class="img-responsive img vertical" alt="front-page" style="width: 100%;"/></a>
+    <a href="https://www.elindependiente.com/politica/2017/06/08/resultados-elecciones-reino-unido/"><img src="/img/uk-vertical-england.jpg" class="img-responsive img vertical" alt="front-page" style="width: 100%;"/></a>
   </div>
 </div>
 <div class="img-container z-margin">

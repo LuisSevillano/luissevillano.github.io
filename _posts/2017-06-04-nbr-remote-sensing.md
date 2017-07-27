@@ -687,7 +687,7 @@ permalink: 2017-06-04-nbr-remote-sensing
 <div class="row">
   <div class="col-md-8">
     <p>
-      The same weekend that we launch this feature a new devastating fire was declared in Donana's Natural Park in southwest of Spain. We had to wait until we had new data from Landsat of the post fire to make the comparision and apreciate the fire magnitude.
+      The same weekend that we launch this feature a new devastating fire was declared in Donana's Natural Park in southwest of Spain. We had to wait until new post-fire data was available to make the comparision and apreciate the fire magnitude.
     </p>
     <p>
       Then was when we had the second chance to calculate the Normalized Burn Ratio (NBR) form Landsat 8 bands in Donana fire.
