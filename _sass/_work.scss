@@ -14,6 +14,26 @@ p.caption {
   font-size: 1.5rem;
   margin-bottom: 3.5rem;
 }
+p {
+
+  &.break-p {
+    margin-bottom: 2.5rem;
+  }
+}
+ul {
+  &.about {
+
+    li {
+      list-style-type: circle;
+    }
+  }
+  .r-link,
+  .r-link:active,
+  .r-link:hover,
+  .r-link:visited {
+    color: #c7254e;
+  }
+}
 div.ai2html {
   margin: 2rem 0;
 }
@@ -104,14 +124,21 @@ code {
   padding: 0 0.5em;
 }
 .highlight, p>pre, p>code, p>nobr>code, li>code, li>pre, h5>code, .note>code {
-  background-color: #2b2b2b;
-  color: #fff;
-  max-width: 100%;
-  overflow-x: auto;
-  vertical-align: middle;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  // background-color: #2b2b2b;
+  // color: #fff;
+  // max-width: 100%;
+  // overflow-x: auto;
+  // vertical-align: middle;
+  // -webkit-border-radius: 5px;
+  // -moz-border-radius: 5px;
+  // border-radius: 5px;
+  padding: 0;
+  // padding-top: 0.1em;
+  // padding-bottom: 0.1em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 3px;
 }
 /* Medium devices, desktop normal screens */
 @media (min-width: $screen-md-min) {

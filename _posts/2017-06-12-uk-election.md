@@ -2,7 +2,7 @@
 layout: work
 title:  "UK general election 2017"
 date:   2017-06-08
-permalink: 2017-06-08-uk-election
+permalink: uk-election
 ---
 <div class="row">
   <div class="col-md-9">

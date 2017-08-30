@@ -1,52 +1,52 @@
 - title: d3-heatmap
   img: /img/heatmap.jpg
   date: AGO 2017
-  link: 2017-08-01-d3-heatmap
+  link: /d3-heatmap
 
 - title: 1992 Summer Olympics
   img: /img/barcelona.jpg
   date: JUL 2017
-  link: 2017-07-24-barcelona-1992
+  link: /barcelona-1992
 
 - title: Scraping with nodejs
   img: /img/scraping.jpg
   date: JUL 2017
-  link: 2017-07-01-scraping-with-nodejs
+  link: /scraping-with-nodejs
 
 - title: Remote Sensing
   img: /img/donana-thumb.jpg
   date: JUN 2017
-  link: 2017-06-04-nbr-remote-sensing
+  link: /nbr-remote-sensing
 
 - title: UK general election 2017
   img: /img/small.jpg
   date: JUN 2017
-  link: 2017-06-08-uk-election
+  link: /uk-election
 
 - title: The ETA victims
   img: /img/eta-thumbnail.jpg
   date: APR 2017
-  link: 2017-04-08-all-of-ETA-victims
+  link: /all-of-ETA-victims
 
 - title: QGIS for journalist
   img: /img/difference.jpg
   date: MAR 2017
-  link: QGIS-for-journalist
+  link: /QGIS-for-journalist
 
 - title: Diomede Islands
   img: /img/thumbnails/diomedes.jpg
   date: DEC 2016
-  link: diomede-islands
+  link: /diomede-islands
 
 - title: US Elections
   img: /img/thumbnails/us-map.jpg
   date: Nov 2016
-  link: post-truth-and-the-facebook-americas
+  link: /post-truth-and-the-facebook-americas
 
 - title: The Spanish forces in the Mediterranean
   img: /img/lebanon.jpg
   date: DEC 2016
-  link: the-context-of-spanish-forces-in-the-mediterranean
+  link: /the-context-of-spanish-forces-in-the-mediterranean
 
 - title: Mouseover constant stroke effect
   img: /img/mouseover-constant-stroke-effect.jpg

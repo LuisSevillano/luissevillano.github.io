@@ -2,7 +2,7 @@
 layout: work
 title:  "Remote sensing"
 date:   2017-06-04
-permalink: 2017-06-04-nbr-remote-sensing
+permalink: nbr-remote-sensing
 ---
 <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,400,700" rel="stylesheet">
 <div class="row">

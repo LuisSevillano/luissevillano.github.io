@@ -2,7 +2,7 @@
 layout: work
 title:  "Scraping with nodejs"
 date:   2017-07-01
-permalink: 2017-07-01-scraping-with-nodejs
+permalink: scraping-with-nodejs
 ---
 <div class="row">
   <div class="col-md-9">

@@ -3,7 +3,9 @@ title: Luis Sevillano
 email: luissevillanopires@gmail.com
 description: "Some of my data visualization/infographics works"
 baseurl: ""
-url: "http://www.luissevillano.github.io"
+url: https://www.luissevillano.net   # with the https protocol
+enforce_ssl: www.luissevillano.net   # without any protocol
+
 repo: https://github.com/luissevillano/luissevillano.github.io
 twitter_username: sepirdata
 github_username:  luissevillano
