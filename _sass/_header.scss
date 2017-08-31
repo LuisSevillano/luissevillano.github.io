@@ -13,12 +13,11 @@
   font-size: 1.7rem;
 }
 .left {
-  // float: left;
-  width: 79%;
+  width: 74%;
 }
 .right {
   text-align: right;
-  width: 19%;
+  width: 25%;
 }
 .left, .right {
   display: inline-block;
@@ -72,9 +71,9 @@
   padding-bottom: 4em;*/
 
 }
-.site-header {
-  width: 90%;
-}
+// .site-header {
+//   width: 90%;
+// }
 
 header {
   padding-top: 1.8rem;
@@ -98,7 +97,7 @@ header {
 @media (min-width: $screen-md-min) {
   .site-header {
     margin: 0 auto;
-    width: 970px;
+    // width: 970px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -112,6 +111,13 @@ header {
   .left, .right {
     vertical-align: bottom;
   }
+  .left {
+    width: 79%;
+  }
+  .right {
+    text-align: right;
+    width: 19%;
+  }
 
 }
 /* Small devices, tablets */
@@ -120,6 +126,6 @@ header {
 /* big devices && desktops */
 @media (min-width: $screen-lg-min) {
   .site-header {
-    width: 1170px;
+    // width: 1170px;
   }
 }
