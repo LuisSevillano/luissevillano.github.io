@@ -104,12 +104,14 @@
   //   color: white;
   // }
   .gallery-img {
-    -moz-box-shadow: 0 2px 10px #b0b0b0;
-    -webkit-box-shadow: 0 2px 10px #b0b0b0;
-    box-shadow: 0 2px 10px #b0b0b0;
+    -moz-box-shadow: 0 4px 10px #b0b0b0;
+    -webkit-box-shadow: 0 4px 10px #b0b0b0;
+    box-shadow: 0 4px 10px #b0b0b0;
   }
   .gallery-article-title {
-    color: black;
+    color: #c7254e;
+    font-weight: bold;
+    text-decoration: underline;
     // text-shadow:1px 1px 2px #ccc;
 
   }
@@ -138,7 +140,6 @@
   }
   .gallery-article-title {
     // padding: 0.2em 0.2em 0.5em 0.2em;
-    margin: 0;
     font-size: 1.5rem;
     vertical-align: middle;
   }
