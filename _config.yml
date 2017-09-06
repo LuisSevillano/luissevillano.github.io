@@ -23,5 +23,10 @@ highlighter: rouge
 gems:
  - jekyll-seo-tag
 
+includes:
+ - resources
+
+
+
 # Google services
 google_analytics: UA-85459764-1

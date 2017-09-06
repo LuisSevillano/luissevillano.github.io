@@ -69,7 +69,7 @@
   max-width: 400px;
 
 }
-.content {
+.item .content {
   text-align: center;
   margin: 0;
   height: 375px;
@@ -98,7 +98,7 @@
 .gallery-img,.gallery-article-title {
   border-radius:0.1em;
 }
-.content:hover {
+.item .content:hover {
   // .gallery-article-title {
   //   background: rgb(150,150,150);
   //   color: white;
