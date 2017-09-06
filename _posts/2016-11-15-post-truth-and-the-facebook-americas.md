@@ -6,8 +6,8 @@ permalink: post-truth-and-the-facebook-americas
 jsarr:
   - graphs/us-counties/js/d3.v4.min.js
   - graphs/us-counties/js/topojson.v1.min.js
-  - graphs/us-counties/js/labels.js
-  - graphs/us-counties/js/main.js
+  - graphs/us-counties/js/labels.min.js
+  - graphs/us-counties/js/main.min.js
 cssarr:
   - graphs/us-counties/styles/style.css
 
