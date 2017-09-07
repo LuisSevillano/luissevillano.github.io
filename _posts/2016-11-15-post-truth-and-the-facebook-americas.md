@@ -3,11 +3,10 @@ layout: work
 title:  "US Elections"
 date:   2016-11-15
 permalink: post-truth-and-the-facebook-americas
+js:
+  - resources/us-counties/js/vendor.js  
 jsarr:
-  - graphs/us-counties/js/d3.v4.min.js
-  - graphs/us-counties/js/topojson.v1.min.js
-  - graphs/us-counties/js/labels.min.js
-  - graphs/us-counties/js/main.min.js
+  - graphs/us-counties/js/vendor.js  
 cssarr:
   - graphs/us-counties/styles/style.css
 
