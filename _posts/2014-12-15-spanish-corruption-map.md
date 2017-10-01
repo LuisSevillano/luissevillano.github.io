@@ -18,7 +18,7 @@ permalink: spanish-corruption-map
     </p>
   </div>
   <div class="col-md-5">
-    <a href="http://www.elmundo.es/grafico/espana/2014/11/03/5453d2e6268e3e8d7f8b456c.html"><img src="/img/mapa.gif" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
+    <a href="http://www.elmundo.es/grafico/espana/2014/11/03/5453d2e6268e3e8d7f8b456c.html"><img data-src="/img/mapa.gif" class="img-responsive img no-margin b-lazy" alt="maps" style="width: 100%;"/></a>
   </div>
 </div>
 
@@ -27,17 +27,17 @@ permalink: spanish-corruption-map
   </div>
   <div class="row">
     <div class="col-md-12">
-      <a href="http://www.elmundo.es/grafico/espana/2014/11/03/5453d2e6268e3e8d7f8b456c.html"><img src="/img/general-corruption.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+      <a href="http://www.elmundo.es/grafico/espana/2014/11/03/5453d2e6268e3e8d7f8b456c.html"><img data-src="/img/general-corruption.png" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12">
-      <a href="http://www.elmundo.es/grafico/espana/2014/11/03/5453d2e6268e3e8d7f8b456c.html"><img src="/img/corruption-list.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+      <a href="http://www.elmundo.es/grafico/espana/2014/11/03/5453d2e6268e3e8d7f8b456c.html"><img data-src="/img/corruption-list.png" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12">
-      <a href="http://www.elmundo.es/grafico/espana/2014/11/03/5453d2e6268e3e8d7f8b456c.html"><img src="/img/corruption-tooltip.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+      <a href="http://www.elmundo.es/grafico/espana/2014/11/03/5453d2e6268e3e8d7f8b456c.html"><img data-src="/img/corruption-tooltip.png" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
     </div>
   </div>
 </div>

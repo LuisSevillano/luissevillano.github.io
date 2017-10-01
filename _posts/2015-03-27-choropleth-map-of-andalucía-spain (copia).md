@@ -17,7 +17,7 @@ permalink: choropleth-map-of-andalucía-spain
     </p>
   </div>
   <div class="col-md-5">
-    <a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/tooltip.png" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
+    <a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img data-src="/img/tooltip.png" class="img-responsive img no-margin b-lazy" alt="maps" style="width: 100%;"/></a>
   </div>
 </div>
 
@@ -26,12 +26,12 @@ permalink: choropleth-map-of-andalucía-spain
   </div>
   <div class="row">
     <div class="col-md-12">
-      <a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/upyd-andalucia.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+      <a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img data-src="/img/upyd-andalucia.png" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12">
-      <a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img src="/img/cs-andalucia.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+      <a href="http://www.elmundo.es/grafico/espana/2015/03/26/55145a0622601dc6248b4580.html"><img data-src="/img/cs-andalucia.png" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
     </div>
   </div>
 </div>

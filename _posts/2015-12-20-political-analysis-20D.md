@@ -16,7 +16,10 @@ permalink: political-analysis-20D
 </p>
 <div class="img-container">
 
-  <a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img src="/img/portada.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
-  <a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img src="/img/map.gif" class="img-responsive img" alt="maps" style="width: 100%;"/></a>
-  <a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img src="/img/bipartidismo.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+  <a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img data-src="/img/portada.png" class="img-responsive img b-lazy
+b-lazy" alt="front-page" style="width: 100%;"/></a>
+  <a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img data-src="/img/map.gif" class="img-responsive img b-lazy
+b-lazy" alt="maps" style="width: 100%;"/></a>
+  <a href="http://datos.elespanol.com/elecciones-generales/resultados/analisis/"><img data-src="/img/bipartidismo.png" class="img-responsive img b-lazy
+b-lazy" alt="front-page" style="width: 100%;"/></a>
 </div>

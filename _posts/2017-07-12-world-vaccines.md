@@ -35,7 +35,7 @@ permalink: world-vaccines
     </p>
   </div>
 </div>
-<div class="img-container">
+<div>
   <div class="row">
     <div class="col-md-4">
       <a href="https://www.elindependiente.com/vida-sana/2017/07/02/cuidado-con-lo-que-te-traes-de-las-vacaciones/?utm_source=share_buttons&utm_medium=twitter&utm_campaign=social_share"><img src="/img/world-vaccines-mobile3.jpg" class="img-responsive img no-sdw" alt="front-page" style="width: 100%;"/></a>

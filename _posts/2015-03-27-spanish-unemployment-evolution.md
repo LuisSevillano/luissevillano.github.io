@@ -15,17 +15,17 @@ permalink: spanish-unemployment-evolution
     </p>
   </div>
   <div class="col-md-5">
-    <a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img src="/img/pie.png" class="img-responsive img no-margin" alt="maps" style="width: 100%;"/></a>
+    <a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img data-src="/img/pie.png" class="img-responsive img no-margin b-lazy" alt="maps" style="width: 100%;"/></a>
   </div>
   <div class="">
     <div class="row">
     </div>
     <div class="row">
       <div class="col-md-7">
-        <a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img src="/img/unemployment.jpg" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+        <a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img data-src="/img/unemployment.jpg" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
       </div>
       <div class="col-md-5">
-        <a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img src="/img/bar.png" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+        <a href="http://www.elmundo.es/grafico/economia/2014/10/01/542c442a268e3ee96c8b457c.html"><img data-src="/img/bar.png" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
       </div>
     </div>
   </div>
