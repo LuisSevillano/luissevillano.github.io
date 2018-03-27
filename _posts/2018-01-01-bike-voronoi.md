@@ -1,0 +1,39 @@
+---
+layout: work
+title:  "A Coruna city bike use"
+date:   2018-01-01
+permalink: bike-voronoi
+---
+
+<div class="row">
+  <div class="col-md-7">
+    <p>
+      I wrote this small piece of code to create a kind of <i>heatmap/calendar</i> with d3. One day a coworker asked me to create a interactive graph that could show a calendar of fruits and vegetables.
+    </p>
+    <p>
+      It had to be responsive and able to read the data from a json. So I wrote it following Mike Bostock's <a href="https://bost.ocks.org/mike/nest/">Nested selections</a>.
+    </p>
+    <p>
+      It's not a plugin to the way you instantiate an object and you access a number of methods. I just decided to keep the basics in a repository so I could access it in the future if I need it or someone else.
+    </p>
+    <p>
+      It uses rollup.js and sass. You just need to execute <code>npm install</code> and <code>npm start</code>.
+    </p>
+    <p>
+      <a href="https://github.com/LuisSevillano/d3-heatmap">Go to the repo</a>.
+    </p>
+    <p class="pills">
+      <span class="tool pill">d3</span>
+      <span class="tool pill">npm</span>
+      <span class="tool pill">rollup</span>
+      <span class="tool pill">sass</span>
+    </p>
+  </div>
+</div>
+<div class="img-container z-margin">
+  <div class="row">
+    <div class="col-md-8">
+      <a href="https://github.com/LuisSevillano/d3-heatmap"><img src="/img/heatmap-big.jpg" class="img-responsive img" alt="front-page" style="width: 100%;"/></a>
+    </div>
+  </div>
+</div>

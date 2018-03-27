@@ -1,3 +1,13 @@
+# - title: A Coruna city bike use
+#   img: /img/heatmap.jpg
+#   date: ENE 2018
+#   link: /bike-voronoi
+
+- title: Catastro A Coruna
+  img: img/thumbnails/old-city-coruna.jpg
+  date: Nov 2017
+  link: /catastro-coruna
+
 - title: d3-heatmap
   img: /img/heatmap.jpg
   date: AGO 2017
