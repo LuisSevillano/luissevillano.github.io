@@ -1,7 +1,22 @@
+- title: 2019 General Election
+  img: /img/thumbnails/general-election-scatterplots.jpg
+  date: APR 2019
+  link: /2019-general-election
+
+- title: A year at iCarto
+  img: /img/mozambique.jpg
+  date: MAY 2018
+  link: /a-year-at-icarto
+
 - title: Transparentia
   img: /img/thumbnails/transparentia.jpg
   date: JAN 2019
   link: /transparentia
+
+- title: Tile Writer
+  img: /img/thumbnails/tile-writer.jpg
+  date: OCT 2018
+  link: /tile-writer
 
 - title: A Coruna city bike
   img: /img/thumbnails/voronoi.jpg
