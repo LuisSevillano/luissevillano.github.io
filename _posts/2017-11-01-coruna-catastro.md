@@ -14,7 +14,7 @@ permalink: catastro-coruna
       The plugin allows you to download a set of very accurate data both at parcel level and building.
     </p>
     <p>
-      It will download to your machine several sets of data in which you will find a layer named like <i>building Building Polygon</i> that contains the building data. This layer has a field in it's attribute table named `end` that contains the year in which that building was finished so you can get it with a basic field calculator manipulation.
+      It will download to your machine several sets of data in which you will find a layer named like <i>Building Polygon</i> that contains the building data. This layer has a field in it's attribute table named `end` that contains the year in which that building was finished so you can get it with a basic field calculator manipulation.
     </p>
     <p>
       This time I just make a series of sketches about A Coruña city and Colmenar Viejo town.

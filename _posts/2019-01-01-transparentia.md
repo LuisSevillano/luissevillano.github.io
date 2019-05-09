@@ -27,10 +27,16 @@ permalink: transparentia
     </p>
   </div>
 </div>
-<div class="img-container z-margin">  
+<div class="img-container z-margin">
   <div class="row">
-      <div class="col-md-12">
-          <video src="/img/transparentia_plain_search.mp4" class="embed-video" muted="" loop="" autoplay="" playsinline=""></video>
+      <div class="col-md-8">
+          <figure class="sizeLarge css-qhlm6o" aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+               <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
+                  <source src="/img/transparentia_plain_search.mp4" type="video/mp4">
+                  <source src="/img/transparentia_plain_search.webm" type="video/webm">
+                  <i>Your browser does not support the video tag.</i>
+              </video>
+          </figure>
           <p class="caption">Capture of a search using the basic search engine.</p>
       </div>
   </div>
@@ -43,8 +49,14 @@ permalink: transparentia
       </div>
   </div>
   <div class="row">
-      <div class="col-md-12">
-          <video src="/img/transparentia_advanced_search.mp4" class="embed-video" muted="" loop="" autoplay="" playsinline=""></video>
+      <div class="col-md-8">
+          <figure class="sizeLarge css-qhlm6o" aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+               <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
+                  <source src="/img/transparentia_advanced_search.mp4" type="video/mp4">
+                  <source src="/img/transparentia_advanced_search.webm" type="video/webm">
+                  <i>Your browser does not support the video tag.</i>
+              </video>
+          </figure>
           <p class="caption">Video capture using advanced search filters.</p>
       </div>
   </div>

@@ -2,7 +2,7 @@
 layout: work
 title: "Tile Writer"
 date: 2018-10-01
-permalink: tile-writer
+permalink: qgis-tile-writer
 ---
 
 <div class="row">
@@ -26,9 +26,13 @@ permalink: tile-writer
 </div>
 <div class="img-container z-margin">  
   <div class="row">
-      <div class="col-md-12">
-          <video src="/img/tile-writer.mp4" class="embed-video" muted="" loop="" autoplay="" playsinline=""></video>
+      <div class="col-md-8">
+           <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
+            <source src="/img/tile-writer.mp4" type="video/mp4">
+            <source src="/img/tile-writer.webm" type="video/webm">
+            <i>Your browser does not support the video tag.</i>
+        </video>
           <p class="caption">Capture of a Tile Writer demo.</p>
       </div>
-  </div>  
+  </div>
 </div>
