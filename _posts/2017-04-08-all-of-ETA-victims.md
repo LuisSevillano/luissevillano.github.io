@@ -24,7 +24,7 @@ permalink: all-of-ETA-victims
     <p class="pills">
       <span class="tool pill">QGIS</span>
       <span class="tool pill">OpenRefine</span>
-      <span class="tool pill">d3js</span>
+      <span class="tool pill">d3</span>
     </p>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm">

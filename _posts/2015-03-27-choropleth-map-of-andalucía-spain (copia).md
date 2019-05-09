@@ -13,7 +13,7 @@ permalink: choropleth-map-of-andalucía-spain
       <span class="tool pill">HTML</span>
       <span class="tool pill">CSS</span>
       <span class="tool pill">js</span>
-      <span class="tool pill">d3.js</span>
+      <span class="tool pill">d3</span>
     </p>
   </div>
   <div class="col-md-5">

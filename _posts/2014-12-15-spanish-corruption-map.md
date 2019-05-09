@@ -1,9 +1,10 @@
 ---
 layout: work
-title:  "Spanish corruption map"
-date:   2015-03-27
+title: "Spanish corruption map"
+date: 2015-03-27
 permalink: spanish-corruption-map
 ---
+
 <div class="row">
   <div class="col-md-7">
     <p>Map shows the number of corruption cases in each region of Spain. User can click on each region to find his cases, show results as to political party, case name, category (unions, company...) or even make a search by himself.
@@ -13,7 +14,7 @@ permalink: spanish-corruption-map
       <span class="tool pill">HTML</span>
       <span class="tool pill">CSS</span>
       <span class="tool pill">js</span>
-      <span class="tool pill">d3.js</span>
+      <span class="tool pill">d3</span>
       <span class="tool pill">csv</span>
     </p>
   </div>

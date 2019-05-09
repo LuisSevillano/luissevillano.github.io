@@ -9,6 +9,6 @@ permalink: line-chart
 </p>
 <p class="pills">
   <span class="tool pill">HTML</span>
-  <span class="tool pill">d3.js</span>
+  <span class="tool pill">d3</span>
 </p>
 <img src="/img/line-chart.png" class="img-responsive img" alt="Drawing" style="width: 100%;"/>

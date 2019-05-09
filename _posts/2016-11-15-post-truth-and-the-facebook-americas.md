@@ -43,7 +43,7 @@ cssarr:
     The link to the project is broken so I reproduce the code below.
     </p>
     <p class="pills">
-      <span class="tool pill">D3.js</span>
+      <span class="tool pill">d3</span>
       <span class="tool pill">TopoJSON</span>
       <span class="tool pill">TopoJSON CLI</span>
       <span class="tool pill">Pym.js</span>

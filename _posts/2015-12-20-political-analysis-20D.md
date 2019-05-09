@@ -11,7 +11,7 @@ permalink: political-analysis-20D
   <span class="tool pill">HTML</span>
   <span class="tool pill">SASS</span>
   <span class="tool pill">js</span>
-  <span class="tool pill">d3.js</span>
+  <span class="tool pill">d3</span>
   <span class="tool pill">topojson</span>
 </p>
 <div class="img-container">

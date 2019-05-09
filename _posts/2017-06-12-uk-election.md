@@ -23,7 +23,7 @@ permalink: uk-election
     </p>
     <p class="pills">
       <span class="tool pill">QGIS</span>
-      <span class="tool pill">d3js</span>
+      <span class="tool pill">d3</span>
       <span class="tool pill">TopoJSON</span>
       <span class="tool pill">canvas</span>
       <span class="tool pill">rollup.js</span>

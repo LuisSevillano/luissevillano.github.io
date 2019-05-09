@@ -10,7 +10,7 @@ permalink: batman-vs-superman
   <span class="tool pill">HTML</span>
   <span class="tool pill">SASS</span>
   <span class="tool pill">js</span>
-  <span class="tool pill">d3.js</span>
+  <span class="tool pill">d3</span>
   <span class="tool pill">scrollstory</span>
   <span class="tool pill">illustration</span>
 </p>

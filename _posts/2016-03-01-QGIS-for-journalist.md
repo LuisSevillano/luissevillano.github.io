@@ -1,9 +1,10 @@
 ---
 layout: work
-title:  "QGIS for journalist"
-date:   2016-03-01
+title: "QGIS for journalist"
+date: 2016-03-01
 permalink: QGIS-for-journalist
 ---
+
 <div class="row">
   <div class="col-md-9">
     <p>
@@ -13,10 +14,10 @@ permalink: QGIS-for-journalist
       First day was a four hour workshop about how to make a static choropleth map using <a href="https://www.qgis.org/en/site/forusers/download.html">QGIS</a>. The attendees would be able to make a population density map of Spain. To change coordinates system of a shapefile, merge shapefiles, create new fields on the Attribute Table, make a spatial join, apply a right color ramp, use the print composer, etc.
     </p>
     <p>
-      I toke the decision to make it all <i>open source</i> and share it on github, so <a href="https://github.com/LuisSevillano/QGIS-choropleth-workshow">here is the repo</a> (spanish).
+      I toke the decision to make it all <i>open source</i> and share it on GitHub, so <a href="https://github.com/LuisSevillano/QGIS-choropleth-workshow">here is the repo</a> (spanish).
     </p>
     <p>
-      For the rest of the course I prefered to use Github's gist to share the steps and examples of each workshops. All the gist has its own exercises. Here are the more relevant days:
+      For the rest of the course I prefered to use GitHub's gist to share the steps and examples of each workshops. All the gist has its own exercises. Here are the more relevant days:
       <ul>
         <li>QGIS Basic features: layer properties panel, rule-based styles, etc. <a href="https://gist.github.com/LuisSevillano/11d6a1520a5fb58d4598c3546521d635">Link</a></li>
         <li>Vector analysis: intersect, merge, clip, dissolve, buffers, etc. <a href="https://gist.github.com/LuisSevillano/ef30303be5b60fd99622e54db4e6db26">Link</a></li>

@@ -1,7 +1,7 @@
 ---
 layout: work
-title:  "A Coruna city bike use"
-date:   2018-02-01
+title: "A Coruna city bike use"
+date: 2018-02-01
 permalink: bike-voronoi
 ---
 
@@ -11,7 +11,7 @@ permalink: bike-voronoi
     </p>
     <p>During the session the group that I was part of worked with data on the use of bicicoruña and came to produce four maps with Leaflet and D3js. Three heatmaps about general behaviour and use, trips with same departure and arrival station, time-lapse animated map. The last one was an attempt to show which one was the most common trip from each station (<a href="https://www.luissevillano.net/bici-coruna/">link</a>).
     </p>
-    <p>The project was hosted on Github, feel free to make any suggestions, open issues or pull request. <a href="https://github.com/LuisSevillano/bici-coruna">Link to the repository</a>.
+    <p>The project was hosted on GitHub, feel free to make any suggestions, open issues or pull request. <a href="https://github.com/LuisSevillano/bici-coruna">Link to the repository</a>.
     </p>
     <p class="break-p"></p>
     <p>That day I couldn't finish a map to show what was the most common trip from each station so moths after I return to the project and finish that map.

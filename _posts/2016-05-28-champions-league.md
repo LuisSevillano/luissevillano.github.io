@@ -10,7 +10,7 @@ permalink: champions-league
   <span class="tool pill">HTML</span>
   <span class="tool pill">SASS</span>
   <span class="tool pill">js</span>
-  <span class="tool pill">d3.js</span>
+  <span class="tool pill">d3</span>
   <span class="tool pill">PYTHON</span>
   <span class="tool pill">pandas</span>
   <span class="tool pill">ai2html</span>

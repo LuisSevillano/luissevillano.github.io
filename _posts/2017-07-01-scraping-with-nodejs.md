@@ -1,9 +1,10 @@
 ---
 layout: work
-title:  "Scraping with nodejs"
-date:   2017-07-01
+title: "Scraping with nodejs"
+date: 2017-07-01
 permalink: scraping-with-nodejs
 ---
+
 <div class="row">
   <div class="col-md-9">
     <p>
@@ -19,7 +20,7 @@ permalink: scraping-with-nodejs
       To avoid being banned by making multiple requests to the same page until I have the code that would extract the information from each country page I used <a href="https://developers.google.com/web/tools/chrome-devtools/snippets?hl=en">Google Chrome snippets</a> thanks to which you can run small pieces of code on client side.
     </p>
     <p>
-      Take a look to the code at <a href="https://github.com/LuisSevillano/scrape-vaccines/">github</a>.
+      Take a look to the code at <a href="https://github.com/LuisSevillano/scrape-vaccines/">GitHub</a>.
     </p>
     <p class="pills">
       <span class="tool pill">nodejs</span>

@@ -1,10 +1,10 @@
 ---
 layout: work
-title:  "Remote sensing"
-date:   2017-06-04
+title: "Remote sensing"
+date: 2017-06-04
 permalink: nbr-remote-sensing
 ---
-<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,400,700" rel="stylesheet">
+
 <div class="row">
   <div class="col-md-8">
     <p>
@@ -443,6 +443,7 @@ permalink: nbr-remote-sensing
         <p class='g-aiPstyle7'>por el incendio de 2016</p>
       </div>
     </div>
+
   </div>
 
   <!-- Artboard: art-2 -->
@@ -677,7 +678,6 @@ permalink: nbr-remote-sensing
   </div>
 </div>
 </div>
-
 
 <!-- End ai2html - 2017-06-22 - 16:37 -->
 </div>
@@ -1303,6 +1303,7 @@ permalink: nbr-remote-sensing
         <p class='g-aiPstyle12'>20 Km</p>
       </div>
     </div>
+
   </div>
 
   <!-- Artboard: art-1 -->
@@ -1512,7 +1513,6 @@ permalink: nbr-remote-sensing
   </div>
 </div>
 
-
 <!-- End ai2html - 2017-07-07 - 14:20 -->
 </div>
 
@@ -1533,28 +1533,28 @@ permalink: nbr-remote-sensing
 <script>
 (function() {
 
-  function debounce(fn, delay) {
-    var timer = null;
-    return function () {
-      var context = this, args = arguments;
-      clearTimeout(timer);
-      timer = setTimeout(function () {
-        fn.apply(context, args);
-      }, delay);
-    };
-  }
-  function isHidden(el) {
-    return el.offsetWidth > 0;
-  }
-  function checkImages(){
-    var imagesArray = document.querySelectorAll(".g-aiImg");
-    for (var i in imagesArray) {
-      if (isHidden(imagesArray[i])) {
-        imagesArray[i].src = imagesArray[i].getAttribute("data-src");
-      }
-    }
-  }
-  document.addEventListener('DOMContentLoaded', checkImages);
-  window.addEventListener('resize', debounce(checkImages, 300));
+function debounce(fn, delay) {
+var timer = null;
+return function () {
+var context = this, args = arguments;
+clearTimeout(timer);
+timer = setTimeout(function () {
+fn.apply(context, args);
+}, delay);
+};
+}
+function isHidden(el) {
+return el.offsetWidth > 0;
+}
+function checkImages(){
+var imagesArray = document.querySelectorAll(".g-aiImg");
+for (var i in imagesArray) {
+if (isHidden(imagesArray[i])) {
+imagesArray[i].src = imagesArray[i].getAttribute("data-src");
+}
+}
+}
+document.addEventListener('DOMContentLoaded', checkImages);
+window.addEventListener('resize', debounce(checkImages, 300));
 })()
 </script>
