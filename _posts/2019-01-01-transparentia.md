@@ -31,7 +31,7 @@ permalink: transparentia
   <div class="row">
       <div class="col-md-8">
           <figure class="sizeLarge css-qhlm6o" aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
-               <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
+               <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/transparentia_plain_search.png')">
                   <source src="/img/transparentia_plain_search.mp4" type="video/mp4">
                   <source src="/img/transparentia_plain_search.webm" type="video/webm">
                   <i>Your browser does not support the video tag.</i>
@@ -51,7 +51,7 @@ permalink: transparentia
   <div class="row">
       <div class="col-md-8">
           <figure class="sizeLarge css-qhlm6o" aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
-               <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
+               <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/transparentia_advanced_search.png')">
                   <source src="/img/transparentia_advanced_search.mp4" type="video/mp4">
                   <source src="/img/transparentia_advanced_search.webm" type="video/webm">
                   <i>Your browser does not support the video tag.</i>

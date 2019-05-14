@@ -26,13 +26,15 @@ permalink: qgis-tile-writer
 </div>
 <div class="img-container z-margin">  
   <div class="row">
-      <div class="col-md-8">
-           <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
-            <source src="/img/tile-writer.mp4" type="video/mp4">
-            <source src="/img/tile-writer.webm" type="video/webm">
-            <i>Your browser does not support the video tag.</i>
-        </video>
-          <p class="caption">Capture of a Tile Writer demo.</p>
-      </div>
+    <div class="col-md-8">
+        <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+            <video class="embed-video" playsinline webkit-playsinline autoplay muted loop style="background-image:url('/img/tile-writer.png')">
+                <source src="https://www.luissevillano.net/img/tile-writer.mp4" type="video/mp4">
+                <source src="https://www.luissevillano.net/img/tile-writer.webm" type="video/webm">
+                <i>Your browser does not support the video tag.</i>
+            </video>
+        </figure>
+        <p class="caption">Capture of a Tile Writer demo.</p>
+    </div>
   </div>
 </div>

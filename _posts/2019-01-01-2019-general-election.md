@@ -38,11 +38,13 @@ permalink: 2019-general-election
     </div>
   <div class="row">
       <div class="col-md-10">
-           <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
+          <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+           <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/scatterplots_cut.jpg')">
               <source src="/img/scatterplot_r.mp4" type="video/mp4">
               <source src="/img/scatterplot_r.webm" type="video/webm">
               <i>Your browser does not support the video tag.</i>
           </video>
+      </figure>
           <p class="caption">Capture of small multiples of scatterplots whose relate % of vote with several socioeconomic variables.</p>
       </div>
   </div>
@@ -55,11 +57,13 @@ permalink: 2019-general-election
   </div>
   <div class="row">
       <div class="col-md-8">
-           <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
+          <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+           <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/muniwinner-2019_cut.jpg')">
               <source src="/img/muni-winner_r.mp4" type="video/mp4">
               <source src="/img/muni-winner_r.webm" type="video/webm">
               <i>Your browser does not support the video tag.</i>
           </video>
+      </figure>
           <p class="caption">Video capture of Winner per Municipality / population density. I used a scaleQuantile for the color and a scalePow for the <i>rect legend</i> to illustrate the irregular distribution of the values.</p>
       </div>
   </div>
@@ -67,11 +71,13 @@ permalink: 2019-general-election
       <div class="col-md-8">
           <p><strong>Treemaps</strong> were used to show how many votes were needed to get one of the 350 seats of which the Spanish parliament is composed. You can navigate through all the spanish General Elections, from 1977 to 2019.</p>
           <p>The Spanish electoral system makes the vote not worth the same in all provinces and, in addition, penalizes minority parties of a national nature, and that is what this graph wants to highlight.</p>
-           <video class="embed-video" muted="" loop="" autoplay="" playsinline="">
+          <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+           <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/treemap_cut.jpg')">
               <source src="/img/treemap_r.mp4" type="video/mp4">
               <source src="/img/treemap_r.webm" type="video/webm">
               <i>Your browser does not support the video tag.</i>
           </video>
+      </figure>
           <p class="caption">Video capture of the Treemap graph that shows The Cost of a Vote.</p>
       </div>
   </div>
