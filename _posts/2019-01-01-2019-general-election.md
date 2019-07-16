@@ -31,7 +31,9 @@ permalink: 2019-general-election
     <div class="row">
         <div class="col-md-8">
             <p class="break-p"></p>
-            <p>Regards to each graphic, <strong>Scatterplots</strong> uses the new <code>d3-regression</code> by Harry Stevens and <code>d3-delaunay</code> for the tooltip interaction. There is no hidden Voronoi layer or anything like that. Its really powerful and fast!</p>
+            <p>Regards to each graphic, <strong>Scatterplots</strong> uses the new <code>d3-regression</code> by Harry Stevens and <code>d3-delaunay</code> for the tooltip interaction. There is no hidden Voronoi layer or anything else. It's really powerful and fast!</p>
+            <img data-src="/img/delaunay.jpg|/img/delaunay-r.jpg" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/>
+            <p class="caption">Capture of the delaunay path for the interaction (not visible in production).</p>
             <p>Regrettably, SVG uses to be pretty slow when renders thousands of elements in browsers. Each scatterplot has over 800 points and there is 12 scatterplots. In order to improve the perfomance it was the first time I combine Canvas and SVG in a scatterplot. Even that, the results wasn't as good as I expected so next time I should give a try to WebGL.</p>
             <p class="break-p"></p>
         </div>
