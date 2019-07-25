@@ -16,24 +16,24 @@
 
   font-size: 1.5em;
   /* Internet Explorer 10 */
-  display:-ms-flexbox;
+  display: -ms-flexbox;
   // -ms-flex-pack:center;
-  -ms-flex-align:center;
+  -ms-flex-align: center;
 
   /* Firefox */
-  display:-moz-box;
+  display: -moz-box;
   // -moz-box-pack:center;
-  -moz-box-align:center;
+  -moz-box-align: center;
 
   /* Safari, Opera, and Chrome */
-  display:-webkit-box;
+  display: -webkit-box;
   // -webkit-box-pack:center;
-  -webkit-box-align:center;
+  -webkit-box-align: center;
 
   /* W3C */
-  display:box;
+  display: box;
   // box-pack:center;
-  box-align:center;
+  box-align: center;
 }
 // .content:hover {
 //   color: $navy;
@@ -48,13 +48,14 @@
 //   transition-property: box-shadow;
 //   box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
 // }
-.container{
+.container {
   a {
     color: $black;
     font-weight: bold;
   }
 }
-.item a, .site-footer a {
+.item a,
+.site-footer a {
   font-weight: normal;
 }
 
@@ -67,7 +68,6 @@
   // text-align: center;
   vertical-align: top;
   max-width: 400px;
-
 }
 .item .content {
   text-align: center;
@@ -91,12 +91,13 @@
   background-size: cover;
   background-position: center;
   display: inline-block;
-  box-shadow: 0 2px 10px rgba(221,228,225,1);
+  box-shadow: 0 2px 10px rgba(221, 228, 225, 1);
   //background-position-y: -12px;
   background-repeat: no-repeat;
 }
-.gallery-img,.gallery-article-title {
-  border-radius:0.1em;
+.gallery-img,
+.gallery-article-title {
+  border-radius: 0.1em;
 }
 .item .content:hover {
   // .gallery-article-title {
@@ -113,7 +114,6 @@
     font-weight: bold;
     text-decoration: underline;
     // text-shadow:1px 1px 2px #ccc;
-
   }
   .gallery-date {
     color: black;
@@ -129,7 +129,7 @@
   letter-spacing: 0.6em;
   font-weight: bold;
   margin-bottom: 0.3rem;
-  text-transform: uppercase;;
+  text-transform: uppercase;
   //text-shadow: rgba(35, 55, 251,0.2) 0px -4px 3px, rgba(0, 0, 0, 0.1) 0px 0px 1px;
 }
 /* Medium devices, desktop normal screens */
@@ -183,4 +183,15 @@
   .gallery-article-title {
     width: 250px;
   }
+}
+.b-lazy {
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+  max-width: 100%;
+  opacity: 0;
+}
+.b-lazy.b-loaded {
+  opacity: 1;
 }
