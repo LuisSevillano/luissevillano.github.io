@@ -31,7 +31,7 @@ permalink: 2019-general-election
     <div class="row">
         <div class="col-md-8">
             <p class="break-p"></p>
-            <p>Regards to each graphic, <strong>Scatterplots</strong> uses the new <code>d3-regression</code> by Harry Stevens and <code>d3-delaunay</code> for the tooltip interaction. There is no hidden Voronoi layer or anything else. It's really powerful and fast!</p>
+            <p>Regards to each graphic, <a href="http://lab.rtve.es/los-datos-hablan/radiografia-votante/">Scatterplots</a> uses the new <code>d3-regression</code> by Harry Stevens and <code>d3-delaunay</code> for the tooltip interaction. There is no hidden Voronoi layer or anything else. It's really powerful and fast!</p>
             <img data-src="/img/delaunay.jpg|/img/delaunay-r.jpg" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/>
             <p class="caption">Capture of the delaunay path for the interaction (not visible in production).</p>
             <p>Regrettably, SVG uses to be pretty slow when renders thousands of elements in browsers. Each scatterplot has over 800 points and there is 12 scatterplots. In order to improve the perfomance it was the first time I combine Canvas and SVG in a scatterplot. Even that, the results wasn't as good as I expected so next time I should give a try to WebGL.</p>
@@ -40,46 +40,52 @@ permalink: 2019-general-election
     </div>
   <div class="row">
       <div class="col-md-10">
-          <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
-           <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/scatterplots_cut.jpg')">
-              <source src="/img/scatterplot_r.mp4" type="video/mp4">
-              <source src="/img/scatterplot_r.webm" type="video/webm">
-              <i>Your browser does not support the video tag.</i>
-          </video>
-      </figure>
+          <a href="http://lab.rtve.es/los-datos-hablan/radiografia-votante/">
+              <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+                   <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/scatterplots_cut.jpg')">
+                      <source src="/img/scatterplot_r.mp4" type="video/mp4">
+                      <source src="/img/scatterplot_r.webm" type="video/webm">
+                      <i>Your browser does not support the video tag.</i>
+                  </video>
+              </figure>
+        </a>
           <p class="caption">Capture of small multiples of scatterplots whose relate % of vote with several socioeconomic variables.</p>
       </div>
   </div>
   <div class="row">
       <div class="col-md-8">
-          <p>We created <strong>Winner Party</strong> maps but this time we relate the electoral results with the population density in order to create a more accurate map. A very high percentage of the Spanish population lives in the cities and their nearby areas, which creates a landscape that has received in recent years the adjective, debatable, of La España Vacía (The empty Spain).</p>
+          <p>We created <a href="http://lab.rtve.es/los-datos-hablan/resultados-interactivos-elecciones/">Winner Party</a> maps but this time we relate the electoral results with the population density in order to create a more accurate map. A very high percentage of the Spanish population lives in the cities and their nearby areas, which creates a landscape that has received in recent years the adjective, debatable, of La España Vacía (The empty Spain).</p>
           <p>This type of maps with interaction uses a combination of two layers too. The choropleth is drawn on the Canvas one and the hover path is drawn on the SVG layer.</p>
           <p class="break-p"></p>
       </div>
   </div>
   <div class="row">
       <div class="col-md-8">
-          <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
-           <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/muniwinner-2019_cut.jpg')">
-              <source src="/img/muni-winner_r.mp4" type="video/mp4">
-              <source src="/img/muni-winner_r.webm" type="video/webm">
-              <i>Your browser does not support the video tag.</i>
-          </video>
-      </figure>
+          <a href="http://lab.rtve.es/los-datos-hablan/resultados-interactivos-elecciones/">
+              <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+                   <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/muniwinner-2019_cut.jpg')">
+                      <source src="/img/muni-winner_r.mp4" type="video/mp4">
+                      <source src="/img/muni-winner_r.webm" type="video/webm">
+                      <i>Your browser does not support the video tag.</i>
+                  </video>
+              </figure>
+          </a>
           <p class="caption">Video capture of Winner per Municipality / population density. I used a scaleQuantile for the color and a scalePow for the <i>rect legend</i> to illustrate the irregular distribution of the values.</p>
       </div>
   </div>
   <div class="row">
       <div class="col-md-8">
-          <p><strong>Treemaps</strong> were used to show how many votes were needed to get one of the 350 seats of which the Spanish parliament is composed. You can navigate through all the spanish General Elections, from 1977 to 2019.</p>
+          <p><a href="http://lab.rtve.es/los-datos-hablan/valor-voto/">Treemaps</a> were used to show how many votes were needed to get one of the 350 seats of which the Spanish parliament is composed. You can navigate through all the spanish General Elections, from 1977 to 2019.</p>
           <p>The Spanish electoral system makes the vote not worth the same in all provinces and, in addition, penalizes minority parties of a national nature, and that is what this graph wants to highlight.</p>
-          <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
-           <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/treemap_cut.jpg')">
-              <source src="/img/treemap_r.mp4" type="video/mp4">
-              <source src="/img/treemap_r.webm" type="video/webm">
-              <i>Your browser does not support the video tag.</i>
-          </video>
-      </figure>
+          <a href="http://lab.rtve.es/los-datos-hablan/valor-voto/">
+              <figure aria-label="media" role="group" itemscope="" itemprop="associatedMedia" itemtype="http://schema.org/VideoObject">
+                   <video class="embed-video" muted="" loop="" autoplay="" playsinline="" style="background-image:url('/img/treemap_cut.jpg')">
+                      <source src="/img/treemap_r.mp4" type="video/mp4">
+                      <source src="/img/treemap_r.webm" type="video/webm">
+                      <i>Your browser does not support the video tag.</i>
+                  </video>
+              </figure>
+          </a>
           <p class="caption">Video capture of the Treemap graph that shows The Cost of a Vote.</p>
       </div>
   </div>
