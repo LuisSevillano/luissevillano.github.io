@@ -1,6 +1,11 @@
+- title: Merge CSV headers in R
+  img: /img/thumbnails/r-script.jpg
+  date: AUG 2019
+  link: /combine-csv-headers-in-R
+
 - title: Custom Dixit Game
   img: /img/thumbnails/illa.jpg
-  date: JUN 2019
+  date: JUL 2019
   link: /custom-dixit-game
 
 - title: 2019 General Election
@@ -166,7 +171,7 @@
 - title: Choropleth map of Andalucía
   img: /img/thumbnails/andalucia-full.jpg
   date: MAR 2015
-  link: /choropleth-map-of-andalucía-spain
+  link: /choropleth-map-of-andalucia-spain
 
 - title: Spanish unemployment time line graph
   img: /img/thumbnails/epa.png
