@@ -22,18 +22,25 @@
     {% if page.title %}{{ page.title }} – {{site.title}} {% else %}{{ site.title
     }}{% endif %}
   </title>
+  {% if page.description %}
+  <meta itemprop="description" content="{{page.description}}" />
+  <meta name="twitter:description" content="{{page.description}}" />
+  {% else %}
   <meta itemprop="description" content="{{site.description}}" />
   <meta name="twitter:description" content="{{site.description}}" />
-  <meta property="og:description" content="{{site.description}}" />
-  <meta property="og:site_name" content="{{site.title}}" />
-  <meta itemprop="image" content="//www.luissevillano.net/img/share.jpg" />
-  <meta property="og:image" content="//www.luissevillano.net/img/share.jpg" />
-  <meta name="twitter:image" content="//www.luissevillano.net/img/share.jpg" />
+  {% endif %}
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   {% seo %}
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  {% if page.image %}
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+  {% else %}
+  <meta itemprop="image" content="{{ site.logo}}" />
+  <meta property="og:image" content="{{ site.logo}}" />
+  <meta name="twitter:image" content="{{ site.logo}}" />
+  {% endif %} <link rel="stylesheet" href="{{ "/css/main.css" | prepend:
+  site.baseurl }}">
   <link
     href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,100|PT+Mono|Libre+Franklin:700"
     rel="stylesheet"
