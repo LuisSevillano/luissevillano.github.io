@@ -11,10 +11,9 @@ permalink: qgis-tile-writer
     </p>
     <p>They uses to create applications with multples features on maps. Usually with a base map over which uses to have several GeoJSON with a specific look and style. They were looking for a way where cartographers and map designers could export their designs directly from QGIS with no intervention of any engineer.</p>
     <p>Then <a href="https://twitter.com/fpuga">Francisco Puga</a> put me on the trail of a project called Tile Writer following a question in GIS Stack Exchange. It was and old project created by Alexander Hajnal that didn't work in QGIS 3 which uses Python3 (with the change to version 3 his API experienced many changes too). So I spent a few hours updating to the new QGIS API and to work with Python3.</p>
-    <p><i>Tile Writer</i> is a Python script that runs from QGIS' Python console. I want to open the repository soon.</p>
-    <p>Meanwhile, it is possible to see a demo of the script in the link below.</p>
+    <p><i>Tile Writer</i> is a Python script that runs from QGIS' Python console. Check out the <a href="https://www.luissevillano.net/tile-writer/map/#12/40.4425/-3.7012">demo</a>.</p>    
     <p>
-      <a href="https://www.luissevillano.net/tile-writer/map/#12/40.4425/-3.7012">Go to the project</a>.
+      <a href="https://github.com/LuisSevillano/tile-writer">Go to the project</a>.
     </p>
     <p class="break-p"></p>
     <p class="pills">
