@@ -23,12 +23,12 @@
   /* Firefox */
   display: -moz-box;
   // -moz-box-pack:center;
-  -moz-box-align: center;
+  // -moz-box-align: center;
 
   /* Safari, Opera, and Chrome */
   display: -webkit-box;
   // -webkit-box-pack:center;
-  -webkit-box-align: center;
+  // -webkit-box-align: center;
 
   /* W3C */
   display: box;
@@ -73,6 +73,9 @@
   text-align: center;
   margin: 0;
   height: 375px;
+  @media (min-width: $screen-sm-min) {
+    height: 275px;
+  }
 }
 
 .gallery-item {
@@ -173,7 +176,7 @@
     font-size: 1.5rem;
   }
   .gallery-img {
-    height: 250px;
+    // height: 250px;
   }
   .gallery-date {
     text-align: left;
@@ -181,7 +184,7 @@
   .gallery-date,
   .gallery-img,
   .gallery-article-title {
-    width: 250px;
+    // width: 250px;
   }
 }
 .b-lazy {

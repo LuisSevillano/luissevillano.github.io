@@ -87,15 +87,18 @@
 
 header {
   padding: 1.8rem;
-  padding-bottom: 1.8rem;
   margin-bottom: 5rem;
-  background-color: rgb(250, 250, 250);
+  background-color: white;
   border-bottom: 1px solid rgb(230, 230, 230);
   box-shadow: 0 4px 8px -6px grey;
-  background-image: url("/img/illa_h.png");
-  background-size: cover;
+  background-image: url("/img/illa_h.jpg");
+  background-size: contain;
   background-position-y: center;
   background-position-x: right;
+  background-repeat: no-repeat;
+  @media (max-width: 900px) {
+    background-size: cover;
+  }
 }
 
 .site-nav {
