@@ -1,8 +1,8 @@
 ---
 layout: work
-title: "QGIS for journalist"
+title: "QGIS for journalists"
 date: 2016-03-01
-permalink: QGIS-for-journalist
+permalink: QGIS-for-journalists
 ---
 
 <div class="row">

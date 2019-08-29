@@ -30,10 +30,10 @@ permalink: bike-voronoi
 <div class="img-container z-margin">
   <div class="row">
     <div class="col-md-8">
-      <a href="https://www.luissevillano.net/bici-coruna/voronoi"><img src="/img/voronoi.jpg" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
+      <a href="https://www.luissevillano.net/bici-coruna/voronoi"><img data-src="/img/voronoi.jpg" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
       <p class="caption">The map uses a shoreline to contextualize the map.</p>
       <p>Both the color and the thickness of each line are calculated regard to the possible combination with the highest number of trips from each station.</p>
-      <a href="https://www.luissevillano.net/bici-coruna/voronoi"><img src="/img/voronoi_detail.jpg" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
+      <a href="https://www.luissevillano.net/bici-coruna/voronoi"><img data-src="/img/voronoi_detail.jpg" class="img-responsive img b-lazy" alt="front-page" style="width: 100%;"/></a>
       <p class="caption">Detail of the map that shows the Santa Cristina beach of the Oleiros municipality.</p>
     </div>
   </div>
