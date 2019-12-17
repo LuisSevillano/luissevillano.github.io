@@ -29,7 +29,7 @@ permalink: nbr-remote-sensing
       The Landsat 8 sensor allows us to appreciate these consequences on the ground. On the left, a shot taken the 15th of june, on the right the first of july of 2017.
     </p>
     <p>
-      I saw people work with Landsat's bands and calculate several index to extract information about like NVDI or NBR. I finded <a href="https://landsat.usgs.gov/sites/default/files/documents/si_product_guide.pdf">Nasa's product guide</a> and this <a href="http://www.mtbs.gov/pdf/Escuin_Navarro_etal_2008_BS_NBR_NDVI_Spain.pdf">paper</a> from the 2008 International Journal of Remote Sensing write by a spanish investigation group of Cordoba Univeristy.
+      I saw people work with Landsat's bands and calculate several index to extract information about like NVDI or NBR. I found <a href="https://landsat.usgs.gov/sites/default/files/documents/si_product_guide.pdf">Nasa's product guide</a> and this <a href="http://www.mtbs.gov/pdf/Escuin_Navarro_etal_2008_BS_NBR_NDVI_Spain.pdf">paper</a> from the 2008 International Journal of Remote Sensing write by a spanish investigation group of Cordoba Univeristy.
     </p>
     <p>
       Thanks to Luca Congedo's <a href="https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin">Semi-Automatic Classification Plugin</a> for QGIS is easy to pre processing images, make post processing of classifications or realize raster operations.
