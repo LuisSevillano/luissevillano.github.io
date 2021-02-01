@@ -8,8 +8,8 @@ enforce_ssl: luissevillano.net
 
 repo: https://github.com/luissevillano/luissevillano.github.io
 twitter_username: sepirdata
-github_username:  luissevillano
-behance_username:  luissevillano
+github_username: luissevillano
+behance_username: luissevillano
 logo: //www.luissevillano.net/img/share.jpg
 
 # Build settings
@@ -20,13 +20,11 @@ twitter:
 markdown: kramdown
 highlighter: rouge
 
-gems:
- - jekyll-seo-tag
+plugins:
+  - jekyll-seo-tag
 
 includes:
- - resources
-
-
+  - resources
 
 # Google services
 google_analytics: UA-85459764-1
