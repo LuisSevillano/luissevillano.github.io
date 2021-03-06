@@ -1,189 +1,125 @@
+- title: Filomena
+  description: Breaking news about the storm <i>Filomena</i>. An extraordinary and unusual phenomenon that caused a historic snowfall in most of the country, collapsing it for several days.
+  media_type: video
+  media_source: /assets/images/filomena
+  date: 2021-01-10
+  external: true
+  url: https://elpais.com/espana/2021-01-09/la-nieve-acumulada-permanecera-al-menos-una-semana.html
+  features: [bash scripts, gdal, ffmpeg, imageMagick]
+
+- title: The death of the last glaciers in Spain
+  description: The last glaciers of Spain are disappearing. We travel to the Pyrenees together with the CSIC's scientists who are studying this phenomenon to find out what the main characteristics of this phenomenon are.
+  media_type: img
+  media_source: /assets/images/thumbnails/aneto_s.jpg
+  date: 2021-01-03
+  external: true
+  url: https://elpais.com/ciencia/2021-01-02/la-muerte-de-los-ultimos-glaciares-de-espana.html
+  features: [Lidar, CloudCompae, QGIS, bash scripts, ai2html, Illustrator]
+
+- title: The keys to Biden's victory
+  description: An analysis report about the election results for the 2020 United States Presidential Election where Trump lost the presidency.
+  media_type: img
+  media_source: /assets/images/thumbnails/las-claves-de-la-victoria-de-biden-map.jpg
+  date: 2021-01-10
+  external: true
+  url: https://elpais.com/internacional/elecciones-usa/2020-11-07/las-claves-de-la-victoria-de-biden-unos-pocos-votantes-deciden-la-presidencia-de-un-pais-bipolar.html
+  features: [JavaScript, d3js]
+
+- title: The map of mortality in Spain by municipality
+  description: The new National Atlas of Mortality in Spain explores almost 10 million deaths between 1989 and 2014. It reveals very significant geographical differences.
+  media_type: video
+  media_source: /assets/images/thumbnails/atlas
+  date: 2020-02-07
+  external: true
+  url: https://elpais.com/elpais/2020/02/05/ciencia/1580906716_232241.html
+  features: [Mapbox, Design, JavaScript, d3js]
+
+- title: Europe, a continent of coalitions far beyond Spain
+  description: Agreement between parties is the most common form of government. The analysis of the governments of 38 countries shows a clear result. This visual report shows the keys and the particularities of each model.
+  media_type: video
+  media_source: /assets/images/thumbnails/europa
+  date: 2020-01-07
+  external: true
+  url: https://elpais.com/politica/2020/01/06/actualidad/1578327420_776769.html
+  features: [Design, JavaScript, d3js, TopoJSON, flubberjs]
+
 - title: Merge CSV headers in R
-  img: /img/thumbnails/r-script.jpg
-  date: AUG 2019
-  link: /combine-csv-headers-in-R
+  description: Post about how to treat tabular data files with more than one header. A solution is proposed that combines these two rows into one.
+  media_type: img
+  media_source: /assets/images/thumbnails/unemployment-small-multiples_s.jpg
+  date: 2019-08-08
+  url: /combine-csv-headers-in-R
+  features: [R, Tidyverse]
 
-- title: Custom Dixit Game
-  img: /img/thumbnails/illa.jpg
-  date: JUL 2019
-  link: /custom-dixit-game
-
-- title: 2019 General Election
-  img: /img/thumbnails/general-election-scatterplots.jpg
-  date: APR 2019
-  link: /2019-general-election
-
-- title: A year at iCarto
-  img: /img/mozambique.jpg
-  date: MAY 2018
-  link: /a-year-at-icarto
-
-- title: Transparentia
-  img: /img/thumbnails/transparentia.jpg
-  date: JAN 2019
-  link: /transparentia
+- title: 2019 Spanish general election
+  description: Project for Datadista and the coverage they made for RTVE (state-owned public corporation of the Spanish public radio and television service) of the 2019 general elections. Scatterplots, cartograms and many maps.
+  media_type: video
+  media_source: /assets/images/scatterplot
+  date: 2019-04-02
+  url: /2019-general-election
+  features: [d3js, TopoJSON, Hexgrid, Canvas, d3-regression, Rbush]
 
 - title: Tile Writer
-  img: /img/thumbnails/tile-writer.jpg
-  date: OCT 2018
-  link: /qgis-tile-writer
-
-- title: A Coruna city bike
-  img: /img/thumbnails/voronoi.jpg
-  date: FEB 2018
-  link: /bike-voronoi
-
-- title: Catastro A Coruna
-  img: img/thumbnails/old-city-coruna.jpg
-  date: Nov 2017
-  link: /catastro-coruna
-
-- title: d3-heatmap
-  img: /img/heatmap.jpg
-  date: AGO 2017
-  link: /d3-heatmap-project
-
-- title: 1992 Summer Olympics
-  img: /img/barcelona.jpg
-  date: JUL 2017
-  link: /barcelona-1992
-
-- title: World vaccine recomendations
-  img: /img/world-vaccines.jpg
-  date: JUL 2017
-  link: /world-vaccines
-
-- title: Scraping with nodejs
-  img: /img/scraping.jpg
-  date: JUL 2017
-  link: /scraping-with-nodejs
-
-- title: Remote Sensing
-  img: /img/donana-thumb.jpg
-  date: JUN 2017
-  link: /nbr-remote-sensing
-
-- title: UK general election 2017
-  img: /img/small.jpg
-  date: JUN 2017
-  link: /uk-election
-
-- title: The ETA victims
-  img: /img/eta-thumbnail.jpg
-  date: APR 2017
-  link: /all-of-ETA-victims
+  description: Python script to export the canvas of a QGIS project to xyz tiles. This allows us to use them later in Leaflet or some other tile manager.
+  media_type: video
+  media_source: /assets/images/tile-writer
+  date: 2018-10-16
+  url: /qgis-tile-writer
+  features: [QGIS, Python, OSM]
 
 - title: QGIS for journalists
-  img: /img/difference.jpg
-  date: MAR 2017
-  link: /QGIS-for-journalists
+  description: Documentation on basic principles of cartography and GIS taught to data journalism students at The  University of Villanueva.
+  media_type: img
+  media_source: /assets/images/buffer.jpg
+  date: 2016-03-11
+  url: /QGIS-for-journalists
+  features: [QGIS, ai2html]
 
-- title: Diomede Islands
-  img: /img/thumbnails/diomedes.jpg
-  date: DEC 2016
-  link: /diomede-islands
+- title: Remote sensing
+  description: Some thoughts about <i>remote sensing</i> and two use cases with the Difference Normalized Burn Index. I use Landsat8 imagery to assess the degree of severity of two large fires in Spain.
+  media_type: img
+  media_source: /assets/images/thumbnails/remote-sensing_s.jpg
+  date: 2017-06-04
+  url: /nbr-remote-sensing
+  features: [QGIS, Landsat 8, Raster, OSM, ai2html]
 
-- title: US Elections
-  img: /img/thumbnails/us-map.jpg
-  date: Nov 2016
-  link: /post-truth-and-the-facebook-americas
+- title: Catastro A Coruna
+  description: Testing the new plugin <i>Spanish Inspire Catastral Downloader</i> that allows downloading directly to QGIS a large part of the data available in the cadastre of Spain.
+  media_type: img
+  media_source: /assets/images/thumbnails/coruna-catastro_s.jpg
+  date: 2017-11-21
+  url: /catastro-coruna
+  features: [QGIS, R]
 
-- title: The Spanish forces in the Mediterranean
-  img: /img/lebanon.jpg
-  date: DEC 2016
-  link: /the-context-of-spanish-forces-in-the-mediterranean
+- title: "The Spanish forces in the Mediterranean"
+  description: Maps published at the Independiente newspaper about the presence of the Spanish armed forces in different places of conflict on the occasion of the trip offered to a large press delegation to Turkey and Lebanon.
+  media_type: img
+  media_source: /assets/images/thumbnails/turkey_s.jpg
+  date: 2016-12-09
+  url: /spanish-forces-in-the-mediterranean
+  features: [QGIS, Illustrator, ai2html]
 
-- title: Mouseover constant stroke effect
-  img: /img/mouseover-constant-stroke-effect.jpg
-  date: SEP 2016
-  link: http://bl.ocks.org/luissevillano/7052852495085304c8a78096efb3cf54
+- title: ai2html workshop
+  description: Github repository with the materials and instructions of the workshop given at the Medialab Prado in Madrid about the use of the ai2html plugin for illustraror developed by the Archie Tse team of the New York Times.
+  media_type: img
+  media_source: /assets/images/thumbnails/ai2html-workshop.jpg
+  date: 2016-06-29
+  external: true
+  url: https://github.com/LuisSevillano/ai2html-workshop
+  features: [Illustrator, ai2html]
 
-- title: Static maps
-  img: /img/thumbnails/panama.jpg
-  date: 2015 - NOW
-  link: /static-maps
+- title: Barcelona 1992
+  description: On the occasion of the 25th anniversary of the Barcelona's 1992 Summer Olympics we used aerial images to analyze how this event changed the city forever
+  media_type: img
+  media_source: /assets/images/thumbnails/barcelona-1992_s.jpg
+  date: 2017-07-24
+  url: /barcelona-1992-evolution
+  features: [QGIS, Photoshop, Satellite imagery, Landsat8]
 
-- title: Shaded relief with custom projection
-  img: /img/shaded-relief.jpg
-  date: JUL 2016
-  link: http://bl.ocks.org/LuisSevillano/8e5afd517ec5a226be2f849a394118aa
-
-- title: Small multiples slope charts
-  img: /img/thumbnails/slope.jpg
-  date: JUN 2016
-  link: /small-multiples-slope-charts
-
-- title: Suicides attacks since 1970
-  img: /img/suicides.jpg
-  date: JUL 2016
-  link: http://bl.ocks.org/LuisSevillano/95fedb213cd4f93b852e6c44aa348125
-
-- title: ai2html workshop (spanish)
-  img: /img/ai2html-black.jpg
-  date: JUN 2016
-  link: https://github.com/LuisSevillano/ai2html-workshop
-
-- title: Brief summary of how Spain voted June 26th
-  img: /img/26j.png
-  date: JUN 2016
-  link: /brief-summary-of-how-Spain-voted-the-June-26th-spanish-election
-
-- title: The Defaulter List
-  img: /img/thumbnails/defaulter-list.png
-  date: JUN 2016
-  link: /defaulter-list
-
-- title: The fall of Spain's Socialist Party
-  img: /img/thumbnails/psoe.jpg
-  date: JUN 2016
-  link: /the-fall-of-spanish-socialis-party
-
-- title: Atlético de Madrid team vs Real Madrid
-  img: /img/thumbnails/football.jpg
-  date: MAY 2016
-  link: /champions-league
-
-- title: Diagnosis
-  img: /img/thumbnails/diagnosis-front.jpg
-  date: APR 2016
-  link: /diagnosis
-
-- title: Batman vs Superman
-  img: /img/thumbnails/batman.jpg
-  date: MAR 2016
-  link: /batman-vs-superman
-
-- title: Spain General Election Analysis
-  img: /img/thumbnails/bipartidismo.png
-  date: DEC 2015
-  link: /political-analysis-20D
-
-- title: Line chart d3.js mouseover event
-  img: /img/line-chart.png
-  date: FEB 2016
-  link: /line-chart
-
-- title: Catalan Election Analisis
-  img: /img/thumbnails/catalan-election-analisis.jpg
-  date: SEP 2015
-  link: /catalan-election-analisis
-
-- title: Choropleth map of Andalucía
-  img: /img/thumbnails/andalucia-full.jpg
-  date: MAR 2015
-  link: /choropleth-map-of-andalucia-spain
-
-- title: Spanish unemployment time line graph
-  img: /img/thumbnails/epa.png
-  date: OCT 2015
-  link: /unemployment-graph-evolution-time-line
-
-- title: Spanish corruption map
-  img: /img/corruption-list.jpg
-  date: DEC 2014
-  link: /spanish-corruption-map
-
-- title: Spanish unemployment evolution
-  img: /img/unemployment.jpg
-  date: JUN 2014
-  link: /spanish-unemployment-evolution
+- title: Transparentia
+  description: Transparentia lets you to check the salaries of more than 9600 public positions. This project was born with the purpose of helping to answer questions that you usually ask about how many politicians are there in Spain, what are their salaries or their subsistences.
+  media_type: img
+  media_source: /assets/images/thumbnails/transparentia_logo.jpg
+  date: 2019-01-02
+  url: /transparentia
+  features: [VanillaJS, Datatables, Awesomplete]
