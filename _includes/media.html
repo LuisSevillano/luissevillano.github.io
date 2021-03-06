@@ -1,0 +1,21 @@
+{% if include.media_type == "video" %}
+<div>
+  <video
+    autoplay
+    loop
+    playsinline
+    muted
+    poster="{{include.media_source}}.jpg"
+    class="{{include.class_names}}"
+  >
+    <source src="{{include.media_source}}.mp4" type="video/mp4" />
+    <source src="{{include.media_source}}.webm" type="video/webm" />
+    _Your browser does not support the video tag._
+  </video>
+  {% if include.media_caption %}
+  <em>{{include.media_caption}}</em>
+  {% endif %}
+</div>
+{% elsif include.media_type == "img" %}
+<img src="{{ include.media_source }}" />
+{% endif %}

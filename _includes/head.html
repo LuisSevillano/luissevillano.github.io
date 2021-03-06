@@ -1,55 +1,27 @@
-<head>
-  <script type="text/javascript">
-    var host = "luissevillano.net";
-    if (host == window.location.host && window.location.protocol != "https:")
-      window.location.protocol = "https";
-  </script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link
-    rel="apple-touch-icon"
-    href="//www.luissevillano.net/img/apple-touch-icon-180x180.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    href="//www.luissevillano.net/img/favicon-96x96.png"
-  />
+{% if page.title %}
+<title>{{ page.title }} · {{ baseurl.title }}</title>
+{% else %}
+<title>{{ baseurl.title }}</title>
+{% endif %}
 
-  <title>
-    {% if page.title %}{{ page.title }} – {{site.title}} {% else %}{{ site.title
-    }}{% endif %}
-  </title>
-  {% if page.description %}
-  <meta itemprop="description" content="{{page.description}}" />
-  <meta name="twitter:description" content="{{page.description}}" />
-  {% else %}
-  <meta itemprop="description" content="{{site.description}}" />
-  <meta name="twitter:description" content="{{site.description}}" />
-  {% endif %}
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  {% seo %}
-  <meta name="twitter:card" content="summary_large_image" />
-  {% if page.image %}
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
-  {% else %}
-  <meta itemprop="image" content="{{ site.logo}}" />
-  <meta property="og:image" content="{{ site.logo}}" />
-  <meta name="twitter:image" content="{{ site.logo}}" />
-  {% endif %} <link rel="stylesheet" href="{{ "/css/main.css" | prepend:
-  site.baseurl }}">
-  <link
-    href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,100|PT+Mono|Libre+Franklin:700"
-    rel="stylesheet"
-  />
+<meta
+  name="description"
+  content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ baseurl.description }}{% endif %}"
+/>
 
-  {% if jekyll.environment == 'production' %} {% include analytics.html %} {%
-  endif %} {% for css in page.cssarr %}
-  <style>
-    {% include {{ css }} %}
-  </style>
-  {% endfor %}
-</head>
+<link rel="icon" href="{{ "/assets/favicon.png" | prepend: baseurl.site |
+prepend: baseurl.url }}"> <link rel="apple-touch-icon" href="{{
+"/assets/apple-touch-icon-180x180.png" | prepend: baseurl.site | prepend:
+baseurl.url }}"> <link rel="stylesheet" href="{{ "/assets/core.css" | prepend:
+baseurl.site | prepend: baseurl.url }}">
+<link
+  rel="canonical"
+  href="{{ page.url | prepend: baseurl.site | prepend: baseurl.url }}"
+/>
+<link rel="alternate" type="application/atom+xml" title="{{ baseurl.title }}"
+href="{{ "/feed.xml" | prepend: baseurl.site | prepend: baseurl.url }}" /> {% if
+baseurl.mathjax %} {% endif %}
