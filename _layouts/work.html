@@ -1,9 +1,0 @@
----
-layout: default
----
-<h1 class="article-head-title">{{ page.title }}</h1>
-<p class="article-date">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} {% if page.client%} / {{page.client}} {% endif %}</p>
-{{ content }}
-{% for js in page.js %}
-<script type="text/javascript" src="{{ js }}"></script>
-{% endfor %}
