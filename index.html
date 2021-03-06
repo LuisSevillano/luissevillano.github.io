@@ -1,17 +1,33 @@
 ---
-layout: landing
+layout: default
 ---
 
-    {% for work in site.data.works %}
-    <div class="col-lg-2 col-md-3 col-sm-3">
-    <div class="item">
-      <div class="content">
-        <a href="{{work.link}}">
-          <span class="gallery-date">{{work.date}}</span>
-          <span class="gallery-img b-lazy" data-src='{{work.img}}'></span>
-          <span class="gallery-article-title">{{work.title}}</span>
+<section>{% include about.html %}</section>
+<div class="divider"></div>
+<!-- site.posts -->
+<!-- site.data.works -->
+<section>
+  <ul>
+    {% for post in site.data.works %}
+    <li>
+      <div class="title">
+        {% if post.external %}
+        <a href="{{ post.url }}">
+        {% else %}
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+          {% endif%}
+
+          <div class="post-thumbnail">
+            {% include media.html media_type=post.media_type
+            media_source=post.media_source %}
+          </div>
+          <div class="post-title">{{ post.title }}</div>
+          <div class="post-date">{{ post.date | date: "%b %d %Y" }}</div>
+          <div class="post-description">{{ post.description }}</div>
         </a>
       </div>
-    </div>
-    </div>
+    </li>
+    <div class="divider-constant"></div>
     {% endfor %}
+  </ul>
+</section>

@@ -1,30 +1,51 @@
-# Site settings
-title: Luis Sevillano
-email: luissevillanopires@gmail.com
-description: "Some of my data visualization/infographics works"
-baseurl: ""
-url: https://luissevillano.net
+# Site Info
+title: "The Plain"
+description: "A minimalist Jekyll theme"
+author_name: "Luis Sevillano" # change this to your name
+logo_url: https://avatars0.githubusercontent.com/u/11034169?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+
+# Site Settings
+url: https://luissevillano.net/new-site
 enforce_ssl: luissevillano.net
+baseurl: ""
+permalink: /:title # Post permalink
+timezone: Europe/Madrid /:title # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax: true # enables support for mathjax - set to 'false' to disable
 
 repo: https://github.com/luissevillano/luissevillano.github.io
 twitter_username: sepirdata
 github_username: luissevillano
-behance_username: luissevillano
-logo: //www.luissevillano.net/img/share.jpg
 
-# Build settings
-twitter:
-  username: sepirdata
-
-# Build settings
-markdown: kramdown
+# Site Build
 highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+sass:
+  style: :compressed
 
+# Other Params
+include: ["robots.txt"]
+exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
 plugins:
+  - jekyll-sitemap
+
+gems:
   - jekyll-seo-tag
 
-includes:
-  - resources
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "null"
+  - scope:
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      type: "posts"
+    values:
+      layout: "post"
 
 # Google services
 google_analytics: UA-85459764-1
