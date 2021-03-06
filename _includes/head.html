@@ -5,7 +5,7 @@
 {% if page.title %}
 <title>{{ page.title }} · {{ baseurl.title }}</title>
 {% else %}
-<title>{{ baseurl.title }}</title>
+<title>{{ site.title }}</title>
 {% endif %}
 
 <meta
@@ -24,4 +24,4 @@ baseurl.site | prepend: baseurl.url }}">
 />
 <link rel="alternate" type="application/atom+xml" title="{{ baseurl.title }}"
 href="{{ "/feed.xml" | prepend: baseurl.site | prepend: baseurl.url }}" /> {% if
-baseurl.mathjax %} {% endif %}
+baseurl.mathjax %} {% endif %} {% seo %}

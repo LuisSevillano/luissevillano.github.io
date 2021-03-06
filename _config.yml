@@ -1,7 +1,8 @@
 # Site Info
-title: "The Plain"
-description: "A minimalist Jekyll theme"
-author_name: "Luis Sevillano" # change this to your name
+title: Luis Sevillano
+email: luissevillanopires@gmail.com
+description: "I am a developer in the graphics desk at El País where I work creating graphics, tools and visual stories to present the news."
+author_name: "Luis Sevillano"
 logo_url: https://avatars0.githubusercontent.com/u/11034169?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
@@ -30,7 +31,7 @@ exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
 plugins:
   - jekyll-sitemap
 
-gems:
+plugins:
   - jekyll-seo-tag
 
 defaults:
