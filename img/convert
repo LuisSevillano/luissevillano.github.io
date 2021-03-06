@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-ffmpeg -i treemap_r.mp4 -c:v libvpx -crf 15 -b:v 1M -c:a libvorbis treemap_r.webm
