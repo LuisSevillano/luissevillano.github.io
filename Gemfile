@@ -1,6 +1,11 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
+gemspec
+group :jekyll_plugins do
+    gem "jekyll-sitemap"
+end
 
 gem 'jekyll-seo-tag'
-gem "jekyll-assets"
 gem "kramdown-parser-gfm"
-# gem "uglifier"
+gem 'html-proofer'
+gem 'tzinfo'
+gem 'tzinfo-data'
