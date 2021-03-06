@@ -1,0 +1,145 @@
+@import "vars";
+
+/*
+** PILLS
+*/
+
+.pills {
+  margin-top: 1em;
+  span {
+    font-style: italic;
+    font-family: $font-family-serif;
+    // padding: 0 1em;
+    // border: 1px solid rgb(200, 200, 200);
+    // background-color: rgb(245, 245, 245);
+    &:not(:first-child) {
+      margin-left: -0.3em;
+    }
+
+    /* no need to display empty elements */
+    &:empty {
+      display: none;
+    }
+
+    &:not(:first-child):before {
+      content: ", ";
+    }
+  }
+}
+
+/*
+** IMAGES
+*/
+
+img + em,
+video + em {
+  display: block;
+  font-family: $font-family-serif;
+  font-size: 0.8em;
+  color: $gray2;
+  text-align: right;
+  line-height: 1.4em;
+}
+
+.half-image {
+  display: inline-block;
+  max-width: 49%;
+  vertical-align: top;
+}
+
+/*
+** VIDEO
+*/
+video {
+  margin-top: 2em;
+  width: 100%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.small-video video {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.small-video video + em,
+.medium-video video + em {
+  max-width: 61.5em;
+}
+
+@media (min-width: 769px) {
+  article {
+    .ai2html {
+      margin-top: 3em;
+      margin-left: calc((80.1rem - 100%) / -2);
+      max-width: 80.1rem !important;
+      box-sizing: border-box;
+
+      width: 100vw;
+      flex-shrink: 0;
+    }
+    .ai2html.inherit {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: none;
+    }
+  }
+}
+@media (min-width: 1001px) {
+  article {
+    .ai2html {
+      margin-top: 3em;
+      margin-left: calc((100.1rem - 100%) / -2);
+      max-width: 100.1rem !important;
+      box-sizing: border-box;
+      width: 100vw;
+      flex-shrink: 0;
+    }
+    .ai2html.inherit {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: none;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  // ai2html
+  article {
+    video:not(.fixed_width),
+    video:not(.fixed_width) + em {
+      margin-left: calc((75.1em - 100%) / -2);
+      margin-right: calc((75.1em - 100%) / -2);
+      width: 100vw;
+      max-width: 75.1em;
+      user-select: none;
+    }
+    .medium-video {
+      video,
+      video + em {
+        margin-left: calc((55.1em - 100%) / -2);
+        margin-right: calc((55.1em - 100%) / -2);
+        max-width: 55.1em;
+        user-select: none;
+      }
+    }
+  }
+}
+
+/*
+** about
+*/
+
+.main {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: black;
+  font-weight: bold;
+}
+.sub {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+.about {
+  padding-top: 8rem;
+}
