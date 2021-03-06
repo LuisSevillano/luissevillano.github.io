@@ -1,5 +1,5 @@
-- title: Filomena
-  description: Breaking news about the storm <i>Filomena</i>. An extraordinary and unusual phenomenon that caused a historic snowfall in most of the country, collapsing it for several days.
+- title: Storm Filomena
+  description: Maps and graphics about the storm <i>Filomena</i>. An extraordinary and unusual phenomenon that caused a historic snowfall in most of Spain, collapsing the country for several days.
   media_type: video
   media_source: /assets/images/filomena
   date: 2021-01-10
@@ -8,7 +8,7 @@
   features: [bash scripts, gdal, ffmpeg, imageMagick]
 
 - title: The death of the last glaciers in Spain
-  description: The last glaciers of Spain are disappearing. We travel to the Pyrenees together with the CSIC's scientists who are studying this phenomenon to find out what the main characteristics of this phenomenon are.
+  description: The last glaciers of Spain are disappearing. We went to the Pyrenees with a group of climate scientists to find out why.
   media_type: img
   media_source: /assets/images/thumbnails/aneto_s.jpg
   date: 2021-01-03
@@ -16,8 +16,8 @@
   url: https://elpais.com/ciencia/2021-01-02/la-muerte-de-los-ultimos-glaciares-de-espana.html
   features: [Lidar, CloudCompae, QGIS, bash scripts, ai2html, Illustrator]
 
-- title: The keys to Biden's victory
-  description: An analysis report about the election results for the 2020 United States Presidential Election where Trump lost the presidency.
+- title: How Biden won
+  description: A visual analysis about 2020 US Presidential Election where Biden won the presidency.
   media_type: img
   media_source: /assets/images/thumbnails/las-claves-de-la-victoria-de-biden.jpg
   date: 2021-01-10
@@ -26,7 +26,7 @@
   features: [JavaScript, d3js]
 
 - title: The map of mortality in Spain by municipality
-  description: The new National Atlas of Mortality in Spain explores almost 10 million deaths between 1989 and 2014. It reveals very significant geographical differences.
+  description: New detailed mortality data  reveals very significant geographical differences across Spain.
   media_type: video
   media_source: /assets/images/thumbnails/atlas
   date: 2020-02-07
@@ -35,7 +35,7 @@
   features: [Mapbox, Design, JavaScript, d3js]
 
 - title: Europe, a continent of coalitions far beyond Spain
-  description: Agreement between parties is the most common form of government. The analysis of the governments of 38 countries shows a clear result. This visual report shows the keys and the particularities of each model.
+  description: Agreement between parties is the most common form of government. An analysis of 38 countries shows that coalitions are the most common form of government in Europe.
   media_type: video
   media_source: /assets/images/thumbnails/europa
   date: 2020-01-07
@@ -44,7 +44,7 @@
   features: [Design, JavaScript, d3js, TopoJSON, flubberjs]
 
 - title: Merge CSV headers in R
-  description: Post about how to treat tabular data files with more than one header. A solution is proposed that combines these two rows into one.
+  description: This post explains how to to treat tabular data files with more than one header in R using the tidyverse. This structure is very common in Spanish statistical data.
   media_type: img
   media_source: /assets/images/thumbnails/unemployment-small-multiples_s.jpg
   date: 2019-08-08
@@ -52,15 +52,15 @@
   features: [R, Tidyverse]
 
 - title: 2019 Spanish general election
-  description: Project for Datadista and the coverage they made for RTVE (state-owned public corporation of the Spanish public radio and television service) of the 2019 general elections. Scatterplots, cartograms and many maps.
+  description: Graphics about thee 2019 Spanish general election for RTVE, the Spanish public broadcaster. Scatterplots, cartograms and many maps.
   media_type: video
   media_source: /assets/images/scatterplot
   date: 2019-04-02
   url: /2019-general-election
   features: [d3js, TopoJSON, Hexgrid, Canvas, d3-regression, Rbush]
 
-- title: Tile Writer
-  description: Python script to export the canvas of a QGIS project to xyz tiles. This allows us to use them later in Leaflet or some other tile manager.
+- title: QGIS Tile Writer
+  description: Python script to export a canvas of QGIS to tiles, compatible with Leaflet or Mapbox.
   media_type: video
   media_source: /assets/images/tile-writer
   date: 2018-10-16
@@ -68,7 +68,7 @@
   features: [QGIS, Python, OSM]
 
 - title: QGIS for journalists
-  description: Documentation on basic principles of cartography and GIS taught to data journalism students at The  University of Villanueva.
+  description: A course about the basic principles of cartography and GIS I gave to data journalism students at the University of Villanueva, in Madrid.
   media_type: img
   media_source: /assets/images/buffer.jpg
   date: 2016-03-11
@@ -76,7 +76,7 @@
   features: [QGIS, ai2html]
 
 - title: Remote sensing
-  description: Some thoughts about <i>remote sensing</i> and two use cases with the Difference Normalized Burn Index. I use Landsat8 imagery to assess the degree of severity of two large fires in Spain.
+  description: Some thoughts about <i>remote sensing</i> with two use cases of  the Difference Normalized Burn Index. I use Landsat8 imagery to assess the severity of two large fires in Spain.
   media_type: img
   media_source: /assets/images/thumbnails/remote-sensing_s.jpg
   date: 2017-06-04
@@ -84,7 +84,7 @@
   features: [QGIS, Landsat 8, Raster, OSM, ai2html]
 
 - title: Catastro A Coruna
-  description: Testing the new plugin <i>Spanish Inspire Catastral Downloader</i> that allows downloading directly to QGIS a large part of the data available in the cadastre of Spain.
+  description: Testing a new QGIS plugin for the Spanish cadastre mapping public lands in A Coruña.
   media_type: img
   media_source: /assets/images/thumbnails/coruna-catastro_s.jpg
   date: 2017-11-21
@@ -92,7 +92,7 @@
   features: [QGIS, R]
 
 - title: "The Spanish forces in the Mediterranean"
-  description: Maps published at the Independiente newspaper about the presence of the Spanish armed forces in different places of conflict on the occasion of the trip offered to a large press delegation to Turkey and Lebanon.
+  description: Maps published at El Independienteabout the presence of Spanish armed forces in Italy, Turkey and Lebanon.
   media_type: img
   media_source: /assets/images/thumbnails/turkey_s.jpg
   date: 2016-12-09
@@ -100,7 +100,7 @@
   features: [QGIS, Illustrator, ai2html]
 
 - title: ai2html workshop
-  description: Github repository with the materials and instructions of the workshop given at the Medialab Prado in Madrid about the use of the ai2html plugin for illustraror developed by the Archie Tse team of the New York Times.
+  description: Workshop about ai2html imparted at Medialab Prado in Madrid. Ai2html is an Illustrator plugin for publishing responsive graphics developed at The New York Times.
   media_type: img
   media_source: /assets/images/thumbnails/ai2html-workshop.jpg
   date: 2016-06-29
@@ -109,7 +109,7 @@
   features: [Illustrator, ai2html]
 
 - title: Barcelona 1992
-  description: On the occasion of the 25th anniversary of the Barcelona's 1992 Summer Olympics we used aerial images to analyze how this event changed the city forever
+  description: We analyzed how the Olympics changed Barcelona forever on the 25th anniversary of the games using aerial images.
   media_type: img
   media_source: /assets/images/thumbnails/barcelona-1992_s.jpg
   date: 2017-07-24
@@ -117,7 +117,7 @@
   features: [QGIS, Photoshop, Satellite imagery, Landsat8]
 
 - title: Transparentia
-  description: Transparentia lets you to check the salaries of more than 9600 public positions. This project was born with the purpose of helping to answer questions that you usually ask about how many politicians are there in Spain, what are their salaries or their subsistences.
+  description: "Transparentia lets you to check more than 9,600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid."
   media_type: img
   media_source: /assets/images/thumbnails/transparentia_logo.jpg
   date: 2019-01-02
