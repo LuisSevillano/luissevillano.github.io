@@ -1,3 +1,13 @@
+- title: Mexico has 30% of its land under high seismic risk
+  description: Authorities risk's maps reveal that one third of the population is exposed to high or very high levels of seismic hazard. Researchers analyze the risks to prevent the probable damage of a major earthquake in the country.
+  media_type: img
+  media_source: /assets/images/guerrero_landscape.jpg
+  date: 2021-04-18
+  external: false
+  url: /guerrero-gap
+  features:
+    [bash scripts, gdal, ffmpeg, imageMagick, Blender, ai2html, Illustrator]
+
 - title: Storm Filomena
   description: Maps and graphics about the storm <i>Filomena</i>. An extraordinary and unusual phenomenon that caused a historic snowfall in most of Spain, collapsing the country for several days.
   media_type: video
