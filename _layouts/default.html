@@ -10,6 +10,10 @@ published: true
   </head>
 
   <body>
-    <div id="content">{{ content }}</div>
+    <div id="content">
+      {{ content }}
+      {% include footer.html %}
+    </div>
+
   </body>
 </html>
