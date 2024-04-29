@@ -1,3 +1,21 @@
+- title: How do you control a fire?
+  description: "When a fire is extinguished, another job begins for some firefighters: studying data and images to design the operations of the fires to come. With the help of one of these analysts, EL PAÍS reconstructs the control work of a large forest fire that burned dozens of houses last July in Catalonia."
+  media_type: img
+  media_source: /assets/images/pont_de_vilomara.jpg
+  date: 2023-04-02
+  external: true
+  url: https://elpais.com/espana/2023-04-02/como-se-controla-un-incendio.html
+  features: [mapshaper, Blender, QGIS, ai2html, Illustrator]
+
+- title: The center of the world crumbles like a cookie
+  description: Antarctica is already suffering heat waves that exceed 18 degrees Celsius and is melting at its edges. What's happening?
+  media_type: video
+  media_source: /assets/images/antarctica
+  date: 2023-02-13
+  external: true
+  url: https://elpais.com/ciencia/2023-02-24/el-centro-del-mundo-se-desmigaja-como-una-galleta.html
+  features: [R, QGIS, d3js, ai2html, Illustrator]
+
 - title: Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma
   description: Scientists are trying to explore the network of volcanic tubes formed beneath the surface of the Tajogaite Volcano, which can be more than 10 kilometers long, but temperatures inside are still hellish.
   media_type: img
