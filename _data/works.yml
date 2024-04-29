@@ -1,3 +1,39 @@
+- title: Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma
+  description: Scientists are trying to explore the network of volcanic tubes formed beneath the surface of the Tajogaite Volcano, which can be more than 10 kilometers long, but temperatures inside are still hellish.
+  media_type: img
+  media_source: /assets/images/lava.jpg
+  date: 2022-09-18
+  external: true
+  url: https://elpais.com/ciencia/2022-09-18/cuevas-y-tuneles-imposibles-en-la-zona-arrasada-por-el-volcan-de-la-palma.html
+  features: [QGIS, ai2html, Illustrator]
+
+- title: Russian ghost ships to steal grain in Ukraine
+  description: An investigation identifies at least twenty Russian and Syrian ships that turn off their navigation systems to avoid detection while illegally loading grain from the occupied territories in Ukraine, where agricultural production has been confiscated.
+  media_type: video
+  media_source: /assets/images/23e13aec-9308-4fbe-b785-3994b34d6694
+  date: 2022-07-03
+  external: true
+  url: https://elpais.com/internacional/2022-07-17/barcos-fantasma-rusos-para-robar-cereal-en-ucrania.html
+  features: [ai2html, Illustrator]
+
+- title: What happened at the Melilla border? The step by step of the tragedy
+  description: We reconstruct with testimonies, images and geolocated videos the last and deadly attempt of a group of young Africans to reach Spain.
+  media_type: img
+  media_source: /assets/images/melilla.jpg
+  date: 2022-07-03
+  external: true
+  url: https://elpais.com/espana/2022-07-03/que-sucedio-en-la-frontera-de-melilla-el-paso-a-paso-de-la-tragedia.html
+  features: [ai2html, Illustrator]
+
+- title: "Volcano exposed: How to interpret the signs of the La Palma eruption"
+  description: Although the island of La Palma continues to suffer earthquakes at two depths, the tremor and deformation seem to be decreasing, which is interpreted as positive signs. What is happening?
+  media_type: img
+  media_source: /assets/images/volcano_exposed.jpg
+  date: 2021-11-06
+  external: true
+  url: https://elpais.com/ciencia/2021-11-06/el-volcan-al-desnudo-como-interpretar-las-senales-de-la-erupcion-de-la-palma.html
+  features: [R, Blender, ai2html, Illustrator]
+
 - title: Mexico has 30% of its land under high seismic risk
   description: Authorities risk's maps reveal that one third of the population is exposed to high or very high levels of seismic hazard. Researchers analyze the risks to prevent the probable damage of a major earthquake in the country.
   media_type: img
@@ -5,6 +41,7 @@
   date: 2021-04-18
   external: false
   url: /guerrero-gap
+  is_blog: true
   features:
     [bash scripts, gdal, ffmpeg, imageMagick, Blender, ai2html, Illustrator]
 
@@ -59,6 +96,7 @@
   media_source: /assets/images/thumbnails/unemployment-small-multiples_s.jpg
   date: 2019-08-08
   url: /combine-csv-headers-in-R
+  is_blog: true
   features: [R, Tidyverse]
 
 - title: 2019 Spanish general election
@@ -67,6 +105,7 @@
   media_source: /assets/images/scatterplot
   date: 2019-04-02
   url: /2019-general-election
+  is_blog: true
   features: [d3js, TopoJSON, Hexgrid, Canvas, d3-regression, Rbush]
 
 - title: QGIS Tile Writer
@@ -75,6 +114,7 @@
   media_source: /assets/images/tile-writer
   date: 2018-10-16
   url: /qgis-tile-writer
+  is_blog: true
   features: [QGIS, Python, OSM]
 
 - title: QGIS for journalists
@@ -83,6 +123,7 @@
   media_source: /assets/images/buffer.jpg
   date: 2016-03-11
   url: /QGIS-for-journalists
+  is_blog: true
   features: [QGIS, ai2html]
 
 - title: Remote sensing
@@ -91,6 +132,7 @@
   media_source: /assets/images/thumbnails/remote-sensing_s.jpg
   date: 2017-06-04
   url: /nbr-remote-sensing
+  is_blog: true
   features: [QGIS, Landsat 8, Raster, OSM, ai2html]
 
 - title: Catastro A Coruna
@@ -99,6 +141,7 @@
   media_source: /assets/images/thumbnails/coruna-catastro_s.jpg
   date: 2017-11-21
   url: /catastro-coruna
+  is_blog: true
   features: [QGIS, R]
 
 - title: "The Spanish forces in the Mediterranean"
@@ -107,6 +150,7 @@
   media_source: /assets/images/thumbnails/turkey_s.jpg
   date: 2016-12-09
   url: /spanish-forces-in-the-mediterranean
+  is_blog: true
   features: [QGIS, Illustrator, ai2html]
 
 - title: ai2html workshop
@@ -124,6 +168,7 @@
   media_source: /assets/images/thumbnails/barcelona-1992_s.jpg
   date: 2017-07-24
   url: /barcelona-1992-evolution
+  is_blog: true
   features: [QGIS, Photoshop, Satellite imagery, Landsat8]
 
 - title: Transparentia
@@ -132,4 +177,5 @@
   media_source: /assets/images/thumbnails/transparentia_logo.jpg
   date: 2019-01-02
   url: /transparentia
+  is_blog: true
   features: [VanillaJS, Datatables, Awesomplete]
