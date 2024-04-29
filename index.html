@@ -22,7 +22,12 @@ layout: default
             media_source=post.media_source %}
           </div>
           <div class="post-title">{{ post.title }}</div>
-          <div class="post-date">{{ post.date | date: "%b %d %Y" }}</div>
+          <div class="post-date">
+            {{ post.date | date: "%b %d %Y" }}
+            {% if post.is_blog %}
+            <span class="blog-pill">Blog</span>
+            {% endif%}
+          </div>
           <div class="post-description">{{ post.description }}</div>
         </a>
       </div>
