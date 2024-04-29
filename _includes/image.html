@@ -8,5 +8,6 @@
   <img
     src="{{ url | prepend: site.url | prepend: site.baseurl }}"
     alt="{% if include.alt %}{{ include.alt }}{% else %}Image{% endif %}"
+    loading="lazy" decoding="auto"
   />
 </a>

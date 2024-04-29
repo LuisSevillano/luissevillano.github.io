@@ -1,6 +1,8 @@
 {% if include.media_type == "video" %}
 <div>
   <video
+    loading="lazy"
+    decoding="auto"
     autoplay
     loop
     playsinline
@@ -17,5 +19,5 @@
   {% endif %}
 </div>
 {% elsif include.media_type == "img" %}
-<img src="{{ include.media_source }}" />
+<img loading="lazy" decoding="auto"  src="{{ include.media_source }}" />
 {% endif %}
