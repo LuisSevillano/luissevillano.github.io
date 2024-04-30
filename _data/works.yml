@@ -12,8 +12,9 @@
   media_type: video
   media_source: /assets/images/antarctica
   date: 2023-02-13
-  external: true
-  url: https://elpais.com/ciencia/2023-02-24/el-centro-del-mundo-se-desmigaja-como-una-galleta.html
+  external: false
+  url: /antarctica_glaciers
+  is_blog: true
   features: [R, QGIS, d3js, ai2html, Illustrator]
 
 - title: Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma
