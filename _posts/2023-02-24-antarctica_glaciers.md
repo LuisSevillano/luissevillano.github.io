@@ -10,45 +10,42 @@ features: [R, QGIS, d3js, GoogleEarthEngine, ai2html, Illustrator]
 
 This collaboration with our colleagues from Materia, the science section of El País, resulted in a most rewarding experience. Manuel Ansede and Claudio Álvarez had the opportunity to travel to the Antarctic continent accompanying a Chilean scientific mission. This group of scientists is studying the changes that are taking place in Antarctica, many of them appreciable on a human scale.
 
-Pursuing the idea of showing the Antarctic continent as a protagonist and fundamental actor in the balance of the planet, my colleague Ansede showed me a projection known as _Spilhaus Projection_ that presents all the seas of the planet as a single body of water with Antarctica in the center.
+Pursuing the idea of presenting the Antarctic continent as a protagonist and fundamental actor in the balance of the planet, my colleague Ansede introduced me to a projection known as the _Spilhaus Projection_. This projection depicts all the seas of the planet as a single body of water with Antarctica in the center.
 
 {% include custom/antarctica.html %}
 
-To what extent would it be possible to work with such a projection? At that time we still didn't know exactly how we were going to produce the story and generally this kind of complex projections are difficult to reproduce in QGIS, the main software we use when working with geographic data. After searching in depth I found that it was indeed not possible and that the only way to be able to use this projection was going to be through d3js.
+Initially, we were uncertain about the feasibility of using this projection. At that time, we had not yet determined how we would integrate it into our story, and such intricate projections are not always possible to produce with QGIS., the software we utilize for working with geographic data. After conducting research on this projection, we discovered that utilizing it in QGIS was indeed not feasible. It appeared that the most suitable approach was through [d3js](https://d3js.org/).
 
-Having presented the idea of interconnected water masses thanks to Spilhaus and localizing the journey of my colleagues, how could I show the melting of Antarctica?
+Once we conceptualized Antarctica as a regulating force of ocean currents, weather patterns, and temperatures through this projection, the challenge arose of visualizing the melting of Antarctica.
 
-Fortunately, we have data from [NASA's ICESat-2 mission](ttps://icesat-2.gsfc.nasa.gov/mission). This satellite _carries a photon-counting laser altimeter that allows scientists to measure the elevation of ice sheets, glaciers, sea ice and more - all in unprecedented detail_. This mission offers its data openly in NetCDF, an archive format designed to store multidimensional scientific data, such as climate data, oceanographic data, atmospheric data, numerical model data and the like.
+We are in luck. We have [NASA's ICESat-2 mission](ttps://icesat-2.gsfc.nasa.gov/mission). This satellite _carries a photon-counting laser altimeter that allows scientists to measure the elevation of ice sheets, glaciers, sea ice and more - all in unprecedented detail_. The mission provides open access to its data in NetCDF format, designed for storing multidimensional scientific data such as climate, oceanographic, and atmospheric data, among others.
 
 
 ![netcdf_1](/assets/images/netcdf_1.jpg)
 _https://web.itu.edu.tr/~tokerem/netcdf.html_
 
-**The Data**
+# The Data
 
-NetCDF data is a format that is being used more and more often by the scientific community and can be somewhat complex: it contains a lot of information, it is usually a very large file (in this case more than 6.4Gb), etc.
-
-Access to this dataset can be done through the following [link](https://n5eil01u.ecs.nsidc.org/ATLAS/ATL15.003/2019.03.29/?C=S;O=D) and here [ATLAS/ICESat-2 L3B Gridded Antarctic and Arctic Land Ice Height Change](https://nsidc.org/data/atl15/versions/2), is the description of the dataset. I recommend taking a look at the documentation that can be found here.
+NetCDF data is increasingly utilized by the scientific community but can be complex due to its extensive information and large file sizes (in this case, over 6.4 GB). Access to this dataset is available via the following [link](https://n5eil01u.ecs.nsidc.org/ATLAS/ATL15.003/2019.03.29/?C=S;O=D), and here is the [description of the dataset](https://nsidc.org/data/atl15/versions/2). I recommend reviewing the documentation provided.
 
 ![netcdf_1](/assets/images/icesat_lag_table.jpg)
 _https://nsidc.org/sites/default/files/documents/user-guide/atl15-v003-userguide_0.pdf_
 
+# A bit of code
 
-**A bit of code**
+The approach taken with R involved obtaining a CSV file containing latitude/longitude coordinates and associated values for each point to depict changes in ice height and illustrate mass loss.
 
-The idea behind the work with R is to get a csv with a lat/lng coordinates and a value for each point to paint the change in ice height and ilustrate the mass loss.
-
-The work I performed with R was as follows:
+The steps involved in the R workflow were as follows:
 - Reading the raw ICESat-2 data.
 - Calculating the mean using the more detailed data (lag1 ~ Quarterly).
-- Generalizing the data with `aggregate` from the Raster package.
-- Polygonize
-- Extract the centroid of each polygon.
-- Export the data
+- Generalizing the data with the 'aggregate' function from the Raster package.
+- Polygonizing.
+- Extracting the centroid of each polygon.
+- Exporting the data.
 
-We can now draw the grid on our d3js globe.
+We can now overlay the grid on our d3js globe.
 
-These are the packages that I used in the process (probably some of them I don't even use, I have not been able to check thoroughly)
+The packages utilized in this process are listed below (some may not have been used extensively, as thorough verification was not possible).
 
 
 ```R
@@ -63,7 +60,7 @@ library(tidyverse)
 library(janitor)
 
 ```
-And here is the main function with which I generate the csv
+To find the best parameters to suit our needs I created a function to which I could pass different configurations:
 ```R
 generate_raster <-
   function(lag,
@@ -155,12 +152,16 @@ generate_raster <-
   }
 ```
 
-*_2024 Update_ Latest version has split the continent into four different files: two 1.6Gb files, one 1Gb file and one 776Mb file..
+For our purposes, I used the funcion as follows:
+```R
+generate_raster(1, "EPSG:4326", 25, TRUE, FALSE)
+```
 
+* _2024 Update_ The latest version has split the continent into four separate files: two 1.6 GB files, one 1 GB file, and one 776 MB file.
 
+# Conclusions
 
+I am pleased with the outcome of this project. The opportunity to confront various challenges along the way and overcome them is not always common in media, especially when delving into unfamiliar territory. Engaging with raw NASA data, working with it, making decisions on its utilization, and finding optimal methods for transforming it to extract valuable insights has been an enriching experience.
 
-**Conclusions**
-I am glad with the outcome of this project. The opportunity to face several barriers along the way and overcome them is something that doesn't always happen in media and specially when you stick your nose into other people's business. Facing that raw NASA data, working with it, making decisions on how to use it and finding the best way to transform it to get the most out of it has been a very positive experience.
 
 You can take a look at the article [here](https://elpais.com/ciencia/2023-02-24/el-centro-del-mundo-se-desmigaja-como-una-galleta.html).
