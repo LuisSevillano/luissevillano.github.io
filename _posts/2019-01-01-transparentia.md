@@ -5,7 +5,7 @@ media_type: img
 media_source: /assets/images/thumbnails/transparentia_logo.jpg
 date: 2019-01-02
 url: /transparentia
-features: [VanillaJS, Datatables, Awesomplete]
+tags: [VanillaJS, Datatables, Awesomplete]
 ---
 
 A few months ago I had the chance to develop a web application for Newtral, the startup of the journalist [Ana Pastor](https://twitter.com/_anapastor_).

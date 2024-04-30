@@ -5,7 +5,7 @@
   date: 2023-04-02
   external: true
   url: https://elpais.com/espana/2023-04-02/como-se-controla-un-incendio.html
-  features: [mapshaper, Blender, QGIS, ai2html, Illustrator]
+  tags: [mapshaper, Blender, QGIS, ai2html, Illustrator]
 
 - title: The center of the world crumbles like a cookie
   description: Antarctica is already suffering heat waves that exceed 18 degrees Celsius and is melting at its edges. What's happening?
@@ -15,7 +15,7 @@
   external: false
   url: /antarctica_glaciers
   is_blog: true
-  features: [R, QGIS, d3js, ai2html, Illustrator]
+  tags: [R, QGIS, d3js, ai2html, Illustrator]
 
 - title: Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma
   description: Scientists are trying to explore the network of volcanic tubes formed beneath the surface of the Tajogaite Volcano, which can be more than 10 kilometers long, but temperatures inside are still hellish.
@@ -24,7 +24,7 @@
   date: 2022-09-18
   external: true
   url: https://elpais.com/ciencia/2022-09-18/cuevas-y-tuneles-imposibles-en-la-zona-arrasada-por-el-volcan-de-la-palma.html
-  features: [QGIS, ai2html, Illustrator]
+  tags: [QGIS, ai2html, Illustrator]
 
 - title: Russian ghost ships to steal grain in Ukraine
   description: An investigation identifies at least twenty Russian and Syrian ships that turn off their navigation systems to avoid detection while illegally loading grain from the occupied territories in Ukraine, where agricultural production has been confiscated.
@@ -33,7 +33,7 @@
   date: 2022-07-03
   external: true
   url: https://elpais.com/internacional/2022-07-17/barcos-fantasma-rusos-para-robar-cereal-en-ucrania.html
-  features: [ai2html, Illustrator]
+  tags: [ai2html, Illustrator]
 
 - title: What happened at the Melilla border? The step by step of the tragedy
   description: We reconstruct with testimonies, images and geolocated videos the last and deadly attempt of a group of young Africans to reach Spain.
@@ -42,7 +42,7 @@
   date: 2022-07-03
   external: true
   url: https://elpais.com/espana/2022-07-03/que-sucedio-en-la-frontera-de-melilla-el-paso-a-paso-de-la-tragedia.html
-  features: [ai2html, Illustrator]
+  tags: [ai2html, Illustrator]
 
 - title: "Volcano exposed: How to interpret the signs of the La Palma eruption"
   description: Although the island of La Palma continues to suffer earthquakes at two depths, the tremor and deformation seem to be decreasing, which is interpreted as positive signs. What is happening?
@@ -51,7 +51,7 @@
   date: 2021-11-06
   external: true
   url: https://elpais.com/ciencia/2021-11-06/el-volcan-al-desnudo-como-interpretar-las-senales-de-la-erupcion-de-la-palma.html
-  features: [R, Blender, ai2html, Illustrator]
+  tags: [R, Blender, ai2html, Illustrator]
 
 - title: Mexico has 30% of its land under high seismic risk
   description: Authorities risk's maps reveal that one third of the population is exposed to high or very high levels of seismic hazard. Researchers analyze the risks to prevent the probable damage of a major earthquake in the country.
@@ -61,8 +61,7 @@
   external: false
   url: /guerrero-gap
   is_blog: true
-  features:
-    [bash scripts, gdal, ffmpeg, imageMagick, Blender, ai2html, Illustrator]
+  tags: [bash scripts, gdal, ffmpeg, imageMagick, Blender, ai2html, Illustrator]
 
 - title: Storm Filomena
   description: Maps and graphics about the storm <i>Filomena</i>. An extraordinary and unusual phenomenon that caused a historic snowfall in most of Spain, collapsing the country for several days.
@@ -71,7 +70,7 @@
   date: 2021-01-10
   external: true
   url: https://elpais.com/espana/2021-01-09/la-nieve-acumulada-permanecera-al-menos-una-semana.html
-  features: [bash scripts, gdal, ffmpeg, imageMagick]
+  tags: [bash scripts, gdal, ffmpeg, imageMagick]
 
 - title: The death of the last glaciers in Spain
   description: The last glaciers of Spain are disappearing. We went to the Pyrenees with a group of climate scientists to find out why.
@@ -80,7 +79,7 @@
   date: 2021-01-03
   external: true
   url: https://elpais.com/ciencia/2021-01-02/la-muerte-de-los-ultimos-glaciares-de-espana.html
-  features: [Lidar, CloudCompae, QGIS, bash scripts, ai2html, Illustrator]
+  tags: [Lidar, CloudCompae, QGIS, bash scripts, ai2html, Illustrator]
 
 - title: How Biden won
   description: A visual analysis about 2020 US Presidential Election where Biden won the presidency.
@@ -89,7 +88,7 @@
   date: 2021-01-10
   external: true
   url: https://elpais.com/internacional/elecciones-usa/2020-11-07/las-claves-de-la-victoria-de-biden-unos-pocos-votantes-deciden-la-presidencia-de-un-pais-bipolar.html
-  features: [JavaScript, d3js]
+  tags: [JavaScript, d3js]
 
 - title: The map of mortality in Spain by municipality
   description: New detailed mortality data  reveals very significant geographical differences across Spain.
@@ -98,7 +97,7 @@
   date: 2020-02-07
   external: true
   url: https://elpais.com/elpais/2020/02/05/ciencia/1580906716_232241.html
-  features: [Mapbox, Design, JavaScript, d3js]
+  tags: [Mapbox, Design, JavaScript, d3js]
 
 - title: Europe, a continent of coalitions far beyond Spain
   description: Agreement between parties is the most common form of government. An analysis of 38 countries shows that coalitions are the most common form of government in Europe.
@@ -107,7 +106,7 @@
   date: 2020-01-07
   external: true
   url: https://elpais.com/politica/2020/01/06/actualidad/1578327420_776769.html
-  features: [Design, JavaScript, d3js, TopoJSON, flubberjs]
+  tags: [Design, JavaScript, d3js, TopoJSON, flubberjs]
 
 - title: Merge CSV headers in R
   description: This post explains how to to treat tabular data files with more than one header in R using the tidyverse. This structure is very common in Spanish statistical data.
@@ -116,7 +115,7 @@
   date: 2019-08-08
   url: /combine-csv-headers-in-R
   is_blog: true
-  features: [R, Tidyverse]
+  tags: [R, Tidyverse]
 
 - title: 2019 Spanish general election
   description: Graphics about thee 2019 Spanish general election for RTVE, the Spanish public broadcaster. Scatterplots, cartograms and many maps.
@@ -125,7 +124,7 @@
   date: 2019-04-02
   url: /2019-general-election
   is_blog: true
-  features: [d3js, TopoJSON, Hexgrid, Canvas, d3-regression, Rbush]
+  tags: [d3js, TopoJSON, Hexgrid, Canvas, d3-regression, Rbush]
 
 - title: QGIS Tile Writer
   description: Python script to export a canvas of QGIS to tiles, compatible with Leaflet or Mapbox.
@@ -134,7 +133,7 @@
   date: 2018-10-16
   url: /qgis-tile-writer
   is_blog: true
-  features: [QGIS, Python, OSM]
+  tags: [QGIS, Python, OSM]
 
 - title: QGIS for journalists
   description: A course about the basic principles of cartography and GIS I gave to data journalism students at the University of Villanueva, in Madrid.
@@ -143,7 +142,7 @@
   date: 2016-03-11
   url: /QGIS-for-journalists
   is_blog: true
-  features: [QGIS, ai2html]
+  tags: [QGIS, ai2html]
 
 - title: Remote sensing
   description: Some thoughts about <i>remote sensing</i> with two use cases of  the Difference Normalized Burn Index. I use Landsat8 imagery to assess the severity of two large fires in Spain.
@@ -152,7 +151,7 @@
   date: 2017-06-04
   url: /nbr-remote-sensing
   is_blog: true
-  features: [QGIS, Landsat 8, Raster, OSM, ai2html]
+  tags: [QGIS, Landsat 8, Raster, OSM, ai2html]
 
 - title: Catastro A Coruna
   description: Testing a new QGIS plugin for the Spanish cadastre mapping public lands in A Coruña.
@@ -161,7 +160,7 @@
   date: 2017-11-21
   url: /catastro-coruna
   is_blog: true
-  features: [QGIS, R]
+  tags: [QGIS, R]
 
 - title: "The Spanish forces in the Mediterranean"
   description: Maps published at El Independienteabout the presence of Spanish armed forces in Italy, Turkey and Lebanon.
@@ -170,7 +169,7 @@
   date: 2016-12-09
   url: /spanish-forces-in-the-mediterranean
   is_blog: true
-  features: [QGIS, Illustrator, ai2html]
+  tags: [QGIS, Illustrator, ai2html]
 
 - title: ai2html workshop
   description: Workshop about ai2html imparted at Medialab Prado in Madrid. Ai2html is an Illustrator plugin for publishing responsive graphics developed at The New York Times.
@@ -179,7 +178,7 @@
   date: 2016-06-29
   external: true
   url: https://github.com/LuisSevillano/ai2html-workshop
-  features: [Illustrator, ai2html]
+  tags: [Illustrator, ai2html]
 
 - title: Barcelona 1992
   description: We analyzed how the Olympics changed Barcelona forever on the 25th anniversary of the games using aerial images.
@@ -188,7 +187,7 @@
   date: 2017-07-24
   url: /barcelona-1992-evolution
   is_blog: true
-  features: [QGIS, Photoshop, Satellite imagery, Landsat8]
+  tags: [QGIS, Photoshop, Satellite imagery, Landsat8]
 
 - title: Transparentia
   description: "Transparentia lets you to check more than 9,600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid."
@@ -197,4 +196,4 @@
   date: 2019-01-02
   url: /transparentia
   is_blog: true
-  features: [VanillaJS, Datatables, Awesomplete]
+  tags: [VanillaJS, Datatables, Awesomplete]

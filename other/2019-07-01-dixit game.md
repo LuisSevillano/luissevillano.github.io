@@ -3,7 +3,7 @@ title: "A Custom Dixit Game"
 date: 2019-07-01
 thumbnail: /assets/images/thumbnails/illa.jpg
 permalink: custom-dixit-game
-features: [QGIS, GDAL, Photoshop, Illustrator]
+tags: [QGIS, GDAL, Photoshop, Illustrator]
 ---
 
 This month I had the opportunity of collaborate in a wonderful project, a custom Dixit game as a wedding gift for one of my best friends.

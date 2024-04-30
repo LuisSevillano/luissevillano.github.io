@@ -10,8 +10,8 @@ layout: default
 
   <div class="divider"></div>
   <div class="pills">
-    {% for feature in page.features %}
-    <span>{{ feature }}</span>
+    {% for tag in page.tags %}
+    <span>{{ tag }}</span>
     {% endfor %}
   </div>
 
@@ -22,3 +22,6 @@ layout: default
     <span>&larr; Back to Index</span>
   </a>
 </div>
+<article>
+  {% include related_post.html %}
+</article>

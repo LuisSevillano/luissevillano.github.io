@@ -2,7 +2,7 @@
 title: "A Coruna city bike use"
 date: 2018-02-01
 permalink: bike-voronoi
-features: [d3js, node, TopoJSON, QGIS]
+tags: [d3js, node, TopoJSON, QGIS]
 ---
 
 October the 10th was the Hackatiño Mobilidade Sostible. More than 60 people met in the Centro Agora of A Coruña city, Spain to work on city mobility. Hackers had several datasets from the city Major such a complete year registry of public bike, real time bus, real time traffic, parking lots, etc.

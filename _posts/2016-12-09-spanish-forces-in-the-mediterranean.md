@@ -3,7 +3,7 @@ title: "The Spanish forces in the Mediterranean"
 date: 2016-12-09
 permalink: spanish-forces-in-the-mediterranean
 description: Documentation on basic principles of cartography and GIS taught to data journalism students
-features: [QGIS, Illustrator, ai2html]
+tags: [QGIS, Illustrator, ai2html]
 ---
 
 Old and new conflicts have made the shores of the Mediterranean one of the most insecure places on the planet. The refugee crisis, which has plagued Southern Europe for decades, has been aggravated by instability and chaos in Libya and Syria. Branches of Islamist terrorism in North Africa and the threat of the Islamic State represent a danger to peace in the region, especially the Middle East, where many conflicts of the last century are still open.
