@@ -4,6 +4,7 @@ date: 2018-02-01
 permalink: bike-voronoi
 media_type: img
 media_source: /assets/images/thumbnails/voronoi_detail.jpg
+published: false
 tags: [d3js, Node.js, TopoJSON, QGIS]
 ---
 
