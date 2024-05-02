@@ -1,6 +1,6 @@
 ---
-title: The history of the city of A Coruña through the year of construction of its buildings.
-description: Testing the new plugin <i>Spanish Inspire Catastral Downloader</i> that allows downloading directly to QGIS a large part of the data available in the cadastre of Spain.
+title: Exploring the history of A Coruña through the construction years of its buildings
+description: Testing a new QGIS plugin for the Spanish cadastre mapping public lands in A Coruña.
 media_type: img
 media_source: /assets/images/thumbnails/coruna-catastro.jpg
 date: 2017-11-01

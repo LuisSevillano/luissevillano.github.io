@@ -1,6 +1,6 @@
 ---
 title: "How to Merge CSV headers in R. An approach"
-description: "A way to deal with tabular data with more than one header"
+description: This post elucidates the process of handling tabular data files with multiple headers in R using the tidyverse. Such a structure is prevalent in Spanish statistical datasets.
 media_type: img
 media_source: /assets/images/thumbnails/unemployment-small-multiples_s.jpg
 date: 2019-08-08

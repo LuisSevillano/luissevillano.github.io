@@ -1,6 +1,6 @@
 ---
 title: How I covered the 2019 General Elections for the Spanish Radio and Television Corporation
-description: "Project for Datadista and the coverage they made for RTVE (state-owned public corporation of the Spanish public radio and television service) of the 2019 general elections. Scatter charts, cartograms and many maps."
+description: Project developed by Datadista showcasing their coverage of the 2019 general elections for RTVE, the state-owned public corporation responsible for Spain's radio and television services. The project includes scatter charts, cartograms, and numerous maps.
 media_type: video
 media_source: /assets/images/scatterplot
 date: 2019-04-01

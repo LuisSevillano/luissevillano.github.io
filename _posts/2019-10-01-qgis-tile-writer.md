@@ -1,6 +1,6 @@
 ---
-title: Custom tile writer in Python
-description: Python script to export the canvas of a QGIS project to xyz tiles in order to be able to use them later in openstreetmap or some other tile manager.
+title: Custom tile writer script in Python
+description: Export a QGIS canvas to tiles, compatible with Leaflet or Mapbox.
 media_type: video
 media_source: /assets/images/tile-writer
 date: 2018-10-01

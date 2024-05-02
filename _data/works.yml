@@ -72,15 +72,6 @@
       Adobe Illustrator,
     ]
 
-- title: Storm Filomena
-  description: Maps and graphics about the storm <i>Filomena</i>. An extraordinary and unusual phenomenon that caused a historic snowfall in most of Spain, collapsing the country for several days.
-  media_type: video
-  media_source: /assets/images/filomena
-  date: 2021-01-10
-  external: true
-  url: https://elpais.com/espana/2021-01-09/la-nieve-acumulada-permanecera-al-menos-una-semana.html
-  tags: [bash scripts, gdal, ffmpeg, imageMagick]
-
 - title: The death of the last glaciers in Spain
   description: The last glaciers of Spain are disappearing. We went to the Pyrenees with a group of climate scientists to find out why.
   media_type: img
@@ -90,7 +81,7 @@
   url: https://elpais.com/ciencia/2021-01-02/la-muerte-de-los-ultimos-glaciares-de-espana.html
   tags: [Lidar, CloudCompae, QGIS, bash scripts, ai2html, Adobe Illustrator]
 
-- title: How Biden won
+- title: How was Biden's victory?
   description: A visual analysis about 2020 US Presidential Election where Biden won the presidency.
   media_type: img
   media_source: /assets/images/thumbnails/las-claves-de-la-victoria-de-biden.jpg
@@ -99,8 +90,8 @@
   url: https://elpais.com/internacional/elecciones-usa/2020-11-07/las-claves-de-la-victoria-de-biden-unos-pocos-votantes-deciden-la-presidencia-de-un-pais-bipolar.html
   tags: [JavaScript, d3js]
 
-- title: The map of mortality in Spain by municipality
-  description: New detailed mortality data  reveals very significant geographical differences across Spain.
+- title: The mortality map of Spain at an unprecedented level of detail.
+  description: New detailed mortality data unveils substantial geographical disparities across Spain.
   media_type: video
   media_source: /assets/images/thumbnails/atlas
   date: 2020-02-07
@@ -117,8 +108,8 @@
   url: https://elpais.com/politica/2020/01/06/actualidad/1578327420_776769.html
   tags: [Design, JavaScript, d3js, TopoJSON, flubberjs]
 
-- title: Merge CSV headers in R
-  description: This post explains how to to treat tabular data files with more than one header in R using the tidyverse. This structure is very common in Spanish statistical data.
+- title: How to Merge CSV headers in R. An approach
+  description: This post elucidates the process of handling tabular data files with multiple headers in R using the tidyverse. Such a structure is prevalent in Spanish statistical datasets.
   media_type: img
   media_source: /assets/images/thumbnails/unemployment-small-multiples_s.jpg
   date: 2019-08-08
@@ -127,7 +118,7 @@
   tags: [R, Tidyverse]
 
 - title: How I covered the 2019 General Elections for the Spanish Radio and Television Corporation
-  description: Graphics about thee 2019 Spanish general election for RTVE, the Spanish public broadcaster. Scatterplots, cartograms and many maps.
+  description: Project developed by Datadista showcasing their coverage of the 2019 general elections for RTVE, the state-owned public corporation responsible for Spain's radio and television services. The project includes scatter charts, cartograms, and numerous maps.
   media_type: video
   media_source: /assets/images/scatterplot
   date: 2019-04-02
@@ -135,8 +126,8 @@
   is_blog: true
   tags: [d3js, TopoJSON, Hexgrid, Canvas, d3-regression, Rbush]
 
-- title: QGIS Tile Writer
-  description: Python script to export a canvas of QGIS to tiles, compatible with Leaflet or Mapbox.
+- title: Custom tile writer script in Python
+  description: Export a QGIS canvas to tiles, compatible with Leaflet or Mapbox.
   media_type: video
   media_source: /assets/images/tile-writer
   date: 2018-10-16
@@ -144,7 +135,7 @@
   is_blog: true
   tags: [QGIS, Python, OSM]
 
-- title: QGIS for journalists
+- title: GIS should be a must in newsrooms
   description: A course about the basic principles of cartography and GIS I gave to data journalism students at the University of Villanueva, in Madrid.
   media_type: img
   media_source: /assets/images/buffer.jpg
@@ -154,7 +145,7 @@
   tags: [QGIS, ai2html]
 
 - title: The power of remote sensing and its application to the media
-  description: Some thoughts about <i>remote sensing</i> with two use cases of  the Difference Normalized Burn Index. I use Landsat8 imagery to assess the severity of two large fires in Spain.
+  description: Exploring remote sensing through an analysis of two practical applications of the Difference Normalized Burn Index, focusing on the assessment of the severity of two major fires in Spain using Landsat 8 imagery.
   media_type: img
   media_source: /assets/images/thumbnails/remote-sensing_s.jpg
   date: 2017-06-04
@@ -162,7 +153,7 @@
   is_blog: true
   tags: [QGIS, Landsat 8, Raster, OSM, ai2html]
 
-- title: The history of the city of A Coruña through the year of construction of its buildings.
+- title: Exploring the history of A Coruña through the construction years of its buildings
   description: Testing a new QGIS plugin for the Spanish cadastre mapping public lands in A Coruña.
   media_type: img
   media_source: /assets/images/thumbnails/coruna-catastro_s.jpg
@@ -171,7 +162,7 @@
   is_blog: true
   tags: [QGIS, R]
 
-- title: "The Spanish forces in the Mediterranean"
+- title: Why are Spanish troops scattered all over the Mediterranean?
   description: Maps about the presence of Spanish armed forces in Italy, Turkey and Lebanon.
   media_type: img
   media_source: /assets/images/thumbnails/turkey_s.jpg
@@ -199,7 +190,7 @@
   tags: [QGIS, Photoshop, Satellite imagery, Landsat8]
 
 - title: Transparentia. The largest search engine for politicians' salaries
-  description: "Transparentia lets you to check more than 9,600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid."
+  description: "Transparentia lets you to check more than 9.600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid."
   media_type: img
   media_source: /assets/images/thumbnails/transparentia_logo.jpg
   date: 2019-01-02

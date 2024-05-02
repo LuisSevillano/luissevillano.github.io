@@ -1,6 +1,6 @@
 ---
 title: The power of remote sensing and its application to the media
-description: Some thoughts about <i>remote sensing</i> and two use cases with the Difference Normalized Burn Index using Landsat8 imagery to assess the degree of severity of two large fires in Spain.
+description: Exploring remote sensing through an analysis of two practical applications of the Difference Normalized Burn Index, focusing on the assessment of the severity of two major fires in Spain using Landsat 8 imagery.
 media_type: img
 media_source: /assets/images/thumbnails/remote-sensing.jpg
 date: 2017-06-04

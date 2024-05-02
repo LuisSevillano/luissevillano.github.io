@@ -1,10 +1,10 @@
 ---
-title: "Why are Spanish troops scattered all over the Mediterranean?"
+title: Why are Spanish troops scattered all over the Mediterranean?
+description: Maps about the presence of Spanish armed forces in Italy, Turkey and Lebanon.
 date: 2016-12-09
 permalink: spanish-forces-in-the-mediterranean
 media_type: img
 media_source: /assets/images/thumbnails/turkey_s.jpg
-description: Maps about the presence of Spanish armed forces in Italy, Turkey and Lebanon.
 tags: [QGIS, Adobe Illustrator, ai2html]
 ---
 
