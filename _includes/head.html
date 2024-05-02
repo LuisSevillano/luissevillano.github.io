@@ -1,32 +1,59 @@
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>
-  {% if page.title %}{{ page.title }} – {{site.title}} {% else %}{{ site.title
-  }}{% endif %}
+  {% if page.title -%}
+    {{- page.title }} – {{ site.title }}
+  {% else -%}
+    {{- site.title -}}
+  {%- endif %}
 </title>
 
 <meta
   name="description"
   content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ baseurl.description }}{% endif %}"
-/>
+>
 
-<link rel="icon" href="{{ "/assets/favicon.png" | prepend: baseurl.site |
-prepend: baseurl.url }}"> <link rel="apple-touch-icon" href="{{
-"/assets/apple-touch-icon-180x180.png" | prepend: baseurl.site | prepend:
-baseurl.url }}"> <link rel="stylesheet" href="{{ "/assets/core.css" | prepend:
-baseurl.site | prepend: baseurl.url }}">
+<link
+  rel="icon"
+  href="
+    {{ "/assets/favicon.png" | prepend: baseurl.site |
+    prepend: baseurl.url }}
+  "
+>
+<link
+  rel="apple-touch-icon"
+  href="
+    {{
+    "/assets/apple-touch-icon-180x180.png" | prepend: baseurl.site | prepend:
+    baseurl.url }}
+  "
+>
+<link
+  rel="stylesheet"
+  href="
+    {{ "/assets/core.css" | prepend:
+    baseurl.site | prepend: baseurl.url }}
+  "
+>
 <link
   rel="canonical"
   href="{{ page.url | prepend: baseurl.site | prepend: baseurl.url }}"
-/>
-<link rel="alternate" type="application/atom+xml" title="{{ baseurl.title }}"
-href="{{ "/feed.xml" | prepend: baseurl.site | prepend: baseurl.url }}" /> {% if
-baseurl.mathjax %} {% endif %} {% seo %} {% if page.image %}
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+>
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  title="{{ baseurl.title }}"
+  href="{{ "/feed.xml" | prepend: baseurl.site | prepend: baseurl.url }}"
+>
+{% if baseurl.mathjax %}
+{% endif %}
+{% seo %}
+{% if page.image %}
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
 {% else %}
-<meta itemprop="image" content="{{ site.logo}}" />
-<meta property="og:image" content="{{ site.logo}}" />
-<meta name="twitter:image" content="{{ site.logo}}" />
+  <meta itemprop="image" content="{{ site.logo}}">
+  <meta property="og:image" content="{{ site.logo}}">
+  <meta name="twitter:image" content="{{ site.logo}}">
 {% endif %}

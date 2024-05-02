@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 <section>
   <ul>
     {% for post in page.posts %}
@@ -9,23 +8,22 @@ layout: page
       <div class="title">
         {% if post.external %}
         <a href="{{ post.url }}">
-        {% else %}
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-          {% endif%}
-
-          <div class="post-thumbnail">
-            {% include media.html media_type=post.media_type
-            media_source=post.media_source %}
-          </div>
-          <div class="post-title">{{ post.title }}</div>
-          <div class="post-date">
-            {{ post.date | date: "%b %d %Y" }}
-            {% if post.is_blog %}
-            <span class="blog-pill">Blog</span>
+          {% else %}
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
             {% endif%}
-          </div>
-          <div class="post-description">{{ post.description }}</div>
-        </a>
+            <div class="post-thumbnail">
+              {% include media.html media_type=post.media_type
+              media_source=post.media_source %}
+            </div>
+            <div class="post-title">{{ post.title }}</div>
+            <div class="post-date">
+              {{ post.date | date: "%b %d %Y" }}
+              {% if post.is_blog %}
+              <span class="blog-pill">Blog</span>
+              {% endif%}
+            </div>
+            <div class="post-description">{{ post.description }}</div>
+          </a>
       </div>
     </li>
     <div class="divider-constant"></div>
