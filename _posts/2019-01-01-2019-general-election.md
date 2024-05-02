@@ -1,5 +1,5 @@
 ---
-title: "2019 General election"
+title: How I covered the 2019 General Elections for the Spanish Radio and Television Corporation
 description: "Project for Datadista and the coverage they made for RTVE (state-owned public corporation of the Spanish public radio and television service) of the 2019 general elections. Scatter charts, cartograms and many maps."
 media_type: video
 media_source: /assets/images/scatterplot

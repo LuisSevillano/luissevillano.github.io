@@ -1,11 +1,11 @@
 ---
-title: Barcelona 1992
-description: Testing the new plugin <i>Spanish Inspire Catastral Downloader</i> that allows downloading directly to QGIS a large part of the data available in the cadastre of Spain.
+title: "1992 Olympics in Barcelona: the city that changed forever"
+description: We analyzed how the Olympics changed Barcelona forever on the 25th anniversary of the games using aerial images.to QGIS a large part of the data available in the cadastre of Spain.
 media_type: img
 media_source: /assets/images/thumbnails/barcelona-1992.jpg
 date: 2017-07-24
 url: /barcelona-1992-evolution
-tags: [QGIS, Photoshop]
+tags: [QGIS, Photoshop, WMS]
 ---
 
 This week marks the 25th anniversary of the 1992 Summer Olympics Games that were took place in Barcelona, Spain. It was an event that changed the look of Barcelona forever and had an enormous impact on the urban culture and external projection of the city.

@@ -5,7 +5,7 @@
   date: 2023-04-02
   external: true
   url: https://elpais.com/espana/2023-04-02/como-se-controla-un-incendio.html
-  tags: [mapshaper, Blender, QGIS, ai2html, Illustrator]
+  tags: [mapshaper, Blender, QGIS, ai2html, Adobe Illustrator]
 
 - title: The center of the world crumbles like a cookie
   description: Antarctica is already suffering heat waves that exceed 18 degrees Celsius and is melting at its edges. What's happening?
@@ -15,7 +15,7 @@
   external: false
   url: /antarctica_glaciers
   is_blog: true
-  tags: [R, QGIS, d3js, ai2html, Illustrator]
+  tags: [R, QGIS, d3js, ai2html, Adobe Illustrator]
 
 - title: Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma
   description: Scientists are trying to explore the network of volcanic tubes formed beneath the surface of the Tajogaite Volcano, which can be more than 10 kilometers long, but temperatures inside are still hellish.
@@ -24,7 +24,7 @@
   date: 2022-09-18
   external: true
   url: https://elpais.com/ciencia/2022-09-18/cuevas-y-tuneles-imposibles-en-la-zona-arrasada-por-el-volcan-de-la-palma.html
-  tags: [QGIS, ai2html, Illustrator]
+  tags: [QGIS, ai2html, Adobe Illustrator]
 
 - title: Russian ghost ships to steal grain in Ukraine
   description: An investigation identifies at least twenty Russian and Syrian ships that turn off their navigation systems to avoid detection while illegally loading grain from the occupied territories in Ukraine, where agricultural production has been confiscated.
@@ -33,7 +33,7 @@
   date: 2022-07-03
   external: true
   url: https://elpais.com/internacional/2022-07-17/barcos-fantasma-rusos-para-robar-cereal-en-ucrania.html
-  tags: [ai2html, Illustrator]
+  tags: [ai2html, Adobe Illustrator]
 
 - title: What happened at the Melilla border? The step by step of the tragedy
   description: We reconstruct with testimonies, images and geolocated videos the last and deadly attempt of a group of young Africans to reach Spain.
@@ -42,7 +42,7 @@
   date: 2022-07-03
   external: true
   url: https://elpais.com/espana/2022-07-03/que-sucedio-en-la-frontera-de-melilla-el-paso-a-paso-de-la-tragedia.html
-  tags: [ai2html, Illustrator]
+  tags: [ai2html, Adobe Illustrator]
 
 - title: "Volcano exposed: How to interpret the signs of the La Palma eruption"
   description: Although the island of La Palma continues to suffer earthquakes at two depths, the tremor and deformation seem to be decreasing, which is interpreted as positive signs. What is happening?
@@ -51,7 +51,7 @@
   date: 2021-11-06
   external: true
   url: https://elpais.com/ciencia/2021-11-06/el-volcan-al-desnudo-como-interpretar-las-senales-de-la-erupcion-de-la-palma.html
-  tags: [R, Blender, ai2html, Illustrator]
+  tags: [R, Blender, ai2html, Adobe Illustrator]
 
 - title: Mexico has 30% of its land under high seismic risk
   description: Authorities risk's maps reveal that one third of the population is exposed to high or very high levels of seismic hazard. Researchers analyze the risks to prevent the probable damage of a major earthquake in the country.
@@ -61,7 +61,16 @@
   external: false
   url: /guerrero-gap
   is_blog: true
-  tags: [bash scripts, gdal, ffmpeg, imageMagick, Blender, ai2html, Illustrator]
+  tags:
+    [
+      bash scripts,
+      gdal,
+      ffmpeg,
+      imageMagick,
+      Blender,
+      ai2html,
+      Adobe Illustrator,
+    ]
 
 - title: Storm Filomena
   description: Maps and graphics about the storm <i>Filomena</i>. An extraordinary and unusual phenomenon that caused a historic snowfall in most of Spain, collapsing the country for several days.
@@ -79,7 +88,7 @@
   date: 2021-01-03
   external: true
   url: https://elpais.com/ciencia/2021-01-02/la-muerte-de-los-ultimos-glaciares-de-espana.html
-  tags: [Lidar, CloudCompae, QGIS, bash scripts, ai2html, Illustrator]
+  tags: [Lidar, CloudCompae, QGIS, bash scripts, ai2html, Adobe Illustrator]
 
 - title: How Biden won
   description: A visual analysis about 2020 US Presidential Election where Biden won the presidency.
@@ -117,7 +126,7 @@
   is_blog: true
   tags: [R, Tidyverse]
 
-- title: 2019 Spanish general election
+- title: How I covered the 2019 General Elections for the Spanish Radio and Television Corporation
   description: Graphics about thee 2019 Spanish general election for RTVE, the Spanish public broadcaster. Scatterplots, cartograms and many maps.
   media_type: video
   media_source: /assets/images/scatterplot
@@ -144,7 +153,7 @@
   is_blog: true
   tags: [QGIS, ai2html]
 
-- title: Remote sensing
+- title: The power of remote sensing and its application to the media
   description: Some thoughts about <i>remote sensing</i> with two use cases of  the Difference Normalized Burn Index. I use Landsat8 imagery to assess the severity of two large fires in Spain.
   media_type: img
   media_source: /assets/images/thumbnails/remote-sensing_s.jpg
@@ -153,7 +162,7 @@
   is_blog: true
   tags: [QGIS, Landsat 8, Raster, OSM, ai2html]
 
-- title: Catastro A Coruna
+- title: The history of the city of A Coruña through the year of construction of its buildings.
   description: Testing a new QGIS plugin for the Spanish cadastre mapping public lands in A Coruña.
   media_type: img
   media_source: /assets/images/thumbnails/coruna-catastro_s.jpg
@@ -163,24 +172,24 @@
   tags: [QGIS, R]
 
 - title: "The Spanish forces in the Mediterranean"
-  description: Maps published at El Independienteabout the presence of Spanish armed forces in Italy, Turkey and Lebanon.
+  description: Maps about the presence of Spanish armed forces in Italy, Turkey and Lebanon.
   media_type: img
   media_source: /assets/images/thumbnails/turkey_s.jpg
   date: 2016-12-09
   url: /spanish-forces-in-the-mediterranean
   is_blog: true
-  tags: [QGIS, Illustrator, ai2html]
+  tags: [QGIS, Adobe Illustrator, ai2html]
 
 - title: ai2html workshop
-  description: Workshop about ai2html imparted at Medialab Prado in Madrid. Ai2html is an Illustrator plugin for publishing responsive graphics developed at The New York Times.
+  description: Workshop about ai2html imparted at Medialab Prado in Madrid. Ai2html is an Adobe Illustrator plugin for publishing responsive graphics developed at The New York Times.
   media_type: img
   media_source: /assets/images/thumbnails/ai2html-workshop.jpg
   date: 2016-06-29
   external: true
   url: https://github.com/LuisSevillano/ai2html-workshop
-  tags: [Illustrator, ai2html]
+  tags: [Adobe Illustrator, ai2html]
 
-- title: Barcelona 1992
+- title: "1992 Olympics in Barcelona: the city that changed forever"
   description: We analyzed how the Olympics changed Barcelona forever on the 25th anniversary of the games using aerial images.
   media_type: img
   media_source: /assets/images/thumbnails/barcelona-1992_s.jpg
@@ -189,7 +198,7 @@
   is_blog: true
   tags: [QGIS, Photoshop, Satellite imagery, Landsat8]
 
-- title: Transparentia
+- title: Transparentia. The largest search engine for politicians' salaries
   description: "Transparentia lets you to check more than 9,600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid."
   media_type: img
   media_source: /assets/images/thumbnails/transparentia_logo.jpg

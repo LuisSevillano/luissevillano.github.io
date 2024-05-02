@@ -6,5 +6,5 @@ media_source: /assets/images/antarctica
 date: 2023-02-24
 permalink: how_to_control_a_fire
 published: false
-tags: [R, QGIS, d3js, GoogleEarthEngine, ai2html, Illustrator]
+tags: [Blender, Imagemagick, Mapshaper, QGIS, ai2html, Adobe Illustrator]
 ---

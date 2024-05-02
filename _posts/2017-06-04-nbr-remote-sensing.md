@@ -1,11 +1,11 @@
 ---
-title: Remote sensing
+title: The power of remote sensing and its application to the media
 description: Some thoughts about <i>remote sensing</i> and two use cases with the Difference Normalized Burn Index using Landsat8 imagery to assess the degree of severity of two large fires in Spain.
 media_type: img
 media_source: /assets/images/thumbnails/remote-sensing.jpg
 date: 2017-06-04
 url: /nbr-remote-sensing
-tags: [QGIS, Landsat 8, Raster, OSM, ai2html]
+tags: [QGIS, Landsat 8, OSM, ai2html]
 ---
 
 I usually say that if I would study something new it will be something related with the remote sensing. As I am always searching for how learn more about this area I always try to apply when I have an oportunity to.

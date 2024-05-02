@@ -1,11 +1,11 @@
 ---
-title: Catastro A Coruna
+title: The history of the city of A Coruña through the year of construction of its buildings.
 description: Testing the new plugin <i>Spanish Inspire Catastral Downloader</i> that allows downloading directly to QGIS a large part of the data available in the cadastre of Spain.
 media_type: img
 media_source: /assets/images/thumbnails/coruna-catastro.jpg
 date: 2017-11-01
 permalink: catastro-coruna
-tags: [QGIS, R]
+tags: [QGIS, R, Adobe Illustrator]
 ---
 
 I recently discover a nice QGIS plugin named [Spanish Inspire Catastral Downloader](https://github.com/sigdeletras/Spanish_Inspire_Catastral_Downloader) to download catastre data from the INSPIRE Services of Spanish Cadastral Cartography.

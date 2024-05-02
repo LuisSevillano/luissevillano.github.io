@@ -1,5 +1,5 @@
 ---
-title: Transparentia
+title: Transparentia. The largest search engine for politicians' salaries
 description: Transparentia is a project that was born with the purpose of helping to answer questions that you usually ask about how many politicians are there in Spain, what are their salaries, etc.
 media_type: img
 media_source: /assets/images/thumbnails/transparentia_logo.jpg

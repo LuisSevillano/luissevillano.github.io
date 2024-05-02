@@ -1,5 +1,5 @@
 ---
-title: "Merge CSV headers in R"
+title: "How to Merge CSV headers in R. An approach"
 description: "A way to deal with tabular data with more than one header"
 media_type: img
 media_source: /assets/images/thumbnails/unemployment-small-multiples_s.jpg
