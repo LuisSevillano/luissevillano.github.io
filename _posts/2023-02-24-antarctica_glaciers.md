@@ -157,7 +157,7 @@ For our purposes, I used the funcion as follows:
 generate_raster(1, "EPSG:4326", 25, TRUE, FALSE)
 ```
 
-* _2024 Update_ The latest version has split the continent into four separate files: two 1.6 GB files, one 1 GB file, and one 776 MB file.
+*_2024 Update_ The latest version has split the continent into four separate files: two 1.6 GB files, one 1 GB file, and one 776 MB file.
 
 # Conclusions
 

@@ -2,6 +2,8 @@
 title: "QGIS for journalists"
 date: 2016-03-01
 permalink: QGIS-for-journalists
+media_type: img
+media_source: /assets/images/buffer.jpg
 description: Documentation on basic principles of cartography and GIS taught to data journalism students
 tags: [QGIS, ai2html]
 ---

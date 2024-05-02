@@ -2,6 +2,8 @@
 title: "The Spanish forces in the Mediterranean"
 date: 2016-12-09
 permalink: spanish-forces-in-the-mediterranean
+media_type: img
+media_source: /assets/images/thumbnails/turkey_s.jpg
 description: Documentation on basic principles of cartography and GIS taught to data journalism students
 tags: [QGIS, Illustrator, ai2html]
 ---

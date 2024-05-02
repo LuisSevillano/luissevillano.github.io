@@ -2,7 +2,7 @@
 title: "Merge CSV headers in R"
 description: "A way to deal with tabular data with more than one header"
 media_type: img
-media_source: /assets/images/thumbnails/unemployment-small-multiples.jpg
+media_source: /assets/images/thumbnails/unemployment-small-multiples_s.jpg
 date: 2019-08-08
 permalink: combine-csv-headers-in-R
 tags: [R, Tidyverse]
