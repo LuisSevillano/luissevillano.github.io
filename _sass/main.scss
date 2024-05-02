@@ -377,11 +377,14 @@ section {
       }
       .post-title {
         color: black;
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
       .post-date {
         font-style: italic;
         color: $gray3;
+      }
+      .post-thumbnail {
+        margin-bottom: 1rem;
       }
       span {
         display: inline-block;
