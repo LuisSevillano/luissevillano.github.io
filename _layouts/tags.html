@@ -3,7 +3,7 @@ layout: page
 ---
 <section>
   <ul>
-    {% for post in page.posts %}
+    {% for post in page.posts reversed %}
     <li>
       <div class="title">
         {% if post.external %}
