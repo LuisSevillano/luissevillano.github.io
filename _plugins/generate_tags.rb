@@ -39,7 +39,7 @@ module Jekyll
       self.process(@name)
       self.data = {
         'layout' => 'tags',
-        'title' => "Posts etiquetados como #{tag}",
+        'title' => "Posts tagged as #{tag}",
         'original_tag' => tag,
         'normalized_tag' => normalized_tag,
         'posts' => posts
