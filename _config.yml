@@ -23,7 +23,6 @@ sass:
   style: ":compressed"
 include:
   - robots.txt
-relative_permalinks: false
 exclude:
   - LICENSE
   - README.md
