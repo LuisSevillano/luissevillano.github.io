@@ -8,7 +8,7 @@ logo_url: "https://avatars0.githubusercontent.com/u/11034169?v=4"
 logo: "https://avatars0.githubusercontent.com/u/11034169?v=4"
 url: "https://luissevillano.net"
 enforce_ssl: luissevillano.net
-baseurl: "https://luissevillano.net"
+baseurl: ""
 permalink: "/:title"
 timezone: "Europe/Madrid /:title"
 mathjax: true
