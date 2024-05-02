@@ -104,28 +104,7 @@ video {
   }
 }
 
-@media (min-width: 600px) {
-  // ai2html
-  article {
-    video:not(.fixed_width),
-    video:not(.fixed_width) + em {
-      margin-left: calc((75.1em - 100%) / -2);
-      margin-right: calc((75.1em - 100%) / -2);
-      width: 100vw;
-      max-width: 75.1em;
-      user-select: none;
-    }
-    .medium-video {
-      video,
-      video + em {
-        margin-left: calc((55.1em - 100%) / -2);
-        margin-right: calc((55.1em - 100%) / -2);
-        max-width: 55.1em;
-        user-select: none;
-      }
-    }
-  }
-}
+
 
 /*
 ** about

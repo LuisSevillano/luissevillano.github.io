@@ -219,7 +219,7 @@ footer {
   padding-right: 1rem;
   padding-left: 1rem;
 }
-.divider-constant {
+.divider-constant:not(:last-child){
   border-bottom: 0.5px solid $gray5;
 }
 .divider {
@@ -295,10 +295,10 @@ article {
       color: #0087be;
     }
   }
-  a:hover {
-    color: #369;
-    border-color: #369;
-  }
+  // a:hover {
+  //   color: #369;
+  //   border-color: #369;
+  // }
 }
 .back {
   text-align: center;
@@ -332,7 +332,7 @@ footer {
   flex-shrink: 0;
 }
 .page-navigation {
-  margin: 0px auto 0 auto;
+  margin: 1rem auto;
   a {
     display: inline-block;
     text-decoration: none;
@@ -453,6 +453,7 @@ section {
 }
 .related {
   margin-top: 2rem;
+  margin-bottom: 2.5rem;
   padding-top: 2rem;
 }
 .related p {
