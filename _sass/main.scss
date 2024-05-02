@@ -211,7 +211,7 @@ iframe {
 article,
 section,
 .page-navigation,
-.footer {
+footer {
   padding: 0 3rem;
   max-width: 600px;
   font-size: 1.6rem;
@@ -319,17 +319,17 @@ article {
   display: block;
 }
 .page-navigation,
-.footer {
+footer {
   margin: 0 auto;
   font-size: 1.4rem;
   color: $gray3;
 }
-.footer {
+footer {
   margin: 0 auto;
   font-size: 1.4rem;
   color: $gray2;
-  margin: 0 auto;
   text-align: center;
+  flex-shrink: 0;
 }
 .page-navigation {
   margin: 0px auto 0 auto;
@@ -342,11 +342,10 @@ article {
     display: inline-block;
   }
 }
-.footer {
+footer {
   max-width: none;
+  width: 100%;
   background-color: rgb(250,250,250);
-  margin-top: 50px;
-  margin-bottom: 50px;
   padding: 3rem;
   color: #777;
   a {
@@ -469,4 +468,15 @@ section {
 .related li {
   font-size: 1.4rem;
   color: $gray4
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+main {
+  flex: 1 0 auto;
 }
