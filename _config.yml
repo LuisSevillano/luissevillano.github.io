@@ -49,3 +49,7 @@ defaults:
     values:
       layout: "post"
 
+collections:
+  tags:
+    output: true
+    permalink: /tags/:name/
