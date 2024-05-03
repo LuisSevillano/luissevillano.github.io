@@ -11,6 +11,10 @@
   max-width: 400px;
   flex-direction: row;
   flex-wrap: wrap;
+  font-size: 1.5rem;
+  a {
+    border-bottom: none;
+  }
   span {
     padding: 2px 8px;
     border-radius: 2px;
@@ -18,9 +22,6 @@
     font-style: italic;
     font-family: $font-family-serif;
     outline: 1px solid $gray6;
-    a {
-      border-bottom: none;
-    }
 
     /* no need to display empty elements */
     &:empty {

@@ -10,9 +10,11 @@ layout: default
   <div class="divider"></div>
   <div class="pills">
     {% for tag in page.tags %}
+    <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: " ", "_"}}">
       <span>
-        <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: " ", "_"}}">{{ tag }}</a>
+        {{ tag }}
       </span>
+    </a>
     {% endfor %}
   </div>
 

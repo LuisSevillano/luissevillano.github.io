@@ -5,6 +5,7 @@
   date: 2024-01-28
   external: true
   url: https://elpais.com/internacional/2024-01-28/el-mar-rojo-un-polvorin-que-todas-las-potencias-militares-aspiran-a-controlar.html
+  published: true
   tags: [Blender, QGIS, ai2html, Adobe Illustrator]
 
 - title: "Introducing Cheesy Shadow Picker: Simplifying CSS Shadow Usage"
@@ -14,6 +15,7 @@
   date: 2024-01-28
   external: true
   url: https://luissevillano.net/cheesy-shadow-picker/
+  published: true
   tags: [Svelte]
 
 - title: Why Did the Tenerife Wildfire Spread So Rapidly?
@@ -23,7 +25,8 @@
   date: 2023-08-27
   external: true
   url: https://elpais.com/espana/2023-08-27/por-que-ha-ardido-tan-rapido-el-incendio-de-tenerife.html
-  tags: [mapshaper, Blender, QGIS, ai2html, Adobe Illustrator]
+  published: true
+  tags: [Mapshaper, Blender, QGIS, ai2html, Adobe Illustrator]
 
 - title: "Decoding Fire Control: The Aftermath of a Blaze"
   description: "After extinguishing a fire like the recent one in Castellón, another task begins for some firefighters: analyzing data and images to plan for future blazes. With insights from one of these analysts, EL PAÍS reconstructs the efforts to control a major fire, the Pont de Vilomara (Manresa) blaze, which engulfed dozens of homes last July."
@@ -32,7 +35,8 @@
   date: 2023-04-02
   external: true
   url: https://elpais.com/espana/2023-04-02/como-se-controla-un-incendio.html
-  tags: [mapshaper, Blender, QGIS, ai2html, Adobe Illustrator]
+  published: true
+  tags: [Mapshaper, Blender, QGIS, ai2html, Adobe Illustrator]
 
 - title: The center of the world crumbles like a cookie
   description: Antarctica is already suffering heat waves that exceed 18 degrees Celsius and is melting at its edges. What's happening?
@@ -42,6 +46,7 @@
   external: false
   url: /antarctica_glaciers
   is_blog: true
+  published: true
   tags: [R, QGIS, d3js, ai2html, Adobe Illustrator]
 
 - title: "Mortgage Simulator: Calculate Your Loan Installment"
@@ -51,6 +56,7 @@
   date: 2022-12-30
   external: true
   url: https://elpais.com/economia/2022-12-30/simulador-de-hipoteca-calcule-la-cuota-de-su-prestamo.html
+  published: true
   tags: [Svelte, d3js]
 
 - title: Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma
@@ -60,6 +66,7 @@
   date: 2022-09-18
   external: true
   url: https://elpais.com/ciencia/2022-09-18/cuevas-y-tuneles-imposibles-en-la-zona-arrasada-por-el-volcan-de-la-palma.html
+  published: true
   tags: [QGIS, ai2html, Adobe Illustrator]
 
 - title: Russian ghost ships to steal grain in Ukraine
@@ -69,6 +76,7 @@
   date: 2022-07-03
   external: true
   url: https://elpais.com/internacional/2022-07-17/barcos-fantasma-rusos-para-robar-cereal-en-ucrania.html
+  published: true
   tags: [ai2html, Adobe Illustrator]
 
 - title: What happened at the Melilla border? The step by step of the tragedy
@@ -78,6 +86,7 @@
   date: 2022-07-03
   external: true
   url: https://elpais.com/espana/2022-07-03/que-sucedio-en-la-frontera-de-melilla-el-paso-a-paso-de-la-tragedia.html
+  published: true
   tags: [ai2html, Adobe Illustrator]
 
 - title: "Volcano exposed: How to interpret the signs of the La Palma eruption"
@@ -87,6 +96,7 @@
   date: 2021-11-06
   external: true
   url: https://elpais.com/ciencia/2021-11-06/el-volcan-al-desnudo-como-interpretar-las-senales-de-la-erupcion-de-la-palma.html
+  published: true
   tags: [R, Blender, ai2html, Adobe Illustrator]
 
 - title: "The 100-Meter Sprint: Challenging the Reign of Timeless Records"
@@ -96,6 +106,7 @@
   date: 2021-07-31
   external: true
   url: https://elpais.com/deportes/juegos-olimpicos/2021-07-31/los-100m-lisos-en-busca-de-acabar-con-el-reinado-de-los-records-eternos.html
+  published: true
   tags: [d3js, ai2html, Adobe Illustrator]
 
 - title: Mexico has 30% of its land under high seismic risk
@@ -106,16 +117,8 @@
   external: false
   url: /guerrero-gap
   is_blog: true
-  tags:
-    [
-      bash scripts,
-      gdal,
-      ffmpeg,
-      imageMagick,
-      Blender,
-      ai2html,
-      Adobe Illustrator,
-    ]
+  tags: [QGIS, GDAL scripts, Blender, ai2html, Adobe Illustrator]
+
 - title: "Daily evolution of COVID-19 in Spain by region: tracking cases, hospitalizations, and deaths."
   description: Stay informed with our comprehensive COVID-19 tracker, featuring daily updates, historical trends, and detailed indicators including cases, hospitalizations, and deaths.
   media_type: img
@@ -124,6 +127,7 @@
   external: true
   url: https://elpais.com/sociedad/2021-03-15/el-coronavirus-en-espana-dia-a-dia-asi-evolucionan-casos-ingresos-y-muertos.html
   is_blog: false
+  published: true
   tags: [d3js]
 
 - title: The death of the last glaciers in Spain
@@ -133,6 +137,7 @@
   date: 2021-01-03
   external: true
   url: https://elpais.com/ciencia/2021-01-02/la-muerte-de-los-ultimos-glaciares-de-espana.html
+  published: true
   tags: [Lidar, CloudCompae, QGIS, bash scripts, ai2html, Adobe Illustrator]
 
 - title: How was Biden's victory?
@@ -142,6 +147,7 @@
   date: 2021-01-10
   external: true
   url: https://elpais.com/internacional/elecciones-usa/2020-11-07/las-claves-de-la-victoria-de-biden-unos-pocos-votantes-deciden-la-presidencia-de-un-pais-bipolar.html
+  published: true
   tags: [JavaScript, d3js]
 
 - title: The mortality map of Spain at an unprecedented level of detail.
@@ -151,6 +157,7 @@
   date: 2020-02-07
   external: true
   url: https://elpais.com/elpais/2020/02/05/ciencia/1580906716_232241.html
+  published: true
   tags: [Mapbox, Design, JavaScript, d3js]
 
 - title: Europe, a continent of coalitions far beyond Spain
@@ -160,6 +167,7 @@
   date: 2020-01-07
   external: true
   url: https://elpais.com/politica/2020/01/06/actualidad/1578327420_776769.html
+  published: true
   tags: [Design, JavaScript, d3js, TopoJSON, flubberjs]
 
 - title: How to Merge CSV headers in R. An approach
@@ -169,6 +177,7 @@
   date: 2019-08-08
   url: /combine-csv-headers-in-R
   is_blog: true
+  published: true
   tags: [R, Tidyverse]
 
 - title: How I covered the 2019 General Elections for the Spanish Radio and Television Corporation
@@ -178,6 +187,7 @@
   date: 2019-04-02
   url: /2019-general-election
   is_blog: true
+  published: true
   tags: [d3js, TopoJSON, Hexgrid, Canvas, d3-regression, Rbush]
 
 - title: Custom tile writer script in Python
@@ -187,6 +197,7 @@
   date: 2018-10-16
   url: /qgis-tile-writer
   is_blog: true
+  published: true
   tags: [QGIS, Python, OSM]
 
 - title: GIS should be a must in newsrooms
@@ -196,6 +207,7 @@
   date: 2016-03-11
   url: /QGIS-for-journalists
   is_blog: true
+  published: true
   tags: [QGIS, ai2html]
 
 - title: The power of remote sensing and its application to the media
@@ -205,6 +217,7 @@
   date: 2017-06-04
   url: /nbr-remote-sensing
   is_blog: true
+  published: true
   tags: [QGIS, Landsat 8, Raster, OSM, ai2html]
 
 - title: Exploring the history of A Coruña through the construction years of its buildings
@@ -214,6 +227,7 @@
   date: 2017-11-21
   url: /catastro-coruna
   is_blog: true
+  published: true
   tags: [QGIS, R]
 
 - title: Why are Spanish troops scattered all over the Mediterranean?
@@ -223,6 +237,7 @@
   date: 2016-12-09
   url: /spanish-forces-in-the-mediterranean
   is_blog: true
+  published: true
   tags: [QGIS, Adobe Illustrator, ai2html]
 
 - title: ai2html workshop
@@ -232,6 +247,7 @@
   date: 2016-06-29
   external: true
   url: https://github.com/LuisSevillano/ai2html-workshop
+  published: true
   tags: [Adobe Illustrator, ai2html]
 
 - title: "1992 Olympics in Barcelona: the city that changed forever"
@@ -241,7 +257,8 @@
   date: 2017-07-24
   url: /barcelona-1992-evolution
   is_blog: true
-  tags: [QGIS, Photoshop, Satellite imagery, Landsat8]
+  published: true
+  tags: [QGIS, Photoshop, Satellite imagery, Landsat 8]
 
 - title: Transparentia. The largest search engine for politicians' salaries
   description: "Transparentia lets you to check more than 9.600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid."
@@ -250,4 +267,5 @@
   date: 2019-01-02
   url: /transparentia
   is_blog: true
+  published: true
   tags: [VanillaJS, Datatables, Awesomplete]
