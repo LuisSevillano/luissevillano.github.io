@@ -5,7 +5,7 @@ media_type: video
 media_source: /assets/images/antarctica
 date: 2023-02-24
 permalink: antarctica_glaciers
-tags: [R, QGIS, d3js, Google Earth Engine, ai2html, Adobe Illustrator]
+tags: [R, QGIS, d3js, Canvas, Google Earth Engine, ai2html, Adobe Illustrator]
 ---
 
 This collaboration with our colleagues from Materia, the science section of El País, resulted in a most rewarding experience. Manuel Ansede and Claudio Álvarez had the opportunity to travel to the Antarctic continent accompanying a Chilean scientific mission. This group of scientists is studying the changes that are taking place in Antarctica, many of them appreciable on a human scale.

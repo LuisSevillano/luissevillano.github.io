@@ -1,5 +1,14 @@
-- title: How do you control a fire?
-  description: "When a fire is extinguished, another job begins for some firefighters: studying data and images to design the operations of the fires to come. With the help of one of these analysts, EL PAÍS reconstructs the control work of a large forest fire that burned dozens of houses last July in Catalonia."
+- title: Why Did the Tenerife Wildfire Spread So Rapidly?
+  description: Terrain Configuration and the Presence of Canarian Pine Trees Contributed to the Fierceness of the Arafo and Candelaria Fire
+  media_type: img
+  media_source: /assets/images/tenerife_fire.jpg
+  date: 2023-08-27
+  external: true
+  url: https://elpais.com/espana/2023-08-27/por-que-ha-ardido-tan-rapido-el-incendio-de-tenerife.html
+  tags: [mapshaper, Blender, QGIS, ai2html, Adobe Illustrator]
+
+- title: "Decoding Fire Control: The Aftermath of a Blaze"
+  description: "After extinguishing a fire like the recent one in Castellón, another task begins for some firefighters: analyzing data and images to plan for future blazes. With insights from one of these analysts, EL PAÍS reconstructs the efforts to control a major fire, the Pont de Vilomara (Manresa) blaze, which engulfed dozens of homes last July."
   media_type: img
   media_source: /assets/images/pont_de_vilomara.jpg
   date: 2023-04-02
@@ -36,7 +45,7 @@
   tags: [ai2html, Adobe Illustrator]
 
 - title: What happened at the Melilla border? The step by step of the tragedy
-  description: We reconstruct with testimonies, images and geolocated videos the last and deadly attempt of a group of young Africans to reach Spain.
+  description: In this breaking news we reconstruct with testimonies, images and geolocated videos the last and deadly attempt of a group of young Africans to reach Spain.
   media_type: img
   media_source: /assets/images/melilla.jpg
   date: 2022-07-03
@@ -52,6 +61,15 @@
   external: true
   url: https://elpais.com/ciencia/2021-11-06/el-volcan-al-desnudo-como-interpretar-las-senales-de-la-erupcion-de-la-palma.html
   tags: [R, Blender, ai2html, Adobe Illustrator]
+
+- title: "The 100-Meter Sprint: Challenging the Reign of Timeless Records"
+  description: Florence Griffith Joyner's Record Stands Strong for 33 Years, While Usain Bolt's Legacy Remains Untouched Since His Retirement Alongside His Top Competitors
+  media_type: img
+  media_source: /assets/images/100_meters.jpg
+  date: 2021-07-31
+  external: true
+  url: https://elpais.com/deportes/juegos-olimpicos/2021-07-31/los-100m-lisos-en-busca-de-acabar-con-el-reinado-de-los-records-eternos.html
+  tags: [d3js, ai2html, Adobe Illustrator]
 
 - title: Mexico has 30% of its land under high seismic risk
   description: Authorities risk's maps reveal that one third of the population is exposed to high or very high levels of seismic hazard. Researchers analyze the risks to prevent the probable damage of a major earthquake in the country.
@@ -71,6 +89,15 @@
       ai2html,
       Adobe Illustrator,
     ]
+- title: "Daily evolution of COVID-19 in Spain by region: tracking cases, hospitalizations, and deaths."
+  description: Stay informed with our comprehensive COVID-19 tracker, featuring daily updates, historical trends, and detailed indicators including cases, hospitalizations, and deaths.
+  media_type: img
+  media_source: /assets/images/covid_tracker.jpg
+  date: 2021-03-15
+  external: true
+  url: https://elpais.com/sociedad/2021-03-15/el-coronavirus-en-espana-dia-a-dia-asi-evolucionan-casos-ingresos-y-muertos.html
+  is_blog: false
+  tags: [d3js]
 
 - title: The death of the last glaciers in Spain
   description: The last glaciers of Spain are disappearing. We went to the Pyrenees with a group of climate scientists to find out why.
