@@ -6,23 +6,32 @@
 
 .pills {
   margin-top: 1em;
+  display: flex;
+  gap: 5px;
+  max-width: 400px;
+  flex-direction: row;
+  flex-wrap: wrap;
   span {
+    padding: 2px 8px;
+    border-radius: 2px;
+    line-height: 1.2;
     font-style: italic;
     font-family: $font-family-serif;
-    // padding: 0 1em;
-    // border: 1px solid rgb(200, 200, 200);
-    // background-color: rgb(245, 245, 245);
-    &:not(:first-child) {
-      margin-left: -0.3em;
+    outline: 1px solid $gray6;
+    a {
+      border-bottom: none;
     }
 
     /* no need to display empty elements */
     &:empty {
       display: none;
     }
+    &:hover {
+      outline: 1px solid $gray4;
+    }
 
     &:not(:first-child):before {
-      content: ", ";
+      // content: ", ";
     }
   }
 }

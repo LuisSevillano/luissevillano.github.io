@@ -17,7 +17,7 @@ _Evolución del área de Parque del mar._
 
 At El Independiente we tried to show how the Games modified the physiognomy of Barcelona using aerial and satellite imagery. The most complicated aspect was to work with three different systems of projection of coordinates to be able to put all the images together in order to be able to compare them.
 
-![montjuic-estadio-olimpico](/assets/images/thumbnails/barcelona-1992.jpg)
+![montjuic-estadio-olimpico](/assets/images/barcelona-1992.jpg)
 _Evolución del área del Estadio Olímpico de Montjuïc (hoy Estadio Olímpico Lluís Companys)_
 
 We used QGIS to work with rasters and photoshop to place the labels and make some minor corrections on rasters placements.
