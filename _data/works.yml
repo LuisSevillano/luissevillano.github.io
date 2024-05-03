@@ -1,3 +1,21 @@
+- title: "The Red Sea: A Powder Keg Desired by Military Powers"
+  description: Houthi Attacks Ignite a Region Riddled with Foreign Military Bases, Ravaged by Civil Wars, and Strategically Vital for the EU
+  media_type: img
+  media_source: /assets/images/red_sea.jpg
+  date: 2024-01-28
+  external: true
+  url: https://elpais.com/internacional/2024-01-28/el-mar-rojo-un-polvorin-que-todas-las-potencias-militares-aspiran-a-controlar.html
+  tags: [Blender, QGIS, ai2html, Adobe Illustrator]
+
+- title: "Introducing Cheesy Shadow Picker: Simplifying CSS Shadow Usage"
+  description: Discover a Handy Tool Developed in Svelte for Effortlessly Enhancing Text Visibility on Images, Satellite Photos, Maps, and More.
+  media_type: img
+  media_source: /assets/images/shadow_picker.jpg
+  date: 2024-01-28
+  external: true
+  url: https://luissevillano.net/cheesy-shadow-picker/
+  tags: [Svelte]
+
 - title: Why Did the Tenerife Wildfire Spread So Rapidly?
   description: Terrain Configuration and the Presence of Canarian Pine Trees Contributed to the Fierceness of the Arafo and Candelaria Fire
   media_type: img
@@ -25,6 +43,15 @@
   url: /antarctica_glaciers
   is_blog: true
   tags: [R, QGIS, d3js, ai2html, Adobe Illustrator]
+
+- title: "Mortgage Simulator: Calculate Your Loan Installment"
+  description: EL PAÍS Develops a Calculator for Mortgage Payments Using Svelte and Euribor Variation
+  media_type: img
+  media_source: /assets/images/mortage_calculator.jpg
+  date: 2022-12-30
+  external: true
+  url: https://elpais.com/economia/2022-12-30/simulador-de-hipoteca-calcule-la-cuota-de-su-prestamo.html
+  tags: [Svelte, d3js]
 
 - title: Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma
   description: Scientists are trying to explore the network of volcanic tubes formed beneath the surface of the Tajogaite Volcano, which can be more than 10 kilometers long, but temperatures inside are still hellish.
