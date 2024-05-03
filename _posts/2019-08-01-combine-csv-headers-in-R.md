@@ -5,7 +5,6 @@ media_type: img
 media_source: /assets/images/thumbnails/unemployment-small-multiples_s.jpg
 date: 2019-08-08
 permalink: combine-csv-headers-in-R
-tags: [R, Tidyverse]
 ---
 
 Usually when you work with data from Public Data Services like INE (Spanish Statistical Office) you have to deal with a [Excel files with a non usable format](http://www.ine.es/jaxiT3/Tabla.htm?t=4247): metadata in the first rows, notes at the bottom, empty columns, empty rows, etc. You have to do a small data processing in order to start working.

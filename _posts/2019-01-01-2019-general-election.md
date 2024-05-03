@@ -5,7 +5,6 @@ media_type: video
 media_source: /assets/images/scatterplot
 date: 2019-04-01
 permalink: 2019-general-election
-tags: [d3js, TopoJSON, Hexgrid, Canvas, d3-regression, Rbush]
 ---
 
 This year I had the opportunity of get back to Media and make election charts again with d3js!. This time, [Datadista](https://datadista.com/) give me the chance to create a full coverage of the Spanish General Elections (2019) with a multiple types of charts like maps, scatterplots or cartograms.

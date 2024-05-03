@@ -5,7 +5,6 @@ media_type: video
 media_source: /assets/images/tile-writer
 date: 2018-10-01
 url: /qgis-tile-writer
-tags: [QGIS, Python, OSM]
 ---
 
 During my year at iCarto, I had a task that consisted basically of trying to find an efficient way to create tiles from a QGIS project.

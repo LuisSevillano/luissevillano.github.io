@@ -5,7 +5,6 @@ media_type: img
 media_source: /assets/images/thumbnails/barcelona-1992.jpg
 date: 2017-07-24
 url: /barcelona-1992-evolution
-tags: [QGIS, Photoshop, WMS]
 ---
 
 This week marks the 25th anniversary of the 1992 Summer Olympics Games that were took place in Barcelona, Spain. It was an event that changed the look of Barcelona forever and had an enormous impact on the urban culture and external projection of the city.

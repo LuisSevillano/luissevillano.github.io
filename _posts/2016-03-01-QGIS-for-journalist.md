@@ -5,7 +5,6 @@ permalink: QGIS-for-journalists
 media_type: img
 media_source: /assets/images/buffer.jpg
 description: Principles of cartography and GIS taught to data journalism students
-tags: [QGIS, ai2html, Adobe Illustrator]
 ---
 
 Last march I had the chance to participate in the 2016-2017 master in data driven journalism at Villanueva University. The idea was to teach basic concepts and ideas about GIS maps and journalism.

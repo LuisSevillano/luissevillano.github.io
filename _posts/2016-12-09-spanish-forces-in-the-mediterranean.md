@@ -5,7 +5,6 @@ date: 2016-12-09
 permalink: spanish-forces-in-the-mediterranean
 media_type: img
 media_source: /assets/images/thumbnails/turkey_s.jpg
-tags: [QGIS, Adobe Illustrator, ai2html]
 ---
 
 Old and new conflicts have made the shores of the Mediterranean one of the most insecure places on the planet. The refugee crisis, which has plagued Southern Europe for decades, has been aggravated by instability and chaos in Libya and Syria. Branches of Islamist terrorism in North Africa and the threat of the Islamic State represent a danger to peace in the region, especially the Middle East, where many conflicts of the last century are still open.
