@@ -144,7 +144,7 @@ iframe {
 ul,
 ol {
   margin: 40px 0;
-  padding-left: 50px;
+  padding-left: 15px;
   li {
     word-wrap: break-word;
   }
@@ -483,4 +483,8 @@ section {
 
 main {
   flex: 1 0 auto;
+}
+.related ul {
+  list-style:square;
+  padding-left: 15px;
 }
