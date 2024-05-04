@@ -3,7 +3,7 @@ module Jekyll
     safe true
 
     def generate(site)
-      works_data = YAML.load_file("./_data/works.yml")
+      works_data = YAML.load_file("_data/works.yml")
 
       all_tags = works_data.flat_map { |work| work['tags'] }.uniq
 
