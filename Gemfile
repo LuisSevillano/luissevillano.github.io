@@ -6,6 +6,5 @@ end
 
 gem 'jekyll-seo-tag'
 gem "kramdown-parser-gfm"
-gem 'html-proofer'
 gem 'tzinfo'
 gem 'tzinfo-data'
