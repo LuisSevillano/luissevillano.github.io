@@ -1,13 +1,3 @@
-- title: "The Red Sea: A Powder Keg Desired by Military Powers"
-  description: Houthi Attacks Ignite a Region Riddled with Foreign Military Bases, Ravaged by Civil Wars, and Strategically Vital for the EU
-  media_type: img
-  media_source: /assets/images/red_sea.jpg
-  date: 2024-01-28
-  external: true
-  url: https://elpais.com/internacional/2024-01-28/el-mar-rojo-un-polvorin-que-todas-las-potencias-militares-aspiran-a-controlar.html
-  published: true
-  tags: [Blender, QGIS, ai2html, Adobe Illustrator]
-
 - title: "Introducing Cheesy Shadow Picker: Simplifying CSS Shadow Usage"
   description: Discover a Handy Tool Developed in Svelte for Effortlessly Enhancing Text Visibility on Images, Satellite Photos, Maps, and More.
   media_type: img
@@ -17,6 +7,16 @@
   url: https://luissevillano.net/cheesy-shadow-picker/
   published: true
   tags: [Svelte]
+
+- title: "The coming floods: danas, storms, and medicanes, Mediterranean storms gain intensity"
+  description: "The torrential rains that have battered Greece, Libya, or Spain in the month of September are a direct result of different atmospheric phenomena, but with a common denominator: global warming increases their intensity."
+  media_type: video
+  media_source: /assets/images/danas
+  date: 2023-10-19
+  external: true
+  url: https://elpais.com/clima-y-medio-ambiente/2023-10-19/las-inundaciones-que-vienen-danas-borrascas-y-medicanes-las-tormentas-del-mediterraneo-ganan-virulencia.html
+  published: true
+  tags: [QGIS, VanillaJS, Intersection Observer, Adobe Illustrator]
 
 - title: Why Did the Tenerife Wildfire Spread So Rapidly?
   description: Terrain Configuration and the Presence of Canarian Pine Trees Contributed to the Fierceness of the Arafo and Candelaria Fire
@@ -163,7 +163,7 @@
 - title: Europe, a continent of coalitions far beyond Spain
   description: Agreement between parties is the most common form of government. An analysis of 38 countries shows that coalitions are the most common form of government in Europe.
   media_type: video
-  media_source: /assets/images/thumbnails/europa
+  media_source: /assets/images/europa_sd
   date: 2020-01-07
   external: true
   url: https://elpais.com/politica/2020/01/06/actualidad/1578327420_776769.html
