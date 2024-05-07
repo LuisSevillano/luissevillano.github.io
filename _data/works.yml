@@ -1,5 +1,5 @@
 - title: "Introducing Cheesy Shadow Picker: Simplifying CSS Shadow Usage"
-  description: Discover a Handy Tool Developed in Svelte for Effortlessly Enhancing Text Visibility on Images, Satellite Photos, Maps, and More.
+  description: Discover a handy tool developed in Svelte for effortlessly enhancing text visibility on images, satellite photos, maps, and more.
   media_type: img
   media_source: /assets/images/shadow_picker.jpg
   date: 2024-01-28
@@ -19,7 +19,7 @@
   tags: [QGIS, VanillaJS, Intersection Observer, Adobe Illustrator]
 
 - title: Why Did the Tenerife Wildfire Spread So Rapidly?
-  description: Terrain Configuration and the Presence of Canarian Pine Trees Contributed to the Fierceness of the Arafo and Candelaria Fire
+  description: Terrain configuration and the presence of Canary Island pine trees contributed to the fierceness of the Arafo and Candelaria fire
   media_type: img
   media_source: /assets/images/tenerife_fire.jpg
   date: 2023-08-27
@@ -50,7 +50,7 @@
   tags: [R, QGIS, d3js, ai2html, Adobe Illustrator]
 
 - title: "Mortgage Simulator: Calculate Your Loan Installment"
-  description: EL PAÍS Develops a Calculator for Mortgage Payments Using Svelte and Euribor Variation
+  description: EL PAÍS develops a calculator for mortgage payments using Svelte and Euribor variation
   media_type: img
   media_source: /assets/images/mortage_calculator.jpg
   date: 2022-12-30
@@ -90,7 +90,7 @@
   tags: [ai2html, Adobe Illustrator]
 
 - title: "Volcano exposed: How to interpret the signs of the La Palma eruption"
-  description: Although the island of La Palma continues to suffer earthquakes at two depths, the tremor and deformation seem to be decreasing, which is interpreted as positive signs. What is happening?
+  description: Although the island of La Palma continues to suffer earthquakes at two depths, the tremor and deformation seem to be decreasing, which is interpreted as positive signs.
   media_type: img
   media_source: /assets/images/volcano_exposed.jpg
   date: 2021-11-06
@@ -100,7 +100,7 @@
   tags: [R, Blender, ai2html, Adobe Illustrator]
 
 - title: "The 100-Meter Sprint: Challenging the Reign of Timeless Records"
-  description: Florence Griffith Joyner's Record Stands Strong for 33 Years, While Usain Bolt's Legacy Remains Untouched Since His Retirement Alongside His Top Competitors
+  description: Florence Griffith Joyner's record stands strong for 33 years, while Usain Bolt's legacy remains untouched since his retirement alongside his top competitors
   media_type: img
   media_source: /assets/images/100_meters.jpg
   date: 2021-07-31
@@ -218,6 +218,7 @@
   url: /nbr-remote-sensing
   is_blog: true
   published: true
+
   tags: [QGIS, Landsat 8, Raster, OSM, ai2html]
 
 - title: Exploring the history of A Coruña through the construction years of its buildings
