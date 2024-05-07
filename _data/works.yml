@@ -36,6 +36,7 @@
   external: true
   url: https://elpais.com/espana/2023-04-02/como-se-controla-un-incendio.html
   published: true
+  prized: true
   tags: [Mapshaper, Blender, QGIS, ai2html, Adobe Illustrator]
 
 - title: The center of the world crumbles like a cookie

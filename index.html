@@ -25,6 +25,9 @@ layout: default
               {% if post.is_blog %}
               <span class="blog-pill">Blog</span>
               {% endif%}
+              {% if post.prized %}
+              {% include prized.html %}
+              {% endif%}
             </div>
             <div class="post-description">{{ post.description }}</div>
           </a>
