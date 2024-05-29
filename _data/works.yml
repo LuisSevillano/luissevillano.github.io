@@ -1,3 +1,13 @@
+- title: Hamas Resurges in Gaza Areas That Israel Considered Dismantled
+  description: The Islamist group launches and publicizes typical insurgency actions from territories ravaged by the Israelis. Civilians continue to suffer the consequences of the conflict.
+  media_type: img
+  media_source: /assets/images/rafah.jpg
+  date: 2024-05-29
+  external: true
+  url: https://elpais.com/internacional/2024-05-29/mapas-hamas-resurge-en-areas-de-gaza-que-israel-consideraba-desmanteladas.html
+  published: true
+  tags: [Svelte, Mapbox, JavaScript, d3js, Adobe Illustrator]
+
 - title: "Introducing Cheesy Shadow Picker: Simplifying CSS Shadow Usage"
   description: Discover a handy tool developed in Svelte for effortlessly enhancing text visibility on images, satellite photos, maps, and more.
   media_type: img
