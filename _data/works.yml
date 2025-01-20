@@ -1,3 +1,23 @@
+- title: Paiporta under water
+  description: We have measured the height of the water reached by the dana of October 29 in 140 locations, based on testimonies and marks still visible on the facades, to reconstruct the magnitude of the flooding.
+  media_type: img
+  media_source: /assets/images/paiporta.jpg
+  date: 2024-12-29
+  external: true
+  url: https://elpais.com/eps/2024-12-29/paiporta-bajo-el-agua.html
+  published: true
+  tags: [Blender, R, QGIS, AfterEffects]
+
+- title: "The data show the extreme magnitude of Valencia's flood: it should only occur every 1,000 years"
+  description: The rainfall, flow and flooded area records compiled by EL PAÍS describe an absolutely unusual event by scientific standards.
+  media_type: img
+  media_source: /assets/images/valencia.jpg
+  date: 2024-11-12
+  external: true
+  url: https://elpais.com/espana/2024-11-12/los-datos-evidencian-la-magnitud-extrema-de-la-riada-solo-debia-ocurrir-cada-1000-anos.html
+  published: true
+  tags: [Svelte, QGIS, JavaScript, Adobe Illustrator, ai2html]
+
 - title: Hamas Resurges in Gaza Areas That Israel Considered Dismantled
   description: The Islamist group launches and publicizes typical insurgency actions from territories ravaged by the Israelis. Civilians continue to suffer the consequences of the conflict.
   media_type: img
