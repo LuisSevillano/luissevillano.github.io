@@ -9,6 +9,16 @@
   published: true
   tags: [R, Svelte, Mapbox, QGIS]
 
+- title: Real-Time Global Air Traffic Visualization
+  description: This side project collects visible aircraft positions from Flightradar24, generates timestamped datasets, and stores them for analysis and visualization using GitHub Actions.
+  media_type: img
+  media_source: /assets/images/flights.jpg
+  date: 2025-04-17
+  external: true
+  url: https://github.com/LuisSevillano/real-time-flights
+  published: true
+  tags: [d3js, Canvas, Node.js]
+
 - title: What would Ukraine lose if it ceded the territory occupied by Russia?
   description: Moscow controls 20% of Ukrainian territory, an area rich in rare earths and home to Europe's largest nuclear power plant.
   media_type: video
