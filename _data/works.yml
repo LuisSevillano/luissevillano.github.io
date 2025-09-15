@@ -9,6 +9,16 @@
   published: true
   tags: [R, Svelte, Mapbox, QGIS]
 
+- title: What would Ukraine lose if it ceded the territory occupied by Russia?
+  description: Moscow controls 20% of Ukrainian territory, an area rich in rare earths and home to Europe's largest nuclear power plant.
+  media_type: video
+  media_source: /assets/images/ukraine_scroll
+  date: 2025-02-16
+  external: true
+  url: https://elpais.com/internacional/2025-02-16/mapas-que-perderia-ucrania-si-cede-el-territorio-ocupado-por-rusia.html
+  published: true
+  tags: [QGIS, ai2html]
+
 - title: Paiporta under water
   description: We have measured the height of the water reached by the dana of October 29 in 140 locations, based on testimonies and marks still visible on the facades, to reconstruct the magnitude of the flooding.
   media_type: img
@@ -28,6 +38,16 @@
   url: https://elpais.com/espana/2024-11-12/los-datos-evidencian-la-magnitud-extrema-de-la-riada-solo-debia-ocurrir-cada-1000-anos.html
   published: true
   tags: [Svelte, QGIS, JavaScript, Adobe Illustrator, ai2html]
+
+- title: How the war fronts in Ukraine have changed since the start of the Kursk offensive
+  description: Russia advances on the Donetsk front and Kiev's troops are stuck on Russian territory.
+  media_type: img
+  media_source: /assets/images/kursk.jpg
+  date: 2024-09-09
+  external: true
+  url: https://elpais.com/internacional/2024-09-09/mapas-como-han-cambiado-los-frentes-de-guerra-en-ucrania-desde-el-comienzo-de-la-ofensiva-en-kursk.html
+  published: true
+  tags: [QGIS, Adobe Illustrator, ai2html]
 
 - title: Hamas Resurges in Gaza Areas That Israel Considered Dismantled
   description: The Islamist group launches and publicizes typical insurgency actions from territories ravaged by the Israelis. Civilians continue to suffer the consequences of the conflict.
