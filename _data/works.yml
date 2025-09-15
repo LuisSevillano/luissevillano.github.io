@@ -1,3 +1,14 @@
+- title: "Predictable, devastating and very fast: what the simulation of the flooding of the Rambla del Poyo reveals"
+  description: A tool developed by a researcher at the Polytechnic University of Valencia shows the evolution of water every 10 minutes in the area with the highest number of fatalities.
+  media_type: video
+  media_source: /assets/images/paiporta_simulation
+  date: 2025-05-18
+  external: false
+  url: /paiporta-simulation
+  is_blog: true
+  published: true
+  tags: [R, Svelte, Mapbox, QGIS]
+
 - title: Paiporta under water
   description: We have measured the height of the water reached by the dana of October 29 in 140 locations, based on testimonies and marks still visible on the facades, to reconstruct the magnitude of the flooding.
   media_type: img

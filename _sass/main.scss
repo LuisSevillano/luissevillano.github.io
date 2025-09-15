@@ -30,7 +30,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 1rem;
-  line-height: 1.25;
+  line-height: 1.75;
   color: #313131;
 }
 h1 {
@@ -38,8 +38,8 @@ h1 {
 }
 
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: 4.5rem;
+  font-size: 1.75rem;
 }
 
 h3 {
@@ -487,4 +487,9 @@ main {
 .related ul {
   list-style:square;
   padding-left: 15px;
+}
+
+.video-asset {
+  max-width: 350px;
+  margin: 0 auto;
 }
