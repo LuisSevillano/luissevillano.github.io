@@ -61,11 +61,15 @@ video + em {
 ** VIDEO
 */
 video {
-  margin-top: 2em;
-  margin-bottom: 1em;
+
   width: 100%;
   user-select: none;
   pointer-events: none;
+}
+
+.post-thumbnail video {
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .small-video video {
