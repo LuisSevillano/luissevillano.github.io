@@ -1,5 +1,23 @@
 @import "custom";
 @import "vars";
+:root {
+  --color-bg: #fff;
+  --color-text: #222;
+  --color-link: #333;
+  --color-h: #000000;
+  --color-subtle: #555;
+  --color-footer: #777;
+  --color-postlabel: #757575;
+}
+:root.darkmode {
+  --color-bg: #181818;
+  --color-text: #eee;
+  --color-link: #fffbeb;
+  --color-h: #fffbeb;
+  --color-subtle: #bbbbbb;
+  --color-footer: #b6b6b6;
+  --color-postlabel: #fffbeb;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -13,13 +31,15 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  background: var(--color-bg);
 }
 body {
   font-weight: normal;
   font-style: normal;
   font-family: $font-family;
-  color: #333333;
+  color: var(--color-text);
   margin: 0;
+  background: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
@@ -31,7 +51,7 @@ h5,
 h6 {
   margin-bottom: 1rem;
   line-height: 1.75;
-  color: #313131;
+  color: var(--color-h);
 }
 h1 {
   font-size: 2rem;
@@ -57,7 +77,7 @@ img {
   max-width: 100%;
 }
 a {
-  color: inherit;
+  color: var(--color-link);
   text-decoration: none;
   border-bottom: 1px solid #555;
   &.image {
@@ -158,7 +178,7 @@ sup {
   margin-left: 1px;
 }
 time {
-  color: #555;
+  color: var(--color-subtle);
 }
 code,
 pre,
@@ -347,7 +367,7 @@ footer {
   width: 100%;
   background-color: rgb(250, 250, 250);
   padding: 3rem;
-  color: #777;
+  color: var(--color-footer);
   a {
     border: none;
     font-weight: bold;
@@ -373,22 +393,22 @@ section {
         text-decoration: none;
         border: 0;
         box-sizing: border-box;
-        color: $gray2;
+        color: var(--color-h);
       }
       .post-title {
-        color: black;
+        color: var(--color-h);
         font-size: 2rem;
       }
       .post-date {
         font-style: italic;
-        color: $gray5;
+        color: var(--color-subtle);
       }
       .post-thumbnail {
         margin-bottom: 1rem;
       }
       span {
         display: inline-block;
-        color: #757575;
+        color: var(--color-postlabel);
         letter-spacing: 1px;
         text-transform: uppercase;
       }
@@ -472,7 +492,7 @@ section {
 }
 .related li {
   font-size: 1.4rem;
-  color: $gray4;
+  color: var(--color-subtle);
 }
 
 .wrapper {
@@ -493,3 +513,4 @@ main {
   max-width: 350px;
   margin: 0 auto;
 }
+

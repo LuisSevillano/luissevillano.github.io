@@ -1,7 +1,31 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<style>
+  #darkmode-toggle-head {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    z-index: 9999;
+    padding: 0.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.75;
+    transition: opacity 0.2s;
+  }
+  #darkmode-toggle-head:hover {
+    opacity: 1;
+    background: rgba(0,0,0,0.04);
+  }
+  #darkmode-icon-head {
+    width: 28px;
+    height: 28px;
+    display: block;
+    pointer-events: none;
+  }
+</style>
 <title>
   {% if page.title -%}
     {{- page.title }} – {{ site.title }}
@@ -9,6 +33,29 @@
     {{- site.title -}}
   {%- endif %}
 </title>
+<button id="darkmode-toggle-head" aria-label="Alternar modo oscuro/claro">
+  <img id="darkmode-icon-head" src="/assets/darkmode-toggle.svg" alt="Alternar modo oscuro" />
+</button>
+<script>
+(function() {
+  function setDarkMode(isDark) {
+    document.documentElement.classList.toggle('darkmode', isDark);
+    localStorage.setItem('darkmode', isDark ? 'true' : 'false');
+    document.getElementById('darkmode-icon-head').src = isDark
+      ? '/assets/darkmode-toggle-dark.svg'
+      : '/assets/darkmode-toggle.svg';
+  }
+  var fromStorage = localStorage.getItem('darkmode');
+  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  var isDark = (fromStorage === null) ? prefersDark : (fromStorage === 'true');
+  setDarkMode(isDark);
+  document.getElementById('darkmode-toggle-head').onclick = function(e) {
+    e.stopPropagation();
+    setDarkMode(!document.documentElement.classList.contains('darkmode'));
+  };
+})();
+</script>
+
 
 <meta
   name="description"

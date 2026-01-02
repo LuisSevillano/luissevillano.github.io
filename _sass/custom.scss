@@ -46,7 +46,7 @@ video + em {
   display: block;
   font-family: $font-family-serif;
   font-size: 0.8em;
-  color: $gray2;
+  color: var(--color-footer);
   text-align: right;
   line-height: 1.4em;
 }
@@ -125,8 +125,8 @@ video {
 .main {
   font-size: 2.75rem;
   margin-bottom: 3rem;
-  color: black;
   font-weight: bold;
+  color: var(--color-h);
 }
 .sub {
   font-size: 1.8rem;
@@ -136,7 +136,7 @@ video {
   padding-top: 8rem;
 }
 .sign {
-  color: $gray3;
+  color: var(--color-subtle);
   font-size: 80%;
 }
 .prized {
