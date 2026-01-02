@@ -151,11 +151,17 @@ video {
 
 .main {
   font-size: 2.75rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   color: var(--color-h);
 }
 .sub {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: var(--color-subtle);
+  text-transform: uppercase;
+}
+.description {
   font-size: 1.8rem;
   line-height: 2.8rem;
 }
