@@ -1,3 +1,14 @@
+- title: From War to Your Home
+  description: How scrap metal from armed conflicts feeds the steel industry and enters European supply chains
+  media_type: video
+  media_source: /assets/images/turkey_dots
+  date: 2025-05-18
+  external: true
+  url: https://elpais.com/internacional/2025-10-30/de-la-guerra-a-tu-casa-como-la-chatarra-de-los-conflictos-belicos-alimenta-la-industria-del-acero.html
+  is_blog: false
+  published: true
+  tags: [Svelte, Mapbox, Shaders, JavaScript]
+
 - title: "Predictable, devastating and very fast: what the simulation of the flooding of the Rambla del Poyo reveals"
   description: Data provided by the Polytechnic University of Valencia allowed El País to reconstruct, minute by minute, an unprecedented simulation of the Rambla del Poyo flood.
   media_type: video
