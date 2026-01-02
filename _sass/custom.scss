@@ -1,6 +1,33 @@
 @import "vars";
 
 /*
+** DARKMODE TOGGLE
+*/
+#darkmode-toggle-head {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  z-index: 9999;
+  padding: 0.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+  &:hover {
+    opacity: 1;
+    background: rgba(0,0,0,0.04);
+  }
+}
+#darkmode-icon-head {
+  width: 28px;
+  height: 28px;
+  display: block;
+  pointer-events: none;
+}
+
+/*
 ** PILLS
 */
 
