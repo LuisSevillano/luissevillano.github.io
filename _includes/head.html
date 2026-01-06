@@ -32,16 +32,45 @@
 })();
 </script>
 
+<script>
+(function () {
+  if (!('IntersectionObserver' in window)) return;
+  function loadVideo(video) {
+    if (video.dataset.lazyLoaded) return;
+    video.querySelectorAll('source[data-src]').forEach(source => {
+      source.src = source.dataset.src;
+    });
+    video.load();
+    video.dataset.lazyLoaded = 'true';
+  }
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadVideo(entry.target);
+        obs.unobserve(entry.target);
+      }
+    });
+  }, {
+    rootMargin: '200px',
+    threshold: 0.01,
+  });
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('video[data-lazy-video]').forEach(video => {
+      observer.observe(video);
+    });
+  });
+})();
+</script>
+
 
 <meta
   name="description"
   content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ baseurl.description }}{% endif %}"
 >
-
 <link
   rel="icon"
   href="
-    {{ "/assets/favicon.png" | prepend: baseurl.site |
+    {{ "/assets/favicon.ico" | prepend: baseurl.site |
     prepend: baseurl.url }}
   "
 >
