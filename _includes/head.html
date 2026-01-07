@@ -1,12 +1,21 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#181818" id="theme-color-meta">
 <script>
+function updateThemeColor() {
+  var themeColorMeta = document.getElementById('theme-color-meta');
+  if (themeColorMeta) {
+    var isLight = document.documentElement.classList.contains('lightmode');
+    themeColorMeta.content = isLight ? '#ffffff' : '#181818';
+  }
+}
 
 try {
   if (localStorage.getItem('theme') === 'light') {
     document.documentElement.classList.add('lightmode');
   }
+  updateThemeColor();
 } catch(e){}
 </script>
 <style>
@@ -34,7 +43,7 @@ html.lightmode body {
   background: none !important;
   border: none !important;
   z-index: 9999 !important;
-  padding: 0.2rem !important;
+  padding: 0.125rem !important;
   border-radius: 50% !important;
   cursor: pointer !important;
   opacity: 0.75 !important;
@@ -82,6 +91,7 @@ html.lightmode #darkmode-toggle-head:hover {
     }
 
     updateIcon();
+    updateThemeColor();
 
     button.onclick = function(e) {
       e.preventDefault();
@@ -89,6 +99,7 @@ html.lightmode #darkmode-toggle-head:hover {
       var isLight = document.documentElement.classList.toggle('lightmode');
       localStorage.setItem('theme', isLight ? 'light' : 'dark');
       updateIcon();
+      updateThemeColor();
     };
   }
 
