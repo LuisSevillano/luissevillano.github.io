@@ -1,15 +1,7 @@
 @import "custom";
 @import "vars";
 :root {
-  --color-bg: #fff;
-  --color-text: #222;
-  --color-link: #333;
-  --color-h: #000000;
-  --color-subtle: #555;
-  --color-footer: #777;
-  --color-postlabel: #757575;
-}
-:root.darkmode {
+  /* Darkmode por defecto */
   --color-bg: #181818;
   --color-text: #eee;
   --color-link: #fffbeb;
@@ -17,6 +9,16 @@
   --color-subtle: #bbbbbb;
   --color-footer: #b6b6b6;
   --color-postlabel: #fffbeb;
+}
+:root.lightmode {
+  /* Lightmode opcional */
+  --color-bg: #fff;
+  --color-text: #222;
+  --color-link: #333;
+  --color-h: #000000;
+  --color-subtle: #555;
+  --color-footer: #777;
+  --color-postlabel: #757575;
 }
 * {
   -webkit-box-sizing: border-box;

@@ -1,7 +1,59 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
 
+try {
+  if (localStorage.getItem('theme') === 'light') {
+    document.documentElement.classList.add('lightmode');
+  }
+} catch(e){}
+</script>
+<style>
+html {
+  background-color: #181818;
+  color: #eee;
+}
+body {
+  background-color: #181818;
+  color: #eee;
+}
+html.lightmode {
+  background-color: #fff;
+  color: #222;
+}
+html.lightmode body {
+  background-color: #fff;
+  color: #222;
+}
+
+#darkmode-toggle-head {
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  background: none !important;
+  border: none !important;
+  z-index: 9999 !important;
+  padding: 0.2rem !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  opacity: 0.75 !important;
+  transition: opacity 0.2s !important;
+}
+#darkmode-toggle-head:hover {
+  opacity: 1 !important;
+  background: rgba(0,0,0,0.04) !important;
+}
+html.lightmode #darkmode-toggle-head:hover {
+  background: rgba(255,255,255,0.04) !important;
+}
+#darkmode-icon-head {
+  width: 28px !important;
+  height: 28px !important;
+  display: block !important;
+  pointer-events: none !important;
+}
+</style>
 <title>
   {% if page.title -%}
     {{- page.title }} – {{ site.title }}
@@ -10,25 +62,41 @@
   {%- endif %}
 </title>
 <button id="darkmode-toggle-head" aria-label="Alternar modo oscuro/claro">
-  <img id="darkmode-icon-head" src="/assets/darkmode-toggle.svg" alt="Alternar modo oscuro" />
+  <img id="darkmode-icon-head" src="/assets/darkmode-toggle-dark.svg" alt="Alternar modo oscuro" />
 </button>
 <script>
 (function() {
-  function setDarkMode(isDark) {
-    document.documentElement.classList.toggle('darkmode', isDark);
-    localStorage.setItem('darkmode', isDark ? 'true' : 'false');
-    document.getElementById('darkmode-icon-head').src = isDark
-      ? '/assets/darkmode-toggle-dark.svg'
-      : '/assets/darkmode-toggle.svg';
+
+  function init() {
+    var button = document.getElementById('darkmode-toggle-head');
+    var icon = document.getElementById('darkmode-icon-head');
+
+    if (!button || !icon) {
+      setTimeout(init, 10);
+      return;
+    }
+
+    function updateIcon() {
+      var isLight = document.documentElement.classList.contains('lightmode');
+      icon.src = isLight ? '/assets/darkmode-toggle.svg' : '/assets/darkmode-toggle-dark.svg';
+    }
+
+    updateIcon();
+
+    button.onclick = function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var isLight = document.documentElement.classList.toggle('lightmode');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      updateIcon();
+    };
   }
-  var fromStorage = localStorage.getItem('darkmode');
-  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  var isDark = (fromStorage === null) ? prefersDark : (fromStorage === 'true');
-  setDarkMode(isDark);
-  document.getElementById('darkmode-toggle-head').onclick = function(e) {
-    e.stopPropagation();
-    setDarkMode(!document.documentElement.classList.contains('darkmode'));
-  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
 </script>
 
