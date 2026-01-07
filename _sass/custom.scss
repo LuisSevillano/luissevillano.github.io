@@ -10,7 +10,7 @@
   background: none;
   border: none;
   z-index: 9999;
-  padding: 0.2rem;
+  padding: 0.125rem;
   border-radius: 50%;
   cursor: pointer;
   opacity: 0.75;
@@ -38,7 +38,7 @@
   max-width: 400px;
   flex-direction: row;
   flex-wrap: wrap;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   a {
     border-bottom: none;
   }
@@ -113,8 +113,8 @@ video {
   article {
     .ai2html {
       margin-top: 3em;
-      margin-left: calc((80.1rem - 100%) / -2);
-      max-width: 80.1rem !important;
+      margin-left: calc((50.0625rem - 100%) / -2);
+      max-width: 50.0625rem !important;
       box-sizing: border-box;
 
       width: 100vw;
@@ -131,8 +131,8 @@ video {
   article {
     .ai2html {
       margin-top: 3em;
-      margin-left: calc((100.1rem - 100%) / -2);
-      max-width: 100.1rem !important;
+      margin-left: calc((62.5625rem - 100%) / -2);
+      max-width: 62.5625rem !important;
       box-sizing: border-box;
       width: 100vw;
       flex-shrink: 0;
@@ -150,23 +150,23 @@ video {
 */
 
 .main {
-  font-size: 2.75rem;
-  margin-bottom: 1rem;
+  font-size: 1.71875rem;
+  margin-bottom: 0.625rem;
   font-weight: bold;
   color: var(--color-h);
 }
 .sub {
-  font-size: 1.8rem;
-  line-height: 2.8rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   color: var(--color-subtle);
   text-transform: uppercase;
 }
 .description {
-  font-size: 1.8rem;
-  line-height: 2.8rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .about {
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 .sign {
   color: var(--color-subtle);

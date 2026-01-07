@@ -26,7 +26,6 @@
   box-sizing: border-box;
 }
 :root {
-  font-size: 62.5%;
   -webkit-tap-highlight-color: transparent;
 }
 html {
@@ -51,29 +50,29 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.625rem;
   line-height: 1.75;
   color: var(--color-h);
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 h2 {
-  margin-top: 4.5rem;
-  font-size: 1.75rem;
+  margin-top: 2.8125rem;
+  font-size: 1.09375rem;
 }
 
 h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
+  margin-top: 0.9375rem;
+  font-size: 0.78125rem;
 }
 
 h4,
 h5,
 h6 {
-  margin-top: 1.1rem;
-  font-size: 1.1rem;
+  margin-top: 0.6875rem;
+  font-size: 0.6875rem;
 }
 img {
   max-width: 100%;
@@ -111,7 +110,7 @@ blockquote {
     font-weight: 700;
     height: 100px;
     width: 100px;
-    font-size: 1.5em;
+    font-size: 0.9375em;
     border-radius: 100%;
     display: inline-block;
     text-align: center;
@@ -132,7 +131,7 @@ blockquote {
       }
     }
   }
-  .logo-prompt {
+    .logo-prompt {
     position: absolute;
     display: none;
     vertical-align: middle;
@@ -142,7 +141,7 @@ blockquote {
     background: rgba(0, 0, 0, 0.5);
     margin-left: 15px;
     color: #fff;
-    font-size: 0.8235em;
+    font-size: 0.5146875em;
     text-align: center;
     line-height: 1.2;
     top: 50%;
@@ -170,8 +169,6 @@ ol {
   li {
     word-wrap: break-word;
   }
-  img {
-  }
 }
 sup {
   vertical-align: top;
@@ -196,14 +193,14 @@ code {
 pre {
   display: block;
   margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
+  margin-bottom: 0.625rem;
+  font-size: 0.75rem;
   line-height: 1.5;
   white-space: pre;
   overflow-x: auto;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
-  padding: 1rem;
+  padding: 0.625rem;
   code {
     font-size: 100%;
     color: inherit;
@@ -234,12 +231,12 @@ article,
 section,
 .page-navigation,
 footer {
-  padding: 0 3rem;
+  padding: 0 1.875rem;
   max-width: 600px;
-  font-size: 1.6rem;
+  font-size: 1rem;
   line-height: 180%;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
 }
 .divider-constant:not(:last-child) {
   border-bottom: 0.5px solid $gray5;
@@ -274,7 +271,7 @@ article {
   h1.title {
     line-height: 1.4em;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 0.875em;
   }
 
   .center {
@@ -288,7 +285,7 @@ article {
   }
   p {
     word-wrap: break-word;
-    margin-bottom: 2.1rem;
+    margin-bottom: 1.3125rem;
   }
   .footnote {
     border: 0;
@@ -302,7 +299,7 @@ article {
     display: block;
     color: #666;
     p {
-      line-height: 1rem;
+      line-height: 0.625rem;
       font-weight: normal;
     }
     ol {
@@ -343,18 +340,18 @@ article {
 .page-navigation,
 footer {
   margin: 0 auto;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   color: $gray3;
 }
 footer {
   margin: 0 auto;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   color: $gray2;
   text-align: center;
   flex-shrink: 0;
 }
 .page-navigation {
-  margin: 1rem auto;
+  margin: 0.625rem auto;
   a {
     display: inline-block;
     text-decoration: none;
@@ -368,7 +365,7 @@ footer {
   max-width: none;
   width: 100%;
   background-color: rgb(250, 250, 250);
-  padding: 3rem;
+  padding: 1.875rem;
   color: var(--color-footer);
   a {
     border: none;
@@ -376,17 +373,17 @@ footer {
   }
 }
 section {
-  margin: 0 auto 10rem auto;
+  margin: 0 auto 6.25rem auto;
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
     li {
-      margin: 2rem 0;
+      margin: 1.25rem 0;
       .title {
         max-width: 100%;
         word-wrap: normal !important;
-        margin: 1rem 0 0rem;
+        margin: 0.625rem 0 0rem;
         @media (min-width: 600px) {
           margin-bottom: 0rem;
         }
@@ -399,14 +396,14 @@ section {
       }
       .post-title {
         color: var(--color-h);
-        font-size: 2rem;
+        font-size: 1.25rem;
       }
       .post-date {
         font-style: italic;
         color: var(--color-subtle);
       }
       .post-thumbnail {
-        margin-bottom: 1rem;
+        margin-bottom: 0.625rem;
       }
       span {
         display: inline-block;
@@ -425,9 +422,9 @@ section {
     }
   }
   .divider-constant {
-    margin: 1rem 0 5rem;
+    margin: 0.625rem 0 3.125rem;
     @media (min-width: 600px) {
-      margin-bottom: 6rem;
+      margin-bottom: 3.75rem;
     }
   }
 }
@@ -478,12 +475,12 @@ section {
   text-transform: none;
 }
 .related {
-  margin-top: 2rem;
-  margin-bottom: 2.5rem;
-  padding-top: 2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5625rem;
+  padding-top: 1.25rem;
 }
 .related p {
-  font-size: 1.7rem;
+  font-size: 1.0625rem;
   margin-bottom: 0;
 }
 
@@ -493,7 +490,7 @@ section {
   margin: 0;
 }
 .related li {
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   color: var(--color-subtle);
 }
 
