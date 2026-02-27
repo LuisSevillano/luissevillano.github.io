@@ -7,9 +7,9 @@
 	const siteUrl = 'https://luissevillano.net';
 	let pageUrl = $derived(`${siteUrl}/work/${data.project.slug}/how-it-was-done/`);
 	let description = $derived(
-		`Technical breakdown of methods and implementation choices for ${data.project.title}.`
+		`Behind the scenes of ${data.project.title}: process, technical workflow, and key editorial decisions behind the final piece.`
 	);
-	let pageTitle = $derived(`${data.project.title} | How it was done`);
+	let pageTitle = $derived(`How this project was made | ${data.project.title}`);
 	let ogImage = $derived(
 		`${siteUrl}${data.project.socialImage || `/assets/og/projects/${data.project.slug}.jpg`}`
 	);
