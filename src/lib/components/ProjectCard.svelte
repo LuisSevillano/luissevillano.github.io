@@ -1,7 +1,7 @@
 <script>
 	import { formatDate } from '$lib/content/projects.js';
 
-	let { project, compact = false, variant = 'default', eager = false } = $props();
+	let { project, variant = 'default', eager = false } = $props();
 </script>
 
 <article class={`project-card project-card-${variant}`}>

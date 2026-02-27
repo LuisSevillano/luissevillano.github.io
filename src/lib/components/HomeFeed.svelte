@@ -4,8 +4,7 @@
 
 	let {
 		heroTitle = 'Maps, data, and visual stories from my daily work',
-		heroCopy = 'Here I collect newsroom stories, independent projects, and open-source tools and experiments.',
-		heroTech = '`visual reporting`'
+		heroCopy = 'Here I collect newsroom stories, independent projects, and open-source tools and experiments.'
 	} = $props();
 
 	const projects = getProjects();
@@ -37,7 +36,6 @@
 <main>
 	<section class="hero hero-pro">
 		<p class="eyebrow">VISUAL JOURNALISM, CARTOGRAPHY AND TOOLS</p>
-		<!-- <p class="hero-tech">{heroTech}</p> -->
 		<h1 class="hero-title">{heroTitle}</h1>
 		<p class="hero-copy">{heroCopy}</p>
 		<div class="cta-row cta-tight">

@@ -5,7 +5,6 @@
 
 	let { children } = $props();
 	let theme = $state('dark');
-	const currentYear = new Date().getFullYear();
 
 	function applyTheme(nextTheme) {
 		theme = nextTheme;
@@ -66,7 +65,9 @@
 		if (!root) return;
 
 		const isVisible = (element) =>
-			Boolean(element && (element.offsetWidth || element.offsetHeight || element.getClientRects().length));
+			Boolean(
+				element && (element.offsetWidth || element.offsetHeight || element.getClientRects().length)
+			);
 
 		const syncVisibleImages = () => {
 			root.querySelectorAll('.g-aiImg[data-src]').forEach((image) => {
