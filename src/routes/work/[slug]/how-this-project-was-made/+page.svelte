@@ -5,7 +5,7 @@
 
 	let { data } = $props();
 	const siteUrl = 'https://luissevillano.net';
-	let pageUrl = $derived(`${siteUrl}/work/${data.project.slug}/how-it-was-done/`);
+	let pageUrl = $derived(`${siteUrl}/work/${data.project.slug}/how-this-project-was-made/`);
 	let description = $derived(
 		`Behind the scenes of ${data.project.title}: process, technical workflow, and key editorial decisions behind the final piece.`
 	);
@@ -52,7 +52,7 @@
 
 <main class="page-wrap project-page">
 	<p class="meta"><a href={`/work/${data.project.slug}`}>Back to case study</a></p>
-	<h1><span class="bigger-title">How it was done</span> {data.project.title}</h1>
+	<h1><span class="bigger-title">How this project was made</span> {data.project.title}</h1>
 
 	{#if hasRichHow}
 		<article class="rich-content">{@html data.project.content.howHtml}</article>

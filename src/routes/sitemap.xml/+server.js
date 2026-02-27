@@ -61,7 +61,7 @@ export function GET() {
 		.filter((project) => hasHowContent(project))
 		.map((project) => {
 			const lastmod = toIsoDate(project.date);
-			return buildUrlEntry(`/work/${project.slug}/how-it-was-done`, lastmod, 'monthly');
+			return buildUrlEntry(`/work/${project.slug}/how-this-project-was-made`, lastmod, 'monthly');
 		});
 
 	const body = [

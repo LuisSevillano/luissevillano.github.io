@@ -25,7 +25,7 @@ export function load({ params }) {
 	const workContent = getWorkContentBySlug(baseProject.slug);
 
 	if (!hasHowContent(baseProject, workContent)) {
-		throw error(404, 'How it was done not available');
+		throw error(404, 'How this project was made page not available');
 	}
 
 	return {

@@ -20,7 +20,7 @@ export function load({ params }) {
 	const workContent = getWorkContentBySlug(baseProject.slug);
 	if (!workContent) {
 		const howUrl = hasHowContent(baseProject, null)
-			? baseProject.howUrl || `/work/${baseProject.slug}/how-it-was-done`
+			? baseProject.howUrl || `/work/${baseProject.slug}/how-this-project-was-made`
 			: '';
 
 		return {
@@ -32,7 +32,7 @@ export function load({ params }) {
 	}
 
 	const howUrl = hasHowContent(baseProject, workContent)
-		? baseProject.howUrl || `/work/${baseProject.slug}/how-it-was-done`
+		? baseProject.howUrl || `/work/${baseProject.slug}/how-this-project-was-made`
 		: '';
 
 	return {

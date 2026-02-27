@@ -2,7 +2,7 @@ import generatedProjects from './projects.generated.json';
 
 const overrides = {
 	'paiporta-simulation': {
-		howUrl: '/work/paiporta-simulation/how-it-was-done',
+		howUrl: '/work/paiporta-simulation/how-this-project-was-made',
 		content: {
 			how: {
 				stack: ['Svelte', 'QGIS', 'R', 'Video export pipeline'],

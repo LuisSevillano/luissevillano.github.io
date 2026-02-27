@@ -113,7 +113,7 @@
 			>
 		{/if}
 		{#if data.project.howUrl}
-			<a class="btn" href={data.project.howUrl}>How it was done</a>
+			<a class="btn" href={data.project.howUrl}>How this project was made</a>
 		{/if}
 		{#if data.project.repoUrl}
 			<a class="btn" href={data.project.repoUrl} target="_blank" rel="noreferrer">Code</a>
