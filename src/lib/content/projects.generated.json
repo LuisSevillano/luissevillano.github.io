@@ -7,9 +7,16 @@
 		"mediaSource": "/assets/images/ukraine_four_years.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["qgis", "ai2html"],
+		"tags": [
+			"qgis",
+			"ai2html"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Data analysis", "Frontend development"],
+		"role": [
+			"Cartography",
+			"Data analysis",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A map-based four-year balance of the war in Ukraine, showing a largely stalled front, energy infrastructure attacks, aid shifts, and the human cost of the conflict.",
 		"thumbnail": "/assets/images/ukraine_four_years.jpg",
@@ -24,7 +31,9 @@
 			"context": [
 				"A map-based four-year overview of the war in Ukraine, focused on front-line changes, territory control, and key conflict indicators."
 			],
-			"myRole": ["I worked on the cartographic and visual implementation of the story."],
+			"myRole": [
+				"I worked on the cartographic and visual implementation of the story."
+			],
 			"methodology": [
 				"The piece combines front-line data, territorial change estimates, infrastructure attack records, aid flows, and casualty figures in one visual package.",
 				"We structured the article as a sequence of complementary maps and charts to move from macro territorial dynamics to energy, financing, and human impact."
@@ -34,9 +43,14 @@
 				"We used map-plus-chart storytelling to avoid a single-indicator reading of the war and preserve geopolitical context.",
 				"Visual hierarchy was tuned for fast scanning so readers could connect military, economic, and humanitarian dimensions in one pass."
 			],
-			"result": ["The final piece provides a clear visual summary of four years of war."],
-			"impact": ["The project helps maintain a consistent format for periodic conflict updates."]
-		}
+			"result": [
+				"The final piece provides a clear visual summary of four years of war."
+			],
+			"impact": [
+				"The project helps maintain a consistent format for periodic conflict updates."
+			]
+		},
+		"socialImage": "/assets/og/projects/cuatro-anos-de-guerra-en-ucrania-un-frente-que-apenas-se-mueve.jpg"
 	},
 	{
 		"title": "Aragon election results, street by street",
@@ -46,9 +60,15 @@
 		"mediaSource": "/assets/images/aragon_secciones_censales.jpg",
 		"type": "tracker",
 		"topics": [],
-		"tags": ["mapbox", "vanillajs"],
+		"tags": [
+			"mapbox",
+			"vanillajs"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Frontend development"],
+		"role": [
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A live election map for Aragon at census-section level, with street-by-street results, party filters, and comparisons with 2023.",
 		"thumbnail": "/assets/images/aragon_secciones_censales.jpg",
@@ -82,7 +102,8 @@
 			"impact": [
 				"The project reinforces a reusable election workflow based on shared components and rapid newsroom deployment."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/los-resultados-de-las-elecciones-en-aragon-en-tiempo-real-y-calle-a-calle.jpg"
 	},
 	{
 		"title": "358,000 hectares in 15 days: how Spain burned during its darkest weeks",
@@ -92,9 +113,17 @@
 		"mediaSource": "/assets/images/spain_fires.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["qgis", "ai2html", "remote sensing"],
+		"tags": [
+			"qgis",
+			"ai2html",
+			"remote sensing"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Data analysis", "Frontend development"],
+		"role": [
+			"Cartography",
+			"Data analysis",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A visual summary of Spain's most severe 2025 wildfire weeks, combining burned-area perimeters, regional impact, and air-quality deterioration.",
 		"thumbnail": "/assets/images/spain_fires.jpg",
@@ -127,7 +156,8 @@
 			"impact": [
 				"The project supports a repeatable workflow for rapid wildfire monitoring and public-facing map explainers."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/358000-hectareas-en-15-dias-asi-ardio-espana-en-sus-semanas-mas-negras.jpg"
 	},
 	{
 		"title": "The Zamora and Leon wildfire, one of Spain's largest",
@@ -137,9 +167,17 @@
 		"mediaSource": "/assets/images/zamora_leon_wildfire.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["qgis", "ai2html", "remote sensing"],
+		"tags": [
+			"qgis",
+			"ai2html",
+			"remote sensing"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Data analysis", "Frontend development"],
+		"role": [
+			"Cartography",
+			"Data analysis",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A data-driven explainer on the Zamora and Leon wildfire, comparing perimeter estimates, burned forest area, and seasonal fire context in Spain.",
 		"thumbnail": "/assets/images/zamora_leon_wildfire.jpg",
@@ -154,7 +192,9 @@
 			"context": [
 				"A map-based explainer of the Zamora and Leon wildfire, focused on burned-area measurement and how agricultural and forest surfaces are counted."
 			],
-			"myRole": ["I worked on the geospatial analysis and visual implementation of the story."],
+			"myRole": [
+				"I worked on the geospatial analysis and visual implementation of the story."
+			],
 			"methodology": [
 				"The analysis combined EFFIS perimeter data, Sentinel-2 imagery, and additional processing to separate burned and unburned areas inside the fire boundary.",
 				"We compared agricultural and forest categories to place the event within Spain's historical large-fire records."
@@ -170,7 +210,8 @@
 			"impact": [
 				"The project supports consistent wildfire coverage by connecting operational data with readable public context."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/mapas-el-incendio-de-zamora-y-leon-el-peor-del-verano-y-uno-de-los-mayores-de-espana.jpg"
 	},
 	{
 		"title": "From war to your home: how scrap metal from armed conflicts feeds the steel industry",
@@ -179,10 +220,22 @@
 		"mediaType": "video",
 		"mediaSource": "/assets/images/turkey_dots",
 		"type": "investigation",
-		"topics": ["lkjas", "ljka"],
-		"tags": ["Svelte", "Mapbox", "WebGL", "JavaScript"],
+		"topics": [
+			"lkjas",
+			"ljka"
+		],
+		"tags": [
+			"Svelte",
+			"Mapbox",
+			"WebGL",
+			"JavaScript"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Data analysis", "Frontend development"],
+		"role": [
+			"Cartography",
+			"Data analysis",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A cross-border investigation maps how war scrap from Syria, Libya, and Ukraine enters Turkish steel production and returns to Europe as finished products.",
 		"thumbnail": "/assets/images/turkey_dots.jpg",
@@ -216,7 +269,8 @@
 				"The project aligned with a quality-first investigative approach focused on public-interest reporting and accountability, and it performed well for this type of in-depth piece.",
 				"It reinforced a collaboration model between reporting and geospatial storytelling that we can reuse in future cross-border investigations."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/from-war-to-your-home.jpg"
 	},
 	{
 		"title": "Predictable, devastating and very fast: what the simulation of the flooding of the Rambla del Poyo reveals",
@@ -226,9 +280,18 @@
 		"mediaSource": "/assets/images/paiporta_simulation",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["r", "Svelte", "Mapbox", "qgis"],
+		"tags": [
+			"r",
+			"Svelte",
+			"Mapbox",
+			"qgis"
+		],
 		"client": "El País",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A hydraulic simulation reconstructs the Rambla del Poyo flood minute by minute, showing three core findings: the event was predictable, devastating, and extremely fast.",
 		"thumbnail": "/assets/images/paiporta_simulation.jpg",
@@ -262,7 +325,8 @@
 				"The story performed strongly in both editorial impact and audience reach, becoming one of the clearest public reconstructions of the event.",
 				"It proved the value of combining scientific modeling with interaction design to communicate risk, response timing, and institutional accountability."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/paiporta-simulation.jpg"
 	},
 	{
 		"title": "Real-Time Global Air Traffic Visualization",
@@ -272,9 +336,15 @@
 		"mediaSource": "/assets/images/flights.jpg",
 		"type": "tool",
 		"topics": [],
-		"tags": ["d3js", "canvas", "node.js"],
+		"tags": [
+			"d3js",
+			"canvas",
+			"node.js"
+		],
 		"client": "GitHub",
-		"role": ["Data analysis"],
+		"role": [
+			"Data analysis"
+		],
 		"duration": "",
 		"excerpt": "A lightweight GitHub Actions workflow captures near-real-time global aircraft positions, making it possible to reconstruct events such as sudden airspace closures during conflicts.",
 		"thumbnail": "/assets/images/flights.jpg",
@@ -308,7 +378,8 @@
 				"Despite being developed in only a few hours, the tool has already been reused in later projects, confirming its editorial utility.",
 				"It also highlighted the importance of planning storage infrastructure early when building continuous collection pipelines."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/real-time-global-air-traffic-visualization.jpg"
 	},
 	{
 		"title": "What would Ukraine lose if it ceded the territory occupied by Russia?",
@@ -318,9 +389,16 @@
 		"mediaSource": "/assets/images/ukraine_scroll",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["qgis", "ai2html", "adobe illustrator"],
+		"tags": [
+			"qgis",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Data analysis"],
+		"role": [
+			"Cartography",
+			"Data analysis"
+		],
 		"duration": "",
 		"excerpt": "This explainer maps what is at stake in occupied Ukrainian territory, combining front-line evolution with strategic assets such as infrastructure, resources, and energy nodes.",
 		"thumbnail": "/assets/images/ukraine_scroll.jpg",
@@ -355,7 +433,8 @@
 				"The story performed very well and helped establish a new visual format in Spanish media: a large, deeply detailed, vertically navigable conflict map.",
 				"It validated this hybrid workflow (QGIS + ai2html + scroll-triggered annotation) as a strong model for future war-front explainers."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/what-would-ukraine-lose-if-it-ceded-the-territory-occupied-by-russia.jpg"
 	},
 	{
 		"title": "Paiporta Under Water: Reconstructing a Deadly Flood Through Data",
@@ -365,9 +444,17 @@
 		"mediaSource": "/assets/images/paiporta.jpg",
 		"type": "investigation",
 		"topics": [],
-		"tags": ["blender", "r", "qgis", "aftereffects"],
+		"tags": [
+			"blender",
+			"r",
+			"qgis",
+			"aftereffects"
+		],
 		"client": "EL PAIS",
-		"role": ["3D recreation", "Cartography"],
+		"role": [
+			"3D recreation",
+			"Cartography"
+		],
 		"duration": "1 month",
 		"excerpt": "Based on extensive field measurements, this project reconstructs the peak flood level in Paiporta and nearby towns, showing the full magnitude of a water mass that exceeded three meters in many streets.",
 		"thumbnail": "/assets/images/paiporta.jpg",
@@ -403,7 +490,8 @@
 				"The project had strong editorial impact and offered one of the first broadly accessible reconstructions of what happened during the most critical hours of the disaster.",
 				"It established a repeatable workflow for combining field measurements, terrain analysis, and 3D cartographic storytelling in extreme-event reporting."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/paiporta-under-water.jpg"
 	},
 	{
 		"title": "Data shows the extreme magnitude of Valencia's flood: it should only occur every 1,000 years",
@@ -413,9 +501,18 @@
 		"mediaSource": "/assets/images/valencia.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["Svelte", "qgis", "JavaScript", "adobe illustrator", "ai2html"],
+		"tags": [
+			"Svelte",
+			"qgis",
+			"JavaScript",
+			"adobe illustrator",
+			"ai2html"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Frontend development"],
+		"role": [
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "This story contextualizes the Valencia flood through rainfall, discharge, and inundation records, showing an event with an estimated return period above 1,000 years and, in some expert assessments, closer to 5,000.",
 		"thumbnail": "/assets/images/valencia.jpg",
@@ -450,7 +547,8 @@
 				"The article had strong audience impact and became a reference explainer on the exceptional magnitude of the event.",
 				"It also validated a coordinated team workflow where specialized visual modules can be built in parallel and integrated into one consistent story."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/the-data-show-the-extreme-magnitude-of-valencias-flood-it-should-only-occur-every-1000-years.jpg"
 	},
 	{
 		"title": "How the war fronts in Ukraine have changed since the start of the Kursk offensive",
@@ -460,9 +558,16 @@
 		"mediaSource": "/assets/images/kursk.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["qgis", "adobe illustrator", "ai2html"],
+		"tags": [
+			"qgis",
+			"adobe illustrator",
+			"ai2html"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Data analysis"],
+		"role": [
+			"Cartography",
+			"Data analysis"
+		],
 		"duration": "",
 		"excerpt": "A map-driven explainer on the Kursk offensive, contrasting Ukrainian advances inside Russia with simultaneous Russian gains in Donetsk through a clear temporal and territorial reading.",
 		"thumbnail": "/assets/images/kursk.jpg",
@@ -496,7 +601,8 @@
 				"The article performed well and confirmed that a restrained visual language can still communicate conflict dynamics with high clarity.",
 				"It reinforced the value of pairing careful cartographic design with simple but narrative-minded charts in war coverage."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/how-the-war-fronts-in-ukraine-have-changed-since-the-start-of-the-kursk-offensive.jpg"
 	},
 	{
 		"title": "Hamas Resurges in Gaza Areas That Israel Considered Dismantled",
@@ -506,9 +612,19 @@
 		"mediaSource": "/assets/images/rafah.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["Svelte", "Mapbox", "JavaScript", "d3js", "adobe illustrator"],
+		"tags": [
+			"Svelte",
+			"Mapbox",
+			"JavaScript",
+			"d3js",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Frontend development", "Data analysis"],
+		"role": [
+			"Cartography",
+			"Frontend development",
+			"Data analysis"
+		],
 		"duration": "",
 		"excerpt": "This project documents how armed activity reappeared in parts of Gaza that had been presented as dismantled, connecting military operations, territorial control, and civilian impact through map-based chronology.",
 		"thumbnail": "/assets/images/rafah.jpg",
@@ -542,7 +658,8 @@
 				"The piece had strong public reach and reinforced the newsroom value of map-led conflict explainers.",
 				"From a product perspective, it helped consolidate a reusable technique based on annotated georeferenced satellite rasters integrated into Mapbox scrollytelling."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/hamas-resurges-in-gaza-areas-that-israel-considered-dismantled.jpg"
 	},
 	{
 		"title": "Introducing Cheesy Shadow Picker: Simplifying CSS Shadow Usage",
@@ -552,9 +669,14 @@
 		"mediaSource": "/assets/images/shadow_picker.jpg",
 		"type": "tool",
 		"topics": [],
-		"tags": ["Svelte"],
+		"tags": [
+			"Svelte"
+		],
 		"client": "Personal publication",
-		"role": ["Frontend development", "Have fun"],
+		"role": [
+			"Frontend development",
+			"Have fun"
+		],
 		"duration": "",
 		"excerpt": "Cheesy Shadow Picker is a lightweight utility for testing readable text-shadow combinations on maps and imagery, with instant visual feedback and copy-ready CSS output.",
 		"thumbnail": "/assets/images/shadow_picker.jpg",
@@ -588,7 +710,8 @@
 				"The project became part of my regular production workflow and is now used in many map-based stories.",
 				"It also served as an early Svelte learning project and helped consolidate a component-first approach for building small newsroom utilities."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/introducing-cheesy-shadow-picker-simplifying-css-shadow-usage.jpg"
 	},
 	{
 		"title": "The coming floods: danas, storms, and medicanes, Mediterranean storms gain intensity",
@@ -598,9 +721,18 @@
 		"mediaSource": "/assets/images/danas",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["qgis", "vanillajs", "intersection observer", "adobe illustrator"],
+		"tags": [
+			"qgis",
+			"vanillajs",
+			"intersection observer",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Frontend development", "Data analysis", "Cartography"],
+		"role": [
+			"Frontend development",
+			"Data analysis",
+			"Cartography"
+		],
 		"duration": "",
 		"excerpt": "This explainer links DANAs, Mediterranean cyclones, and medicanes through a real recent case, showing why extreme rainfall events in the region are becoming more destructive.",
 		"thumbnail": "/assets/images/danas.jpg",
@@ -634,7 +766,8 @@
 				"The project was a technical milestone because it was my first production scrolly-video implementation.",
 				"It validated this format as a strong way to explain dynamic weather processes while keeping readers oriented in time and space."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/the-coming-floods-danas-storms-and-medicanes-mediterranean-storms-gain-intensity.jpg"
 	},
 	{
 		"title": "Why Did the Tenerife Wildfire Spread So Rapidly?",
@@ -644,9 +777,18 @@
 		"mediaSource": "/assets/images/tenerife_fire.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["mapshaper", "blender", "qgis", "ai2html", "adobe illustrator"],
+		"tags": [
+			"mapshaper",
+			"blender",
+			"qgis",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Data analysis"],
+		"role": [
+			"Cartography",
+			"Data analysis"
+		],
 		"duration": "",
 		"excerpt": "A fast-turnaround wildfire explainer that uses terrain, vegetation, and wind context to show why the Tenerife fire spread so aggressively in a very short time.",
 		"thumbnail": "/assets/images/tenerife_fire.jpg",
@@ -680,7 +822,8 @@
 				"The piece became a useful internal benchmark for high-quality emergency cartography under newsroom pressure.",
 				"It also consolidated my Blender + QGIS terrain workflow, which I later streamlined further with a one-step QGIS model for heightmap preparation."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/why-did-the-tenerife-wildfire-spread-so-rapidly.jpg"
 	},
 	{
 		"title": "How a Major Wildfire Is Fought: Strategy, Data and Decisions Under Pressure",
@@ -690,9 +833,19 @@
 		"mediaSource": "/assets/images/pont_de_vilomara.jpg",
 		"type": "investigation",
 		"topics": [],
-		"tags": ["mapshaper", "blender", "qgis", "ai2html", "adobe illustrator"],
+		"tags": [
+			"mapshaper",
+			"blender",
+			"qgis",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A reconstruction of wildfire containment strategy in Catalonia, showing how real-time operational data, tactical decisions, and terrain constraints shaped the response under pressure.",
 		"thumbnail": "/assets/images/pont_de_vilomara.jpg",
@@ -726,7 +879,8 @@
 				"The project highlighted the decisive role of Catalonia's fire services and their real-time use of data in preventing a much larger disaster.",
 				"It was a technically demanding production that expanded my automation workflow for cartographic rendering and proved valuable for future high-tempo visual projects."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/decoding-fire-control-the-aftermath-of-a-blaze.jpg"
 	},
 	{
 		"title": "The center of the world crumbles like a cookie",
@@ -736,9 +890,19 @@
 		"mediaSource": "/assets/images/antarctica",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["r", "qgis", "d3js", "ai2html", "adobe illustrator"],
+		"tags": [
+			"r",
+			"qgis",
+			"d3js",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "Personal publication",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A long-form visual explainer on Antarctic ice change that combines satellite-derived elevation data, cartographic experimentation, and narrative graphics to show where the continent is gaining or losing ice mass.",
 		"thumbnail": "/assets/images/antarctica.jpg",
@@ -773,7 +937,8 @@
 				"The project expanded our newsroom workflow for handling raw Earth-observation data and converting it into robust visual journalism outputs.",
 				"It also validated a hybrid pipeline (R + QGIS + D3 + ai2html) that can be reused for future climate and geospatial investigations."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/antarctica_glaciers.jpg"
 	},
 	{
 		"title": "Mortgage Simulator: Calculate Your Loan Installment",
@@ -783,9 +948,16 @@
 		"mediaSource": "/assets/images/mortage_calculator.jpg",
 		"type": "tool",
 		"topics": [],
-		"tags": ["Svelte", "d3js"],
+		"tags": [
+			"Svelte",
+			"d3js"
+		],
 		"client": "EL PAIS",
-		"role": ["Frontend development", "Design", "Data analysis"],
+		"role": [
+			"Frontend development",
+			"Design",
+			"Data analysis"
+		],
 		"duration": "",
 		"excerpt": "This calculator helps readers estimate mortgage installments under changing Euribor scenarios, allowing fast what-if testing with a simple and practical interface.",
 		"thumbnail": "/assets/images/mortage_calculator.jpg",
@@ -819,7 +991,8 @@
 				"The project validated Svelte as a strong fit for newsroom calculators thanks to reactive behavior and clean component structure.",
 				"It also helped establish an internal pattern for building lightweight, maintainable utility products with clear editorial value."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/mortgage-simulator-calculate-your-loan-installment.jpg"
 	},
 	{
 		"title": "Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma",
@@ -829,9 +1002,18 @@
 		"mediaSource": "/assets/images/lava.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["gdal scripts", "blender", "qgis", "ai2html", "adobe illustrator"],
+		"tags": [
+			"gdal scripts",
+			"blender",
+			"qgis",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Data analysis"],
+		"role": [
+			"Cartography",
+			"Data analysis"
+		],
 		"duration": "",
 		"excerpt": "This piece examines the post-eruption volcanic tube system in La Palma and quantifies how much new material was deposited, linking subsurface structures to the transformed surface landscape.",
 		"thumbnail": "/assets/images/lava.jpg",
@@ -865,7 +1047,8 @@
 				"The article performed well in readership and became a strong applied example of terrain-difference analysis in explanatory journalism.",
 				"It also advanced my Blender + geodata workflow, especially for turning derived raster products into high-legibility oblique views."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/inaccessible-tunnels-and-new-caves-in-the-area-devastated-by-the-volcano-of-la-palma.jpg"
 	},
 	{
 		"title": "Russian ghost ships to steal grain in Ukraine",
@@ -875,9 +1058,16 @@
 		"mediaSource": "/assets/images/ships_red",
 		"type": "investigation",
 		"topics": [],
-		"tags": ["ai2html", "adobe illustrator"],
+		"tags": [
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "This investigation traces vessels linked to grain extraction from occupied Ukrainian territories, documenting evasion patterns such as AIS shutdowns and opaque route behavior.",
 		"thumbnail": "/assets/images/ships_red.jpg",
@@ -912,7 +1102,8 @@
 				"A key internal output was an analysis tool I built for the reporting workflow: it allowed non-GIS users to filter vessels, scrub route timelines with a slider, and replay trajectories at different speeds to validate hypotheses.",
 				"Although not published, that internal tool was decisive for narrowing candidate ships and improving confidence in the final investigative findings."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/russian-ghost-ships-to-steal-grain-in-ukraine.jpg"
 	},
 	{
 		"title": "What happened at the Melilla border? The step by step of the tragedy",
@@ -922,9 +1113,15 @@
 		"mediaSource": "/assets/images/melilla.jpg",
 		"type": "investigation",
 		"topics": [],
-		"tags": ["ai2html", "adobe illustrator"],
+		"tags": [
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Visual forensics", "Cartography"],
+		"role": [
+			"Visual forensics",
+			"Cartography"
+		],
 		"duration": "",
 		"excerpt": "A forensic reconstruction of the Melilla border tragedy based on geolocated videos, witness accounts, and synchronized timelines to establish a verifiable sequence of events.",
 		"thumbnail": "/assets/images/melilla.jpg",
@@ -958,7 +1155,8 @@
 				"The project reached conclusions that were not publicly established at the time and reinforced the newsroom value of visual-forensic methods.",
 				"It also strengthened a core investigative skill: extracting high-value information from minor visual details when primary sources are incomplete."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/what-happened-at-the-melilla-border-the-step-by-step-of-the-tragedy.jpg"
 	},
 	{
 		"title": "Volcano exposed: How to interpret the signs of the La Palma eruption",
@@ -968,9 +1166,17 @@
 		"mediaSource": "/assets/images/volcano_exposed.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["r", "blender", "ai2html", "adobe illustrator"],
+		"tags": [
+			"r",
+			"blender",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Data analysis", "Cartography"],
+		"role": [
+			"Data analysis",
+			"Cartography"
+		],
 		"duration": "",
 		"excerpt": "This explainer interprets key eruption indicators in La Palma—seismicity, tremor, and deformation—to clarify what each signal suggests about volcanic evolution and near-term risk.",
 		"thumbnail": "/assets/images/volcano_exposed.jpg",
@@ -1006,7 +1212,8 @@
 				"The project strengthened our ability to combine scientific reporting with data-driven visual explanation during active-risk coverage.",
 				"It also consolidated a reusable workflow linking R analysis, 3D territorial representation, and newsroom-ready graphics."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/volcano-exposed-how-to-interpret-the-signs-of-the-la-palma-eruption.jpg"
 	},
 	{
 		"title": "The 100-Meter Sprint: Challenging the Reign of Timeless Records",
@@ -1016,9 +1223,16 @@
 		"mediaSource": "/assets/images/100_meters.jpg",
 		"type": "analysis",
 		"topics": [],
-		"tags": ["d3js", "ai2html", "adobe illustrator"],
+		"tags": [
+			"d3js",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Data analysis", "Data visualization"],
+		"role": [
+			"Data analysis",
+			"Data visualization"
+		],
 		"duration": "",
 		"excerpt": "A historical performance analysis of the 100-meter sprint, comparing record eras, competitive ceilings, and persistent outliers through a clean visual narrative.",
 		"thumbnail": "/assets/images/100_meters.jpg",
@@ -1052,7 +1266,8 @@
 				"It was a valuable collaboration with the sports desk and expanded my range into a topic area I do not usually cover.",
 				"The project reinforced a reusable hybrid workflow (D3 + SVG export + ai2html annotation) for narrative statistical explainers."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/the-100-meter-sprint-challenging-the-reign-of-timeless-records.jpg"
 	},
 	{
 		"title": "Mexico has 30% of its land under high seismic risk",
@@ -1062,9 +1277,19 @@
 		"mediaSource": "/assets/images/guerrero_landscape.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["qgis", "gdal scripts", "blender", "ai2html", "adobe illustrator"],
+		"tags": [
+			"qgis",
+			"gdal scripts",
+			"blender",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "Personal publication",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "Authorities risk's maps reveal that one third of the population is exposed to high or very high levels of seismic hazard. Researchers analyze the risks to prevent the probable damage of a major earthquake in the country.",
 		"thumbnail": "/assets/images/guerrero_landscape.jpg",
@@ -1099,7 +1324,8 @@
 			"impact": [
 				"The project reinforced a reusable workflow for combining geospatial scripting, shaded-relief production, and newsroom-ready explanatory cartography."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/guerrero-gap.jpg"
 	},
 	{
 		"title": "Daily evolution of COVID-19 in Spain by region: tracking cases, hospitalizations, and deaths.",
@@ -1109,9 +1335,16 @@
 		"mediaSource": "/assets/images/covid_tracker.jpg",
 		"type": "tracker",
 		"topics": [],
-		"tags": ["d3js", "vanillajs"],
+		"tags": [
+			"d3js",
+			"vanillajs"
+		],
 		"client": "EL PAIS",
-		"role": ["Design", "Data visualization", "Frontend development"],
+		"role": [
+			"Design",
+			"Data visualization",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A continuously updated COVID-19 tracker for Spain that consolidated national and regional indicators into a single view for fast, reliable public consultation.",
 		"thumbnail": "/assets/images/covid_tracker.jpg",
@@ -1145,7 +1378,8 @@
 				"The tracker became an essential public-information utility at national scale and proved highly valuable for day-to-day monitoring.",
 				"From a technical perspective, it was a major milestone in building complex, component-driven newsroom products with pure vanilla JavaScript."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/daily-evolution-of-covid-19-in-spain-by-region-tracking-cases-hospitalizations-and-deaths.jpg"
 	},
 	{
 		"title": "The death of the last glaciers in Spain",
@@ -1155,9 +1389,20 @@
 		"mediaSource": "/assets/images/thumbnails/aneto_s.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["lidar", "cloudcompare", "qgis", "bash scripts", "ai2html", "adobe illustrator"],
+		"tags": [
+			"lidar",
+			"cloudcompare",
+			"qgis",
+			"bash scripts",
+			"ai2html",
+			"adobe illustrator"
+		],
 		"client": "EL PAIS",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A long-form visual story on the retreat of Spain's last glaciers, combining field reporting, scientific measurement, and 3D cartography to show how fast high-mountain ice is disappearing.",
 		"thumbnail": "/assets/images/thumbnails/aneto_s.jpg",
@@ -1193,7 +1438,8 @@
 				"The project was a major technical learning milestone, especially in LiDAR/point-cloud handling and high-mountain 3D cartography workflows.",
 				"It also provided a useful editorial lesson on balancing data fidelity and visual polish when source formats and historical records have uneven quality."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/the-death-of-the-last-glaciers-in-spain.jpg"
 	},
 	{
 		"title": "The mortality map of Spain at an unprecedented level of detail.",
@@ -1203,9 +1449,17 @@
 		"mediaSource": "/assets/images/thumbnails/atlas.jpg",
 		"type": "analysis",
 		"topics": [],
-		"tags": ["Mapbox", "design", "JavaScript", "d3js"],
+		"tags": [
+			"Mapbox",
+			"design",
+			"JavaScript",
+			"d3js"
+		],
 		"client": "EL PAIS",
-		"role": ["Cartography", "Frontend development"],
+		"role": [
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "An unprecedented high-resolution mortality map of Spain that lets readers explore major causes of death at municipal scale while preserving statistical context and territorial comparability.",
 		"thumbnail": "/assets/images/thumbnails/atlas.jpg",
@@ -1239,7 +1493,8 @@
 				"The project helped bring a significant scientific study to a broad audience through an interface designed for real consultation, not just one-time reading.",
 				"It was also a key milestone in my Mapbox practice and reinforced how central information design is in data-heavy public tools."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/the-mortality-map-of-spain-at-an-unprecedented-level-of-detail.jpg"
 	},
 	{
 		"title": "Europe, a continent of coalitions far beyond Spain",
@@ -1249,9 +1504,19 @@
 		"mediaSource": "/assets/images/europa_sd",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["design", "JavaScript", "d3js", "topojson", "flubberjs"],
+		"tags": [
+			"design",
+			"JavaScript",
+			"d3js",
+			"topojson",
+			"flubberjs"
+		],
 		"client": "EL PAIS",
-		"role": ["Data visualization", "Cartography", "Frontend development"],
+		"role": [
+			"Data visualization",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A comparative analysis of coalition governments across 38 European countries, showing that multiparty agreements are a structural norm rather than an exceptional political outcome.",
 		"thumbnail": "/assets/images/europa_sd.jpg",
@@ -1285,7 +1550,8 @@
 				"The project became a formative milestone in my practice, especially in balancing explanatory design, interaction quality, and runtime performance.",
 				"Built mostly in vanilla JavaScript (with D3, Flubber, and TopoJSON utilities), it strengthened my workflow for high-control newsroom interactives."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/europe-a-continent-of-coalitions-far-beyond-spain.jpg"
 	},
 	{
 		"title": "How to Merge CSV headers in R. An approach",
@@ -1295,9 +1561,14 @@
 		"mediaSource": "/assets/images/thumbnails/unemployment-small-multiples_s.jpg",
 		"type": "tutorial",
 		"topics": [],
-		"tags": ["r", "tidyverse"],
+		"tags": [
+			"r",
+			"tidyverse"
+		],
 		"client": "Personal publication",
-		"role": ["Data analysis"],
+		"role": [
+			"Data analysis"
+		],
 		"duration": "",
 		"excerpt": "A practical R workflow for cleaning statistical spreadsheets with double headers, turning messy official tables into analysis-ready tidy data.",
 		"thumbnail": "/assets/images/thumbnails/unemployment-small-multiples_s.jpg",
@@ -1331,7 +1602,8 @@
 				"The project became a practical reference for handling malformed statistical tables in day-to-day reporting workflows.",
 				"It reinforced the value of small custom utilities in R when common package defaults do not solve newsroom-specific data formats."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/combine-csv-headers-in-R.jpg"
 	},
 	{
 		"title": "How I covered the 2019 General Elections for the Spanish Radio and Television Corporation",
@@ -1341,9 +1613,19 @@
 		"mediaSource": "/assets/images/scatterplot",
 		"type": "case-study",
 		"topics": [],
-		"tags": ["d3js", "topojson", "hexgrid", "canvas", "d3-regression", "rbush"],
+		"tags": [
+			"d3js",
+			"topojson",
+			"hexgrid",
+			"canvas",
+			"d3-regression",
+			"rbush"
+		],
 		"client": "Personal publication",
-		"role": ["Data visualization", "Frontend development"],
+		"role": [
+			"Data visualization",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "Project developed by Datadista showcasing their coverage of the 2019 general elections for RTVE, the state-owned public corporation responsible for Spain's radio and television services. The project includes scatter charts, cartograms, and numerous maps.",
 		"thumbnail": "/assets/images/scatterplot.jpg",
@@ -1376,7 +1658,8 @@
 			"impact": [
 				"The work strengthened a reusable election graphics stack for large public audiences under real-time newsroom pressure."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/2019-general-election.jpg"
 	},
 	{
 		"title": "Transparentia. The largest search engine for politicians' salaries",
@@ -1386,9 +1669,16 @@
 		"mediaSource": "/assets/images/thumbnails/transparentia_logo.jpg",
 		"type": "tool",
 		"topics": [],
-		"tags": ["vanillajs", "datatables", "awesomplete"],
+		"tags": [
+			"vanillajs",
+			"datatables",
+			"awesomplete"
+		],
 		"client": "Personal publication",
-		"role": ["Data visualization", "Frontend development"],
+		"role": [
+			"Data visualization",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "Transparentia lets you to check more than 9.600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid.",
 		"thumbnail": "/assets/images/thumbnails/transparentia_logo.jpg",
@@ -1422,7 +1712,8 @@
 			"impact": [
 				"The project translated fragmented public records into a practical transparency interface for everyday accountability reporting."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/transparentia.jpg"
 	},
 	{
 		"title": "Custom tile writer script in Python",
@@ -1432,9 +1723,17 @@
 		"mediaSource": "/assets/images/tile-writer",
 		"type": "tool",
 		"topics": [],
-		"tags": ["qgis", "python", "osm"],
+		"tags": [
+			"qgis",
+			"python",
+			"osm"
+		],
 		"client": "Personal publication",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "Export a QGIS canvas to tiles, compatible with Leaflet or Mapbox.",
 		"thumbnail": "/assets/images/tile-writer.jpg",
@@ -1468,7 +1767,8 @@
 			"impact": [
 				"It reduced friction between cartographic design and web publication, making map production faster for multidisciplinary teams."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/qgis-tile-writer.jpg"
 	},
 	{
 		"title": "Exploring the history of A Coruña through the construction years of its buildings",
@@ -1478,9 +1778,16 @@
 		"mediaSource": "/assets/images/thumbnails/coruna-catastro_s.jpg",
 		"type": "analysis",
 		"topics": [],
-		"tags": ["qgis", "r"],
+		"tags": [
+			"qgis",
+			"r"
+		],
 		"client": "Personal publication",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "Testing a new QGIS plugin for the Spanish cadastre mapping public lands in A Coruña.",
 		"thumbnail": "/assets/images/thumbnails/coruna-catastro_s.jpg",
@@ -1513,7 +1820,8 @@
 			"impact": [
 				"The work shows how open cadastral data can support local historical storytelling when paired with careful validation."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/catastro-coruna.jpg"
 	},
 	{
 		"title": "1992 Olympics in Barcelona: the city that changed forever",
@@ -1523,9 +1831,18 @@
 		"mediaSource": "/assets/images/thumbnails/barcelona-1992_s.jpg",
 		"type": "analysis",
 		"topics": [],
-		"tags": ["qgis", "photoshop", "satellite imagery", "landsat 8"],
+		"tags": [
+			"qgis",
+			"photoshop",
+			"satellite imagery",
+			"landsat 8"
+		],
 		"client": "El Independiente",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "We analyzed how the Olympics changed Barcelona forever on the 25th anniversary of the games using aerial images.",
 		"thumbnail": "/assets/images/thumbnails/barcelona-1992_s.jpg",
@@ -1559,7 +1876,8 @@
 			"impact": [
 				"It connected anniversary coverage with measurable spatial evidence, helping readers understand long-term urban policy effects."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/barcelona-1992-evolution.jpg"
 	},
 	{
 		"title": "The power of remote sensing and its application to the media",
@@ -1569,9 +1887,19 @@
 		"mediaSource": "/assets/images/thumbnails/remote-sensing_s.jpg",
 		"type": "case-study",
 		"topics": [],
-		"tags": ["qgis", "landsat 8", "raster", "osm", "ai2html"],
+		"tags": [
+			"qgis",
+			"landsat 8",
+			"raster",
+			"osm",
+			"ai2html"
+		],
 		"client": "Personal publication",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "Exploring remote sensing through an analysis of two practical applications of the Difference Normalized Burn Index, focusing on the assessment of the severity of two major fires in Spain using Landsat 8 imagery.",
 		"thumbnail": "/assets/images/thumbnails/remote-sensing_s.jpg",
@@ -1604,7 +1932,8 @@
 			"impact": [
 				"It demonstrated that newsroom teams can use remote-sensing indices as practical reporting tools, not only academic methods."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/nbr-remote-sensing.jpg"
 	},
 	{
 		"title": "Why are Spanish troops scattered all over the Mediterranean?",
@@ -1614,9 +1943,17 @@
 		"mediaSource": "/assets/images/thumbnails/turkey_s.jpg",
 		"type": "explainer",
 		"topics": [],
-		"tags": ["qgis", "adobe illustrator", "ai2html"],
+		"tags": [
+			"qgis",
+			"adobe illustrator",
+			"ai2html"
+		],
 		"client": "Personal publication",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "Maps about the presence of Spanish armed forces in Italy, Turkey and Lebanon.",
 		"thumbnail": "/assets/images/thumbnails/turkey_s.jpg",
@@ -1648,7 +1985,8 @@
 			"impact": [
 				"This project contributed to a repeatable editorial pattern for geospatial storytelling."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/spanish-forces-in-the-mediterranean.jpg"
 	},
 	{
 		"title": "ai2html workshop",
@@ -1658,9 +1996,16 @@
 		"mediaSource": "/assets/images/thumbnails/ai2html-workshop.jpg",
 		"type": "tutorial",
 		"topics": [],
-		"tags": ["adobe illustrator", "ai2html"],
+		"tags": [
+			"adobe illustrator",
+			"ai2html"
+		],
 		"client": "GitHub",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "Workshop about ai2html imparted at Medialab Prado in Madrid. Ai2html is an Adobe Illustrator plugin for publishing responsive graphics developed at The New York Times.",
 		"thumbnail": "/assets/images/thumbnails/ai2html-workshop.jpg",
@@ -1691,7 +2036,8 @@
 			"impact": [
 				"This project contributed to a repeatable editorial pattern for geospatial storytelling."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/ai2html-workshop.jpg"
 	},
 	{
 		"title": "GIS should be a must in newsrooms",
@@ -1701,9 +2047,16 @@
 		"mediaSource": "/assets/images/buffer.jpg",
 		"type": "case-study",
 		"topics": [],
-		"tags": ["qgis", "ai2html"],
+		"tags": [
+			"qgis",
+			"ai2html"
+		],
 		"client": "Personal publication",
-		"role": ["Data analysis", "Cartography", "Frontend development"],
+		"role": [
+			"Data analysis",
+			"Cartography",
+			"Frontend development"
+		],
 		"duration": "",
 		"excerpt": "A course about the basic principles of cartography and GIS I gave to data journalism students at the University of Villanueva, in Madrid.",
 		"thumbnail": "/assets/images/buffer.jpg",
@@ -1736,6 +2089,7 @@
 			"impact": [
 				"The material became a replicable foundation for introducing GIS literacy in data journalism education."
 			]
-		}
+		},
+		"socialImage": "/assets/og/projects/QGIS-for-journalists.jpg"
 	}
 ]

@@ -130,11 +130,6 @@
 			document.documentElement.style.colorScheme = initialTheme;
 		} catch (e) {}
 	</script>
-	<title>Luis Sevillano | Visual Storytelling and Geospatial Development</title>
-	<meta
-		name="description"
-		content="Portfolio of Luis Sevillano, featuring geospatial investigations, data journalism projects, and interactive storytelling work."
-	/>
 	<link rel="alternate" type="application/rss+xml" title="Work feed" href="/feed.xml" />
 </svelte:head>
 

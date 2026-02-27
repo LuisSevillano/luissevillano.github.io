@@ -31,8 +31,11 @@ const projects = generatedProjects.map((project) => {
 		...(override || {})
 	};
 
+	const socialImage = merged.socialImage || `/assets/og/projects/${merged.slug}.jpg`;
+
 	return {
 		...merged,
+		socialImage,
 		content: {
 			...project.content,
 			...(override?.content || {})

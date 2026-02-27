@@ -5,6 +5,11 @@
 	import { onMount, tick } from 'svelte';
 
 	let { data } = $props();
+	const siteUrl = 'https://luissevillano.net';
+	let pageUrl = $derived(`${siteUrl}/work/${data.project.slug}/`);
+	let ogImage = $derived(
+		`${siteUrl}${data.project.socialImage || `/assets/og/projects/${data.project.slug}.jpg`}`
+	);
 
 	onMount(() => {
 		const runHighlight = async () => {
@@ -24,6 +29,19 @@
 <svelte:head>
 	<title>{data.project.seoTitle}</title>
 	<meta name="description" content={data.project.seoDescription} />
+	<link rel="canonical" href={pageUrl} />
+	<meta property="og:site_name" content="Luis Sevillano" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content={data.project.seoTitle} />
+	<meta property="og:description" content={data.project.seoDescription} />
+	<meta property="og:url" content={pageUrl} />
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={data.project.seoTitle} />
+	<meta name="twitter:description" content={data.project.seoDescription} />
+	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
 <main class="page-wrap project-page">

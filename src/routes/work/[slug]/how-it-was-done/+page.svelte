@@ -4,6 +4,15 @@
 	import { onMount, tick } from 'svelte';
 
 	let { data } = $props();
+	const siteUrl = 'https://luissevillano.net';
+	let pageUrl = $derived(`${siteUrl}/work/${data.project.slug}/how-it-was-done/`);
+	let description = $derived(
+		`Technical breakdown of methods and implementation choices for ${data.project.title}.`
+	);
+	let pageTitle = $derived(`${data.project.title} | How it was done`);
+	let ogImage = $derived(
+		`${siteUrl}${data.project.socialImage || `/assets/og/projects/${data.project.slug}.jpg`}`
+	);
 
 	let hasRichHow = $derived(Boolean(data.project.content?.howHtml));
 	let hasStructuredHow = $derived(Boolean(data.project.content?.how));
@@ -24,11 +33,21 @@
 </script>
 
 <svelte:head>
-	<title>{data.project.title} | How it was done</title>
-	<meta
-		name="description"
-		content={`Technical breakdown of methods and implementation choices for ${data.project.title}.`}
-	/>
+	<title>{pageTitle}</title>
+	<meta name="description" content={description} />
+	<link rel="canonical" href={pageUrl} />
+	<meta property="og:site_name" content="Luis Sevillano" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content={pageTitle} />
+	<meta property="og:description" content={description} />
+	<meta property="og:url" content={pageUrl} />
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={pageTitle} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
 <main class="page-wrap project-page">
