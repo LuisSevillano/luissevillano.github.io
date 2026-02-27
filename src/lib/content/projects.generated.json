@@ -662,6 +662,60 @@
 		"socialImage": "/assets/og/projects/hamas-resurges-in-gaza-areas-that-israel-considered-dismantled.jpg"
 	},
 	{
+		"title": "Mapbox inset map",
+		"slug": "mapbox-inset-map",
+		"date": "2024-05-28",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/mapbox_inset_map.jpg",
+		"type": "tool",
+		"topics": [],
+		"tags": [
+			"observable",
+			"mapbox",
+			"geospatial"
+		],
+		"client": "Observable",
+		"role": [
+			"Tool development",
+			"Frontend development"
+		],
+		"duration": "",
+		"excerpt": "A very interesting utility to build inset maps for Mapbox scenes that include bearing and pitch, solving a gap where no native option exists.",
+		"thumbnail": "/assets/images/mapbox_inset_map.jpg",
+		"thumbnailAlt": "Mapbox inset map",
+		"featured": false,
+		"liveUrl": "",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Mapbox inset map | Project case study",
+		"seoDescription": "A very interesting Mapbox helper for generating inset-map extents that respect camera bearing and pitch, something Mapbox does not provide natively.",
+		"toolURL": "https://observablehq.com/@luissevillano/mapbox-inset-map",
+		"socialImage": "/assets/og/projects/mapbox-inset-map.jpg",
+		"content": {
+			"context": [
+				"This tool generates inset-map bounds for Mapbox visualizations while accounting for camera bearing and pitch, improving contextual framing in map storytelling."
+			],
+			"myRole": [
+				"I designed and implemented the complete Observable prototype, including map interaction, extent extraction, and inset rendering logic."
+			],
+			"methodology": [
+				"The notebook captures the viewport footprint by sampling edge vertices from the map canvas and converting them with `map.unproject` into a geographic polygon.",
+				"That polygon is drawn over a reference inset map, enabling accurate mini-map framing even when the main map uses tilted or rotated camera states."
+			],
+			"decisions": [
+				"I added an autofly demo and multiple preset locations to stress-test the inset behavior across different bearings, zooms, and pitch values.",
+				"The tool was intentionally kept simple and reusable, because this is a very interesting capability that currently has no native Mapbox utility equivalent.",
+				"I exposed toggles like drop shadow and dynamic bounds so the inset output can be adapted quickly to newsroom styles."
+			],
+			"result": [
+				"The final notebook provides a practical inset-map generator that works in camera configurations where default `getBounds`-based approaches fall short."
+			],
+			"impact": [
+				"It fills a real production gap in Mapbox workflows and has already been used in published coverage to improve geographic orientation for readers."
+			]
+		}
+	},
+	{
 		"title": "Scaling artboards for ai2html",
 		"slug": "scaling-artboards-for-ai2html",
 		"date": "2024-04-05",
