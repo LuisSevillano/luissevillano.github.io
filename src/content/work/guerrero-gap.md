@@ -3052,4 +3052,3 @@ Until the moment of working on this article I had never used 3D software even th
 
 What would you change today from the article? Two ideas come to my mind: the design, the composition of the _diorama_ is designed for desktop and does not work on mobile. I would probably not mess around processing the batting data and would use the GEBCO data directly. They are fantastic and for the scale of the map it is more than enough resolution.
 
-You can take a look at the article [here](https://elpais.com/mexico/2021-04-18/en-la-busqueda-del-proximo-gran-terremoto-en-la-brecha-sismica-de-guerrero.html).

@@ -84,4 +84,3 @@ function update(newFrame) {
 
 This project was a true technical challenge: not only because of the sheer volume of data—more than 400,000 cells, each with over 80 values—but also because of the need to transform that density into an experience that was both fluid and explorable. Achieving smooth scrolling, real-time responsiveness, and allowing readers to freely navigate the map required a careful combination of tileset optimization, color scaling, and precise control of Mapbox rendering. The result is a visualization that condenses a complex scientific model into an interactive narrative, one that captures the dynamics of a catastrophic flood without sacrificing accuracy or user experience.
 
-You can take a look at the article [here](https://elpais.com/clima-y-medio-ambiente/2025-05-18/predecible-devastadora-y-muy-rapida-que-revela-la-simulacion-de-la-crecida-de-la-rambla-del-poyo.html).

@@ -1838,4 +1838,3 @@ generate_raster(1, "EPSG:4326", 25, TRUE, FALSE)
 I am pleased with the outcome of this project. The opportunity to confront various challenges along the way and overcome them is not always common in media, especially when delving into unfamiliar territory. Engaging with raw NASA data, working with it, making decisions on its utilization, and finding optimal methods for transforming it to extract valuable insights has been an enriching experience.
 
 
-You can take a look at the article [here](https://elpais.com/ciencia/2023-02-24/el-centro-del-mundo-se-desmigaja-como-una-galleta.html).
