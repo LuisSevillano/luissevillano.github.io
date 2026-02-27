@@ -8,7 +8,6 @@
 
 <main class="about-wrap">
 	<section class="section-head section-head-lined section-head-block">
-		<p class="section-index">04</p>
 		<h1>About Me</h1>
 		<div class="section-rule"></div>
 	</section>

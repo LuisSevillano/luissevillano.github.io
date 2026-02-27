@@ -6,7 +6,10 @@
 </script>
 
 <main class="page-wrap work-wrap">
-	<h1>Work</h1>
+	<section class="section-head section-head-lined section-head-block">
+		<h1>Work</h1>
+		<div class="section-rule"></div>
+	</section>
 	<div class="project-grid project-grid-dense">
 		{#each projects as project}
 			<ProjectCard {project} compact={true} />
