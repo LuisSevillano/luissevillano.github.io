@@ -1,9 +1,4 @@
 *~
-.sass-cache/
-_site/
 *.lock
-Gemfile.lock
-site/_site/
 .DS_Store
-.jekyll-cache
 sveltekit-recovery-backup-*.tar.gz
