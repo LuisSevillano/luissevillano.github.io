@@ -662,6 +662,59 @@
 		"socialImage": "/assets/og/projects/hamas-resurges-in-gaza-areas-that-israel-considered-dismantled.jpg"
 	},
 	{
+		"title": "Scaling artboards for ai2html",
+		"slug": "scaling-artboards-for-ai2html",
+		"date": "2024-04-05",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/scaling_artboards_ai2html.jpg",
+		"type": "tool",
+		"topics": [],
+		"tags": [
+			"observable",
+			"ai2html",
+			"adobe illustrator"
+		],
+		"client": "Observable",
+		"role": [
+			"Tool development",
+			"Frontend development"
+		],
+		"duration": "",
+		"excerpt": "A tiny utility to calculate the exact scale ratio between ai2html artboards, helping map and graphics workflows move faster in Adobe Illustrator.",
+		"thumbnail": "/assets/images/scaling_artboards_ai2html.jpg",
+		"thumbnailAlt": "Scaling artboards for ai2html",
+		"featured": false,
+		"liveUrl": "",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Scaling artboards for ai2html | Project case study",
+		"seoDescription": "A lightweight Observable tool that computes resize factors between ai2html artboards to speed up Illustrator map production.",
+		"toolURL": "https://observablehq.com/@luissevillano/scaling-artboards-for-ai2html",
+		"socialImage": "/assets/og/projects/scaling-artboards-for-ai2html.jpg",
+		"content": {
+			"context": [
+				"This tool solves a repetitive newsroom task in ai2html workflows: resizing one Illustrator artboard design to another target artboard without trial and error."
+			],
+			"myRole": [
+				"I designed and implemented the full notebook in Observable, from the scaling logic to the interaction flow and copy-to-clipboard output."
+			],
+			"methodology": [
+				"The notebook asks for the current artboard size, the source preset, and the destination preset, then computes the resize value by applying the ratio between both target widths.",
+				"It includes default presets (mobile, mobile2, tablet, desktop), numeric input parsing that supports px/commas, and immediate feedback for invalid values."
+			],
+			"decisions": [
+				"I kept the interface intentionally minimal so users can get the resize number in seconds and paste it directly into Illustrator's Transform panel.",
+				"The preset dictionary is editable, so anyone can fork the notebook and adapt it to their own ai2html naming and breakpoint system."
+			],
+			"result": [
+				"The final notebook provides a quick, reliable way to compute the exact resize percentage for artboard transfers."
+			],
+			"impact": [
+				"It reduces manual rescaling mistakes and speeds up day-to-day map production when handling multiple ai2html outputs."
+			]
+		}
+	},
+	{
 		"title": "Introducing Cheesy Shadow Picker: Simplifying CSS Shadow Usage",
 		"slug": "introducing-cheesy-shadow-picker-simplifying-css-shadow-usage",
 		"date": "2024-01-28",
