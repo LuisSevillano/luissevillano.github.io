@@ -12,6 +12,68 @@ function stripJekyllIncludes(markdown) {
 	return markdown.replace(/\{%\s*include\s+[\s\S]*?%\}\n?/g, '');
 }
 
+function escapeHtml(value) {
+	return String(value)
+		.replace(/&/g, '&amp;')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;')
+		.replace(/"/g, '&quot;')
+		.replace(/'/g, '&#39;');
+}
+
+function normalizeAssetPath(source = '') {
+	if (!source) return '';
+	if (source.startsWith('/')) return source;
+	if (source.startsWith('assets/')) return `/${source}`;
+	return source;
+}
+
+function normalizeLegacyMediaClasses(rawClasses = '') {
+	const mappedClasses = rawClasses
+		.split(/\s+/)
+		.filter(Boolean)
+		.map((className) => (className === 'fixed_width' ? 'media-wide' : className));
+
+	if (!mappedClasses.includes('legacy-media')) {
+		mappedClasses.unshift('legacy-media');
+	}
+
+	return mappedClasses.join(' ');
+}
+
+function renderLegacyMediaInclude(attributes = {}) {
+	const mediaType = (attributes.media_type || '').toLowerCase();
+	const source = normalizeAssetPath(attributes.media_source || attributes.src || '');
+	if (!source) return '';
+
+	const classes = normalizeLegacyMediaClasses(attributes.class_names || '');
+	const caption = attributes.media_caption || attributes.caption || '';
+	const captionHtml = caption ? `<em>${escapeHtml(caption)}</em>` : '';
+
+	if (mediaType === 'video') {
+		const webmSource = source.endsWith('.webm') ? source : source.replace(/\.[a-z0-9]+$/i, '.webm');
+		const mp4Source = source.endsWith('.mp4') ? source : source.replace(/\.[a-z0-9]+$/i, '.mp4');
+		const resolvedWebm = /\.[a-z0-9]+$/i.test(source) ? webmSource : `${source}.webm`;
+		const resolvedMp4 = /\.[a-z0-9]+$/i.test(source) ? mp4Source : `${source}.mp4`;
+
+		return `<div class="video-asset ${classes}" data-legacy-media="video"><video data-lazy-video autoplay loop playsinline muted preload="none"><source data-src="${escapeHtml(resolvedWebm)}" type="video/webm" /><source data-src="${escapeHtml(resolvedMp4)}" type="video/mp4" />Your browser does not support the video tag.</video>${captionHtml}</div>`;
+	}
+
+	return `<figure class="${classes}" data-legacy-media="image"><img src="${escapeHtml(source)}" alt="${escapeHtml(caption || 'Project media')}" loading="lazy" decoding="auto" />${captionHtml}</figure>`;
+}
+
+function resolveLegacyMediaIncludes(markdown) {
+	return markdown.replace(/\{%\s*include\s+media\.html([\s\S]*?)%\}/g, (_fullMatch, rawAttributes) => {
+		const attributes = {};
+		rawAttributes.replace(/(\w+)="([^"]*)"/g, (_attributeMatch, key, value) => {
+			attributes[key] = value;
+			return _attributeMatch;
+		});
+
+		return renderLegacyMediaInclude(attributes);
+	});
+}
+
 function findMatchingDivEnd(input, startIndex) {
 	const tagMatcher = /<\/?div\b[^>]*>/gi;
 	tagMatcher.lastIndex = startIndex;
@@ -127,7 +189,7 @@ export function getWorkContentBySlug(slug) {
 	if (!sourcePath) return null;
 
 	const markdown = fs.readFileSync(sourcePath, 'utf8');
-	const body = stripJekyllIncludes(stripFrontmatter(markdown));
+	const body = stripJekyllIncludes(resolveLegacyMediaIncludes(stripFrontmatter(markdown)));
 	const splitMatch = /^##\s+/m.exec(body);
 	const splitIndex = splitMatch?.index ?? -1;
 
