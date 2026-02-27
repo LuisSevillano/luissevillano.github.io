@@ -1,0 +1,8 @@
+node_modules
+.svelte-kit
+build
+dist
+
+# Keep generated and long-form content untouched by default
+src/lib/content/projects.generated.json
+src/content/work/**/*.md
