@@ -748,6 +748,7 @@ a {
 
 .project-page p {
 	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 .project-page > h2 {
@@ -778,7 +779,6 @@ p.meta {
 .rich-content {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr);
-	gap: 0.95rem;
 	margin-top: 1rem;
 }
 
@@ -798,6 +798,11 @@ p.meta {
 	margin-right: 0;
 }
 
+.project-page .rich-content > ol,
+.project-page .rich-content > ul {
+	margin-bottom: 1rem;
+}
+
 .rich-content > * {
 	margin: 0;
 }
@@ -807,9 +812,12 @@ p.meta {
 .project-page .rich-content h4 {
 	font-family: 'Newsreader', serif;
 	line-height: 1.15;
-	margin-top: 1.8rem;
+	margin-top: 3rem;
 }
 
+.project-page .rich-content h2 {
+	line-height: 1.35;
+}
 .rich-content h2 {
 	font-size: clamp(1.32rem, 2.2vw, 1.78rem);
 }
@@ -826,7 +834,7 @@ p.meta {
 .rich-content ul,
 .rich-content ol {
 	margin: 0;
-	padding-left: 1.2rem;
+	padding-left: 2rem;
 	display: grid;
 	gap: 0.48rem;
 }
@@ -967,6 +975,7 @@ p.meta {
 	margin-left: 0;
 	margin-right: 0;
 	transform: none;
+	margin-bottom: 1rem;
 }
 
 .project-page
@@ -1213,12 +1222,14 @@ p img + em,
 
 	.footer-top {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 1.35rem;
-		padding-bottom: 1.3rem;
+		row-gap: 1.35rem;
+		column-gap: 0;
+		padding-bottom: 0, 5rem;
 	}
 
 	.footer-intro {
 		grid-column: 1 / -1;
+		gap: 0;
 	}
 
 	.footer-links,
