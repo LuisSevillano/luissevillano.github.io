@@ -11,7 +11,7 @@ Old and new conflicts have made the shores of the Mediterranean one of the most 
 
 My colleague [Giulio M. Piantadosi](https://twitter.com/gmpiantadosi) had the chance to visit three of the places where Spanish forces are present. The Naval Air Station Sigonella in Sicily, UNIFIL Deployment at the _blue line_ in Lebanon and the Incirlik Air Base in Turkey.
 
-<div id="g-libano-box" class="ai2html">
+<div id="g-libano-box" class="ai2html media-wide">
   <style type="text/css" media="screen,print">
     #g-libano-box {
       max-width: 930px;
@@ -2726,7 +2726,7 @@ My colleague [Giulio M. Piantadosi](https://twitter.com/gmpiantadosi) had the ch
 
 It was a great opportunity to work hard on the maps, to improve and use new techniques and tools that make that maps a little bit better than others I made before. So I made a _basemap_ in QGIS using OSM shapefiles as _landuse_ or _roads_ playing with soft colors and rule-based styles. In two of the three maps I used the [The Earth's Relief](http://www.theearthsrelief.com/) DEM layer, make by [ClusterGIS](http://www.clustergis.org/). Then I drew all the labels, arrows, polygons and other vectorial elements in Adobe Illustrator.
 
-<div id="g-turkey-box" class="ai2html">
+<div id="g-turkey-box" class="ai2html media-wide">
   <style type="text/css" media="screen,print">
     #g-turkey-box {
       font-family: 'Libre Franklin', sans-serif;

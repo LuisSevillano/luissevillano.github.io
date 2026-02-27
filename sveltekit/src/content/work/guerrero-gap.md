@@ -756,7 +756,7 @@ The area known as the **Guerrero Gap** is an 110 kilometers area long where no m
     }
   </style>
 
-  <div id="g-intro-box" class="ai2html">
+  <div id="g-intro-box" class="ai2html media-wide">
     <!-- Artboard: movil -->
     <div
       id="g-intro-movil"
@@ -2315,7 +2315,7 @@ Blender was used only in the locator map that opens the piece. In the article th
     }
   </style>
 
-  <div id="g-mexico_placas-box" class="ai2html">
+  <div id="g-mexico_placas-box" class="ai2html media-wide">
     <!-- Artboard: movil -->
     <div
       id="g-mexico_placas-movil"

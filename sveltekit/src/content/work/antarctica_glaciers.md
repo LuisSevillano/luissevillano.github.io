@@ -593,7 +593,7 @@ Pursuing the idea of presenting the Antarctic continent as a protagonist and fun
     }
   </style>
 
-  <div id="g-ice-change-box" class="ai2html">
+  <div id="g-ice-change-box" class="ai2html media-wide">
     <!-- Artboard: movil -->
     <div
       id="g-ice-change-movil"
