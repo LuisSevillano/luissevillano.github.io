@@ -88,6 +88,7 @@
 		name="description"
 		content="Portfolio of Luis Sevillano, featuring geospatial investigations, data journalism projects, and interactive storytelling work."
 	/>
+	<link rel="alternate" type="application/rss+xml" title="Work feed" href="/feed.xml" />
 </svelte:head>
 
 <div class="site-shell">

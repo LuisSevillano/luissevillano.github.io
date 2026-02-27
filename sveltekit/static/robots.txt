@@ -1,3 +1,7 @@
-# allow crawling everything by default
 User-agent: *
-Disallow:
+Allow: /
+
+User-agent: EmailCollector
+Disallow: /
+
+Sitemap: https://luissevillano.net/sitemap.xml
