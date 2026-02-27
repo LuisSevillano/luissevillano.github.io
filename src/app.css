@@ -1212,9 +1212,13 @@ p img + em,
 	}
 
 	.footer-top {
-		grid-template-columns: 1fr;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 		gap: 1.35rem;
 		padding-bottom: 1.3rem;
+	}
+
+	.footer-intro {
+		grid-column: 1 / -1;
 	}
 
 	.footer-links,
