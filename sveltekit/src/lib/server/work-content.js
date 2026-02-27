@@ -3,54 +3,13 @@ import path from 'node:path';
 import { marked } from 'marked';
 
 const WORK_DIR = path.resolve('src/content/work');
-const REPO_ROOT = path.resolve('..');
-const INCLUDES_DIR = path.join(REPO_ROOT, '_includes');
 
 function stripFrontmatter(markdown) {
 	return markdown.replace(/^---\n[\s\S]*?\n---\n?/, '');
 }
 
-function parseIncludeArgs(rawArgs = '') {
-	const args = {};
-	const attrRegex = /([\w-]+)\s*=\s*"([^"]*)"/g;
-	let match = attrRegex.exec(rawArgs);
-	while (match) {
-		args[match[1]] = match[2];
-		match = attrRegex.exec(rawArgs);
-	}
-	return args;
-}
-
-function renderMediaInclude(args) {
-	const mediaType = args.media_type || 'img';
-	const mediaSource = args.media_source || '';
-	const mediaCaption = args.media_caption || '';
-	const className = args.class_names || '';
-
-	if (!mediaSource) return '';
-
-	if (mediaType === 'video') {
-		const isDirectVideo = /\.(mp4|webm|ogv)$/i.test(mediaSource);
-		const sources = isDirectVideo
-			? `<source src="${mediaSource}" type="video/${mediaSource.split('.').pop()}" />`
-			: `<source src="${mediaSource}.webm" type="video/webm" />\n<source src="${mediaSource}.mp4" type="video/mp4" />`;
-
-		return `<figure class="legacy-media media-column ${className}">\n<video autoplay loop muted playsinline preload="metadata">\n${sources}\n</video>${mediaCaption ? `\n<figcaption>${mediaCaption}</figcaption>` : ''}\n</figure>`;
-	}
-
-	return `<figure class="legacy-media media-column ${className}">\n<img src="${mediaSource}" alt="${mediaCaption || 'Project media'}" loading="lazy" decoding="auto" />${mediaCaption ? `\n<figcaption>${mediaCaption}</figcaption>` : ''}\n</figure>`;
-}
-
-function resolveJekyllIncludes(markdown) {
-	return markdown.replace(/\{%\s*include\s+([^\s%]+)([\s\S]*?)%\}/g, (_, includePath, rawArgs) => {
-		if (includePath === 'media.html') {
-			return renderMediaInclude(parseIncludeArgs(rawArgs));
-		}
-
-		const resolvedPath = path.join(INCLUDES_DIR, includePath);
-		if (!fs.existsSync(resolvedPath)) return '';
-		return fs.readFileSync(resolvedPath, 'utf8');
-	});
+function stripJekyllIncludes(markdown) {
+	return markdown.replace(/\{%\s*include\s+[\s\S]*?%\}\n?/g, '');
 }
 
 function renderMarkdown(markdown) {
@@ -82,7 +41,7 @@ export function getWorkContentBySlug(slug) {
 	if (!sourcePath) return null;
 
 	const markdown = fs.readFileSync(sourcePath, 'utf8');
-	const body = resolveJekyllIncludes(stripFrontmatter(markdown));
+	const body = stripJekyllIncludes(stripFrontmatter(markdown));
 	const splitMatch = /^##\s+/m.exec(body);
 	const splitIndex = splitMatch?.index ?? -1;
 

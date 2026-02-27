@@ -701,9 +701,13 @@ a {
 }
 
 .page-wrap {
-	max-width: 860px;
+	max-width: 980px;
 	margin: 0 auto;
 	padding-bottom: 2rem;
+}
+
+.work-wrap {
+	max-width: 1120px;
 }
 
 .project-page {

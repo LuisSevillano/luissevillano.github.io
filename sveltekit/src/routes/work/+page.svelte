@@ -5,7 +5,7 @@
 	const projects = getProjects();
 </script>
 
-<main class="page-wrap">
+<main class="page-wrap work-wrap">
 	<h1>Work</h1>
 	<div class="project-grid project-grid-dense">
 		{#each projects as project}
