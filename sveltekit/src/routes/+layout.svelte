@@ -52,14 +52,27 @@
 		return () => observer.disconnect();
 	}
 
+	function setupLazyImages(root = document) {
+		if (!root) return;
+
+		root.querySelectorAll('img').forEach((img) => {
+			if (!img.getAttribute('loading')) {
+				img.setAttribute('loading', 'lazy');
+			}
+			img.setAttribute('decoding', 'auto');
+		});
+	}
+
 	onMount(() => {
 		const stored = localStorage.getItem('theme');
 		const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 		applyTheme(stored || preferred);
 
+		setupLazyImages(document);
 		let cleanup = setupLazyVideos(document);
 		const disposeNavigate = afterNavigate(() => {
 			if (cleanup) cleanup();
+			setupLazyImages(document);
 			cleanup = setupLazyVideos(document);
 		});
 

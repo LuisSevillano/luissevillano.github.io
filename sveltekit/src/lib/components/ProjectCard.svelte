@@ -9,19 +9,20 @@
 		<span class="media-frame">
 			{#if project.mediaType === 'video' && project.mediaSource}
 				<video
+					data-lazy-video
 					autoplay
 					loop
 					muted
 					playsinline
-					preload="metadata"
+					preload="none"
 					poster={project.thumbnail}
 					aria-label={project.thumbnailAlt}
 				>
-					<source src={`${project.mediaSource}.webm`} type="video/webm" />
-					<source src={`${project.mediaSource}.mp4`} type="video/mp4" />
+					<source data-src={`${project.mediaSource}.webm`} type="video/webm" />
+					<source data-src={`${project.mediaSource}.mp4`} type="video/mp4" />
 				</video>
 			{:else}
-				<img src={project.thumbnail} alt={project.thumbnailAlt} loading="lazy" decoding="async" />
+				<img src={project.thumbnail} alt={project.thumbnailAlt} loading="lazy" decoding="auto" />
 			{/if}
 		</span>
 		<span class="year-pill">{new Date(project.date).getFullYear()}</span>
