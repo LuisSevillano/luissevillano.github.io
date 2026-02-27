@@ -12,7 +12,14 @@ In late October 2024, a DANA storm dropped more than 200 liters of rain per squa
 
 Thanks to a hydrodynamic simulation developed by a research team at the Universitat Politècnica de València, the visual journalism team from El País gained access to an unprecedented model: a minute-by-minute reconstruction of how the floodwaters advanced from the ravine into neighborhoods like Picanya, Xirivella, and the outskirts of Valencia.
 
-{% include custom/paiporta.html %}
+<div class="video-asset">
+    <video loading="lazy" decoding="auto" autoplay loop playsinline muted poster="/assets/images/paiporta_simulation_scroll.jpg" class="" data-lazy-video>
+      <source data-src="/assets/images/paiporta_simulation_scroll.mp4" type="video/webm">
+      _Your browser does not support the video tag._
+    </video>
+    <em>Video capture from the project.</em>
+
+  </div>
 
 This interactive visualization was a challenge both technically and narratively. Our main goal was to convey to readers the extraordinary nature of the flood: how protective systems collapsed, and how official alerts came far too late. The simulation makes it clear that by the time the warning reached the population, much of the area was already under more than 1.5 meters of water.
 
