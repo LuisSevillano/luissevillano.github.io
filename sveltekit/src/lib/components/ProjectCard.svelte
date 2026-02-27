@@ -1,0 +1,40 @@
+<script>
+	import { formatDate } from '$lib/content/projects.js';
+
+	let { project, compact = false, variant = 'default' } = $props();
+</script>
+
+<article class={`project-card project-card-${variant}`}>
+	<a class="project-media" href={`/work/${project.slug}`}>
+		<span class="media-frame">
+			{#if project.mediaType === 'video' && project.mediaSource}
+				<video
+					autoplay
+					loop
+					muted
+					playsinline
+					preload="metadata"
+					poster={project.thumbnail}
+					aria-label={project.thumbnailAlt}
+				>
+					<source src={`${project.mediaSource}.webm`} type="video/webm" />
+					<source src={`${project.mediaSource}.mp4`} type="video/mp4" />
+				</video>
+			{:else}
+				<img src={project.thumbnail} alt={project.thumbnailAlt} loading="lazy" decoding="async" />
+			{/if}
+		</span>
+		<span class="year-pill">{new Date(project.date).getFullYear()}</span>
+	</a>
+	<div class="project-content">
+		<div class="meta">{project.client} · {formatDate(project.date)}</div>
+		<h3>{project.title}</h3>
+		<p>{project.excerpt}</p>
+		<div class="pill-row">
+			<span class="pill">{project.type}</span>
+		</div>
+		<div class="cta-row">
+			<a class="btn" href={`/work/${project.slug}`}>View case study</a>
+		</div>
+	</div>
+</article>
