@@ -1,9 +1,18 @@
 import { error } from '@sveltejs/kit';
-import { getProjectBySlug } from '$lib/content/projects.js';
+import { getProjectBySlug, getProjects } from '$lib/content/projects.js';
 import { getWorkContentBySlug } from '$lib/server/work-content.js';
 
 function hasHowContent(project, workContent) {
 	return Boolean(project?.content?.how || project?.content?.howHtml || workContent?.howHtml);
+}
+
+export function entries() {
+	return getProjects()
+		.filter((project) => {
+			const workContent = getWorkContentBySlug(project.slug);
+			return hasHowContent(project, workContent);
+		})
+		.map((project) => ({ slug: project.slug }));
 }
 
 export function load({ params }) {
