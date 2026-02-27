@@ -1,4 +1,5 @@
 <script>
+	import { afterNavigate } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import favicon from '$lib/assets/favicon.svg';
 	import '../app.css';
@@ -20,10 +21,52 @@
 		localStorage.setItem('theme', nextTheme);
 	}
 
+	function setupLazyVideos(root = document) {
+		if (!root || !('IntersectionObserver' in window)) return;
+
+		const loadVideo = (video) => {
+			if (!video || video.dataset.lazyLoaded) return;
+			video.querySelectorAll('source[data-src]').forEach((source) => {
+				source.src = source.dataset.src;
+			});
+			video.load();
+			video.dataset.lazyLoaded = 'true';
+		};
+
+		const observer = new IntersectionObserver(
+			(entries, obs) => {
+				entries.forEach((entry) => {
+					if (!entry.isIntersecting) return;
+					loadVideo(entry.target);
+					obs.unobserve(entry.target);
+				});
+			},
+			{ rootMargin: '200px', threshold: 0.01 }
+		);
+
+		root.querySelectorAll('video[data-lazy-video]').forEach((video) => {
+			if (video.dataset.lazyLoaded) return;
+			observer.observe(video);
+		});
+
+		return () => observer.disconnect();
+	}
+
 	onMount(() => {
 		const stored = localStorage.getItem('theme');
 		const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 		applyTheme(stored || preferred);
+
+		let cleanup = setupLazyVideos(document);
+		const disposeNavigate = afterNavigate(() => {
+			if (cleanup) cleanup();
+			cleanup = setupLazyVideos(document);
+		});
+
+		return () => {
+			if (cleanup) cleanup();
+			disposeNavigate();
+		};
 	});
 </script>
 
