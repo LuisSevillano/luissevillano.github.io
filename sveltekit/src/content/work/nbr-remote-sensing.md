@@ -11,10 +11,10 @@ I usually say that if I would study something new it will be something related w
 
 Unfortunately the Iberian peninsula usually suffers every summer more fires than anyone would want, either intentionally or by chance. This year a fatal fire in Pedrogao, Portugal killed more than 60 people. A simple search in Nasa's Earth Explorer reveal the magnitude of this misfortune.
 
-{:.half-image}
+
 ![image](/assets/images/LC08_L1TP_204032_20170615_20170628_01_T1-sm.jpg)
 
-{:.half-image}
+
 ![image](/assets/images/LC08_L1TP_204032_20170701_20170715_01_T1-sm.jpg)
 _Capture from the lesson about how to use the basic algorythms of any GIS (buffers, clips, difference, etc.)._
 
