@@ -83,11 +83,4 @@
 		{/if}
 	</div>
 
-	{#if data.project.content.sourcePath || data.project.content.how?.sourcePath}
-		<p class="meta">
-			Legacy source: <code
-				>{data.project.content.sourcePath || data.project.content.how?.sourcePath}</code
-			>
-		</p>
-	{/if}
 </main>

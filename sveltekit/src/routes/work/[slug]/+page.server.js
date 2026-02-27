@@ -42,8 +42,7 @@ export function load({ params }) {
 			content: {
 				...baseProject.content,
 				howHtml: workContent.howHtml,
-				howMarkdown: workContent.howMarkdown,
-				sourcePath: workContent.sourcePath
+				howMarkdown: workContent.howMarkdown
 			}
 		}
 	};

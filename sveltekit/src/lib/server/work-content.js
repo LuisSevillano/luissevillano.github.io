@@ -139,7 +139,6 @@ export function getWorkContentBySlug(slug) {
 		storyMarkdown,
 		storyHtml: renderMarkdown(storyMarkdown),
 		howMarkdown,
-		howHtml: renderMarkdown(howMarkdown),
-		sourcePath
+		howHtml: renderMarkdown(howMarkdown)
 	};
 }
