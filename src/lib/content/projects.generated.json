@@ -823,6 +823,61 @@
 		"socialImage": "/assets/og/projects/the-coming-floods-danas-storms-and-medicanes-mediterranean-storms-gain-intensity.jpg"
 	},
 	{
+		"title": "Poisson Disc Generator",
+		"slug": "poisson-disc-generator",
+		"date": "2023-10-17",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/poisson_disc_generator.jpg",
+		"type": "tool",
+		"topics": [],
+		"tags": [
+			"observable",
+			"d3",
+			"poisson-disc",
+			"journalism tools"
+		],
+		"client": "Observable",
+		"role": [
+			"Tool development",
+			"Frontend development"
+		],
+		"duration": "",
+		"excerpt": "Interactive generator for Poisson-disc point clouds with rectangle and circle modes, export options, and controls tuned for newsroom graphics workflows.",
+		"thumbnail": "/assets/images/poisson_disc_generator.jpg",
+		"thumbnailAlt": "Poisson Disc Generator",
+		"featured": false,
+		"liveUrl": "",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Poisson Disc Generator | Project case study",
+		"seoDescription": "Observable tool to generate Poisson-disc point distributions in circular or rectangular layouts with SVG/PNG export.",
+		"toolURL": "https://observablehq.com/@luissevillano/poisson-disc-generator",
+		"socialImage": "/assets/og/projects/poisson-disc-generator.jpg",
+		"content": {
+			"context": [
+				"This notebook creates Poisson-disc point clouds for visual projects, with controls for rectangular and circular compositions that are common in newsroom graphics and explanatory pieces."
+			],
+			"myRole": [
+				"I designed and built the full Observable tool, including sampling logic, UI controls, neighbor-based selection, and export actions for production reuse."
+			],
+			"methodology": [
+				"The rectangle mode combines Poisson sampling with a secondary Voronoi-based fill step to complete the requested point count while preserving spacing quality.",
+				"The circle mode uses a Poisson-disc sampler, Delaunay/Voronoi neighbors, and click interactions to highlight local point groups and generate selected clusters."
+			],
+			"decisions": [
+				"I exposed the key variables as form inputs (width, height, radius, point count, padding, colors) so designers can iterate quickly without editing code.",
+				"The notebook includes direct SVG and PNG export buttons to move output into Illustrator and editorial layouts in one step.",
+				"I documented performance behavior for large point counts to avoid accidental browser slowdowns during interactive typing."
+			],
+			"result": [
+				"The final tool produces clean point distributions for both rectangular and circular scenes, ready to export and reuse in visual stories."
+			],
+			"impact": [
+				"It streamlines repetitive pattern-generation tasks in graphics workflows and provides a reusable utility for journalists and designers working with data visuals."
+			]
+		}
+	},
+	{
 		"title": "Why Did the Tenerife Wildfire Spread So Rapidly?",
 		"slug": "why-did-the-tenerife-wildfire-spread-so-rapidly",
 		"date": "2023-08-27",
