@@ -8,7 +8,7 @@
 
 <main class="about-wrap">
 	<section class="section-head section-head-lined section-head-block">
-		<h1>About Me</h1>
+		<h2>About Me</h2>
 		<div class="section-rule"></div>
 	</section>
 

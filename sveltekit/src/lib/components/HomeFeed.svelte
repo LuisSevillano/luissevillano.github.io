@@ -36,7 +36,7 @@
 
 <main>
 	<section class="hero hero-pro">
-		<p class="eyebrow">VISUAL JOURNALISM, INTERACTIVE CARTOGRAPHY, AND TOOLS</p>
+		<p class="eyebrow">VISUAL JOURNALISM, CARTOGRAPHY AND TOOLS</p>
 		<p class="hero-tech">{heroTech}</p>
 		<h1 class="hero-title">{heroTitle}</h1>
 		<p class="hero-copy">{heroCopy}</p>

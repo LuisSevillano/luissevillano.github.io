@@ -135,7 +135,7 @@
 		<div class="footer-top">
 			<section class="footer-col footer-intro">
 				<a class="footer-brand" href="/">Luis Sevillano</a>
-				<p>Data journalism and interactive geospatial storytelling.</p>
+				<p>Visual Journalism, Cartography and Tools</p>
 			</section>
 
 			<section class="footer-col">

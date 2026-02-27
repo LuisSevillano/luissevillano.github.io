@@ -7,7 +7,7 @@
 
 <main class="work-wrap">
 	<section class="section-head section-head-lined section-head-block">
-		<h1>Work</h1>
+		<h2>Work</h2>
 		<div class="section-rule"></div>
 	</section>
 	<div class="project-grid project-grid-dense">
