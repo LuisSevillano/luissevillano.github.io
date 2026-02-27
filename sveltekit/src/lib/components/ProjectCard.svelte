@@ -1,7 +1,7 @@
 <script>
 	import { formatDate } from '$lib/content/projects.js';
 
-	let { project, compact = false, variant = 'default' } = $props();
+	let { project, compact = false, variant = 'default', eager = false } = $props();
 </script>
 
 <article class={`project-card project-card-${variant}`}>
@@ -22,7 +22,12 @@
 					<source data-src={`${project.mediaSource}.mp4`} type="video/mp4" />
 				</video>
 			{:else}
-				<img src={project.thumbnail} alt={project.thumbnailAlt} loading="lazy" decoding="auto" />
+				<img
+					src={project.thumbnail}
+					alt={project.thumbnailAlt}
+					loading={eager ? 'eager' : 'lazy'}
+					decoding="auto"
+				/>
 			{/if}
 		</span>
 		<span class="year-pill">{new Date(project.date).getFullYear()}</span>

@@ -54,7 +54,7 @@
 		<div class="selected-grid">
 			<div class="selected-top">
 				{#if selectedProjects[0]}
-					<ProjectCard project={selectedProjects[0]} variant="lead" />
+					<ProjectCard project={selectedProjects[0]} variant="lead" eager={true} />
 				{/if}
 				{#if selectedProjects[1]}
 					<ProjectCard project={selectedProjects[1]} variant="default" compact={true} />
