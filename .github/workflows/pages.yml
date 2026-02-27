@@ -31,20 +31,18 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: sveltekit/package-lock.json
+          cache-dependency-path: package-lock.json
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Install dependencies
         run: npm ci
-        working-directory: sveltekit
       - name: Build with SvelteKit
         run: npm run build
-        working-directory: sveltekit
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: sveltekit/build
+          path: build
 
   deploy:
     environment:
