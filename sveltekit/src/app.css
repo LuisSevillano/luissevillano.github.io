@@ -981,6 +981,7 @@ p.meta {
 	margin-left: 0;
 	margin-right: 0;
 	transform: none;
+	margin-bottom: 2rem;
 }
 
 .project-page .rich-content p.media-wide > :where(img, video, iframe) {
