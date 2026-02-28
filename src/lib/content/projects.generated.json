@@ -286,7 +286,6 @@
 		"thumbnail": "/assets/images/flights.jpg",
 		"thumbnailAlt": "Real-Time Global Air Traffic Visualization",
 		"featured": false,
-		"liveUrl": "https://github.com/LuisSevillano/real-time-flights",
 		"repoUrl": "https://github.com/LuisSevillano/real-time-flights",
 		"howUrl": "",
 		"seoTitle": "Real-Time Global Air Traffic Visualization | Project case study",
