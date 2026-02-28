@@ -1,10 +1,11 @@
 <script>
+	import { siteTagline } from '$lib/content/site.js';
 	import HomeFeed from '$lib/components/HomeFeed.svelte';
 
 	const siteUrl = 'https://luissevillano.net';
 	const pageUrl = `${siteUrl}/`;
 	const ogImage = `${siteUrl}/assets/og/site-default.jpg`;
-	const title = 'Luis Sevillano | Visual Storytelling and Geospatial Development';
+	const title = `Luis Sevillano | ${siteTagline}`;
 	const description =
 		'Portfolio of Luis Sevillano, featuring geospatial investigations, visual journalism projects, and interactive storytelling work.';
 </script>

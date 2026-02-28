@@ -1,5 +1,6 @@
 <script>
 	import { afterNavigate } from '$app/navigation';
+	import { siteTagline } from '$lib/content/site.js';
 	import { onMount } from 'svelte';
 	import '../app.css';
 
@@ -165,7 +166,7 @@
 		<div class="footer-top">
 			<section class="footer-col footer-intro">
 				<a class="footer-brand" href="/">Luis Sevillano</a>
-				<p>Visual Journalism, Cartography and Tools</p>
+				<p>{siteTagline}</p>
 			</section>
 
 			<section class="footer-col">

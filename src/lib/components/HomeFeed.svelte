@@ -1,6 +1,7 @@
 <script>
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import { getFeaturedProjects, getProjects } from '$lib/content/projects.js';
+	import { siteTagline } from '$lib/content/site.js';
 
 	let {
 		heroTitle = 'Maps, data, and visual stories from my daily work',
@@ -35,7 +36,7 @@
 
 <main>
 	<section class="hero hero-pro">
-		<p class="eyebrow">VISUAL JOURNALISM, CARTOGRAPHY AND TOOLS</p>
+		<p class="eyebrow">{siteTagline}</p>
 		<h1 class="hero-title">{heroTitle}</h1>
 		<p class="hero-copy">{heroCopy}</p>
 		<div class="cta-row cta-tight">
