@@ -374,7 +374,7 @@
 		"topics": [],
 		"tags": ["blender", "r", "qgis", "aftereffects"],
 		"client": "EL PAIS",
-		"role": ["3D recreation", "Cartography"],
+		"role": ["3D recreation", "Data analysis","Cartography"],
 		"duration": "1 month",
 		"excerpt": "Based on extensive field measurements, this project reconstructs the peak flood level in Paiporta and nearby towns, showing the full magnitude of a water mass that exceeded three meters in many streets.",
 		"thumbnail": "/assets/images/paiporta.jpg",
