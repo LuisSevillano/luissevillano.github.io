@@ -8,6 +8,10 @@
 		heroCopy = 'Here I collect newsroom stories, independent projects, and open-source tools and experiments.'
 	} = $props();
 
+	const titleTailPattern = /\s*from my daily work$/i;
+	let heroTitleLead = $derived(heroTitle.replace(titleTailPattern, '').trim());
+	let heroTitleTail = $derived(titleTailPattern.test(heroTitle) ? 'from my daily work' : '');
+
 	const projects = getProjects();
 	const otherWorkSlugs = new Set([
 		'ai2html-workshop',
@@ -37,7 +41,12 @@
 <main>
 	<section class="hero hero-pro">
 		<p class="eyebrow">{siteTagline}</p>
-		<h1 class="hero-title">{heroTitle}</h1>
+		<h1 class="hero-title">
+			{heroTitleLead}
+			{#if heroTitleTail}
+				<em>{heroTitleTail}</em>
+			{/if}
+		</h1>
 		<p class="hero-copy">{heroCopy}</p>
 		<div class="cta-row cta-tight">
 			<a class="btn" href="/about" data-sveltekit-reload>About me</a>
