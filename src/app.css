@@ -290,8 +290,8 @@ a {
 	max-width: 18ch;
 	font-family: var(--font-display);
 	font-weight: 400;
-	font-size: clamp(2rem, 3.5vw, 6rem);
-	line-height: 0.95;
+	font-size: clamp(2.75rem, 3.5vw, 6rem);
+	line-height: 1.1;
 	letter-spacing: -0.012em;
 	font-optical-sizing: auto;
 }
