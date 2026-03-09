@@ -10,8 +10,7 @@
 		"tags": [
 			"svelte",
 			"mapbox",
-			"d3",
-			"geojson"
+			"breaking news"
 		],
 		"client": "EL PAIS",
 		"role": [
@@ -19,8 +18,8 @@
 			"Data analysis",
 			"Frontend development"
 		],
-		"duration": "",
-		"excerpt": "A scroll-driven map reconstructs one week of attacks and counterattacks around Iran, showing geographic spread, proxy fronts, and pressure points near the Strait of Hormuz.",
+		"duration": "1.5 days",
+		"excerpt": "A breaking-news map explainer produced in a day and a half that summarizes one week of war around Iran, from strikes and retaliation to proxy activity and pressure points near the Strait of Hormuz.",
 		"thumbnail": "/assets/images/iran_war_week_map.jpg",
 		"thumbnailAlt": "A week of war in Iran: mapping the escalation and response",
 		"featured": true,
@@ -28,29 +27,29 @@
 		"repoUrl": "",
 		"howUrl": "",
 		"seoTitle": "A week of war in Iran: mapping the escalation and response | Project case study",
-		"seoDescription": "A map-based explainer of one week of U.S.-Israeli strikes and Iranian retaliation across the Middle East, including spillover risks around the Strait of Hormuz.",
+		"seoDescription": "A mobile-first, map-based breaking-news explainer that reconstructs one week of U.S.-Israeli strikes and Iranian retaliation, using globe perspective and tightly controlled framing across the region.",
 		"socialImage": "/assets/og/projects/que-ha-pasado-en-iran-una-semana-de-guerra-sobre-el-mapa.jpg",
 		"content": {
 			"context": [
-				"This project explains a fast-moving regional escalation through a guided map narrative that covers coordinated strikes, retaliatory attacks, and the cross-border spread of the conflict."
+				"This project was conceived as a breaking-news explainer with a very tight deadline: to publish in roughly a day and a half a clear geographic summary of actors, events, and consequences across the region."
 			],
 			"myRole": [
-				"I worked on the cartographic narrative, geospatial data integration, and frontend implementation of the scrollytelling experience."
+				"I worked on the cartographic narrative, geospatial data integration, and frontend implementation of the scrollytelling experience, with special focus on mobile readability and framing control."
 			],
 			"methodology": [
 				"The story is structured as a sequence of map steps combining geolocated conflict events, country-level context, and maritime disruption indicators.",
-				"The implementation uses Svelte and Mapbox GL, with layer visibility and filtering controlled by scroll position to keep each scene focused and legible."
+				"The implementation uses Svelte and Mapbox GL, with layer visibility and filtering controlled by scroll position to keep each scene focused and legible under a breaking-news production timeline."
 			],
 			"decisions": [
-				"We prioritized temporal sequencing so readers could follow escalation and response over the week without losing geographic context.",
-				"We used consistent visual encoding and restrained annotation to make dense regional conflict data readable at a glance.",
-				"We closed with a Hormuz-focused section to connect military developments with broader strategic and economic implications."
+				"On mobile, we prioritized `bounds` over simple `center` camera logic to ensure every key geographic element remained inside the smartphone viewport at each step.",
+				"We used Mapbox's globe projection to give a more realistic spatial perspective and reinforce that the conflict's effects extend beyond one local front.",
+				"We carefully ordered the narrative and used few, very subtle camera changes so mobile reading felt smooth, digestible, and easy to follow despite the complexity of events."
 			],
 			"result": [
-				"The final piece delivers a clear, map-first reconstruction of one week of conflict dynamics and regional spillover."
+				"The final piece delivers a simple-to-read, map-first reconstruction of one week of conflict dynamics, placing actors, events, and consequences in one coherent geographic narrative."
 			],
 			"impact": [
-				"The project reinforces a reusable newsroom workflow for rapid conflict explainers built with staged map narrative and lightweight interaction."
+				"The project demonstrates a reusable workflow for rapid conflict explainers that balances strict deadlines with high mobile usability and narrative clarity."
 			]
 		}
 	},
