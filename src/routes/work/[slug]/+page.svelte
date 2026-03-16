@@ -62,6 +62,23 @@
 		</div>
 	{/if}
 
+	{#if data.project.postImage}
+		<figure class="project-lead-media">
+			<img
+				src={data.project.postImage}
+				alt={data.project.thumbnailAlt || data.project.title}
+				width="1600"
+				height="900"
+				loading="eager"
+				decoding="async"
+				fetchpriority="high"
+			/>
+			{#if data.project.postImageCaption}
+				<figcaption>{data.project.postImageCaption}</figcaption>
+			{/if}
+		</figure>
+	{/if}
+
 	{#if data.project.content.storyHtml}
 		<article class="rich-content">{@html data.project.content.storyHtml}</article>
 	{:else}

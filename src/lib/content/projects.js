@@ -24,7 +24,6 @@ const overrides = {
 
 const projects = generatedProjects.map((project) => {
 	const override = overrides[project.slug];
-	if (!override) return project;
 
 	const merged = {
 		...project,
@@ -32,10 +31,14 @@ const projects = generatedProjects.map((project) => {
 	};
 
 	const socialImage = merged.socialImage || `/assets/og/projects/${merged.slug}.jpg`;
+	const postImage = merged.postImage || merged.thumbnail || '';
+	const postImageCaption = merged.postImageCaption || merged.excerpt || '';
 
 	return {
 		...merged,
 		socialImage,
+		postImage,
+		postImageCaption,
 		content: {
 			...project.content,
 			...(override?.content || {})
@@ -48,7 +51,9 @@ export function getProjects() {
 }
 
 export function getFeaturedProjects() {
-	return getProjects().filter((project) => project.featured).slice(0, 6);
+	return getProjects()
+		.filter((project) => project.featured)
+		.slice(0, 6);
 }
 
 export function getProjectBySlug(slug) {
