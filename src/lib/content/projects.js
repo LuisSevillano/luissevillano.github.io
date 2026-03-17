@@ -32,13 +32,20 @@ const projects = generatedProjects.map((project) => {
 
 	const socialImage = merged.socialImage || `/assets/og/projects/${merged.slug}.jpg`;
 	const postImage = merged.postImage || merged.thumbnail || '';
+	const postImageIsVideo = /\.(mp4|webm|ogg)$/i.test(postImage);
+	const postImageType = merged.postImageType || (postImageIsVideo ? 'video' : 'image');
+	const postImageAlt = merged.postImageAlt || merged.thumbnailAlt || merged.title;
 	const postImageCaption = merged.postImageCaption || merged.excerpt || '';
+	const postVideoPoster = merged.postVideoPoster || merged.thumbnail || '';
 
 	return {
 		...merged,
 		socialImage,
 		postImage,
+		postImageType,
+		postImageAlt,
 		postImageCaption,
+		postVideoPoster,
 		content: {
 			...project.content,
 			...(override?.content || {})

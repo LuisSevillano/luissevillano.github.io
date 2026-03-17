@@ -6,9 +6,20 @@
 
 	let { data } = $props();
 	const siteUrl = 'https://luissevillano.net';
+	const directVideoPattern = /\.(mp4|webm|ogg)$/i;
 	let pageUrl = $derived(`${siteUrl}/work/${data.project.slug}/`);
 	let ogImage = $derived(
 		`${siteUrl}${data.project.socialImage || `/assets/og/projects/${data.project.slug}.jpg`}`
+	);
+	let hasDirectPostVideo = $derived(directVideoPattern.test(data.project.postImage || ''));
+	let directPostVideoType = $derived(
+		!hasDirectPostVideo
+			? ''
+			: data.project.postImage.toLowerCase().endsWith('.webm')
+				? 'video/webm'
+				: data.project.postImage.toLowerCase().endsWith('.ogg')
+					? 'video/ogg'
+					: 'video/mp4'
 	);
 
 	onMount(() => {
@@ -64,15 +75,32 @@
 
 	{#if data.project.postImage}
 		<figure class="project-lead-media">
-			<img
-				src={data.project.postImage}
-				alt={data.project.thumbnailAlt || data.project.title}
-				width="1600"
-				height="900"
-				loading="eager"
-				decoding="async"
-				fetchpriority="high"
-			/>
+			{#if data.project.postImageType === 'video'}
+				<video
+					controls
+					playsinline
+					preload="metadata"
+					poster={data.project.postVideoPoster}
+					aria-label={data.project.postImageAlt}
+				>
+					{#if hasDirectPostVideo}
+						<source src={data.project.postImage} type={directPostVideoType} />
+					{:else}
+						<source src={`${data.project.postImage}.webm`} type="video/webm" />
+						<source src={`${data.project.postImage}.mp4`} type="video/mp4" />
+					{/if}
+				</video>
+			{:else}
+				<img
+					src={data.project.postImage}
+					alt={data.project.postImageAlt}
+					width="1600"
+					height="900"
+					loading="eager"
+					decoding="async"
+					fetchpriority="high"
+				/>
+			{/if}
 			{#if data.project.postImageCaption}
 				<figcaption>{data.project.postImageCaption}</figcaption>
 			{/if}
