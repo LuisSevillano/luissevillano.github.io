@@ -73,7 +73,7 @@
 			"mapbox",
 			"breaking news"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis",
@@ -128,7 +128,7 @@
 			"qgis",
 			"ai2html"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis",
@@ -181,7 +181,7 @@
 			"mapbox",
 			"vanillajs"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Frontend development"
@@ -235,7 +235,7 @@
 			"ai2html",
 			"remote sensing"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis",
@@ -290,7 +290,7 @@
 			"ai2html",
 			"remote sensing"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis",
@@ -352,7 +352,7 @@
 			"WebGL",
 			"JavaScript"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis",
@@ -519,7 +519,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis"
@@ -575,7 +575,7 @@
 			"qgis",
 			"aftereffects"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"3D recreation",
 			"Data analysis",
@@ -636,7 +636,7 @@
 			"adobe illustrator",
 			"ai2html"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Frontend development"
@@ -691,7 +691,7 @@
 			"adobe illustrator",
 			"ai2html"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis"
@@ -749,7 +749,7 @@
 			"d3js",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Frontend development",
@@ -969,7 +969,7 @@
 			"intersection observer",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Frontend development",
 			"Data analysis",
@@ -1085,7 +1085,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis"
@@ -1143,7 +1143,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Data analysis",
 			"Cartography",
@@ -1257,7 +1257,7 @@
 			"Svelte",
 			"d3js"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Frontend development",
 			"Design",
@@ -1314,7 +1314,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Data analysis"
@@ -1367,7 +1367,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Data analysis",
 			"Cartography",
@@ -1422,7 +1422,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Visual forensics",
 			"Cartography"
@@ -1477,7 +1477,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Data analysis",
 			"Cartography"
@@ -1533,7 +1533,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Data analysis",
 			"Data visualization"
@@ -1644,7 +1644,7 @@
 			"d3js",
 			"vanillajs"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Design",
 			"Data visualization",
@@ -1702,7 +1702,7 @@
 			"ai2html",
 			"adobe illustrator"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Data analysis",
 			"Cartography",
@@ -1760,7 +1760,7 @@
 			"JavaScript",
 			"d3js"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Cartography",
 			"Frontend development"
@@ -1816,7 +1816,7 @@
 			"topojson",
 			"flubberjs"
 		],
-		"client": "EL PAIS",
+		"client": "El País",
 		"role": [
 			"Data visualization",
 			"Cartography",
