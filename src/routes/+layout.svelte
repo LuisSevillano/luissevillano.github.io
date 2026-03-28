@@ -1,11 +1,16 @@
 <script>
 	import { afterNavigate } from '$app/navigation';
+	import { page } from '$app/state';
 	import { siteTagline } from '$lib/content/site.js';
 	import { onMount } from 'svelte';
 	import '../app.css';
 
 	let { children } = $props();
 	let theme = $state('dark');
+	const sectionPathPattern = /^\/[^/]+/;
+	let currentSection = $derived((page.url.pathname.match(sectionPathPattern) || [''])[0]);
+	let isWorkPage = $derived(currentSection === '/work');
+	let isAboutPage = $derived(page.url.pathname === '/about' || page.url.pathname === '/about/');
 
 	function applyTheme(nextTheme) {
 		theme = nextTheme;
@@ -139,8 +144,16 @@
 	<header class="site-header">
 		<a class="brand" href="/">Luis Sevillano</a>
 		<nav>
-			<a href="/work">Work</a>
-			<a href="/about" data-sveltekit-reload>About</a>
+			{#if isWorkPage}
+				<span class="nav-current" aria-current="page">Work</span>
+			{:else}
+				<a href="/work">Work</a>
+			{/if}
+			{#if isAboutPage}
+				<span class="nav-current" aria-current="page">About</span>
+			{:else}
+				<a href="/about" data-sveltekit-reload>About</a>
+			{/if}
 			<button class="theme-toggle" type="button" onclick={toggleTheme} aria-label="Toggle theme">
 				{#if theme === 'dark'}
 					<svg viewBox="0 0 24 24" aria-hidden="true">

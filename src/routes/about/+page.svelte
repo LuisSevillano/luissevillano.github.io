@@ -26,9 +26,8 @@
 </svelte:head>
 
 <main class="about-wrap">
-	<section class="section-head section-head-lined section-head-block">
+	<section class="section-head section-head-lined section-head-block about-head">
 		<h2>About Me</h2>
-		<div class="section-rule"></div>
 	</section>
 
 	<div class="about-grid">
