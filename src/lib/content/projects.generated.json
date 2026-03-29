@@ -8,7 +8,7 @@
 		"type": "tool",
 		"topics": [],
 		"tags": [
-			"svelte",
+			"Svelte",
 			"maplibre",
 			"topojson",
 			"svg export",
@@ -69,8 +69,8 @@
 		"type": "explainer",
 		"topics": [],
 		"tags": [
-			"svelte",
-			"mapbox",
+			"Svelte",
+			"Mapbox",
 			"breaking news"
 		],
 		"client": "El País",
@@ -178,7 +178,7 @@
 		"type": "tracker",
 		"topics": [],
 		"tags": [
-			"mapbox",
+			"Mapbox",
 			"vanillajs"
 		],
 		"client": "El País",
@@ -803,7 +803,7 @@
 		"topics": [],
 		"tags": [
 			"observable",
-			"mapbox",
+			"Mapbox",
 			"journalism tools"
 		],
 		"client": "Observable",
