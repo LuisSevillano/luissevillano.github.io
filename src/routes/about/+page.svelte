@@ -4,7 +4,7 @@
 	const ogImage = `${siteUrl}/assets/og/site-default.jpg`;
 	const title = 'About | Luis Sevillano';
 	const description =
-		'About Luis Sevillano, graphics reporter focused on geospatial storytelling, cartography, and data-driven reporting.';
+		'About Luis Sevillano, visual journalist and developer focused on cartography, data reporting, and newsroom graphics workflows.';
 </script>
 
 <svelte:head>
@@ -34,13 +34,17 @@
 		<article>
 			<p>
 				I am Luis Sevillano, a visual journalist and developer in the Visual Narratives team at EL
-				PAIS.
+				PAIS, where I work on map-led and data-driven stories across both fast-turnaround coverage
+				and in-depth projects.
 			</p>
 			<p>
 				My journey into visual journalism began over a decade ago through D3.js and data
-				visualization. Over time, my focus shifted toward maps and cartography, which have become my
-				primary specialty and the area where I find the most creative fulfillment. I produce both
-				static and interactive pieces, selecting the format that best serves the narrative.
+				visualization. Today, my work often starts in early reporting stages, helping define the
+				visual angle and the format that will be most useful for readers.
+			</p>
+			<p>
+				Depending on the story, I move between static graphics, interactive maps, and mixed visual
+				packages for web and mobile, always aiming for clarity under newsroom deadlines.
 			</p>
 			<p>
 				I studied History at Universidad Autonoma de Madrid and later completed a Master's degree in
@@ -53,22 +57,20 @@
 				exploring the landscapes near the small city where I live, not far from Madrid.
 			</p>
 			<p>
-				This portfolio is a personal archive of published work, experiments, and technical notes.
+				This portfolio is a curated archive of published work, experiments, and practical tools
+				developed through newsroom production.
 			</p>
 		</article>
 
 		<aside class="about-aside">
 			<h2>What I usually work on</h2>
 			<ul>
-				<li>I produce many maps, both for quick newsroom coverage and long-form stories.</li>
+				<li>I produce maps for both quick newsroom coverage and enterprise stories.</li>
 				<li>
-					I build interactive maps and also data graphics with Svelte when that format fits better.
+					I build interactive maps and data graphics with a strong focus on mobile readability.
 				</li>
-				<li>
-					I like creating small tools for our newsroom team, especially practical internal
-					utilities.
-				</li>
-				<li>I often identify repetitive tasks and turn them into automated workflows.</li>
+				<li>I create practical tools and reusable components for newsroom workflows.</li>
+				<li>I identify repetitive tasks and turn them into automation whenever possible.</li>
 			</ul>
 
 			<h2>Contact</h2>
