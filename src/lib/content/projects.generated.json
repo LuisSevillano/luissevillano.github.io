@@ -1,64 +1,5 @@
 [
 	{
-		"title": "Inset Map Creator",
-		"slug": "inset-map-creator",
-		"date": "2026-03-16",
-		"mediaType": "img",
-		"mediaSource": "/assets/images/inset_map_creator.jpg",
-		"type": "tool",
-		"topics": [],
-		"tags": [
-			"Svelte",
-			"maplibre",
-			"topojson",
-			"svg export",
-			"ai2html"
-		],
-		"client": "Personal publication",
-		"role": [
-			"Tool development",
-			"Cartography",
-			"Frontend development"
-		],
-		"duration": "",
-		"excerpt": "A practical utility to build editorial inset maps with Globe or Region modes, align them to a main map view, and export clean SVG output for Illustrator and ai2html workflows.",
-		"thumbnail": "/assets/images/inset_map_creator.jpg",
-		"thumbnailAlt": "Inset Map Creator",
-		"postImage": "/assets/images/inset_map_creator_no_globe.jpg",
-		"postImageCaption": "The tool also allows creating inset maps without a globe, using a standard map with d3’s geoConicConformal projection.",
-		"featured": false,
-		"liveUrl": "https://luissevillano.net/inset-map-creator/",
-		"repoUrl": "https://github.com/LuisSevillano/inset-map-creator",
-		"howUrl": "",
-		"seoTitle": "Inset Map Creator | Project case study",
-		"seoDescription": "A SvelteKit tool for generating editorial inset maps with Globe/Region modes, GeoJSON area control, and direct SVG export for ai2html-ready graphics.",
-		"socialImage": "/assets/og/projects/inset-map-creator.jpg",
-		"content": {
-			"context": [
-				"Inset Map Creator is a tool I wanted to build for a long time: even though creating an inset map is not technically difficult, it repeatedly consumes production time in real newsroom workflows.",
-				"I care a lot about these cartographic details and about being fully faithful to what the map represents, so I wanted a workflow where inset maps are precise and reliable rather than approximate."
-			],
-			"myRole": [
-				"I designed and built the full application, including cartographic logic, interaction model, and export pipeline for production use."
-			],
-			"methodology": [
-				"The tool is built with SvelteKit and MapLibre and supports two inset modes: a rotating globe view and a rectangular region view with independent zoom.",
-				"Users can define the target area by loading GeoJSON or drawing a bounding box directly on the map, then export the final inset as SVG."
-			],
-			"decisions": [
-				"I prioritized an interface optimized for daily newsroom use, reducing setup steps and keeping controls close to editorial needs.",
-				"The SVG export path was implemented as a first-class feature so outputs can move directly into Illustrator and ai2html without raster-quality loss.",
-				"A reproducible data pipeline was added for country boundaries to keep cartographic consistency and avoid brittle manual updates."
-			],
-			"result": [
-				"The final tool speeds up inset-map production while improving consistency across stories and devices."
-			],
-			"impact": [
-				"It creates a reliable bridge between interactive map setup and static editorial publishing, reducing manual map prep time in visual stories."
-			]
-		}
-	},
-	{
 		"title": "A week of war in Iran: mapping the escalation and response",
 		"slug": "que-ha-pasado-en-iran-una-semana-de-guerra-sobre-el-mapa",
 		"date": "2026-03-08",
@@ -115,6 +56,65 @@
 		}
 	},
 	{
+		"title": "Inset Map Creator",
+		"slug": "inset-map-creator",
+		"date": "2026-03-07",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/inset_map_creator.jpg",
+		"type": "tool",
+		"topics": [],
+		"tags": [
+			"Svelte",
+			"maplibre",
+			"topojson",
+			"svg export",
+			"ai2html"
+		],
+		"client": "Personal publication",
+		"role": [
+			"Tool development",
+			"Cartography",
+			"Frontend development"
+		],
+		"duration": "Ongoing development",
+		"excerpt": "A practical utility to build editorial inset maps with Globe or Region modes, align them to a main map view, and export clean SVG output for Illustrator and ai2html workflows.",
+		"thumbnail": "/assets/images/inset_map_creator.jpg",
+		"thumbnailAlt": "Inset Map Creator",
+		"postImage": "/assets/images/inset_map_creator_no_globe.jpg",
+		"postImageCaption": "The tool also allows creating inset maps without a globe, using a standard map with d3’s geoConicConformal projection.",
+		"featured": true,
+		"liveUrl": "https://luissevillano.net/inset-map-creator/",
+		"repoUrl": "https://github.com/LuisSevillano/inset-map-creator",
+		"howUrl": "",
+		"seoTitle": "Inset Map Creator | Project case study",
+		"seoDescription": "A SvelteKit tool for generating editorial inset maps with Globe/Region modes, GeoJSON area control, and direct SVG export for ai2html-ready graphics.",
+		"socialImage": "/assets/og/projects/inset-map-creator.jpg",
+		"content": {
+			"context": [
+				"Inset Map Creator is a tool I wanted to build for a long time: even though creating an inset map is not technically difficult, it repeatedly consumes production time in real newsroom workflows.",
+				"I care a lot about these cartographic details and about being fully faithful to what the map represents, so I wanted a workflow where inset maps are precise and reliable rather than approximate."
+			],
+			"myRole": [
+				"I designed and built the full application, including cartographic logic, interaction model, and export pipeline for production use."
+			],
+			"methodology": [
+				"The tool is built with SvelteKit and MapLibre and supports two inset modes: a rotating globe view and a rectangular region view with independent zoom.",
+				"Users can define the target area by loading GeoJSON or drawing a bounding box directly on the map, then export the final inset as SVG."
+			],
+			"decisions": [
+				"I prioritized an interface optimized for daily newsroom use, reducing setup steps and keeping controls close to editorial needs.",
+				"The SVG export path was implemented as a first-class feature so outputs can move directly into Illustrator and ai2html without raster-quality loss.",
+				"A reproducible data pipeline was added for country boundaries to keep cartographic consistency and avoid brittle manual updates."
+			],
+			"result": [
+				"The final tool speeds up inset-map production while improving consistency across stories and devices."
+			],
+			"impact": [
+				"It creates a reliable bridge between interactive map setup and static editorial publishing, reducing manual map prep time in visual stories."
+			]
+		}
+	},
+	{
 		"title": "Four years of war in Ukraine: a front that barely moves",
 		"slug": "cuatro-anos-de-guerra-en-ucrania-un-frente-que-apenas-se-mueve",
 		"date": "2026-02-21",
@@ -134,7 +134,7 @@
 			"Data analysis",
 			"Frontend development"
 		],
-		"duration": "",
+		"duration": "Multi-day production",
 		"excerpt": "A map-based four-year balance of the war in Ukraine, showing a largely stalled front, energy infrastructure attacks, aid shifts, and the human cost of the conflict.",
 		"thumbnail": "/assets/images/ukraine_four_years.jpg",
 		"thumbnailAlt": "Four years of war in Ukraine: a front that barely moves",
@@ -149,7 +149,7 @@
 				"A map-based four-year overview of the war in Ukraine, focused on front-line changes, territory control, and key conflict indicators."
 			],
 			"myRole": [
-				"I worked on the cartographic and visual implementation of the story."
+				"I led the cartographic and visual implementation, shaping map hierarchy, temporal comparisons, and mobile-first readability in close coordination with the newsroom team."
 			],
 			"methodology": [
 				"The piece combines front-line data, territorial change estimates, infrastructure attack records, aid flows, and casualty figures in one visual package.",
@@ -241,7 +241,7 @@
 			"Data analysis",
 			"Frontend development"
 		],
-		"duration": "",
+		"duration": "2 days",
 		"excerpt": "A visual summary of Spain's most severe 2025 wildfire weeks, combining burned-area perimeters, regional impact, and air-quality deterioration.",
 		"thumbnail": "/assets/images/spain_fires.jpg",
 		"thumbnailAlt": "358,000 hectares in 15 days: how Spain burned during its darkest weeks",
@@ -257,7 +257,7 @@
 				"A map-based explainer about Spain's 2025 wildfire peak, focused on burned area, territorial concentration, and short-term air-quality effects."
 			],
 			"myRole": [
-				"I worked on data processing, map production, and visual integration for the story."
+				"I led data processing, cartographic production, and visual integration, translating satellite and perimeter data into a clear, high-tempo wildfire explainer."
 			],
 			"methodology": [
 				"The analysis used EFFIS wildfire perimeters, Sentinel-2 imagery, and European Environment Agency air-quality data.",
@@ -302,7 +302,7 @@
 		"thumbnailAlt": "The Zamora and Leon wildfire, one of Spain's largest",
 		"postImage": "/assets/images/zamora_leon.jpg",
 		"postImageCaption": "Overlaying the fire perimeter with Spain’s land cover data shows that around 70% of the burned area is forest and 30% agricultural. Despite its size, this prevented it from being classified as Spain’s largest wildfire on record.",
-		"featured": true,
+		"featured": false,
 		"liveUrl": "https://elpais.com/espana/2025-08-15/mapas-el-incendio-de-zamora-y-leon-el-peor-del-verano-y-uno-de-los-mayores-de-espana.html",
 		"repoUrl": "",
 		"howUrl": "",
@@ -358,7 +358,7 @@
 			"Data analysis",
 			"Frontend development"
 		],
-		"duration": "",
+		"duration": "Multi-week reporting",
 		"excerpt": "A cross-border investigation maps how war scrap from Syria, Libya, and Ukraine enters Turkish steel production and returns to Europe as finished products.",
 		"thumbnail": "/assets/images/turkey_dots.jpg",
 		"thumbnailAlt": "From war to your home: how scrap metal from armed conflicts feeds the steel industry",
@@ -414,7 +414,7 @@
 			"Cartography",
 			"Frontend development"
 		],
-		"duration": "",
+		"duration": "Multi-week production",
 		"excerpt": "A hydraulic simulation reconstructs the Rambla del Poyo flood minute by minute, showing three core findings: the event was predictable, devastating, and extremely fast.",
 		"thumbnail": "/assets/images/paiporta_simulation.jpg",
 		"thumbnailAlt": "Predictable, devastating and very fast: what the simulation of the flooding of the Rambla del Poyo reveals",
