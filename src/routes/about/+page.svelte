@@ -73,6 +73,13 @@
 				<li>I identify repetitive tasks and turn them into automation whenever possible.</li>
 			</ul>
 
+			<h2>Tools I use</h2>
+			<p>
+				Tools and workflows I use regularly include QGIS, Mapbox and MapLibre, Svelte, JavaScript,
+				Adobe Illustrator, ai2html, and R. I apply them depending on story needs, from quick-turn
+				map updates to deeper visual explainers.
+			</p>
+
 			<h2>Contact</h2>
 			<p>
 				If you want to share references, ideas, corrections, or technical notes, write to
