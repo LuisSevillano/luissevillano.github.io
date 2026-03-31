@@ -112,40 +112,40 @@
 	{:else}
 		<h2>Context</h2>
 		{#each data.project.content.context as paragraph}
-			<p>{paragraph}</p>
+			<p>{@html paragraph}</p>
 		{/each}
 
 		<h2>My role</h2>
 		<ul>
 			{#each data.project.role as role}
-				<li>{role}</li>
+				<li>{@html role}</li>
 			{/each}
 		</ul>
 		{#each data.project.content.myRole as paragraph}
-			<p>{paragraph}</p>
+			<p>{@html paragraph}</p>
 		{/each}
 
 		<h2>Data and methodology</h2>
 		{#each data.project.content.methodology as paragraph}
-			<p>{paragraph}</p>
+			<p>{@html paragraph}</p>
 		{/each}
 
 		<h2>Key decisions</h2>
 		<ul>
 			{#each data.project.content.decisions as decision}
-				<li>{decision}</li>
+				<li>{@html decision}</li>
 			{/each}
 		</ul>
 
 		<h2>Result</h2>
 		{#each data.project.content.result as paragraph}
-			<p>{paragraph}</p>
+			<p>{@html paragraph}</p>
 		{/each}
 
 		<h2>Impact and learnings</h2>
 		<ul>
 			{#each data.project.content.impact as item}
-				<li>{item}</li>
+				<li>{@html item}</li>
 			{/each}
 		</ul>
 	{/if}

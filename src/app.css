@@ -702,6 +702,11 @@ a {
 	max-width: 62ch;
 }
 
+.project-page p a {
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid color-mix(in srgb, var(--text) 88%, var(--muted));
+}
+
 .project-lead-media {
 	margin: 1.3rem 0 1.5rem;
 }
