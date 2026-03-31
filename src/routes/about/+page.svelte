@@ -4,7 +4,7 @@
 	const ogImage = `${siteUrl}/assets/og/site-default.jpg`;
 	const title = 'About | Luis Sevillano';
 	const description =
-		'About Luis Sevillano, visual journalist and developer focused on cartography, data reporting, and newsroom graphics workflows.';
+		'About Luis Sevillano, visual journalist and developer focused on cartography, data analysis, and newsroom graphics workflows.';
 </script>
 
 <svelte:head>
@@ -39,7 +39,7 @@
 			</p>
 			<p>
 				My journey into visual journalism began over a decade ago through D3.js and data
-				visualization. Today, my work often starts in early reporting stages, helping define the
+				visualization. Today, my work often starts in early editorial stages, helping define the
 				visual angle and the format that will be most useful for readers.
 			</p>
 			<p>
