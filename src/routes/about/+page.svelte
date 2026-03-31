@@ -33,9 +33,10 @@
 	<div class="about-grid">
 		<article>
 			<p>
-				I am Luis Sevillano, a visual journalist and developer in the Visual Narratives team at EL
-				PAIS, where I work on map-led and data-driven stories across both fast-turnaround coverage
-				and in-depth projects.
+				I am Luis Sevillano, a visual journalist and developer in the Visual Narratives team at <span
+					class="no-break">EL PAÍS</span
+				>, where I work on map-led and data-driven stories across both fast-turnaround coverage and
+				in-depth projects.
 			</p>
 			<p>
 				My journey into visual journalism began over a decade ago through D3.js and data
@@ -75,9 +76,9 @@
 
 			<h2>Tools I use</h2>
 			<p>
-				Tools and workflows I use regularly include QGIS, Mapbox and MapLibre, Svelte, JavaScript,
-				Adobe Illustrator, ai2html, and R. I apply them depending on story needs, from quick-turn
-				map updates to deeper visual explainers.
+				Tools and workflows I use regularly include QGIS, Mapbox, Svelte, JavaScript, d3js, Adobe
+				Illustrator, ai2html, and R. I apply them depending on story needs, from quick-turn map
+				updates to deeper visual explainers.
 			</p>
 
 			<h2>Contact</h2>

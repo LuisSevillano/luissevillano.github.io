@@ -1612,7 +1612,7 @@
 				"I designed and implemented the visual storytelling system, building comparative structures that connected institutional diversity with recurring coalition outcomes across Europe."
 			],
 			"methodology": [
-				"As one of my first major projects at EL PAÍS, the piece combined political dataset curation with scroll-based visual explanation and strict performance constraints.",
+				"As one of my first major projects at <span class=\"no-break\">EL PAÍS</span>, the piece combined political dataset curation with scroll-based visual explanation and strict performance constraints.",
 				"The core interaction linked a geographic view to a structural summary view, allowing readers to move from national context to comparative coalition patterns."
 			],
 			"decisions": [
