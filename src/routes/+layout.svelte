@@ -185,7 +185,7 @@
 				<div class="footer-links">
 					<a href="https://x.com/sepirdata" target="_blank" rel="noreferrer">Twitter</a>
 					<a href="https://github.com/LuisSevillano" target="_blank" rel="noreferrer">GitHub</a>
-					<a href="mailto:luissevillanopires@gmail.com">Email</a>
+					<a href="https://www.linkedin.com/in/luissevillano/">Linkedin</a>
 				</div>
 			</section>
 

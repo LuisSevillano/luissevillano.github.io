@@ -15,9 +15,9 @@
 	const projects = getProjects();
 	const selectedWorkSlugs = [
 		'from-war-to-your-home',
+		'four-years-of-war-in-ukraine-a-front-that-barely-moves',
 		'paiporta-simulation',
 		'antarctica-glaciers',
-		'four-years-of-war-in-ukraine-a-front-that-barely-moves',
 		'what-happened-at-the-melilla-border-the-step-by-step-of-the-tragedy'
 	];
 
