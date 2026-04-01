@@ -1,6 +1,6 @@
 <script>
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
-	import { getFeaturedProjects, getProjects } from '$lib/content/projects.js';
+	import { getProjects } from '$lib/content/projects.js';
 	import { siteTagline } from '$lib/content/site.js';
 
 	let {
@@ -13,30 +13,46 @@
 	let heroTitleTail = $derived(titleTailPattern.test(heroTitle) ? 'from my daily work' : '');
 
 	const projects = getProjects();
-	const toolsAndTeachingSlugs = [
-		'ai2html-workshop',
-		'QGIS-for-journalists',
-		'qgis-tile-writer',
-		'catastro-coruna',
-		'combine-csv-headers-in-R'
+	const selectedWorkSlugs = [
+		'from-war-to-your-home',
+		'paiporta-simulation',
+		'antarctica-glaciers',
+		'four-years-of-war-in-ukraine-a-front-that-barely-moves',
+		'what-happened-at-the-melilla-border-the-step-by-step-of-the-tragedy'
 	];
+
+	const recentWorkSlugs = [
+		'what-has-happened-in-iran-a-week-of-war-on-the-map',
+		'hormuz-under-threat-tanker-traffic-chokepoints-and-regional-impact',
+		'aragon-election-results-street-by-street',
+		'358000-hectares-in-15-days-spains-wildfire-peak',
+		'paiporta-under-water',
+		'how-the-war-fronts-in-ukraine-have-changed-since-the-start-of-the-kursk-offensive'
+	];
+
+	const toolsAndTeachingSlugs = [
+		'cheesy-shadow-picker-v2',
+		'inset-map-creator',
+		'real-time-global-air-traffic-visualization',
+		'mapbox-inset-map',
+		'scaling-artboards-for-ai2html',
+		'qgis-for-journalists'
+	];
+
 	const toolsAndTeachingSet = new Set(toolsAndTeachingSlugs);
 
 	const toolsAndTeachingProjects = toolsAndTeachingSlugs
 		.map((slug) => projects.find((project) => project.slug === slug))
-		.filter(Boolean)
-		.slice(0, 4);
-	const coreProjects = projects.filter((project) => !toolsAndTeachingSet.has(project.slug));
-	const featuredProjects = getFeaturedProjects().filter(
-		(project) => !toolsAndTeachingSet.has(project.slug)
-	);
-	const selectedProjects =
-		featuredProjects.length >= 5 ? featuredProjects.slice(0, 5) : coreProjects.slice(0, 5);
+		.filter(Boolean);
+	const selectedProjects = selectedWorkSlugs
+		.map((slug) => projects.find((project) => project.slug === slug))
+		.filter(Boolean);
 	const selectedSlugs = new Set(selectedProjects.map((project) => project.slug));
-	const latestProjects = coreProjects
-		.filter((project) => !selectedSlugs.has(project.slug))
-		.filter((project) => project.type !== 'tool')
-		.slice(0, 6);
+	const latestProjects = recentWorkSlugs
+		.map((slug) => projects.find((project) => project.slug === slug))
+		.filter(Boolean)
+		.filter((project) => !toolsAndTeachingSet.has(project.slug))
+		.filter((project) => !selectedSlugs.has(project.slug));
 </script>
 
 <main>
