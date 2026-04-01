@@ -4,7 +4,7 @@ description: Testing a new QGIS plugin for the Spanish cadastre mapping public l
 media_type: img
 media_source: /assets/images/thumbnails/coruna-catastro.jpg
 date: 2017-11-01
-permalink: catastro-coruna
+permalink: coruna-cadastre
 ---
 
 I recently discover a nice QGIS plugin named [Spanish Inspire Catastral Downloader](https://github.com/sigdeletras/Spanish_Inspire_Catastral_Downloader) to download catastre data from the INSPIRE Services of Spanish Cadastral Cartography.

@@ -1,7 +1,107 @@
 [
 	{
+		"title": "Cheesy Shadow Picker v2",
+		"slug": "cheesy-shadow-picker-v2",
+		"date": "2026-04-01",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/cheesy-shadow-picker-v2-cover.jpg",
+		"type": "tool",
+		"topics": [],
+		"tags": ["Svelte", "ai2html", "CSS", "newsroom workflow"],
+		"client": "Personal publication",
+		"role": ["Product design", "Frontend development", "Workflow tooling"],
+		"duration": "Long-term side project",
+		"excerpt": "A major new version of Cheesy Shadow Picker: from a simple shadow list to a full ai2html editing workspace with drag-and-drop import, live preview controls, artboard-aware behavior, and production-ready CSS export.",
+		"thumbnail": "/assets/images/cheesy-shadow-picker-v2-cover.jpg",
+		"thumbnailAlt": "Cheesy Shadow Picker v2",
+		"postImage": "/assets/images/cheesy-shadow-picker-v2-inside.jpg",
+		"postImageAlt": "Cheesy Shadow Picker v2 editing workspace with map labels and shadow controls.",
+		"postImageCaption": "Inside view of Cheesy Shadow Picker v2 applying text-shadow styles directly on ai2html map labels.",
+		"featured": false,
+		"liveUrl": "https://luissevillano.net/cheesy-shadow-picker/",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Cheesy Shadow Picker v2 | Project case study",
+		"seoDescription": "Cheesy Shadow Picker v2 evolves from a shadow catalog into a complete ai2html text-shadow editing workspace for map labels, image annotations, and newsroom production workflows.",
+		"socialImage": "/assets/og/projects/cheesy-shadow-picker-v2.jpg",
+		"content": {
+			"context": [
+				"This is a project I had wanted to build properly for a long time. I use CSS text shadows constantly in ai2html maps and in label/annotation workflows over complex images, so I needed something faster and more reliable than trial-and-error editing."
+			],
+			"myRole": [
+				"I redesigned and rebuilt the tool as a complete production workspace, from parsing and UI architecture to interaction details and export-oriented controls."
+			],
+			"methodology": [
+				"Version 2 was developed around real daily usage: import an ai2html export, inspect labels directly over the artboard, test shadows/colors in context, and ship clean CSS quickly.",
+				"I prioritized speed in repetitive newsroom tasks while keeping the interface understandable for first-time users."
+			],
+			"decisions": [
+				"New functionality: direct ai2html import and parsing, including artboard switching based on available space.",
+				"New functionality: drag-and-drop support for both HTML and image files, with a clear central drop zone and visual feedback.",
+				"New functionality: interactive label editing (drag labels, apply shadows/colors to selected or all labels, copy CSS outputs).",
+				"New functionality: before/after preview toggle (Show Original / Show Edited) without losing edits.",
+				"New functionality: improved resilience for real production cases (missing image warnings, better default artboard selection, mobile-first controls)."
+			],
+			"result": [
+				"Cheesy Shadow Picker is now a practical editing environment, not just a catalog, and it fits much better into ai2html and image-annotation production workflows."
+			],
+			"impact": [
+				"The new version reduces iteration time, lowers layout mistakes, and makes shadow decisions easier to validate in the exact visual context where labels will be published."
+			]
+		}
+	},
+	{
+		"title": "Hormuz under threat: tanker traffic and chokepoints",
+		"slug": "hormuz-under-threat-tanker-traffic-chokepoints-and-regional-impact",
+		"date": "2026-03-03",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/hormuz-breaking-news-cover.jpg",
+		"type": "explainer",
+		"topics": [],
+		"tags": ["Svelte", "Mapbox", "shipping data", "breaking news"],
+		"client": "El País",
+		"role": ["Cartography", "Data analysis", "Frontend development"],
+		"duration": "1 day",
+		"excerpt": "A rapid-response map explainer on the Strait of Hormuz, showing how tanker traffic patterns shift under blockade threats and what that means for Gulf exports and Europe.",
+		"thumbnail": "/assets/images/hormuz-breaking-news-cover.jpg",
+		"thumbnailAlt": "Hormuz under threat: tanker traffic and chokepoints",
+		"postImage": "/assets/images/hormuz-breaking-news-inside.jpg",
+		"postImageAlt": "Map detailing shipping tracks and strategic bottlenecks around the Strait of Hormuz.",
+		"postImageCaption": "As this was a breaking-news piece, we first used Global Maritime Traffic data to quickly establish the strategic role of the Strait of Hormuz, before we could access MarineTraffic data for deeper validation.",
+		"featured": false,
+		"liveUrl": "https://elpais.com/economia/2026-03-03/que-implica-el-bloqueo-del-estrecho-de-ormuz-y-como-afecta-a-europa-en-mapas-y-datos.html",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Hormuz under threat: tanker traffic and chokepoints | Project case study",
+		"seoDescription": "A breaking-news visual explainer mapping shipping routes around the Strait of Hormuz and the export risks for Gulf producers and Europe under blockade threats.",
+		"socialImage": "/assets/og/projects/hormuz-under-threat-tanker-traffic-chokepoints-and-regional-impact.jpg",
+		"content": {
+			"context": [
+				"This project was produced as a breaking-news explainer to clarify, in one fast-reading visual piece, what a potential Strait of Hormuz blockade implies for oil and gas flows."
+			],
+			"myRole": [
+				"I handled the cartographic narrative, shipping-data interpretation, and frontend integration, with a priority on clear messaging under severe time pressure."
+			],
+			"methodology": [
+				"I combined vessel-track density with geographic bottleneck framing to show where maritime risk concentrates and how traffic redistributes when threats increase.",
+				"The story was built and published within a 24-hour breaking-news cycle, balancing analytical depth with production speed and mobile readability."
+			],
+			"decisions": [
+				"I prioritized a direct map-first structure so readers could immediately understand the choke point and its regional dependencies.",
+				"Annotations were kept concise and strategically placed to connect route patterns with concrete export consequences for Kuwait, Bahrain, Qatar, UAE, and Saudi Arabia.",
+				"Visual hierarchy was simplified to preserve clarity on small screens while still showing high-density maritime movement."
+			],
+			"result": [
+				"The final piece translated a complex geopolitical risk into an accessible map narrative that explained both local bottlenecks and broader energy implications."
+			],
+			"impact": [
+				"The project reinforced a repeatable 24-hour workflow for high-stakes geoeconomic explainers where speed, clarity, and geographic precision are equally critical."
+			]
+		}
+	},
+	{
 		"title": "A week of war in Iran: mapping the escalation and response",
-		"slug": "que-ha-pasado-en-iran-una-semana-de-guerra-sobre-el-mapa",
+		"slug": "what-has-happened-in-iran-a-week-of-war-on-the-map",
 		"date": "2026-03-08",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/iran_war_week_map.jpg",
@@ -64,7 +164,7 @@
 		"thumbnailAlt": "Inset Map Creator",
 		"postImage": "/assets/images/inset_map_creator_no_globe.jpg",
 		"postImageCaption": "The tool also allows creating inset maps without a globe, using a standard map with d3’s geoConicConformal projection.",
-		"featured": true,
+		"featured": false,
 		"liveUrl": "https://luissevillano.net/inset-map-creator/",
 		"repoUrl": "https://github.com/LuisSevillano/inset-map-creator",
 		"howUrl": "",
@@ -98,7 +198,7 @@
 	},
 	{
 		"title": "Four years of war in Ukraine: a front that barely moves",
-		"slug": "cuatro-anos-de-guerra-en-ucrania-un-frente-que-apenas-se-mueve",
+		"slug": "four-years-of-war-in-ukraine-a-front-that-barely-moves",
 		"date": "2026-02-21",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/ukraine_four_years.jpg",
@@ -142,7 +242,7 @@
 	},
 	{
 		"title": "Aragon election results, street by street",
-		"slug": "los-resultados-de-las-elecciones-en-aragon-en-tiempo-real-y-calle-a-calle",
+		"slug": "aragon-election-results-street-by-street",
 		"date": "2026-02-08",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/aragon_secciones_censales.jpg",
@@ -188,8 +288,8 @@
 		"socialImage": "/assets/og/projects/los-resultados-de-las-elecciones-en-aragon-en-tiempo-real-y-calle-a-calle.jpg"
 	},
 	{
-		"title": "358,000 hectares in 15 days: how Spain burned during its darkest weeks",
-		"slug": "358000-hectareas-en-15-dias-asi-ardio-espana-en-sus-semanas-mas-negras",
+		"title": "358,000 hectares in 15 days: Spain's wildfire peak",
+		"slug": "358000-hectares-in-15-days-spains-wildfire-peak",
 		"date": "2025-08-23",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/spain_fires.jpg",
@@ -201,13 +301,13 @@
 		"duration": "2 days",
 		"excerpt": "A visual summary of Spain's most severe 2025 wildfire weeks, combining burned-area perimeters, regional impact, and air-quality deterioration.",
 		"thumbnail": "/assets/images/spain_fires.jpg",
-		"thumbnailAlt": "358,000 hectares in 15 days: how Spain burned during its darkest weeks",
+		"thumbnailAlt": "358,000 hectares in 15 days: Spain's wildfire peak",
 		"postImageCaption": "The duration of the wildfires allowed Sentinel-2 to capture this dramatic satellite view of the destruction.",
 		"featured": true,
 		"liveUrl": "https://elpais.com/espana/2025-08-23/358000-hectareas-en-15-dias-asi-ardio-espana-en-sus-semanas-mas-negras.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "358,000 hectares in 15 days: how Spain burned during its darkest weeks | Project case study",
+		"seoTitle": "358,000 hectares in 15 days: Spain's wildfire peak | Project case study",
 		"seoDescription": "Wildfires such as Larouco and Una de Quintana are already among the largest recorded in Spain in the last decade.",
 		"content": {
 			"context": [
@@ -236,7 +336,7 @@
 	},
 	{
 		"title": "The Zamora and Leon wildfire, one of Spain's largest",
-		"slug": "mapas-el-incendio-de-zamora-y-leon-el-peor-del-verano-y-uno-de-los-mayores-de-espana",
+		"slug": "the-zamora-and-leon-wildfire-one-of-spains-largest",
 		"date": "2025-08-15",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/zamora_leon_wildfire.jpg",
@@ -281,7 +381,7 @@
 		"socialImage": "/assets/og/projects/mapas-el-incendio-de-zamora-y-leon-el-peor-del-verano-y-uno-de-los-mayores-de-espana.jpg"
 	},
 	{
-		"title": "From war to your home: how scrap metal from armed conflicts feeds the steel industry",
+		"title": "From war to your home: how conflict scrap feeds steel",
 		"slug": "from-war-to-your-home",
 		"date": "2025-10-30",
 		"mediaType": "video",
@@ -296,12 +396,12 @@
 		"duration": "Multi-week reporting",
 		"excerpt": "A cross-border investigation maps how war scrap from Syria, Libya, and Ukraine enters Turkish steel production and returns to Europe as finished products.",
 		"thumbnail": "/assets/images/turkey_dots.jpg",
-		"thumbnailAlt": "From war to your home: how scrap metal from armed conflicts feeds the steel industry",
+		"thumbnailAlt": "From war to your home: how conflict scrap feeds steel",
 		"featured": true,
 		"liveUrl": "https://elpais.com/internacional/2025-10-30/de-la-guerra-a-tu-casa-como-la-chatarra-de-los-conflictos-belicos-alimenta-la-industria-del-acero.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "From war to your home: how scrap metal from armed conflicts feeds the steel industry | Project case study",
+		"seoTitle": "From war to your home: how conflict scrap feeds steel | Project case study",
 		"seoDescription": "An investigation reveals how scrap from wars in Syria, Libya and Ukraine is shipped to Turkey, melted into steel and sold in Europe, fueling conflict economies and human rights abuses.",
 		"content": {
 			"context": [
@@ -330,7 +430,7 @@
 		"socialImage": "/assets/og/projects/from-war-to-your-home.jpg"
 	},
 	{
-		"title": "Predictable, devastating and very fast: what the simulation of the flooding of the Rambla del Poyo reveals",
+		"title": "Paiporta flood simulation: predictable, devastating, fast",
 		"slug": "paiporta-simulation",
 		"date": "2025-05-18",
 		"mediaType": "video",
@@ -343,14 +443,14 @@
 		"duration": "Multi-week production",
 		"excerpt": "A hydraulic simulation reconstructs the Rambla del Poyo flood minute by minute, showing three core findings: the event was predictable, devastating, and extremely fast.",
 		"thumbnail": "/assets/images/paiporta_simulation.jpg",
-		"thumbnailAlt": "Predictable, devastating and very fast: what the simulation of the flooding of the Rambla del Poyo reveals",
+		"thumbnailAlt": "Paiporta flood simulation: predictable, devastating, fast",
 		"postImage": "/assets/images/paiporta_inside.jpg",
 		"postImageCaption": "We built a system to synchronize simulation time, layer transitions, and scroll-driven navigation, ensuring a smooth experience on mobile devices.",
 		"featured": true,
 		"liveUrl": "https://elpais.com/clima-y-medio-ambiente/2025-05-18/predecible-devastadora-y-muy-rapida-que-revela-la-simulacion-de-la-crecida-de-la-rambla-del-poyo.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "Predictable, devastating and very fast: what the simulation of the flooding of the Rambla del Poyo reveals | Project case study",
+		"seoTitle": "Paiporta flood simulation: predictable, devastating, fast | Project case study",
 		"seoDescription": "Data provided by the Polytechnic University of Valencia allowed El País to reconstruct, minute by minute, an unprecedented simulation of the Rambla del Poyo flood.",
 		"content": {
 			"context": [
@@ -427,7 +527,7 @@
 		"socialImage": "/assets/og/projects/real-time-global-air-traffic-visualization.jpg"
 	},
 	{
-		"title": "What would Ukraine lose if it ceded the territory occupied by Russia?",
+		"title": "What Ukraine would lose by ceding occupied territory",
 		"slug": "what-would-ukraine-lose-if-it-ceded-the-territory-occupied-by-russia",
 		"date": "2025-02-16",
 		"mediaType": "video",
@@ -440,12 +540,12 @@
 		"duration": "",
 		"excerpt": "This explainer maps what is at stake in occupied Ukrainian territory, combining front-line evolution with strategic assets such as infrastructure, resources, and energy nodes.",
 		"thumbnail": "/assets/images/ukraine_scroll.jpg",
-		"thumbnailAlt": "What would Ukraine lose if it ceded the territory occupied by Russia?",
+		"thumbnailAlt": "What Ukraine would lose by ceding occupied territory",
 		"featured": false,
 		"liveUrl": "https://elpais.com/internacional/2025-02-16/mapas-que-perderia-ucrania-si-cede-el-territorio-ocupado-por-rusia.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "What would Ukraine lose if it ceded the territory occupied by Russia? | Project case study",
+		"seoTitle": "What Ukraine would lose by ceding occupied territory | Project case study",
 		"seoDescription": "Moscow controls 20% of Ukrainian territory, an area rich in rare earths and home to Europe's largest nuclear power plant.",
 		"content": {
 			"context": [
@@ -475,7 +575,7 @@
 		"socialImage": "/assets/og/projects/what-would-ukraine-lose-if-it-ceded-the-territory-occupied-by-russia.jpg"
 	},
 	{
-		"title": "Paiporta Under Water: Reconstructing a Deadly Flood Through Data",
+		"title": "Paiporta under water: reconstructing a deadly flood",
 		"slug": "paiporta-under-water",
 		"date": "2024-12-29",
 		"mediaType": "img",
@@ -488,14 +588,14 @@
 		"duration": "1 month",
 		"excerpt": "Based on extensive field measurements, this project reconstructs the peak flood level in Paiporta and nearby towns, showing the full magnitude of a water mass that exceeded three meters in many streets.",
 		"thumbnail": "/assets/images/paiporta.jpg",
-		"thumbnailAlt": "Paiporta Under Water: Reconstructing a Deadly Flood Through Data",
+		"thumbnailAlt": "Paiporta under water: reconstructing a deadly flood",
 		"postImage": "/assets/images/paiporta_blender.jpg",
 		"postImageCaption": "An ambitious attempt to rebuild a city from cadastral data—full of challenges, a huge learning experience, and probably not something we’d try again.",
 		"featured": false,
 		"liveUrl": "https://elpais.com/eps/2024-12-29/paiporta-bajo-el-agua.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "Paiporta Under Water: Reconstructing a Deadly Flood Through Data | Project case study",
+		"seoTitle": "Paiporta under water: reconstructing a deadly flood | Project case study",
 		"seoDescription": "We have measured the height of the water reached by the dana of October 29 in 140 locations, based on testimonies and marks still visible on the facades, to reconstruct the magnitude of the flooding.",
 		"content": {
 			"context": [
@@ -526,55 +626,7 @@
 		"socialImage": "/assets/og/projects/paiporta-under-water.jpg"
 	},
 	{
-		"title": "Data shows the extreme magnitude of Valencia's flood: it should only occur every 1,000 years",
-		"slug": "the-data-show-the-extreme-magnitude-of-valencias-flood-it-should-only-occur-every-1000-years",
-		"date": "2024-11-12",
-		"mediaType": "img",
-		"mediaSource": "/assets/images/valencia.jpg",
-		"type": "explainer",
-		"topics": [],
-		"tags": ["Svelte", "qgis", "JavaScript", "adobe illustrator", "ai2html"],
-		"client": "El País",
-		"role": ["Cartography", "Frontend development"],
-		"duration": "",
-		"excerpt": "This story contextualizes the Valencia flood through rainfall, discharge, and inundation records, showing an event with an estimated return period above 1,000 years and, in some expert assessments, closer to 5,000.",
-		"thumbnail": "/assets/images/valencia.jpg",
-		"thumbnailAlt": "Data shows the extreme magnitude of Valencia's flood: it should only occur every 1,000 years",
-		"featured": false,
-		"liveUrl": "https://elpais.com/espana/2024-11-12/los-datos-evidencian-la-magnitud-extrema-de-la-riada-solo-debia-ocurrir-cada-1000-anos.html",
-		"repoUrl": "",
-		"howUrl": "",
-		"seoTitle": "Data shows the extreme magnitude of Valencia's flood: it should only occur every 1,000 years | Project case study",
-		"seoDescription": "The rainfall, flow and flooded area records compiled by EL PAÍS describe an absolutely unusual event by scientific standards.",
-		"content": {
-			"context": [
-				"This story contextualizes the Valencia flood through rainfall, flow, and inundation records to show how exceptional the event was in historical terms. I developed the map and visual framing so the statistical rarity and territorial impact could be read together, turning technical hydrometeorological data into an accessible public explanation."
-			],
-			"myRole": [
-				"I led the cartographic and visual implementation, focusing on a scrollytelling sequence built with Svelte and ai2html to make rarity and territorial impact readable together.",
-				"I was responsible for translating technical hydrometeorological evidence into a clear, device-agnostic visual narrative."
-			],
-			"methodology": [
-				"The project was developed collaboratively across several team members, with parallel workstreams coordinated throughout production to keep the story coherent and compact.",
-				"My section compared flood-prone scenarios by return period (10, 100, and 500 years) and then contrasted them with the real inundation footprint using Copernicus data derived from Sentinel-1 and Sentinel-2."
-			],
-			"decisions": [
-				"We structured the narrative as a progressive scroll so readers could compare expected flood extents before seeing the observed event.",
-				"Color scales, labels, and basemap design were tuned to maximize interpretability and avoid confusion between modeled probability layers and observed inundation.",
-				"Cross-device readability was treated as a core requirement, with careful attention to typographic hierarchy, map simplification, and responsive behavior."
-			],
-			"result": [
-				"The final piece made the extraordinary nature of the flood legible to a broad audience by connecting statistical rarity with concrete territorial consequences."
-			],
-			"impact": [
-				"The article had strong audience impact and became a reference explainer on the exceptional magnitude of the event.",
-				"It also validated a coordinated team workflow where specialized visual modules can be built in parallel and integrated into one consistent story."
-			]
-		},
-		"socialImage": "/assets/og/projects/the-data-show-the-extreme-magnitude-of-valencias-flood-it-should-only-occur-every-1000-years.jpg"
-	},
-	{
-		"title": "How the war fronts in Ukraine have changed since the start of the Kursk offensive",
+		"title": "Ukraine war fronts after the Kursk offensive",
 		"slug": "how-the-war-fronts-in-ukraine-have-changed-since-the-start-of-the-kursk-offensive",
 		"date": "2024-09-09",
 		"mediaType": "img",
@@ -587,14 +639,14 @@
 		"duration": "",
 		"excerpt": "A map-driven explainer on the Kursk offensive, contrasting Ukrainian advances inside Russia with simultaneous Russian gains in Donetsk through a clear temporal and territorial reading.",
 		"thumbnail": "/assets/images/kursk.jpg",
-		"thumbnailAlt": "How the war fronts in Ukraine have changed since the start of the Kursk offensive",
+		"thumbnailAlt": "Ukraine war fronts after the Kursk offensive",
 		"postImage": "/assets/images/kursk_map.jpg",
 		"postImageCaption": "Produced under tight deadlines, this piece covers Ukraine’s incursion into the Kursk region with a simple, narrative-driven design.",
 		"featured": false,
 		"liveUrl": "https://elpais.com/internacional/2024-09-09/mapas-como-han-cambiado-los-frentes-de-guerra-en-ucrania-desde-el-comienzo-de-la-ofensiva-en-kursk.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "How the war fronts in Ukraine have changed since the start of the Kursk offensive | Project case study",
+		"seoTitle": "Ukraine war fronts after the Kursk offensive | Project case study",
 		"seoDescription": "Russia advances on the Donetsk front and Kiev's troops are stuck on Russian territory.",
 		"content": {
 			"context": [
@@ -816,7 +868,7 @@
 		"socialImage": "/assets/og/projects/introducing-cheesy-shadow-picker-simplifying-css-shadow-usage.jpg"
 	},
 	{
-		"title": "The coming floods: danas, storms, and medicanes, Mediterranean storms gain intensity",
+		"title": "The coming floods: DANA, storms, and medicanes",
 		"slug": "the-coming-floods-danas-storms-and-medicanes-mediterranean-storms-gain-intensity",
 		"date": "2023-10-19",
 		"mediaType": "video",
@@ -829,14 +881,14 @@
 		"duration": "",
 		"excerpt": "This explainer links DANAs, Mediterranean cyclones, and medicanes through a real recent case, showing why extreme rainfall events in the region are becoming more destructive.",
 		"thumbnail": "/assets/images/danas.jpg",
-		"thumbnailAlt": "The coming floods: danas, storms, and medicanes, Mediterranean storms gain intensity",
+		"thumbnailAlt": "The coming floods: DANA, storms, and medicanes",
 		"postImage": "/assets/images/danas.jpg",
 		"postImageCaption": "My first scroll-driven video built entirely in vanilla JS, using ai2html for the basemap and labels.",
 		"featured": false,
 		"liveUrl": "https://elpais.com/clima-y-medio-ambiente/2023-10-19/las-inundaciones-que-vienen-danas-borrascas-y-medicanes-las-tormentas-del-mediterraneo-ganan-virulencia.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "The coming floods: danas, storms, and medicanes, Mediterranean storms gain intensity | Project case study",
+		"seoTitle": "The coming floods: DANA, storms, and medicanes | Project case study",
 		"seoDescription": "The torrential rains that have battered Greece, Libya, or Spain in the month of September are a direct result of different atmospheric phenomena, but with a common denominator: global warming increases their intensity.",
 		"content": {
 			"context": [
@@ -963,7 +1015,7 @@
 		"socialImage": "/assets/og/projects/why-did-the-tenerife-wildfire-spread-so-rapidly.jpg"
 	},
 	{
-		"title": "How a Major Wildfire Is Fought: Strategy, Data and Decisions Under Pressure",
+		"title": "How a major wildfire is fought",
 		"slug": "decoding-fire-control-the-aftermath-of-a-blaze",
 		"date": "2023-04-02",
 		"mediaType": "img",
@@ -976,12 +1028,12 @@
 		"duration": "",
 		"excerpt": "A reconstruction of wildfire containment strategy in Catalonia, showing how real-time operational data, tactical decisions, and terrain constraints shaped the response under pressure.",
 		"thumbnail": "/assets/images/pont_de_vilomara.jpg",
-		"thumbnailAlt": "How a Major Wildfire Is Fought: Strategy, Data and Decisions Under Pressure",
+		"thumbnailAlt": "How a major wildfire is fought",
 		"featured": false,
 		"liveUrl": "https://elpais.com/espana/2023-04-02/como-se-controla-un-incendio.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "How a Major Wildfire Is Fought: Strategy, Data and Decisions Under Pressure | Project case study",
+		"seoTitle": "How a major wildfire is fought | Project case study",
 		"seoDescription": "After extinguishing a fire like the recent one in Castellón, another task begins for some firefighters: analyzing data and images to plan for future blazes. With insights from one of these analysts, EL PAÍS reconstructs the efforts to control a major fire, the Pont de Vilomara (Manresa) blaze, which engulfed dozens of homes last July.",
 		"content": {
 			"context": [
@@ -1011,7 +1063,7 @@
 	},
 	{
 		"title": "The center of the world crumbles like a cookie",
-		"slug": "antarctica_glaciers",
+		"slug": "antarctica-glaciers",
 		"date": "2023-02-13",
 		"mediaType": "video",
 		"mediaSource": "/assets/images/antarctica",
@@ -1107,7 +1159,7 @@
 		"socialImage": "/assets/og/projects/mortgage-simulator-calculate-your-loan-installment.jpg"
 	},
 	{
-		"title": "Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma",
+		"title": "La Palma volcano: tunnels, caves, and devastation",
 		"slug": "inaccessible-tunnels-and-new-caves-in-the-area-devastated-by-the-volcano-of-la-palma",
 		"date": "2022-09-18",
 		"mediaType": "img",
@@ -1120,12 +1172,12 @@
 		"duration": "",
 		"excerpt": "This piece examines the post-eruption volcanic tube system in La Palma and quantifies how much new material was deposited, linking subsurface structures to the transformed surface landscape.",
 		"thumbnail": "/assets/images/lava.jpg",
-		"thumbnailAlt": "Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma",
+		"thumbnailAlt": "La Palma volcano: tunnels, caves, and devastation",
 		"featured": false,
 		"liveUrl": "https://elpais.com/ciencia/2022-09-18/cuevas-y-tuneles-imposibles-en-la-zona-arrasada-por-el-volcan-de-la-palma.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "Inaccessible tunnels and new caves in the area devastated by the volcano of La Palma | Project case study",
+		"seoTitle": "La Palma volcano: tunnels, caves, and devastation | Project case study",
 		"seoDescription": "Scientists are trying to explore the network of volcanic tubes formed beneath the surface of the Tajogaite Volcano, which can be more than 10 kilometers long, but temperatures inside are still hellish.",
 		"content": {
 			"context": [
@@ -1202,7 +1254,7 @@
 		"socialImage": "/assets/og/projects/russian-ghost-ships-to-steal-grain-in-ukraine.jpg"
 	},
 	{
-		"title": "What happened at the Melilla border? The step by step of the tragedy",
+		"title": "Melilla border tragedy: step by step",
 		"slug": "what-happened-at-the-melilla-border-the-step-by-step-of-the-tragedy",
 		"date": "2022-07-03",
 		"mediaType": "img",
@@ -1215,12 +1267,12 @@
 		"duration": "",
 		"excerpt": "A forensic reconstruction of the Melilla border tragedy based on geolocated videos, witness accounts, and synchronized timelines to establish a verifiable sequence of events.",
 		"thumbnail": "/assets/images/melilla.jpg",
-		"thumbnailAlt": "What happened at the Melilla border? The step by step of the tragedy",
+		"thumbnailAlt": "Melilla border tragedy: step by step",
 		"featured": false,
 		"liveUrl": "https://elpais.com/espana/2022-07-03/que-sucedio-en-la-frontera-de-melilla-el-paso-a-paso-de-la-tragedia.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "What happened at the Melilla border? The step by step of the tragedy | Project case study",
+		"seoTitle": "Melilla border tragedy: step by step | Project case study",
 		"seoDescription": "In this breaking news we reconstruct with testimonies, images and geolocated videos the last and deadly attempt of a group of young Africans to reach Spain.",
 		"content": {
 			"context": [
@@ -1249,7 +1301,7 @@
 		"socialImage": "/assets/og/projects/what-happened-at-the-melilla-border-the-step-by-step-of-the-tragedy.jpg"
 	},
 	{
-		"title": "Volcano exposed: How to interpret the signs of the La Palma eruption",
+		"title": "La Palma eruption: how to read the warning signs",
 		"slug": "volcano-exposed-how-to-interpret-the-signs-of-the-la-palma-eruption",
 		"date": "2021-11-06",
 		"mediaType": "img",
@@ -1262,12 +1314,12 @@
 		"duration": "",
 		"excerpt": "This explainer interprets key eruption indicators in La Palma—seismicity, tremor, and deformation—to clarify what each signal suggests about volcanic evolution and near-term risk.",
 		"thumbnail": "/assets/images/volcano_exposed.jpg",
-		"thumbnailAlt": "Volcano exposed: How to interpret the signs of the La Palma eruption",
+		"thumbnailAlt": "La Palma eruption: how to read the warning signs",
 		"featured": false,
 		"liveUrl": "https://elpais.com/ciencia/2021-11-06/el-volcan-al-desnudo-como-interpretar-las-senales-de-la-erupcion-de-la-palma.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "Volcano exposed: How to interpret the signs of the La Palma eruption | Project case study",
+		"seoTitle": "La Palma eruption: how to read the warning signs | Project case study",
 		"seoDescription": "Although the island of La Palma continues to suffer earthquakes at two depths, the tremor and deformation seem to be decreasing, which is interpreted as positive signs.",
 		"content": {
 			"context": [
@@ -1298,7 +1350,7 @@
 		"socialImage": "/assets/og/projects/volcano-exposed-how-to-interpret-the-signs-of-the-la-palma-eruption.jpg"
 	},
 	{
-		"title": "The 100-Meter Sprint: Challenging the Reign of Timeless Records",
+		"title": "The 100-meter sprint and the end of timeless records",
 		"slug": "the-100-meter-sprint-challenging-the-reign-of-timeless-records",
 		"date": "2021-07-31",
 		"mediaType": "img",
@@ -1311,12 +1363,12 @@
 		"duration": "",
 		"excerpt": "A historical performance analysis of the 100-meter sprint, comparing record eras, competitive ceilings, and persistent outliers through a clean visual narrative.",
 		"thumbnail": "/assets/images/100_meters.jpg",
-		"thumbnailAlt": "The 100-Meter Sprint: Challenging the Reign of Timeless Records",
+		"thumbnailAlt": "The 100-meter sprint and the end of timeless records",
 		"featured": false,
 		"liveUrl": "https://elpais.com/deportes/juegos-olimpicos/2021-07-31/los-100m-lisos-en-busca-de-acabar-con-el-reinado-de-los-records-eternos.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "The 100-Meter Sprint: Challenging the Reign of Timeless Records | Project case study",
+		"seoTitle": "The 100-meter sprint and the end of timeless records | Project case study",
 		"seoDescription": "Florence Griffith Joyner's record stands strong for 33 years, while Usain Bolt's legacy remains untouched since his retirement alongside his top competitors",
 		"content": {
 			"context": [
@@ -1393,7 +1445,7 @@
 		"socialImage": "/assets/og/projects/guerrero-gap.jpg"
 	},
 	{
-		"title": "Daily evolution of COVID-19 in Spain by region: tracking cases, hospitalizations, and deaths.",
+		"title": "Daily COVID-19 evolution in Spain by region",
 		"slug": "daily-evolution-of-covid-19-in-spain-by-region-tracking-cases-hospitalizations-and-deaths",
 		"date": "2021-03-15",
 		"mediaType": "img",
@@ -1406,12 +1458,12 @@
 		"duration": "",
 		"excerpt": "A continuously updated COVID-19 tracker for Spain that consolidated national and regional indicators into a single view for fast, reliable public consultation.",
 		"thumbnail": "/assets/images/covid_tracker.jpg",
-		"thumbnailAlt": "Daily evolution of COVID-19 in Spain by region: tracking cases, hospitalizations, and deaths.",
+		"thumbnailAlt": "Daily COVID-19 evolution in Spain by region",
 		"featured": false,
 		"liveUrl": "https://elpais.com/sociedad/2021-03-15/el-coronavirus-en-espana-dia-a-dia-asi-evolucionan-casos-ingresos-y-muertos.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "Daily evolution of COVID-19 in Spain by region: tracking cases, hospitalizations, and deaths. | Project case study",
+		"seoTitle": "Daily COVID-19 evolution in Spain by region | Project case study",
 		"seoDescription": "Stay informed with our comprehensive COVID-19 tracker, featuring daily updates, historical trends, and detailed indicators including cases, hospitalizations, and deaths.",
 		"content": {
 			"context": [
@@ -1537,7 +1589,7 @@
 		"socialImage": "/assets/og/projects/the-death-of-the-last-glaciers-in-spain.jpg"
 	},
 	{
-		"title": "The mortality map of Spain at an unprecedented level of detail.",
+		"title": "Spain's mortality map at unprecedented detail",
 		"slug": "the-mortality-map-of-spain-at-an-unprecedented-level-of-detail",
 		"date": "2020-02-07",
 		"mediaType": "img",
@@ -1550,12 +1602,12 @@
 		"duration": "",
 		"excerpt": "An unprecedented high-resolution mortality map of Spain that lets readers explore major causes of death at municipal scale while preserving statistical context and territorial comparability.",
 		"thumbnail": "/assets/images/thumbnails/atlas.jpg",
-		"thumbnailAlt": "The mortality map of Spain at an unprecedented level of detail.",
+		"thumbnailAlt": "Spain's mortality map at unprecedented detail",
 		"featured": false,
 		"liveUrl": "https://elpais.com/elpais/2020/02/05/ciencia/1580906716_232241.html",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "The mortality map of Spain at an unprecedented level of detail. | Project case study",
+		"seoTitle": "Spain's mortality map at unprecedented detail | Project case study",
 		"seoDescription": "New detailed mortality data unveils substantial geographical disparities across Spain.",
 		"content": {
 			"context": [
@@ -1612,7 +1664,7 @@
 				"I designed and implemented the visual storytelling system, building comparative structures that connected institutional diversity with recurring coalition outcomes across Europe."
 			],
 			"methodology": [
-				"As one of my first major projects at EL PAÍS, the piece combined political dataset curation with scroll-based visual explanation and strict performance constraints.",
+				"As one of my first major projects at <span class=\"no-break\">EL PAÍS</span>, the piece combined political dataset curation with scroll-based visual explanation and strict performance constraints.",
 				"The core interaction linked a geographic view to a structural summary view, allowing readers to move from national context to comparative coalition patterns."
 			],
 			"decisions": [
@@ -1632,7 +1684,7 @@
 	},
 	{
 		"title": "How to Merge CSV headers in R. An approach",
-		"slug": "combine-csv-headers-in-R",
+		"slug": "combine-csv-headers-in-r",
 		"date": "2019-08-08",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/thumbnails/unemployment-small-multiples_s.jpg",
@@ -1678,7 +1730,7 @@
 		"socialImage": "/assets/og/projects/combine-csv-headers-in-R.jpg"
 	},
 	{
-		"title": "How I covered the 2019 General Elections for the Spanish Radio and Television Corporation",
+		"title": "How I covered Spain's 2019 general elections for RTVE",
 		"slug": "2019-general-election",
 		"date": "2019-04-02",
 		"mediaType": "video",
@@ -1691,11 +1743,11 @@
 		"duration": "",
 		"excerpt": "Project developed by Datadista showcasing their coverage of the 2019 general elections for RTVE, the state-owned public corporation responsible for Spain's radio and television services. The project includes scatter charts, cartograms, and numerous maps.",
 		"thumbnail": "/assets/images/scatterplot.jpg",
-		"thumbnailAlt": "How I covered the 2019 General Elections for the Spanish Radio and Television Corporation",
+		"thumbnailAlt": "How I covered Spain's 2019 general elections for RTVE",
 		"featured": false,
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "How I covered the 2019 General Elections for the Spanish Radio and Television Corporation | Project case study",
+		"seoTitle": "How I covered Spain's 2019 general elections for RTVE | Project case study",
 		"seoDescription": "Project developed by Datadista showcasing their coverage of the 2019 general elections for RTVE, the state-owned public corporation responsible for Spain's radio and television services. The project includes scatter charts, cartograms, and numerous maps.",
 		"content": {
 			"context": [
@@ -1724,7 +1776,7 @@
 		"socialImage": "/assets/og/projects/2019-general-election.jpg"
 	},
 	{
-		"title": "Transparentia. The largest search engine for politicians' salaries",
+		"title": "Transparentia: search engine for politicians' salaries",
 		"slug": "transparentia",
 		"date": "2019-01-02",
 		"mediaType": "img",
@@ -1737,12 +1789,12 @@
 		"duration": "",
 		"excerpt": "Transparentia lets you to check more than 9.600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid.",
 		"thumbnail": "/assets/images/thumbnails/transparentia_logo.jpg",
-		"thumbnailAlt": "Transparentia. The largest search engine for politicians' salaries",
+		"thumbnailAlt": "Transparentia: search engine for politicians' salaries",
 		"featured": false,
 		"liveUrl": "https://transparentia.newtral.es/buscador",
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "Transparentia. The largest search engine for politicians' salaries | Project case study",
+		"seoTitle": "Transparentia: search engine for politicians' salaries | Project case study",
 		"seoDescription": "Transparentia lets you to check more than 9.600 salaries of politicians and public workers.  We wanted to answer a simple question: how many politicians are there in Spain and how much are they paid.",
 		"content": {
 			"context": [
@@ -1818,8 +1870,8 @@
 		"socialImage": "/assets/og/projects/qgis-tile-writer.jpg"
 	},
 	{
-		"title": "Exploring the history of A Coruña through the construction years of its buildings",
-		"slug": "catastro-coruna",
+		"title": "A Coruña through the construction history of its buildings",
+		"slug": "coruna-cadastre",
 		"date": "2017-11-21",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/thumbnails/coruna-catastro_s.jpg",
@@ -1831,11 +1883,11 @@
 		"duration": "",
 		"excerpt": "Testing a new QGIS plugin for the Spanish cadastre mapping public lands in A Coruña.",
 		"thumbnail": "/assets/images/thumbnails/coruna-catastro_s.jpg",
-		"thumbnailAlt": "Exploring the history of A Coruña through the construction years of its buildings",
+		"thumbnailAlt": "A Coruña through the construction history of its buildings",
 		"featured": false,
 		"repoUrl": "",
 		"howUrl": "",
-		"seoTitle": "Exploring the history of A Coruña through the construction years of its buildings | Project case study",
+		"seoTitle": "A Coruña through the construction history of its buildings | Project case study",
 		"seoDescription": "Testing a new QGIS plugin for the Spanish cadastre mapping public lands in A Coruña.",
 		"content": {
 			"context": [
@@ -2047,7 +2099,7 @@
 	},
 	{
 		"title": "GIS should be a must in newsrooms",
-		"slug": "QGIS-for-journalists",
+		"slug": "qgis-for-journalists",
 		"date": "2016-03-11",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/buffer.jpg",

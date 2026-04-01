@@ -34,13 +34,12 @@
 	</a>
 	<div class="project-content">
 		<div class="meta">{project.client} · {formatDate(project.date)}</div>
-		<h3>{project.title}</h3>
+		<h3>
+			<a class="card-title-link" href={`/work/${project.slug}`}>{project.title}</a>
+		</h3>
 		<p>{project.excerpt}</p>
 		<div class="pill-row">
 			<span class="pill">{project.type}</span>
-		</div>
-		<div class="cta-row">
-			<a class="btn" href={`/work/${project.slug}`}>View case study</a>
 		</div>
 	</div>
 </article>

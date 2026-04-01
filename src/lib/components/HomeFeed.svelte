@@ -1,6 +1,6 @@
 <script>
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
-	import { getFeaturedProjects, getProjects } from '$lib/content/projects.js';
+	import { getProjects } from '$lib/content/projects.js';
 	import { siteTagline } from '$lib/content/site.js';
 
 	let {
@@ -13,29 +13,46 @@
 	let heroTitleTail = $derived(titleTailPattern.test(heroTitle) ? 'from my daily work' : '');
 
 	const projects = getProjects();
-	const otherWorkSlugs = new Set([
-		'ai2html-workshop',
-		'QGIS-for-journalists',
-		'qgis-tile-writer',
-		'catastro-coruna',
-		'combine-csv-headers-in-R'
-	]);
+	const selectedWorkSlugs = [
+		'from-war-to-your-home',
+		'paiporta-simulation',
+		'antarctica-glaciers',
+		'four-years-of-war-in-ukraine-a-front-that-barely-moves',
+		'what-happened-at-the-melilla-border-the-step-by-step-of-the-tragedy'
+	];
 
-	const otherWorkProjects = projects.filter((project) => otherWorkSlugs.has(project.slug));
-	const coreProjects = projects.filter((project) => !otherWorkSlugs.has(project.slug));
-	const featuredProjects = getFeaturedProjects().filter(
-		(project) => !otherWorkSlugs.has(project.slug)
-	);
-	const selectedProjects =
-		featuredProjects.length >= 5 ? featuredProjects.slice(0, 5) : coreProjects.slice(0, 5);
+	const recentWorkSlugs = [
+		'what-has-happened-in-iran-a-week-of-war-on-the-map',
+		'hormuz-under-threat-tanker-traffic-chokepoints-and-regional-impact',
+		'aragon-election-results-street-by-street',
+		'358000-hectares-in-15-days-spains-wildfire-peak',
+		'paiporta-under-water',
+		'how-the-war-fronts-in-ukraine-have-changed-since-the-start-of-the-kursk-offensive'
+	];
+
+	const toolsAndTeachingSlugs = [
+		'cheesy-shadow-picker-v2',
+		'inset-map-creator',
+		'real-time-global-air-traffic-visualization',
+		'mapbox-inset-map',
+		'scaling-artboards-for-ai2html',
+		'qgis-for-journalists'
+	];
+
+	const toolsAndTeachingSet = new Set(toolsAndTeachingSlugs);
+
+	const toolsAndTeachingProjects = toolsAndTeachingSlugs
+		.map((slug) => projects.find((project) => project.slug === slug))
+		.filter(Boolean);
+	const selectedProjects = selectedWorkSlugs
+		.map((slug) => projects.find((project) => project.slug === slug))
+		.filter(Boolean);
 	const selectedSlugs = new Set(selectedProjects.map((project) => project.slug));
-	const latestProjects = coreProjects
-		.filter((project) => !selectedSlugs.has(project.slug))
-		.slice(0, 9);
-	const latestSlugs = new Set(latestProjects.map((project) => project.slug));
-	const archiveProjects = coreProjects.filter(
-		(project) => !selectedSlugs.has(project.slug) && !latestSlugs.has(project.slug)
-	);
+	const latestProjects = recentWorkSlugs
+		.map((slug) => projects.find((project) => project.slug === slug))
+		.filter(Boolean)
+		.filter((project) => !toolsAndTeachingSet.has(project.slug))
+		.filter((project) => !selectedSlugs.has(project.slug));
 </script>
 
 <main>
@@ -86,34 +103,20 @@
 		</div>
 	</section>
 
-	{#if archiveProjects.length > 0}
+	{#if toolsAndTeachingProjects.length > 0}
 		<section>
 			<div class="section-head section-head-lined">
 				<p class="section-index">03</p>
-				<h2>Archive</h2>
+				<h2>Tools &amp; Teaching</h2>
 				<div class="section-rule"></div>
 			</div>
 			<div class="project-grid project-grid-dense">
-				{#each archiveProjects as project}
+				{#each toolsAndTeachingProjects as project}
 					<ProjectCard {project} compact={true} />
 				{/each}
 			</div>
-			<p class="more-link"><a href="/work">View the full archive</a></p>
 		</section>
 	{/if}
 
-	{#if otherWorkProjects.length > 0}
-		<section>
-			<div class="section-head section-head-lined">
-				<p class="section-index">04</p>
-				<h2>Other Work</h2>
-				<div class="section-rule"></div>
-			</div>
-			<div class="project-grid project-grid-dense">
-				{#each otherWorkProjects as project}
-					<ProjectCard {project} compact={true} />
-				{/each}
-			</div>
-		</section>
-	{/if}
+	<p class="more-link"><a href="/work">Browse all work</a></p>
 </main>

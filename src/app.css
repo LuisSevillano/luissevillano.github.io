@@ -637,6 +637,10 @@ a {
 	min-height: 2.34em;
 }
 
+.card-title-link {
+	display: inline;
+}
+
 .project-content p {
 	margin: 0;
 	color: var(--muted);
@@ -737,7 +741,6 @@ a {
 
 .about-wrap {
 	max-width: 1100px;
-	margin: 0 auto;
 	padding-bottom: 2rem;
 }
 
@@ -1351,4 +1354,7 @@ p img + em,
 	display: block;
 	font-size: clamp(2rem, 5vw, 3.5rem);
 	color: rgb(100, 100, 100);
+}
+span.no-break {
+	white-space: nowrap;
 }
