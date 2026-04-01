@@ -1,5 +1,56 @@
 [
 	{
+		"title": "Cheesy Shadow Picker v2",
+		"slug": "cheesy-shadow-picker-v2",
+		"date": "2026-04-01",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/cheesy-shadow-picker-v2-cover.jpg",
+		"type": "tool",
+		"topics": [],
+		"tags": ["Svelte", "ai2html", "CSS", "newsroom workflow"],
+		"client": "Personal publication",
+		"role": ["Product design", "Frontend development", "Workflow tooling"],
+		"duration": "Long-term side project",
+		"excerpt": "A major new version of Cheesy Shadow Picker: from a simple shadow list to a full ai2html editing workspace with drag-and-drop import, live preview controls, artboard-aware behavior, and production-ready CSS export.",
+		"thumbnail": "/assets/images/cheesy-shadow-picker-v2-cover.jpg",
+		"thumbnailAlt": "Cheesy Shadow Picker v2",
+		"postImage": "/assets/images/cheesy-shadow-picker-v2-inside.jpg",
+		"postImageAlt": "Cheesy Shadow Picker v2 editing workspace with map labels and shadow controls.",
+		"postImageCaption": "Inside view of Cheesy Shadow Picker v2 applying text-shadow styles directly on ai2html map labels.",
+		"featured": true,
+		"liveUrl": "https://luissevillano.net/cheesy-shadow-picker/",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Cheesy Shadow Picker v2 | Project case study",
+		"seoDescription": "Cheesy Shadow Picker v2 evolves from a shadow catalog into a complete ai2html text-shadow editing workspace for map labels, image annotations, and newsroom production workflows.",
+		"socialImage": "/assets/og/projects/cheesy-shadow-picker-v2.jpg",
+		"content": {
+			"context": [
+				"This is a project I had wanted to build properly for a long time. I use CSS text shadows constantly in ai2html maps and in label/annotation workflows over complex images, so I needed something faster and more reliable than trial-and-error editing."
+			],
+			"myRole": [
+				"I redesigned and rebuilt the tool as a complete production workspace, from parsing and UI architecture to interaction details and export-oriented controls."
+			],
+			"methodology": [
+				"Version 2 was developed around real daily usage: import an ai2html export, inspect labels directly over the artboard, test shadows/colors in context, and ship clean CSS quickly.",
+				"I prioritized speed in repetitive newsroom tasks while keeping the interface understandable for first-time users."
+			],
+			"decisions": [
+				"New functionality: direct ai2html import and parsing, including artboard switching based on available space.",
+				"New functionality: drag-and-drop support for both HTML and image files, with a clear central drop zone and visual feedback.",
+				"New functionality: interactive label editing (drag labels, apply shadows/colors to selected or all labels, copy CSS outputs).",
+				"New functionality: before/after preview toggle (Show Original / Show Edited) without losing edits.",
+				"New functionality: improved resilience for real production cases (missing image warnings, better default artboard selection, mobile-first controls)."
+			],
+			"result": [
+				"Cheesy Shadow Picker is now a practical editing environment, not just a catalog, and it fits much better into ai2html and image-annotation production workflows."
+			],
+			"impact": [
+				"The new version reduces iteration time, lowers layout mistakes, and makes shadow decisions easier to validate in the exact visual context where labels will be published."
+			]
+		}
+	},
+	{
 		"title": "A week of war in Iran: mapping the escalation and response",
 		"slug": "que-ha-pasado-en-iran-una-semana-de-guerra-sobre-el-mapa",
 		"date": "2026-03-08",
