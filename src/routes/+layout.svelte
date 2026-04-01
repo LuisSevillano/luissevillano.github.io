@@ -7,9 +7,7 @@
 
 	let { children } = $props();
 	let theme = $state('dark');
-	const sectionPathPattern = /^\/[^/]+/;
-	let currentSection = $derived((page.url.pathname.match(sectionPathPattern) || [''])[0]);
-	let isWorkPage = $derived(currentSection === '/work');
+	let isWorkPage = $derived(page.url.pathname === '/work' || page.url.pathname === '/work/');
 	let isAboutPage = $derived(page.url.pathname === '/about' || page.url.pathname === '/about/');
 
 	function applyTheme(nextTheme) {

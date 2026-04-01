@@ -637,6 +637,10 @@ a {
 	min-height: 2.34em;
 }
 
+.card-title-link {
+	display: inline;
+}
+
 .project-content p {
 	margin: 0;
 	color: var(--muted);
