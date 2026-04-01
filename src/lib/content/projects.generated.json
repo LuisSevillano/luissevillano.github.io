@@ -51,6 +51,55 @@
 		}
 	},
 	{
+		"title": "Hormuz under threat: tanker traffic, chokepoints and regional impact",
+		"slug": "hormuz-under-threat-tanker-traffic-chokepoints-and-regional-impact",
+		"date": "2026-04-01",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/hormuz-breaking-news-cover.jpg",
+		"type": "explainer",
+		"topics": [],
+		"tags": ["Svelte", "Mapbox", "shipping data", "breaking news"],
+		"client": "El País",
+		"role": ["Cartography", "Data analysis", "Frontend development"],
+		"duration": "1 day",
+		"excerpt": "A rapid-response map explainer on the Strait of Hormuz, showing how tanker traffic patterns shift under blockade threats and what that means for Gulf exports and Europe.",
+		"thumbnail": "/assets/images/hormuz-breaking-news-cover.jpg",
+		"thumbnailAlt": "Hormuz under threat: tanker traffic, chokepoints and regional impact",
+		"postImage": "/assets/images/hormuz-breaking-news-inside.jpg",
+		"postImageAlt": "Map detailing shipping tracks and strategic bottlenecks around the Strait of Hormuz.",
+		"postImageCaption": "As this was a breaking-news piece, we first used Global Maritime Traffic data to quickly establish the strategic role of the Strait of Hormuz, before we could access MarineTraffic data for deeper validation.",
+		"featured": true,
+		"liveUrl": "https://elpais.com/economia/2026-03-03/que-implica-el-bloqueo-del-estrecho-de-ormuz-y-como-afecta-a-europa-en-mapas-y-datos.html",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Hormuz under threat: tanker traffic, chokepoints and regional impact | Project case study",
+		"seoDescription": "A breaking-news visual explainer mapping shipping routes around the Strait of Hormuz and the export risks for Gulf producers and Europe under blockade threats.",
+		"socialImage": "/assets/og/projects/hormuz-under-threat-tanker-traffic-chokepoints-and-regional-impact.jpg",
+		"content": {
+			"context": [
+				"This project was produced as a breaking-news explainer to clarify, in one fast-reading visual piece, what a potential Strait of Hormuz blockade implies for oil and gas flows."
+			],
+			"myRole": [
+				"I handled the cartographic narrative, shipping-data interpretation, and frontend integration, with a priority on clear messaging under severe time pressure."
+			],
+			"methodology": [
+				"I combined vessel-track density with geographic bottleneck framing to show where maritime risk concentrates and how traffic redistributes when threats increase.",
+				"The story was built and published within a 24-hour breaking-news cycle, balancing analytical depth with production speed and mobile readability."
+			],
+			"decisions": [
+				"I prioritized a direct map-first structure so readers could immediately understand the choke point and its regional dependencies.",
+				"Annotations were kept concise and strategically placed to connect route patterns with concrete export consequences for Kuwait, Bahrain, Qatar, UAE, and Saudi Arabia.",
+				"Visual hierarchy was simplified to preserve clarity on small screens while still showing high-density maritime movement."
+			],
+			"result": [
+				"The final piece translated a complex geopolitical risk into an accessible map narrative that explained both local bottlenecks and broader energy implications."
+			],
+			"impact": [
+				"The project reinforced a repeatable 24-hour workflow for high-stakes geoeconomic explainers where speed, clarity, and geographic precision are equally critical."
+			]
+		}
+	},
+	{
 		"title": "A week of war in Iran: mapping the escalation and response",
 		"slug": "que-ha-pasado-en-iran-una-semana-de-guerra-sobre-el-mapa",
 		"date": "2026-03-08",
@@ -115,7 +164,7 @@
 		"thumbnailAlt": "Inset Map Creator",
 		"postImage": "/assets/images/inset_map_creator_no_globe.jpg",
 		"postImageCaption": "The tool also allows creating inset maps without a globe, using a standard map with d3’s geoConicConformal projection.",
-		"featured": true,
+		"featured": false,
 		"liveUrl": "https://luissevillano.net/inset-map-creator/",
 		"repoUrl": "https://github.com/LuisSevillano/inset-map-creator",
 		"howUrl": "",
