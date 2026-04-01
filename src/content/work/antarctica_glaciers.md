@@ -4,7 +4,7 @@ description: Antarctica is already suffering heat waves that exceed 18 degrees C
 media_type: video
 media_source: /assets/images/antarctica
 date: 2023-02-24
-permalink: antarctica_glaciers
+permalink: antarctica-glaciers
 ---
 
 This collaboration with our colleagues from Materia, the science section of El País, resulted in a most rewarding experience. Manuel Ansede and Claudio Álvarez had the opportunity to travel to the Antarctic continent accompanying a Chilean scientific mission. This group of scientists is studying the changes that are taking place in Antarctica, many of them appreciable on a human scale.
@@ -1836,5 +1836,4 @@ generate_raster(1, "EPSG:4326", 25, TRUE, FALSE)
 # Conclusions
 
 I am pleased with the outcome of this project. The opportunity to confront various challenges along the way and overcome them is not always common in media, especially when delving into unfamiliar territory. Engaging with raw NASA data, working with it, making decisions on its utilization, and finding optimal methods for transforming it to extract valuable insights has been an enriching experience.
-
 

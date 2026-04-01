@@ -1,7 +1,7 @@
 ---
 title: GIS should be a must in newsrooms
 date: 2016-03-01
-permalink: QGIS-for-journalists
+permalink: qgis-for-journalists
 media_type: img
 media_source: /assets/images/buffer.jpg
 description: Principles of cartography and GIS taught to data journalism students

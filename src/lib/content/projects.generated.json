@@ -17,7 +17,7 @@
 		"postImage": "/assets/images/cheesy-shadow-picker-v2-inside.jpg",
 		"postImageAlt": "Cheesy Shadow Picker v2 editing workspace with map labels and shadow controls.",
 		"postImageCaption": "Inside view of Cheesy Shadow Picker v2 applying text-shadow styles directly on ai2html map labels.",
-		"featured": true,
+		"featured": false,
 		"liveUrl": "https://luissevillano.net/cheesy-shadow-picker/",
 		"repoUrl": "",
 		"howUrl": "",
@@ -53,7 +53,7 @@
 	{
 		"title": "Hormuz under threat: tanker traffic and chokepoints",
 		"slug": "hormuz-under-threat-tanker-traffic-chokepoints-and-regional-impact",
-		"date": "2026-04-01",
+		"date": "2026-03-03",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/hormuz-breaking-news-cover.jpg",
 		"type": "explainer",
@@ -68,7 +68,7 @@
 		"postImage": "/assets/images/hormuz-breaking-news-inside.jpg",
 		"postImageAlt": "Map detailing shipping tracks and strategic bottlenecks around the Strait of Hormuz.",
 		"postImageCaption": "As this was a breaking-news piece, we first used Global Maritime Traffic data to quickly establish the strategic role of the Strait of Hormuz, before we could access MarineTraffic data for deeper validation.",
-		"featured": true,
+		"featured": false,
 		"liveUrl": "https://elpais.com/economia/2026-03-03/que-implica-el-bloqueo-del-estrecho-de-ormuz-y-como-afecta-a-europa-en-mapas-y-datos.html",
 		"repoUrl": "",
 		"howUrl": "",
@@ -101,7 +101,7 @@
 	},
 	{
 		"title": "A week of war in Iran: mapping the escalation and response",
-		"slug": "que-ha-pasado-en-iran-una-semana-de-guerra-sobre-el-mapa",
+		"slug": "what-has-happened-in-iran-a-week-of-war-on-the-map",
 		"date": "2026-03-08",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/iran_war_week_map.jpg",
@@ -198,7 +198,7 @@
 	},
 	{
 		"title": "Four years of war in Ukraine: a front that barely moves",
-		"slug": "cuatro-anos-de-guerra-en-ucrania-un-frente-que-apenas-se-mueve",
+		"slug": "four-years-of-war-in-ukraine-a-front-that-barely-moves",
 		"date": "2026-02-21",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/ukraine_four_years.jpg",
@@ -242,7 +242,7 @@
 	},
 	{
 		"title": "Aragon election results, street by street",
-		"slug": "los-resultados-de-las-elecciones-en-aragon-en-tiempo-real-y-calle-a-calle",
+		"slug": "aragon-election-results-street-by-street",
 		"date": "2026-02-08",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/aragon_secciones_censales.jpg",
@@ -289,7 +289,7 @@
 	},
 	{
 		"title": "358,000 hectares in 15 days: Spain's wildfire peak",
-		"slug": "358000-hectareas-en-15-dias-asi-ardio-espana-en-sus-semanas-mas-negras",
+		"slug": "358000-hectares-in-15-days-spains-wildfire-peak",
 		"date": "2025-08-23",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/spain_fires.jpg",
@@ -336,7 +336,7 @@
 	},
 	{
 		"title": "The Zamora and Leon wildfire, one of Spain's largest",
-		"slug": "mapas-el-incendio-de-zamora-y-leon-el-peor-del-verano-y-uno-de-los-mayores-de-espana",
+		"slug": "the-zamora-and-leon-wildfire-one-of-spains-largest",
 		"date": "2025-08-15",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/zamora_leon_wildfire.jpg",
@@ -624,54 +624,6 @@
 			]
 		},
 		"socialImage": "/assets/og/projects/paiporta-under-water.jpg"
-	},
-	{
-		"title": "Valencia flood: an event with a 1,000-year return period",
-		"slug": "the-data-show-the-extreme-magnitude-of-valencias-flood-it-should-only-occur-every-1000-years",
-		"date": "2024-11-12",
-		"mediaType": "img",
-		"mediaSource": "/assets/images/valencia.jpg",
-		"type": "explainer",
-		"topics": [],
-		"tags": ["Svelte", "qgis", "JavaScript", "adobe illustrator", "ai2html"],
-		"client": "El País",
-		"role": ["Cartography", "Frontend development"],
-		"duration": "",
-		"excerpt": "This story contextualizes the Valencia flood through rainfall, discharge, and inundation records, showing an event with an estimated return period above 1,000 years and, in some expert assessments, closer to 5,000.",
-		"thumbnail": "/assets/images/valencia.jpg",
-		"thumbnailAlt": "Valencia flood: an event with a 1,000-year return period",
-		"featured": false,
-		"liveUrl": "https://elpais.com/espana/2024-11-12/los-datos-evidencian-la-magnitud-extrema-de-la-riada-solo-debia-ocurrir-cada-1000-anos.html",
-		"repoUrl": "",
-		"howUrl": "",
-		"seoTitle": "Valencia flood: an event with a 1,000-year return period | Project case study",
-		"seoDescription": "The rainfall, flow and flooded area records compiled by EL PAÍS describe an absolutely unusual event by scientific standards.",
-		"content": {
-			"context": [
-				"This story contextualizes the Valencia flood through rainfall, flow, and inundation records to show how exceptional the event was in historical terms. I developed the map and visual framing so the statistical rarity and territorial impact could be read together, turning technical hydrometeorological data into an accessible public explanation."
-			],
-			"myRole": [
-				"I led the cartographic and visual implementation, focusing on a scrollytelling sequence built with Svelte and ai2html to make rarity and territorial impact readable together.",
-				"I was responsible for translating technical hydrometeorological evidence into a clear, device-agnostic visual narrative."
-			],
-			"methodology": [
-				"The project was developed collaboratively across several team members, with parallel workstreams coordinated throughout production to keep the story coherent and compact.",
-				"My section compared flood-prone scenarios by return period (10, 100, and 500 years) and then contrasted them with the real inundation footprint using Copernicus data derived from Sentinel-1 and Sentinel-2."
-			],
-			"decisions": [
-				"We structured the narrative as a progressive scroll so readers could compare expected flood extents before seeing the observed event.",
-				"Color scales, labels, and basemap design were tuned to maximize interpretability and avoid confusion between modeled probability layers and observed inundation.",
-				"Cross-device readability was treated as a core requirement, with careful attention to typographic hierarchy, map simplification, and responsive behavior."
-			],
-			"result": [
-				"The final piece made the extraordinary nature of the flood legible to a broad audience by connecting statistical rarity with concrete territorial consequences."
-			],
-			"impact": [
-				"The article had strong audience impact and became a reference explainer on the exceptional magnitude of the event.",
-				"It also validated a coordinated team workflow where specialized visual modules can be built in parallel and integrated into one consistent story."
-			]
-		},
-		"socialImage": "/assets/og/projects/the-data-show-the-extreme-magnitude-of-valencias-flood-it-should-only-occur-every-1000-years.jpg"
 	},
 	{
 		"title": "Ukraine war fronts after the Kursk offensive",
@@ -1111,7 +1063,7 @@
 	},
 	{
 		"title": "The center of the world crumbles like a cookie",
-		"slug": "antarctica_glaciers",
+		"slug": "antarctica-glaciers",
 		"date": "2023-02-13",
 		"mediaType": "video",
 		"mediaSource": "/assets/images/antarctica",
@@ -1732,7 +1684,7 @@
 	},
 	{
 		"title": "How to Merge CSV headers in R. An approach",
-		"slug": "combine-csv-headers-in-R",
+		"slug": "combine-csv-headers-in-r",
 		"date": "2019-08-08",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/thumbnails/unemployment-small-multiples_s.jpg",
@@ -1919,7 +1871,7 @@
 	},
 	{
 		"title": "A Coruña through the construction history of its buildings",
-		"slug": "catastro-coruna",
+		"slug": "coruna-cadastre",
 		"date": "2017-11-21",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/thumbnails/coruna-catastro_s.jpg",
@@ -2147,7 +2099,7 @@
 	},
 	{
 		"title": "GIS should be a must in newsrooms",
-		"slug": "QGIS-for-journalists",
+		"slug": "qgis-for-journalists",
 		"date": "2016-03-11",
 		"mediaType": "img",
 		"mediaSource": "/assets/images/buffer.jpg",
