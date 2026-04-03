@@ -288,6 +288,57 @@
 		"socialImage": "/assets/og/projects/los-resultados-de-las-elecciones-en-aragon-en-tiempo-real-y-calle-a-calle.jpg"
 	},
 	{
+		"title": "Apartment towers: targets of the Israeli invasion in Gaza City",
+		"slug": "apartment-towers-targets-of-the-israeli-invasion-in-gaza-city",
+		"date": "2025-09-21",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/gaza-apartment-towers-cover.jpg",
+		"type": "explainer",
+		"topics": [],
+		"tags": ["qgis", "ai2html", "satellite imagery", "conflict mapping"],
+		"client": "El País",
+		"role": ["Cartography"],
+		"duration": "2 days",
+		"excerpt": "A map-based explainer on how Israeli operations in Gaza City have repeatedly targeted apartment towers, combining satellite evidence, strike chronology, and neighborhood-level context.",
+		"thumbnail": "/assets/images/gaza-apartment-towers-cover.jpg",
+		"thumbnailAlt": "Apartment towers: targets of the Israeli invasion in Gaza City",
+		"postImage": "/assets/images/gaza-apartment-towers-inside.jpg",
+		"postImageCaption": "",
+		"featured": false,
+		"liveUrl": "https://elpais.com/internacional/2025-09-21/mapas-las-torres-de-pisos-blanco-de-la-invasion-israeli-en-ciudad-de-gaza.html",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Apartment towers: targets of the Israeli invasion in Gaza City | Project case study",
+		"seoDescription": "A map-based analysis of Israeli strikes on apartment towers in Gaza City, combining satellite imagery and spatial chronology to document urban destruction patterns.",
+		"socialImage": "/assets/og/projects/apartment-towers-targets-of-the-israeli-invasion-in-gaza-city.jpg",
+		"content": {
+			"context": [
+				"A map-based explainer about Israeli operations in Gaza City, focused on recurrent strikes against apartment towers and their spatial concentration across the urban fabric."
+			],
+			"myRole": [
+				"I led the cartographic work, structuring the geographic narrative and visual hierarchy to make strike patterns and neighborhood-level context readable in a single map-driven story."
+			],
+			"methodology": [
+				"The analysis combined Planet Labs satellite imagery, strike-location mapping, and neighborhood-level reference layers to identify where and how frequently apartment towers were hit.",
+				"A key comparison focused on scenes where refugee tent encampments are visible, documenting renewed displacement in Gaza City after 23 months of conflict.",
+				"We structured the piece as a concise visual explainer, prioritizing spatial clarity, fast reading, and consistency between annotations and mapped evidence."
+			],
+			"decisions": [
+				"We prioritized a map-first structure so readers could quickly locate the main strike clusters across Gaza City.",
+				"We calibrated zoom levels carefully to make refugee tent encampments perceptible without losing city-scale context, a particularly difficult balance on mobile screens.",
+				"Annotations were kept short and positional, since labeling dense satellite scenes without obscuring key evidence required strict visual restraint.",
+				"Visual hierarchy was simplified for mobile reading so tower locations, strike patterns, and displacement signals remained legible on small screens."
+			],
+			"result": [
+				"The final piece delivers a clear geographic reconstruction of how apartment towers in Gaza City were targeted, combining strike chronology with high-resolution satellite comparisons to make urban impact and displacement patterns visible."
+			],
+			"impact": [
+				"The project reinforced a repeatable workflow for conflict explainers based on high-resolution satellite reporting, precise cartographic framing, and fast newsroom production.",
+				"It also confirmed the editorial value of pairing strike mapping with displacement evidence, especially under mobile-first design constraints."
+			]
+		}
+	},
+	{
 		"title": "358,000 hectares in 15 days: Spain's wildfire peak",
 		"slug": "358000-hectares-in-15-days-spains-wildfire-peak",
 		"date": "2025-08-23",
