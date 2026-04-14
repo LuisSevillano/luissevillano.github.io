@@ -1,5 +1,54 @@
 [
 	{
+		"title": "Supertankers stalled and a new Iran-controlled route in Hormuz",
+		"slug": "supertankers-stalled-and-a-new-iran-controlled-route-in-hormuz",
+		"date": "2026-04-11",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/ormuz-iran-controlled-route-cover.jpg",
+		"type": "explainer",
+		"topics": [],
+		"tags": ["Svelte", "Mapbox", "shipping data", "satellite imagery", "breaking news"],
+		"client": "El País",
+		"role": ["Cartography", "Data analysis", "Frontend development"],
+		"duration": "2 days",
+		"excerpt": "A visual analysis of stalled supertankers and a new Iran-controlled corridor in the Strait of Hormuz, combining vessel traffic, satellite imagery, and route-level geographic context.",
+		"thumbnail": "/assets/images/ormuz-iran-controlled-route-cover.jpg",
+		"thumbnailAlt": "Supertankers stalled and a new Iran-controlled route in Hormuz",
+		"postImage": "/assets/images/ormuz-iran-controlled-route-inside.jpg",
+		"postImageCaption": "Satellite and navigation data reveal queueing dynamics around the Strait of Hormuz and route shifts under Iranian control.",
+		"featured": false,
+		"liveUrl": "https://elpais.com/internacional/2026-04-11/analisis-visual-superpetroleros-parados-y-una-nueva-ruta-controlada-por-iran-que-esta-pasando-en-ormuz.html",
+		"repoUrl": "",
+		"howUrl": "",
+		"seoTitle": "Supertankers stalled and a new Iran-controlled route in Hormuz | Project case study",
+		"seoDescription": "A map-based visual analysis of tanker queues and route shifts in the Strait of Hormuz using satellite imagery and maritime navigation data.",
+		"socialImage": "/assets/og/projects/supertankers-stalled-and-a-new-iran-controlled-route-in-hormuz.jpg",
+		"content": {
+			"context": [
+				"This project was built as a rapid visual analysis to explain how maritime traffic changed in and around the Strait of Hormuz, where supertankers started queueing while a new Iran-controlled corridor emerged."
+			],
+			"myRole": [
+				"I worked on cartographic framing, vessel-data interpretation, and frontend implementation, shaping the map narrative so route constraints and waiting patterns were immediately legible."
+			],
+			"methodology": [
+				"The analysis combined satellite imagery and navigation data to map vessel positions, identify queue concentrations, and compare route behavior across both sides of the strait.",
+				"We structured the piece as a concise visual explainer, prioritizing fast reading, geographic precision, and direct annotation of high-impact traffic shifts.",
+				"For part of the terrain and rendering workflow, I tested an early phase of Relievo, a project I am developing and will present in more detail soon."
+			],
+			"decisions": [
+				"We prioritized a map-first sequence so readers could quickly locate where traffic was stalling and how route control evolved.",
+				"Visual hierarchy was simplified for mobile to preserve legibility in dense maritime scenes with many nearby vessel positions.",
+				"Annotations were kept short and positional to connect geographic bottlenecks with concrete operational consequences for tanker movement."
+			],
+			"result": [
+				"The final piece translated a fast-changing maritime disruption into a clear geographic narrative, making queue formation and route control changes understandable at a glance."
+			],
+			"impact": [
+				"The project reinforced a reusable breaking-news workflow for maritime explainers where satellite evidence, traffic data, and map clarity must come together under tight deadlines."
+			]
+		}
+	},
+	{
 		"title": "Cheesy Shadow Picker v2",
 		"slug": "cheesy-shadow-picker-v2",
 		"date": "2026-04-01",
