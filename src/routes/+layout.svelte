@@ -100,8 +100,7 @@
 
 	onMount(() => {
 		const stored = localStorage.getItem('theme');
-		const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-		applyTheme(stored || preferred);
+		applyTheme(stored || 'dark');
 
 		setupLazyImages(document);
 		let cleanupVideos = setupLazyVideos(document);
@@ -127,9 +126,7 @@
 	<script>
 		try {
 			var storedTheme = localStorage.getItem('theme');
-			var initialTheme =
-				storedTheme ||
-				(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+			var initialTheme = storedTheme || 'dark';
 			document.documentElement.classList.toggle('darkmode', initialTheme === 'dark');
 			document.documentElement.classList.toggle('lightmode', initialTheme === 'light');
 			document.documentElement.style.colorScheme = initialTheme;
