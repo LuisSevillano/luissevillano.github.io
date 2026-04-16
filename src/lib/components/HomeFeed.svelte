@@ -31,10 +31,10 @@
 	];
 
 	const toolsAndTeachingSlugs = [
+		'relievo',
 		'cheesy-shadow-picker-v2',
-		'inset-map-creator',
-		'real-time-global-air-traffic-visualization',
 		'mapbox-inset-map',
+		'inset-map-creator',
 		'scaling-artboards-for-ai2html',
 		'qgis-for-journalists'
 	];
