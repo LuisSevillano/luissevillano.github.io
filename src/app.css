@@ -706,11 +706,6 @@ a {
 	max-width: 62ch;
 }
 
-.project-page p a {
-	padding-bottom: 0.1rem;
-	border-bottom: 1px solid color-mix(in srgb, var(--text) 88%, var(--muted));
-}
-
 .project-lead-media {
 	margin: 1.3rem 0 1.5rem;
 }
@@ -801,7 +796,6 @@ p.meta {
 
 .link-list a {
 	text-decoration: underline;
-	text-decoration-color: color-mix(in srgb, var(--accent) 65%, transparent);
 	text-underline-offset: 3px;
 }
 
@@ -870,7 +864,6 @@ p.meta {
 
 .rich-content a {
 	text-decoration: underline;
-	text-decoration-color: color-mix(in srgb, var(--accent) 65%, transparent);
 	text-underline-offset: 3px;
 }
 
@@ -891,6 +884,11 @@ p.meta {
 	color: var(--code-text);
 	font-size: 0.84rem;
 	line-height: 1.45;
+	margin-bottom: 0.5rem;
+}
+
+.rich-content table {
+	margin: 0.5rem 0;
 }
 
 .rich-content code {
@@ -997,6 +995,11 @@ p.meta {
 	gap: 0.45rem;
 }
 
+.rich-content figure.project-lead-media {
+	margin: 1.3rem 0 1.5rem;
+	display: block;
+}
+
 .project-page
 	.rich-content
 	:where(figure, .legacy-media, .video-asset, .ai2html, p > img, p > video) {
@@ -1067,6 +1070,52 @@ p img + em,
 	display: block;
 	font-style: normal;
 	margin: 0.5rem 0;
+}
+
+.rich-content figure.project-lead-media figcaption {
+	margin-top: 0.45rem;
+	font-size: 0.78rem;
+	line-height: 1.5;
+	color: color-mix(in srgb, var(--muted) 88%, white);
+	margin-bottom: 0;
+}
+
+.rich-content .media-compare-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 0.8rem;
+	margin: 1rem 0 1.4rem;
+}
+
+.project-page .rich-content .media-compare-grid.media-wide {
+	width: min(calc(100vw - 2rem), 980px);
+	max-width: none;
+	justify-self: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.rich-content .media-compare-grid figure {
+	margin: 0;
+	display: grid;
+	gap: 0.4rem;
+}
+
+.rich-content .media-compare-grid figcaption {
+	font-size: 0.78rem;
+	line-height: 1.45;
+	margin: 0;
+	color: var(--muted);
+}
+
+@media (min-width: 900px) {
+	.rich-content .media-compare-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.rich-content .media-compare-grid.media-compare-grid--2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 }
 
 .rich-content table {

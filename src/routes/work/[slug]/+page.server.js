@@ -41,6 +41,8 @@ export function load({ params }) {
 			howUrl,
 			content: {
 				...baseProject.content,
+				storyHtml: workContent.storyHtml,
+				storyMarkdown: workContent.storyMarkdown,
 				howHtml: workContent.howHtml,
 				howMarkdown: workContent.howMarkdown
 			}

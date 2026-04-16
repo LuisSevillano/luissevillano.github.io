@@ -1,5 +1,56 @@
 [
 	{
+		"title": "Relievo: automated shaded relief maps from the command line",
+		"slug": "relievo",
+		"date": "2026-04-13",
+		"mediaType": "img",
+		"mediaSource": "/assets/images/relievo-cover.jpg",
+		"type": "tool",
+		"topics": [],
+		"tags": ["Python", "Blender", "GDAL", "cartography", "CLI"],
+		"client": "Personal publication",
+		"role": ["Tool development", "Cartography", "Workflow design"],
+		"duration": "Ongoing development",
+		"excerpt": "Relievo is a CLI that automates Daniel Huffman's Blender shaded-relief workflow end to end: DEM download or local input, reprojection, processing, headless rendering, color relief, clipping, and GIS-ready exports.",
+		"thumbnail": "/assets/images/relievo-cover.jpg",
+		"thumbnailAlt": "Relievo CLI project banner",
+		"postImage": "/assets/images/relievo-inside.jpg",
+		"postImageAlt": "Relievo Blender template setup used for automated relief rendering.",
+		"postImageCaption": "Relievo keeps the full power of the Blender setup while moving repetitive production steps to a reproducible CLI pipeline.",
+		"featured": false,
+		"liveUrl": "",
+		"repoUrl": "https://github.com/LuisSevillano/relievo",
+		"howUrl": "",
+		"seoTitle": "Relievo: automated shaded relief maps from the command line | Project case study",
+		"seoDescription": "A Python CLI that automates Blender shaded-relief production with GDAL preprocessing, OpenTopography downloads, color ramps, clipping masks, and georeferenced image sidecars.",
+		"socialImage": "/assets/og/projects/relievo.jpg",
+		"content": {
+			"context": [
+				"Relievo started as an attempt to remove repetitive manual steps from Blender shaded-relief production while preserving cartographic control. The goal was a reproducible command-line workflow that could go from geographic extent to publication-ready render without opening Blender."
+			],
+			"myRole": [
+				"I led product direction, cartographic decisions, architecture, and implementation, translating the Huffman method into a CLI-oriented workflow with practical defaults and newsroom-friendly outputs."
+			],
+			"methodology": [
+				"I consolidated the project into a coherent pipeline: bbox parsing, DEM retrieval, GDAL processing, headless Blender rendering, and optional post-processing modules.",
+				"The implementation balances strict automation with creative control: templates remain editable in Blender, while technical repetition (rescaling, reprojection, aspect handling, batchability) is scripted and reproducible.",
+				"I documented production workflows in depth, including dry runs, saved DEM reuse, color-relief modes, smoothing strategy, projection choices, and GIS georeferencing sidecars."
+			],
+			"decisions": [
+				"Prioritized a headless-first architecture so the tool behaves like a reliable command-line renderer rather than a Blender macro.",
+				"Kept output flexibility high: PNG/JPEG support, overlay/separate/both color-relief modes, polygon clipping, and worldfile + PRJ export for GIS placement.",
+				"Added DEM smoothing and projection-aware workflows to improve map readability at regional and continental scales, following cartographic best practices rather than purely photorealistic rendering.",
+				"Maintained short iterative releases with tests and CI to stabilize behavior while shipping new capabilities quickly."
+			],
+			"result": [
+				"Relievo is now a functional, documented toolchain that turns a traditionally manual relief workflow into a repeatable CLI process suitable for editorial experimentation and production-grade map assets."
+			],
+			"impact": [
+				"The project established a reusable terrain-rendering workflow that can be integrated into future explainers and investigations, reducing setup friction while keeping high visual quality and cartographic intent."
+			]
+		}
+	},
+	{
 		"title": "Supertankers stalled and a new Iran-controlled route in Hormuz",
 		"slug": "supertankers-stalled-and-a-new-iran-controlled-route-in-hormuz",
 		"date": "2026-04-11",

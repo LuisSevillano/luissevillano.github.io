@@ -4,8 +4,36 @@ import { marked } from 'marked';
 
 const WORK_DIR = path.resolve('src/content/work');
 
-function stripFrontmatter(markdown) {
-	return markdown.replace(/^---\n[\s\S]*?\n---\n?/, '');
+function parseFrontmatter(markdown) {
+	const match = markdown.match(/^---\n([\s\S]*?)\n---\n?/);
+	if (!match) {
+		return { data: {}, body: markdown };
+	}
+
+	const raw = match[1];
+	const data = {};
+
+	raw.split('\n').forEach((line) => {
+		const trimmed = line.trim();
+		if (!trimmed || trimmed.startsWith('#')) return;
+		const separator = trimmed.indexOf(':');
+		if (separator === -1) return;
+		const key = trimmed.slice(0, separator).trim();
+		let value = trimmed.slice(separator + 1).trim();
+		if (!key) return;
+		if (
+			(value.startsWith('"') && value.endsWith('"')) ||
+			(value.startsWith("'") && value.endsWith("'"))
+		) {
+			value = value.slice(1, -1);
+		}
+		data[key] = value;
+	});
+
+	return {
+		data,
+		body: markdown.slice(match[0].length)
+	};
 }
 
 function stripJekyllIncludes(markdown) {
@@ -63,15 +91,18 @@ function renderLegacyMediaInclude(attributes = {}) {
 }
 
 function resolveLegacyMediaIncludes(markdown) {
-	return markdown.replace(/\{%\s*include\s+media\.html([\s\S]*?)%\}/g, (_fullMatch, rawAttributes) => {
-		const attributes = {};
-		rawAttributes.replace(/(\w+)="([^"]*)"/g, (_attributeMatch, key, value) => {
-			attributes[key] = value;
-			return _attributeMatch;
-		});
+	return markdown.replace(
+		/\{%\s*include\s+media\.html([\s\S]*?)%\}/g,
+		(_fullMatch, rawAttributes) => {
+			const attributes = {};
+			rawAttributes.replace(/(\w+)="([^"]*)"/g, (_attributeMatch, key, value) => {
+				attributes[key] = value;
+				return _attributeMatch;
+			});
 
-		return renderLegacyMediaInclude(attributes);
-	});
+			return renderLegacyMediaInclude(attributes);
+		}
+	);
 }
 
 function findMatchingDivEnd(input, startIndex) {
@@ -146,12 +177,20 @@ function restoreProtectedBlocks(renderedHtml, protectedBlocks) {
 
 	protectedBlocks.forEach((blockHtml, index) => {
 		const placeholder = `@@HTML_BLOCK_${index}@@`;
-		html = html
-			.replace(`<p>${placeholder}</p>`, blockHtml)
-			.replace(placeholder, blockHtml);
+		html = html.replace(`<p>${placeholder}</p>`, blockHtml).replace(placeholder, blockHtml);
 	});
 
 	return html;
+}
+
+function renderImageCaptions(renderedHtml) {
+	return renderedHtml.replace(
+		/<p>\s*(<img\b[^>]*\btitle="([^"]+)"[^>]*>)\s*<\/p>/g,
+		(_fullMatch, imageTag, caption) => {
+			const imageWithoutTitle = imageTag.replace(/\stitle="[^"]*"/g, '');
+			return `<figure class="project-lead-media">${imageWithoutTitle}<figcaption>${caption}</figcaption></figure>`;
+		}
+	);
 }
 
 function renderMarkdown(markdown) {
@@ -171,7 +210,8 @@ function renderMarkdown(markdown) {
 		mangle: false
 	});
 
-	return restoreProtectedBlocks(rendered, protectedBlocks);
+	const restored = restoreProtectedBlocks(rendered, protectedBlocks);
+	return renderImageCaptions(restored);
 }
 
 function resolveSourcePath(slug) {
@@ -189,13 +229,24 @@ export function getWorkContentBySlug(slug) {
 	if (!sourcePath) return null;
 
 	const markdown = fs.readFileSync(sourcePath, 'utf8');
-	const body = stripJekyllIncludes(resolveLegacyMediaIncludes(stripFrontmatter(markdown)));
-	const splitMatch = /^##\s+/m.exec(body);
-	const splitIndex = splitMatch?.index ?? -1;
+	const { data: frontmatter, body: bodyWithoutFrontmatter } = parseFrontmatter(markdown);
+	const body = stripJekyllIncludes(resolveLegacyMediaIncludes(bodyWithoutFrontmatter));
 
-	const storyMarkdown = splitIndex === -1 ? '' : body.slice(0, splitIndex).trim();
-	const howMarkdown = splitIndex === -1 ? body.trim() : body.slice(splitIndex).trim();
+	const storyMode = (frontmatter.story_mode || '').toLowerCase();
+	const useFullStory = storyMode === 'full';
 
+	let storyMarkdown;
+	let howMarkdown;
+
+	if (useFullStory) {
+		storyMarkdown = body.trim();
+		howMarkdown = '';
+	} else {
+		const splitMatch = /^##\s+/m.exec(body);
+		const splitIndex = splitMatch?.index ?? -1;
+		storyMarkdown = splitIndex === -1 ? '' : body.slice(0, splitIndex).trim();
+		howMarkdown = splitIndex === -1 ? body.trim() : body.slice(splitIndex).trim();
+	}
 
 	return {
 		storyMarkdown,
