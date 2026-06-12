@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght,ital@6..72,300..700,0;6..72,300..700,1&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap');
+/* Fonts loaded from app.html with preconnect + link rel=stylesheet (parallel
+   to the page's own CSS). Previously @import here forced a serialized chain:
+   HTML -> app.css -> google fonts CSS -> woff2, blocking render. */
 
 :root {
 	color-scheme: light;
