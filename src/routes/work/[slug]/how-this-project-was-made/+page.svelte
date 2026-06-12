@@ -50,7 +50,7 @@
 	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
-<main class="page-wrap project-page">
+<main class="page-wrap project-page" id="main" tabindex="-1">
 	<p class="meta"><a href={`/work/${data.project.slug}`}>Back to case study</a></p>
 	<h1><span class="bigger-title">How this project was made</span> {data.project.title}</h1>
 
@@ -101,5 +101,4 @@
 			>
 		{/if}
 	</div>
-
 </main>

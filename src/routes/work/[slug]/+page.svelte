@@ -55,7 +55,7 @@
 	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
-<main class="page-wrap project-page">
+<main class="page-wrap project-page" id="main" tabindex="-1">
 	<p class="meta"><a href="/work">Back to archive</a></p>
 	<h1>{data.project.title}</h1>
 	<p class="meta">

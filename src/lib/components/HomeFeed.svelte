@@ -55,7 +55,7 @@
 		.filter((project) => !selectedSlugs.has(project.slug));
 </script>
 
-<main>
+<main id="main" tabindex="-1">
 	<section class="hero hero-pro">
 		<p class="eyebrow">{siteTagline}</p>
 		<h1 class="hero-title">

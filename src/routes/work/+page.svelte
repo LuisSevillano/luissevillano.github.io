@@ -108,8 +108,15 @@
 	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
-<main class="work-wrap">
-	<h1 class="sr-only">Work archive</h1>
+<main class="work-wrap" id="main" tabindex="-1">
+	<header class="archive-head">
+		<p class="eyebrow">Archive · 2016–2026</p>
+		<h1>Work</h1>
+		<p class="lede">
+			All projects: investigations, explainers, trackers and the open-source tools I make to support
+			them. Filter by type, year or topic.
+		</p>
+	</header>
 
 	<section class="work-filters" aria-label="Filter archive">
 		<div class="filters-row">
@@ -156,7 +163,9 @@
 		</div>
 
 		<div class="filters-meta">
-			<p>Showing {filteredProjects.length} of {projects.length} projects</p>
+			<p role="status" aria-live="polite">
+				Showing {filteredProjects.length} of {projects.length} projects
+			</p>
 			{#if hasActiveFilters}
 				<button type="button" onclick={clearFilters}>Clear filters</button>
 			{/if}
@@ -175,6 +184,24 @@
 </main>
 
 <style>
+	.archive-head {
+		padding: 2.6rem 0 1.6rem;
+	}
+	.archive-head .eyebrow {
+		margin: 0 0 0.8rem;
+	}
+	.archive-head h1 {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: clamp(2.2rem, 1.4rem + 3vw, 3.6rem);
+		line-height: 1.05;
+		margin: 0 0 0.5rem;
+	}
+	.archive-head .lede {
+		color: var(--muted);
+		max-width: 56ch;
+		margin: 0;
+	}
 	.work-filters {
 		margin: 0 0 1.3rem;
 		padding: 0.9rem;
