@@ -3,6 +3,36 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="light dark" />
+		<meta name="theme-color" content="#0f1011" media="(prefers-color-scheme: dark)" />
+		<meta name="theme-color" content="#f5f5f3" media="(prefers-color-scheme: light)" />
+		<meta name="referrer" content="strict-origin-when-cross-origin" />
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "Person",
+						"@id": "https://luissevillano.net/#luis",
+						"name": "Luis Sevillano",
+						"jobTitle": "Visual journalist and cartographer",
+						"url": "https://luissevillano.net/",
+						"sameAs": [
+							"https://x.com/sepirdata",
+							"https://github.com/LuisSevillano",
+							"https://www.linkedin.com/in/luissevillano/"
+						]
+					},
+					{
+						"@type": "WebSite",
+						"@id": "https://luissevillano.net/#site",
+						"url": "https://luissevillano.net/",
+						"name": "Luis Sevillano | Visual Journalism, Cartography and Tools",
+						"publisher": { "@id": "https://luissevillano.net/#luis" }
+					}
+				]
+			}
+		</script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
