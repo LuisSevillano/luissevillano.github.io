@@ -96,7 +96,7 @@
 	<div class="cta-row">
 		<a class="btn" href={`/work/${data.project.slug}`}>View project case study</a>
 		{#if data.project.liveUrl}
-			<a class="btn primary" href={data.project.liveUrl} target="_blank" rel="noreferrer"
+			<a class="btn primary" href={data.project.liveUrl} target="_blank" rel="noopener noreferrer"
 				>View live project</a
 			>
 		{/if}
