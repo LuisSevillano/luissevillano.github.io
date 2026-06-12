@@ -39,14 +39,13 @@
 		goto(newUrl, { replaceState: true, noScroll: true });
 	}
 
+	let searchSyncTimer;
 	function handleSearchInput(e) {
 		searchQuery = e.target.value;
-	}
-
-	function handleSearchKeyup(e) {
-		if (e.key === 'Enter' || searchQuery.length === 0) {
-			updateUrl();
-		}
+		// Debounced URL sync on every keystroke. Previously only Enter committed
+		// the query, so copying the URL mid-typing lost the search term.
+		clearTimeout(searchSyncTimer);
+		searchSyncTimer = setTimeout(updateUrl, 220);
 	}
 
 	function handleFilterChange() {
@@ -127,7 +126,6 @@
 					placeholder="Title, excerpt, tag..."
 					value={searchQuery}
 					oninput={handleSearchInput}
-					onkeyup={handleSearchKeyup}
 				/>
 			</label>
 

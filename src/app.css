@@ -1427,6 +1427,13 @@ span.no-break {
 	white-space: nowrap;
 }
 
+.hero-cta {
+	margin-top: 1.6rem;
+	gap: 0.7rem;
+	flex-wrap: wrap;
+	display: flex;
+}
+
 /* ---------------- A11y baseline ---------------- */
 
 /* Visible focus ring on every interactive element. The previous CSS had zero

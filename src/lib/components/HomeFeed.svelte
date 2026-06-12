@@ -65,6 +65,10 @@
 			{/if}
 		</h1>
 		<p class="hero-copy">{heroCopy}</p>
+		<div class="cta-row hero-cta">
+			<a class="btn primary" href="/work">Browse all work →</a>
+			<a class="btn" href="/about" data-sveltekit-reload>About me</a>
+		</div>
 	</section>
 
 	<section id="selected-work">
