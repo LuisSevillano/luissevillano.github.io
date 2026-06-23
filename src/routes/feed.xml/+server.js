@@ -2,8 +2,7 @@ import { getProjects } from '$lib/content/projects.js';
 
 const SITE_URL = 'https://luissevillano.net';
 const FEED_TITLE = 'Luis Sevillano | Work Feed';
-const FEED_DESCRIPTION =
-	'Latest case studies and visual storytelling projects by Luis Sevillano.';
+const FEED_DESCRIPTION = 'Latest case studies and visual storytelling projects by Luis Sevillano.';
 
 export const prerender = true;
 

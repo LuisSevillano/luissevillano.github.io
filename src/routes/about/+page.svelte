@@ -25,9 +25,9 @@
 	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
-<main class="about-wrap">
+<main class="about-wrap" id="main" tabindex="-1">
 	<section class="section-head section-head-lined section-head-block about-head">
-		<h2>About Me</h2>
+		<h1>About Me</h1>
 	</section>
 
 	<div class="about-grid">

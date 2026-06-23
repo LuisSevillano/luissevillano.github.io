@@ -25,6 +25,11 @@
 
 	function setupLazyVideos(root = document) {
 		if (!root || !('IntersectionObserver' in window)) return;
+		// Respect users who asked for less motion: WCAG 2.2.2 (autoplay > 5s with
+		// no pause control). Leave the poster image visible and don't load the sources.
+		if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+			return;
+		}
 
 		const loadVideo = (video) => {
 			if (!video || video.dataset.lazyLoaded) return;
@@ -130,10 +135,14 @@
 			document.documentElement.classList.toggle('darkmode', initialTheme === 'dark');
 			document.documentElement.classList.toggle('lightmode', initialTheme === 'light');
 			document.documentElement.style.colorScheme = initialTheme;
-		} catch (e) {}
+		} catch (e) {
+			void e;
+		}
 	</script>
 	<link rel="alternate" type="application/rss+xml" title="Work feed" href="/feed.xml" />
 </svelte:head>
+
+<a class="skip-link" href="#main">Skip to content</a>
 
 <div class="site-shell">
 	<header class="site-header">
@@ -149,7 +158,13 @@
 			{:else}
 				<a href="/about" data-sveltekit-reload>About</a>
 			{/if}
-			<button class="theme-toggle" type="button" onclick={toggleTheme} aria-label="Toggle theme">
+			<button
+				class="theme-toggle"
+				type="button"
+				onclick={toggleTheme}
+				aria-pressed={theme === 'dark'}
+				aria-label={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
+			>
 				{#if theme === 'dark'}
 					<svg viewBox="0 0 24 24" aria-hidden="true">
 						<path
@@ -165,7 +180,6 @@
 						/>
 					</svg>
 				{/if}
-				<span class="sr-only">Toggle theme</span>
 			</button>
 		</nav>
 	</header>
@@ -180,8 +194,10 @@
 			<section class="footer-col">
 				<p class="footer-label">[connect]</p>
 				<div class="footer-links">
-					<a href="https://x.com/sepirdata" target="_blank" rel="noreferrer">Twitter</a>
-					<a href="https://github.com/LuisSevillano" target="_blank" rel="noreferrer">GitHub</a>
+					<a href="https://x.com/sepirdata" target="_blank" rel="noopener noreferrer">Twitter</a>
+					<a href="https://github.com/LuisSevillano" target="_blank" rel="noopener noreferrer"
+						>GitHub</a
+					>
 					<a href="https://www.linkedin.com/in/luissevillano/">Linkedin</a>
 				</div>
 			</section>

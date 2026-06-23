@@ -55,7 +55,7 @@
 	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
-<main class="page-wrap project-page">
+<main class="page-wrap project-page" id="main" tabindex="-1">
 	<p class="meta"><a href="/work">Back to archive</a></p>
 	<h1>{data.project.title}</h1>
 	<p class="meta">
@@ -153,7 +153,7 @@
 	<h2>Links</h2>
 	<div class="cta-row">
 		{#if data.project.liveUrl}
-			<a class="btn primary" href={data.project.liveUrl} target="_blank" rel="noreferrer"
+			<a class="btn primary" href={data.project.liveUrl} target="_blank" rel="noopener noreferrer"
 				>View live project</a
 			>
 		{/if}
@@ -161,10 +161,10 @@
 			<a class="btn" href={data.project.howUrl}>How this project was made</a>
 		{/if}
 		{#if data.project.repoUrl}
-			<a class="btn" href={data.project.repoUrl} target="_blank" rel="noreferrer">Code</a>
+			<a class="btn" href={data.project.repoUrl} target="_blank" rel="noopener noreferrer">Code</a>
 		{/if}
 		{#if data.project.toolURL}
-			<a class="btn" href={data.project.toolURL} target="_blank" rel="noreferrer">Tool</a>
+			<a class="btn" href={data.project.toolURL} target="_blank" rel="noopener noreferrer">Tool</a>
 		{/if}
 	</div>
 </main>

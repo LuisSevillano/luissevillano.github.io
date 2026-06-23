@@ -26,10 +26,7 @@ function hasHowContent(project) {
 }
 
 function buildUrlEntry(pathname, lastmod = null, changefreq = null) {
-	const xml = [
-		'<url>',
-		`<loc>${escapeXml(`${SITE_URL}${pathname}`)}</loc>`
-	];
+	const xml = ['<url>', `<loc>${escapeXml(`${SITE_URL}${pathname}`)}</loc>`];
 
 	if (lastmod) {
 		xml.push(`<lastmod>${escapeXml(lastmod)}</lastmod>`);

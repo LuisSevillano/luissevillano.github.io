@@ -55,7 +55,7 @@
 		.filter((project) => !selectedSlugs.has(project.slug));
 </script>
 
-<main>
+<main id="main" tabindex="-1">
 	<section class="hero hero-pro">
 		<p class="eyebrow">{siteTagline}</p>
 		<h1 class="hero-title">
@@ -65,6 +65,10 @@
 			{/if}
 		</h1>
 		<p class="hero-copy">{heroCopy}</p>
+		<div class="cta-row hero-cta">
+			<a class="btn primary" href="/work">Browse all work →</a>
+			<a class="btn" href="/about" data-sveltekit-reload>About me</a>
+		</div>
 	</section>
 
 	<section id="selected-work">
