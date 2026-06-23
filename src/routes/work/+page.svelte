@@ -559,19 +559,39 @@
 		}
 	}
 
-	/* Phone (~375px): facets wrap to a 2-up grid with light inter-row rules */
-	@media (max-width: 440px) {
+	/* Phone: stack each facet as its own full-width row — label left, control right.
+	   Avoids the orphaned 3rd facet a wrapped grid would leave, and keeps a clean,
+	   deliberate filter-list rhythm. */
+	@media (max-width: 560px) {
 		.facets {
-			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: stretch;
 		}
 
 		.facet {
-			flex: 1 1 40%;
-			border-bottom: 1px solid color-mix(in srgb, var(--border) 55%, transparent);
+			flex: 0 0 auto;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+			padding: 0.72rem 0;
+			border-right: 0;
+			border-bottom: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
 		}
 
-		.facet:nth-last-child(-n + 1) {
+		.facet:last-child {
 			border-bottom: 0;
+		}
+
+		.facet-field {
+			justify-content: flex-end;
+		}
+
+		.facet-select,
+		.facet--topic .facet-select {
+			width: auto;
+			max-width: 60vw;
+			text-align: right;
 		}
 	}
 </style>
